@@ -4,13 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - ExamplesHub/Scenes/MRTKExamplesHubMainMenu.unity
-    guid: 63a00118e809c754f9c7911bb85d635f
-  - enabled: 1
-    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Experimental - SceneUnderstanding/Scenes/SceneUnderstandingExample.unity
-    guid: d42a352dc9a8c4d4990a924687759199
+  m_Scenes: []
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0b7ae4202cabd7e4bbccb64d23039d1c, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a8e128a05b08b794eba22513469ad5ba, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: d89e2b083d2849843bbd35ecbae83ada, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 497f15c733f255241865a8f48ff314eb, type: 2}
