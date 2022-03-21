@@ -120,6 +120,7 @@
     <Link>
       <AdditionalDependencies>WindowsApp.lib;$(OutDir)GameAssembly.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <ProjectReference />
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">

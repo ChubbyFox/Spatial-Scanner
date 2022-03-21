@@ -3732,6 +3732,12 @@ struct NOVTABLE IHolographicViewConfiguration_t0B0C4B38D61BD9F3AFA10FA0131BED337
 	virtual il2cpp_hresult_t STDCALL IHolographicViewConfiguration_U24__Stripped10_get_IsEnabled_m5C81F5C09E696BE999BBE2F7FE6E7A9B47E387A5() = 0;
 	virtual il2cpp_hresult_t STDCALL IHolographicViewConfiguration_put_IsEnabled_m90B98AAD1DCBD416EDCE04B2011FEBB21C7F3686(bool ___value0) = 0;
 };
+// Windows.Graphics.Holographic.IHolographicViewConfiguration2
+struct NOVTABLE IHolographicViewConfiguration2_tD1048E659549D0425D849D754C92E8F994E5CD57 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IHolographicViewConfiguration2_U24__Stripped0_get_SupportedDepthReprojectionMethods_m6D1ECB079B9995C4ECD1A3B902FE5287AA02B358() = 0;
+};
 // Windows.UI.ViewManagement.IInputPane2
 struct NOVTABLE IInputPane2_t5CA401A2DEABE74957F1D67D8F38E4F773393A7F : Il2CppIInspectable
 {
@@ -3913,6 +3919,12 @@ struct NOVTABLE IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541D
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IResourceLoaderStatics3_U24__Stripped0_GetForUIContext_m3E399C2A3CD4EB7006ADCF65153D43797F0206AB() = 0;
+};
+// Windows.ApplicationModel.Resources.IResourceLoaderStatics4
+struct NOVTABLE IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890 : Il2CppIInspectable
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL IResourceLoaderStatics4_U24__Stripped0_GetDefaultPriPath_mA4E351D426D7DF1E2DD3698E358B68F48F8473BB() = 0;
 };
 // Windows.Perception.Spatial.ISpatialCoordinateSystem
 struct NOVTABLE ISpatialCoordinateSystem_t0B599CF4D7B3B14DA13D87C3A231F9981F3A491A : Il2CppIInspectable
@@ -16609,6 +16621,8 @@ const Il2CppGuid IHolographicFramePrediction_t52D028622A1D649E22C485117EFBA3F77A
 IL2CPP_EXTERN_C_CONST RuntimeType IHolographicFramePrediction_t52D028622A1D649E22C485117EFBA3F77A2A57F2_0_0_0;
 const Il2CppGuid IHolographicViewConfiguration_t0B0C4B38D61BD9F3AFA10FA0131BED337C573B82::IID = { 0x5c1de6e6, 0x67e9, 0x5004, 0xb0, 0x2c, 0x67, 0xa3, 0xa1, 0x22, 0xb5, 0x76 };
 IL2CPP_EXTERN_C_CONST RuntimeType IHolographicViewConfiguration_t0B0C4B38D61BD9F3AFA10FA0131BED337C573B82_0_0_0;
+const Il2CppGuid IHolographicViewConfiguration2_tD1048E659549D0425D849D754C92E8F994E5CD57::IID = { 0xe241756e, 0xe0d0, 0x5019, 0x9a, 0xf5, 0x1b, 0x16, 0x5b, 0xc2, 0xf5, 0x4e };
+IL2CPP_EXTERN_C_CONST RuntimeType IHolographicViewConfiguration2_tD1048E659549D0425D849D754C92E8F994E5CD57_0_0_0;
 const Il2CppGuid IInputPane_t487BCFEFC9CD23557BED549036A74F16EE6F8E4D::IID = { 0x640ada70, 0x6f3, 0x4c87, 0xa6, 0x78, 0x98, 0x29, 0xc9, 0x12, 0x7c, 0x28 };
 IL2CPP_EXTERN_C_CONST RuntimeType IInputPane_t487BCFEFC9CD23557BED549036A74F16EE6F8E4D_0_0_0;
 const Il2CppGuid IInputPane2_t5CA401A2DEABE74957F1D67D8F38E4F773393A7F::IID = { 0x8a6b3f26, 0x7090, 0x4793, 0x94, 0x4c, 0xc3, 0xf2, 0xcd, 0xe2, 0x62, 0x76 };
@@ -16680,6 +16694,8 @@ const Il2CppGuid IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE
 IL2CPP_EXTERN_C_CONST RuntimeType IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D_0_0_0;
 const Il2CppGuid IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE::IID = { 0x64609dfb, 0x64ac, 0x491b, 0x81, 0x0, 0xe, 0x55, 0x8d, 0x61, 0xc1, 0xd0 };
 IL2CPP_EXTERN_C_CONST RuntimeType IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE_0_0_0;
+const Il2CppGuid IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890::IID = { 0x9fb36c32, 0x6c8c, 0x4316, 0x96, 0x2e, 0x90, 0x95, 0x39, 0xb5, 0xc2, 0x59 };
+IL2CPP_EXTERN_C_CONST RuntimeType IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890_0_0_0;
 const Il2CppGuid ISpatialCoordinateSystem_t0B599CF4D7B3B14DA13D87C3A231F9981F3A491A::IID = { 0x69ebca4b, 0x60a3, 0x3586, 0xa6, 0x53, 0x59, 0xa7, 0xbd, 0x67, 0x6d, 0x7 };
 IL2CPP_EXTERN_C_CONST RuntimeType ISpatialCoordinateSystem_t0B599CF4D7B3B14DA13D87C3A231F9981F3A491A_0_0_0;
 const Il2CppGuid ISpatialInteractionController_t7CE4E52B1856CE7EE15B551DFC2D2EF981D18B72::IID = { 0x5f0e5ba3, 0x954, 0x4e97, 0x86, 0xc5, 0xe7, 0xf3, 0xb, 0x11, 0x4d, 0xfd };
@@ -17983,7 +17999,7 @@ IL2CPP_EXTERN_C void EventCacheKey_t12702AEDF54C3DF6DAFF437A04ACE47ACEF1D639_mar
 IL2CPP_EXTERN_C void EventCacheKey_t12702AEDF54C3DF6DAFF437A04ACE47ACEF1D639_marshal_pinvoke_cleanup(void* marshaledStructure);
 IL2CPP_EXTERN_C_CONST RuntimeType EventCacheKey_t12702AEDF54C3DF6DAFF437A04ACE47ACEF1D639_0_0_0;
 IL2CPP_EXTERN_C Il2CppInteropData g_Il2CppInteropData[];
-Il2CppInteropData g_Il2CppInteropData[5392] = 
+Il2CppInteropData g_Il2CppInteropData[5394] = 
 {
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CGetEnumeratorU3Ed__1_tDD61DC31F51D987D4E3124DBFB6EBD887E3F6E67, NULL, &U3CGetEnumeratorU3Ed__1_tDD61DC31F51D987D4E3124DBFB6EBD887E3F6E67_0_0_0 } /* System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>> */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CGetEnumeratorU3Ed__1_t6FD4DB4BBE45786CF4639008AAA2C71A2D808596, NULL, &U3CGetEnumeratorU3Ed__1_t6FD4DB4BBE45786CF4639008AAA2C71A2D808596_0_0_0 } /* System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1<UnityEngine.TextCore.Glyph> */,
@@ -22881,6 +22897,7 @@ Il2CppInteropData g_Il2CppInteropData[5392] =
 	{ NULL, NULL, NULL, NULL, NULL, &IHolographicFrame3_tA283418F8747167D22CBC7B5DE5487DFA8A5F78D::IID, &IHolographicFrame3_tA283418F8747167D22CBC7B5DE5487DFA8A5F78D_0_0_0 } /* Windows.Graphics.Holographic.IHolographicFrame3 */,
 	{ NULL, NULL, NULL, NULL, NULL, &IHolographicFramePrediction_t52D028622A1D649E22C485117EFBA3F77A2A57F2::IID, &IHolographicFramePrediction_t52D028622A1D649E22C485117EFBA3F77A2A57F2_0_0_0 } /* Windows.Graphics.Holographic.IHolographicFramePrediction */,
 	{ NULL, NULL, NULL, NULL, NULL, &IHolographicViewConfiguration_t0B0C4B38D61BD9F3AFA10FA0131BED337C573B82::IID, &IHolographicViewConfiguration_t0B0C4B38D61BD9F3AFA10FA0131BED337C573B82_0_0_0 } /* Windows.Graphics.Holographic.IHolographicViewConfiguration */,
+	{ NULL, NULL, NULL, NULL, NULL, &IHolographicViewConfiguration2_tD1048E659549D0425D849D754C92E8F994E5CD57::IID, &IHolographicViewConfiguration2_tD1048E659549D0425D849D754C92E8F994E5CD57_0_0_0 } /* Windows.Graphics.Holographic.IHolographicViewConfiguration2 */,
 	{ NULL, NULL, NULL, NULL, NULL, &IInputPane_t487BCFEFC9CD23557BED549036A74F16EE6F8E4D::IID, &IInputPane_t487BCFEFC9CD23557BED549036A74F16EE6F8E4D_0_0_0 } /* Windows.UI.ViewManagement.IInputPane */,
 	{ NULL, NULL, NULL, NULL, NULL, &IInputPane2_t5CA401A2DEABE74957F1D67D8F38E4F773393A7F::IID, &IInputPane2_t5CA401A2DEABE74957F1D67D8F38E4F773393A7F_0_0_0 } /* Windows.UI.ViewManagement.IInputPane2 */,
 	{ NULL, NULL, NULL, NULL, NULL, &IInputPaneControl_tFA2C74C4C430947D1B69FBD125D9ABAB55D23796::IID, &IInputPaneControl_tFA2C74C4C430947D1B69FBD125D9ABAB55D23796_0_0_0 } /* Windows.UI.ViewManagement.IInputPaneControl */,
@@ -22914,6 +22931,7 @@ Il2CppInteropData g_Il2CppInteropData[5392] =
 	{ NULL, NULL, NULL, NULL, NULL, &IResourceLoaderStatics_tA244DD4DADA9743A5F1F1E6E336E19AD8CA5C46F::IID, &IResourceLoaderStatics_tA244DD4DADA9743A5F1F1E6E336E19AD8CA5C46F_0_0_0 } /* Windows.ApplicationModel.Resources.IResourceLoaderStatics */,
 	{ NULL, NULL, NULL, NULL, NULL, &IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D::IID, &IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D_0_0_0 } /* Windows.ApplicationModel.Resources.IResourceLoaderStatics2 */,
 	{ NULL, NULL, NULL, NULL, NULL, &IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE::IID, &IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE_0_0_0 } /* Windows.ApplicationModel.Resources.IResourceLoaderStatics3 */,
+	{ NULL, NULL, NULL, NULL, NULL, &IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890::IID, &IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890_0_0_0 } /* Windows.ApplicationModel.Resources.IResourceLoaderStatics4 */,
 	{ NULL, NULL, NULL, NULL, NULL, &ISpatialCoordinateSystem_t0B599CF4D7B3B14DA13D87C3A231F9981F3A491A::IID, &ISpatialCoordinateSystem_t0B599CF4D7B3B14DA13D87C3A231F9981F3A491A_0_0_0 } /* Windows.Perception.Spatial.ISpatialCoordinateSystem */,
 	{ NULL, NULL, NULL, NULL, NULL, &ISpatialInteractionController_t7CE4E52B1856CE7EE15B551DFC2D2EF981D18B72::IID, &ISpatialInteractionController_t7CE4E52B1856CE7EE15B551DFC2D2EF981D18B72_0_0_0 } /* Windows.UI.Input.Spatial.ISpatialInteractionController */,
 	{ NULL, NULL, NULL, NULL, NULL, &ISpatialInteractionController2_tE323E298E726BE4A5CA15EBAF365AA9BFB5793B1::IID, &ISpatialInteractionController2_tE323E298E726BE4A5CA15EBAF365AA9BFB5793B1_0_0_0 } /* Windows.UI.Input.Spatial.ISpatialInteractionController2 */,

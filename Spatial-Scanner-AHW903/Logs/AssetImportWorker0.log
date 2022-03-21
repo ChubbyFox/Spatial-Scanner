@@ -1,0 +1,655 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52081
+Successfully changed project path to: C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903
+C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.09 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.12 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics 640 (ID=0x5926)
+    Vendor:   
+    VRAM:     4054 MB
+    Driver:   27.20.100.8682
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002657 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.38 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (557ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.242 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2243ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2018ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (800ms)
+				ProcessInitializeOnLoadMethodAttributes (389ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.7 MB.
+System memory in use after: 128.5 MB.
+
+Unloading 511 unused Assets to reduce memory usage. Loaded Objects now: 3464.
+Total: 4.451900 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.161400 ms MarkObjects: 3.394500 ms  DeleteObjects: 0.574500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset
+  artifactKey: Guid(d97b344254a90ba4d9fb924930a8ab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset using Guid(d97b344254a90ba4d9fb924930a8ab06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab85136b26bcb94913c1bcaadac2a5e0') in 0.048269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.980104 seconds.
+  path: Assets/MRTK/Shaders
+  artifactKey: Guid(ce57c2dd28b3e414499ce128a4601c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MRTK/Shaders using Guid(ce57c2dd28b3e414499ce128a4601c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd1a46ee5dd00e020ca4c38f4171dac') in 0.029786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.103593 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawik.prefab
+  artifactKey: Guid(2d145caa42b44bd42aac79a42eba3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawik.prefab using Guid(2d145caa42b44bd42aac79a42eba3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae4fba2025df8e7043f6958d74fcb06') in 0.046907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/32x32mm_Square.prefab
+  artifactKey: Guid(9215a7c858170d74fb2257375d5feaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/32x32mm_Square.prefab using Guid(9215a7c858170d74fb2257375d5feaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c22776501976945c0805802d9ffbed') in 0.140707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Boundary/Prefabs/BoundarySystem.prefab
+  artifactKey: Guid(34f9d607e1da16749afb66ab48048b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Boundary/Prefabs/BoundarySystem.prefab using Guid(34f9d607e1da16749afb66ab48048b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e15e7f5e11d8e71c9ecd3349683d30e') in 0.021763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/ConicalGrabPointer.prefab
+  artifactKey: Guid(c2fde7a8938065b459cff79b8ed89393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/ConicalGrabPointer.prefab using Guid(c2fde7a8938065b459cff79b8ed89393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e523e77a0db3586e887f87b3f9d2c9a8') in 0.082221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorPress.prefab
+  artifactKey: Guid(5928c86d2f03f4b4ea7e0e5b6a1087ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorPress.prefab using Guid(5928c86d2f03f4b4ea7e0e5b6a1087ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a78d7f539ccf91a2dfdb60df5f2ba5d') in 0.043882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/InteractiveElement/Prefabs/CompressableButtonToggle.prefab
+  artifactKey: Guid(92195f9c5fa2a794fb2973255c7fd874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/InteractiveElement/Prefabs/CompressableButtonToggle.prefab using Guid(92195f9c5fa2a794fb2973255c7fd874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68339df76cefbcb4156281b60c7366c5') in 0.153867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1Toggle.prefab
+  artifactKey: Guid(4b1ffbebacd36694ebea9fb6d437c68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1Toggle.prefab using Guid(4b1ffbebacd36694ebea9fb6d437c68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071ee53468fd639347f2d369b176e574') in 0.098092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/InteractiveElement/Prefabs/CompressableButtonCube.prefab
+  artifactKey: Guid(cd2f1e5c2c0ca934ab7b77568de1b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/InteractiveElement/Prefabs/CompressableButtonCube.prefab using Guid(cd2f1e5c2c0ca934ab7b77568de1b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3798dcb0468e5d29593648105026699c') in 0.023733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsMove.prefab
+  artifactKey: Guid(cab2fee02e78ee94eb110dc9a99f892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsMove.prefab using Guid(cab2fee02e78ee94eb110dc9a99f892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a2fe6d18fecd3a6a9657e45be9d5b8') in 0.022299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/10x32mm_Square.prefab
+  artifactKey: Guid(f6511fe07b2d805478799a9830eb472b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/10x32mm_Square.prefab using Guid(f6511fe07b2d805478799a9830eb472b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f519b3244c1afea61e5253f3d26561b8') in 0.025199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/AppBar/AppBar.prefab
+  artifactKey: Guid(83c02591e2867124181bcd3bcb65e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/AppBar/AppBar.prefab using Guid(83c02591e2867124181bcd3bcb65e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017a106d1367572611ae979df487a883') in 0.065652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Tooltips/Constrained Parabola Tooltip.prefab
+  artifactKey: Guid(4e88d209b9ebe8b42a4d4748bd9b7141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Tooltips/Constrained Parabola Tooltip.prefab using Guid(4e88d209b9ebe8b42a4d4748bd9b7141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f3a0acdc8055ec376e8d3c7aed2917') in 0.044598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/ArticulatedHandMesh.prefab
+  artifactKey: Guid(a86f479797fea8f4189f924b3b6ad979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/ArticulatedHandMesh.prefab using Guid(a86f479797fea8f4189f924b3b6ad979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf219f47042c3453d8f556de2781809') in 0.175151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Camera/Prefabs/CameraSystem.prefab
+  artifactKey: Guid(8a5d96f565aaee14ca3e07575bb9ce80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Camera/Prefabs/CameraSystem.prefab using Guid(8a5d96f565aaee14ca3e07575bb9ce80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc01c9f3acb277b730fd6022cd71be9f') in 0.057998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/InteractiveElement/Prefabs/CompressableButton.prefab
+  artifactKey: Guid(445915dc8698413468747c2fb539f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/InteractiveElement/Prefabs/CompressableButton.prefab using Guid(445915dc8698413468747c2fb539f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c20acbd4c1f1962ffd42f7e65a4a85d') in 0.109668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsNortheastSouthwest.prefab
+  artifactKey: Guid(4a7a428c972d3614ba5cff825c4708c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsNortheastSouthwest.prefab using Guid(4a7a428c972d3614ba5cff825c4708c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39a12206d51d97766aaa4acdc68488b') in 0.032283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikSemibold.prefab
+  artifactKey: Guid(29877fc622b4aaa46b04a0a7c1cfcdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikSemibold.prefab using Guid(29877fc622b4aaa46b04a0a7c1cfcdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefc985613e2c96c043c4cb268f11f16') in 0.022496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikLight.prefab
+  artifactKey: Guid(670aca8db3bb6294581d6493f3e32380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikLight.prefab using Guid(670aca8db3bb6294581d6493f3e32380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4611cf2968b4f2b4179e436b214174f9') in 0.014470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsNorthwestSoutheast.prefab
+  artifactKey: Guid(f5f52f7c5c7012743af433bb1a27f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsNorthwestSoutheast.prefab using Guid(f5f52f7c5c7012743af433bb1a27f3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3c1e6ed4bba413fdbe4d80cba35f59') in 0.020924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsEastWest.prefab
+  artifactKey: Guid(eab90e525ea183647b99bf5ae3575c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsEastWest.prefab using Guid(eab90e525ea183647b99bf5ae3575c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827d27ff8bea07f4e5321297cee7000d') in 0.023094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Tooltips/Bezier ToolTip.prefab
+  artifactKey: Guid(08b79a69f78da1d4aa8e117f1cbd9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Tooltips/Bezier ToolTip.prefab using Guid(08b79a69f78da1d4aa8e117f1cbd9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4aaad184f9c9e6cdfec6a2837bdd10') in 0.036363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/ArticulatedHandMeshPulse.prefab
+  artifactKey: Guid(308140ab26e8edd4f920cadc10af5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/ArticulatedHandMeshPulse.prefab using Guid(308140ab26e8edd4f920cadc10af5c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972f54588415bfd5bcc268da6d2bc183') in 0.023584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1.prefab
+  artifactKey: Guid(80cec532ae7b6c1429d0f5494e7dbd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/ButtonHoloLens1.prefab using Guid(80cec532ae7b6c1429d0f5494e7dbd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32e52e85f9d2a8aed63f994d4ee6923') in 0.031001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikBold.prefab
+  artifactKey: Guid(f6038dfbe1e1bd14dac07b1405ccda54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikBold.prefab using Guid(f6038dfbe1e1bd14dac07b1405ccda54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83610a28055b549015ca55844b529875') in 0.016974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsNorthSouth.prefab
+  artifactKey: Guid(15700cca0c876c840a30db2bef89f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMoveArrowsNorthSouth.prefab using Guid(15700cca0c876c840a30db2bef89f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fdf92adc41eec9baaf8673d1176dc7') in 0.022503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/_PlaneThatCallsIntoPlugin.prefab
+  artifactKey: Guid(85ea1d20ed9be084cae6ddda8aa1fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.windowsmr/Tests/Runtime/Resources/Prefabs/_PlaneThatCallsIntoPlugin.prefab using Guid(85ea1d20ed9be084cae6ddda8aa1fd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6f663fcb8147fbd70f18a71c216d6f') in 0.035142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorFocus.prefab
+  artifactKey: Guid(bd972abbae7e3be4bbcabb327fd4291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorFocus.prefab using Guid(bd972abbae7e3be4bbcabb327fd4291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5573bd771c089fae4a209668bc398ab2') in 0.021866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorRest.prefab
+  artifactKey: Guid(594ffe039afd6a64dbf45b2a3366a438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorRest.prefab using Guid(594ffe039afd6a64dbf45b2a3366a438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060ff8bb873339cf450d842de9cc4b2f') in 0.026813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/CheckBox.prefab
+  artifactKey: Guid(6f89876ff9050224f949c0490969219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/CheckBox.prefab using Guid(6f89876ff9050224f949c0490969219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981d25db8949d393912c63a92fbf90c4') in 0.060878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMousePointer.prefab
+  artifactKey: Guid(195073fc69914aa45b2ee296b929a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorMousePointer.prefab using Guid(195073fc69914aa45b2ee296b929a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b1b14bf8105dd38c510387ecc350ef') in 0.073617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikSemilight.prefab
+  artifactKey: Guid(e765e6ff063d7a54c8f7efa4da96fb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Text/3DTextSelawikSemilight.prefab using Guid(e765e6ff063d7a54c8f7efa4da96fb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e17d203b7b4296ae8c2a1d1d68a1a71') in 0.015516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.751200 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorRotateArrowsHorizontal.prefab
+  artifactKey: Guid(dfdf062da9cce5c4ebabe98a14ef5364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorRotateArrowsHorizontal.prefab using Guid(dfdf062da9cce5c4ebabe98a14ef5364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf221e2d82d97b6290295fc5880e6548') in 0.102390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/DefaultGazeCursor.prefab
+  artifactKey: Guid(5b3e2856904e43c680f84f326861032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/DefaultGazeCursor.prefab using Guid(5b3e2856904e43c680f84f326861032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd766441e997dd0d85000dc6d05668a7') in 0.121864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/EyeGazeCursor.prefab
+  artifactKey: Guid(521049f9431e342478200d59fce43f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/EyeGazeCursor.prefab using Guid(521049f9431e342478200d59fce43f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c96fa287baea897bb9f68c10d12f95b') in 0.038825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Diagnostics/Prefabs/DiagnosticsSystem.prefab
+  artifactKey: Guid(6ab4a1f67853aac4e8ff13f26960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Diagnostics/Prefabs/DiagnosticsSystem.prefab using Guid(6ab4a1f67853aac4e8ff13f26960c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5418f3d3f084e2538a336e2f6ba08672') in 0.021972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Dialog/DialogMedium_192x128.prefab
+  artifactKey: Guid(a0ef6c45c87675f4abf9738395165413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Dialog/DialogMedium_192x128.prefab using Guid(a0ef6c45c87675f4abf9738395165413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f2fd65e5322efb1660d91bc91a4f69') in 0.071590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorRotateArrowsVertical.prefab
+  artifactKey: Guid(45f90619388e38541865e0a2ed3fb47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/CursorRotateArrowsVertical.prefab using Guid(45f90619388e38541865e0a2ed3fb47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7f0e49dcab4e0b49427eba90ed68bc') in 0.097177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Dialog/DialogSmall_192x96.prefab
+  artifactKey: Guid(8e686c90124b8e14cbf8093893109e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Dialog/DialogSmall_192x96.prefab using Guid(8e686c90124b8e14cbf8093893109e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f1a6964a1ef144bd87e82e411e4c7d') in 0.099823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Dialog/DialogLarge_192x192.prefab
+  artifactKey: Guid(478732197b53dee4694480aac1a7c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Dialog/DialogLarge_192x192.prefab using Guid(478732197b53dee4694480aac1a7c98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580f3956550f6fcf8495539fcccb2e56') in 0.062038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.427162 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/FingerCursor.prefab
+  artifactKey: Guid(27155818b2006c74497a3f244aacc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/FingerCursor.prefab using Guid(27155818b2006c74497a3f244aacc92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f779c254ca08b3e6c555a382e8479b3b') in 0.101968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/GGVPointer.prefab
+  artifactKey: Guid(039b325c9e8fd0545a0475fd4aa35b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/GGVPointer.prefab using Guid(039b325c9e8fd0545a0475fd4aa35b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6704dd831f7f98e67a589ed4f5dc662') in 0.058298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandAxes.prefab
+  artifactKey: Guid(750bdc3344567a447960aae3eda2b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandAxes.prefab using Guid(750bdc3344567a447960aae3eda2b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833311fcaf28e34d26092cc86672b071') in 0.035782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/GizmoLeft.prefab
+  artifactKey: Guid(626257b1a6cd47c2a32a18cf75b2fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/GizmoLeft.prefab using Guid(626257b1a6cd47c2a32a18cf75b2fb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e8c77456028e6daa7bf780de2889c9') in 0.043189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/GrabPointer.prefab
+  artifactKey: Guid(526b854247016cf47bc5c58e01d82407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/GrabPointer.prefab using Guid(526b854247016cf47bc5c58e01d82407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d25c3ed481ef615d2f6ba64e1c8ed7a') in 0.034035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/GizmoRight.prefab
+  artifactKey: Guid(9ef0df44319c4fb4a05649e5b8ceb6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/GizmoRight.prefab using Guid(9ef0df44319c4fb4a05649e5b8ceb6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f059750ba490a0a07b0bdfcd5bdf691') in 0.027741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/GrabHandle.prefab
+  artifactKey: Guid(e7b58958a288a68488c207e4b0657743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/GrabHandle.prefab using Guid(e7b58958a288a68488c207e4b0657743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bdc0069f3d3c356531949cca7ee534') in 0.028560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJointSmall.prefab
+  artifactKey: Guid(6a3f88d2571cd234a86d95ee5856b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJointSmall.prefab using Guid(6a3f88d2571cd234a86d95ee5856b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080690c934861c2a7a8c6942bb4d2662') in 0.026402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJointGizmo.prefab
+  artifactKey: Guid(3e8988bbb870e1a4a81fd2c177b29865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJointGizmo.prefab using Guid(3e8988bbb870e1a4a81fd2c177b29865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69c32c5690d0b35ea6d3e73cec9cd46') in 0.023347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/HandSkeleton.prefab
+  artifactKey: Guid(378f91dbbff9e2343b27a467467750bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/HandSkeleton.prefab using Guid(378f91dbbff9e2343b27a467467750bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f3644a17377cd75e3c10fbc96e6bb7') in 0.015006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Loader/IndeterminateLoader.prefab
+  artifactKey: Guid(9c4ddc0ec93e1df449e9984dca497355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Loader/IndeterminateLoader.prefab using Guid(9c4ddc0ec93e1df449e9984dca497355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77c897a2b364b81423e05b0f5aab848') in 0.031301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Handle_Base.prefab
+  artifactKey: Guid(59e23c09211c299469144947f5c1eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/Handle_Base.prefab using Guid(59e23c09211c299469144947f5c1eaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5182ebf99aedcb4f5d86b07d6e31c32a') in 0.028838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJointSphere.prefab
+  artifactKey: Guid(b37dde41a983d664c8a09a91313733e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJointSphere.prefab using Guid(b37dde41a983d664c8a09a91313733e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9870b79c6c7b7be9661abae9b41f33cd') in 0.034108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/InputSimulationIndicators.prefab
+  artifactKey: Guid(9639144363d7b8b45ba926081168805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/InputSimulationIndicators.prefab using Guid(9639144363d7b8b45ba926081168805a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdd2e5bac709b4b2ca04aab2cd17fe8') in 0.061378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Input/Prefabs/InputSystem.prefab
+  artifactKey: Guid(ed60c8165b67cc04b8fe3805d7afd102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/ServiceManagers/Input/Prefabs/InputSystem.prefab using Guid(ed60c8165b67cc04b8fe3805d7afd102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fe6b8017d0fde8c78dc07ada646c6f') in 0.056400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJoint.prefab
+  artifactKey: Guid(a0842b2d2ca469847b09a969426bb48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Hands/HandJoint.prefab using Guid(a0842b2d2ca469847b09a969426bb48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a271383b6fcf22e8744fd72f32de2a') in 0.027920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.162583 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/InteractionHint_L.prefab
+  artifactKey: Guid(33969ce6b44fe404f9f60e8031eade87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/InteractionHint_L.prefab using Guid(33969ce6b44fe404f9f60e8031eade87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da68c36138492539b1739dd5d992a20a') in 0.786822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_ScaleHandle.prefab
+  artifactKey: Guid(ba9083550f965e545a628b53bfa80c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_ScaleHandle.prefab using Guid(ba9083550f965e545a628b53bfa80c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a79444e05f4eaab6edf9db0768dd9b') in 0.032761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/Oculus/XRSDK/MRTK-Quest/Prefabs/MRTK-Quest_HandsPrefab.prefab
+  artifactKey: Guid(7f285947dfc20f248ad3ce02c2e997a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/Oculus/XRSDK/MRTK-Quest/Prefabs/MRTK-Quest_HandsPrefab.prefab using Guid(7f285947dfc20f248ad3ce02c2e997a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b085875a6148e4363644e18a05d435cf') in 0.022919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001111 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/Oculus/XRSDK/MRTK-Quest/Prefabs/MRTK-Quest_LocalAvatar.prefab
+  artifactKey: Guid(5357c8e6c4495c04f90e97272375c294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/Oculus/XRSDK/MRTK-Quest/Prefabs/MRTK-Quest_LocalAvatar.prefab using Guid(5357c8e6c4495c04f90e97272375c294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb945e281a9c9450714ecdb1a8f801d4') in 0.016592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/MouseCursor.prefab
+  artifactKey: Guid(667821d88830305449757690d22f71e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Cursors/MouseCursor.prefab using Guid(667821d88830305449757690d22f71e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6a5523564b2292211ff72a3f53f388') in 0.036517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/MovingHandCoachRoot_L.prefab
+  artifactKey: Guid(4059b070968ff7a4db438fb8111391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/MovingHandCoachRoot_L.prefab using Guid(4059b070968ff7a4db438fb8111391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2197d76f42430d434d7d6093e4e2b2f') in 0.110134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab
+  artifactKey: Guid(f73c916a7266dd941a534f5f0f10a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_TranslateHandle.prefab using Guid(f73c916a7266dd941a534f5f0f10a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb852304766ef7bff3fdfd0d76dd6ee') in 0.048546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_RotateHandle.prefab
+  artifactKey: Guid(969c9b04d1b1848489de0d6efe6250fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_RotateHandle.prefab using Guid(969c9b04d1b1848489de0d6efe6250fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0762af62f710d0645fead2d8049faa80') in 0.026556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/Joystick/JoystickPrefab.prefab
+  artifactKey: Guid(8bdd451919f46a94ba6d151b6d0cdffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/Joystick/JoystickPrefab.prefab using Guid(8bdd451919f46a94ba6d151b6d0cdffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4889de466943d88544b6c4bfe755c9') in 0.125856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/AppBar/PressableButtonAppBar.prefab
+  artifactKey: Guid(88586ad49c144a14695ecab6882c1c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/AppBar/PressableButtonAppBar.prefab using Guid(88586ad49c144a14695ecab6882c1c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5772db2110d1a416ded27158ebf8dc02') in 0.054462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/ParabolicTeleportPointer.prefab
+  artifactKey: Guid(c4fd3c6fc7ff484eb434775066e7f327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/ParabolicTeleportPointer.prefab using Guid(c4fd3c6fc7ff484eb434775066e7f327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efafcd2f8fd898ce6b8306bd24d9d4a') in 0.033058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Sliders/PinchSlider.prefab
+  artifactKey: Guid(1093263a89abe47499cccf7dcb08effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Sliders/PinchSlider.prefab using Guid(1093263a89abe47499cccf7dcb08effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be65398cc36ec5552b0b3c7dda9d94') in 0.110344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Prefabs/MixedRealityKeyboardPreview.prefab
+  artifactKey: Guid(3a1a906d65a695048aa9dcd5216dbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Prefabs/MixedRealityKeyboardPreview.prefab using Guid(3a1a906d65a695048aa9dcd5216dbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae78458b6f883ef5896f72b295eb6e3') in 0.125209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboard/Prefabs/MRKeyboardInputField_UGUI.prefab
+  artifactKey: Guid(6c3c43162542fa74db129b79265e6824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboard/Prefabs/MRKeyboardInputField_UGUI.prefab using Guid(6c3c43162542fa74db129b79265e6824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fd3fca827451e1a2f3c2e9ca97ae7d') in 0.032490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/Oculus/XRSDK/MRTK-Quest/Prefabs/MRTK-Quest_OVRCameraRig.prefab
+  artifactKey: Guid(69a746aa83d0d0e45b4e2d33eab0fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/Providers/Oculus/XRSDK/MRTK-Quest/Prefabs/MRTK-Quest_OVRCameraRig.prefab using Guid(69a746aa83d0d0e45b4e2d33eab0fff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bb18a9436b3c7b911d65b30d055733') in 0.018989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/MousePointer.prefab
+  artifactKey: Guid(31d81f88cf3f71d4b8392ded50df3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/MousePointer.prefab using Guid(31d81f88cf3f71d4b8392ded50df3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc49708413b40470c9d90a431af4aafc') in 0.016593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/ObsoleteHandSkeleton.prefab
+  artifactKey: Guid(132c9402d5843aa4f94380840186fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Controllers/DebugControllers/ObsoleteHandSkeleton.prefab using Guid(132c9402d5843aa4f94380840186fd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9924000fcc8d5093b233dc619ec41f5e') in 0.017467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/NonNativeKeyboard/Prefabs/NonNativeKeyboard.prefab
+  artifactKey: Guid(c4e389e44d96da64ea974ab237ce1a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/NonNativeKeyboard/Prefabs/NonNativeKeyboard.prefab using Guid(c4e389e44d96da64ea974ab237ce1a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd9c4e6d038ad46a94aa7535b4f7b17') in 0.158777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/PokePointer.prefab
+  artifactKey: Guid(38b548c6a2c270545a383296ad2bc4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Pointers/PokePointer.prefab using Guid(38b548c6a2c270545a383296ad2bc4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edc677f3e554c10c399cb84e7202393') in 0.026392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/InteractionHint_R.prefab
+  artifactKey: Guid(d4bfb84b8b01db84abcfd74f45ef97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/InteractionHint_R.prefab using Guid(d4bfb84b8b01db84abcfd74f45ef97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb21b9837d38b35c81431575fdd533a0') in 0.227523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Tooltips/LabelOnlyTooltip.prefab
+  artifactKey: Guid(247dc8aebe30ca2408e8293a883c75df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/Tooltips/LabelOnlyTooltip.prefab using Guid(247dc8aebe30ca2408e8293a883c75df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7c802fcbc589d8bcf3c66fa927a75f') in 0.054783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/MovingHandCoachRoot_R.prefab
+  artifactKey: Guid(5429e029090b9fa4f918623d820583eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/HandCoach/MovingHandCoachRoot_R.prefab using Guid(5429e029090b9fa4f918623d820583eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea4bb85475c824c9f1797ef303a26e9') in 0.120755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab
+  artifactKey: Guid(c45e552a6d92491468c421c35c5dd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Prefabs/MRTK_BoundingBox_ScaleHandle_Slate.prefab using Guid(c45e552a6d92491468c421c35c5dd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933b8b25fe412cc90252e8059402b603') in 0.033470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001407 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/PressableButtonCube.prefab
+  artifactKey: Guid(c6099777d59b4ef4c8b31099ac5f5a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/PressableButtonCube.prefab using Guid(c6099777d59b4ef4c8b31099ac5f5a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175df4ea51f19c859e1e15babb3889e1') in 0.025930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2.prefab
+  artifactKey: Guid(3f1f46cbecbe08e46a303ccfdb5b498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Prefabs/PressableButtonHoloLens2.prefab using Guid(3f1f46cbecbe08e46a303ccfdb5b498a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bd6806afd2cb51fb31ef86fbb6ee01') in 0.049535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboard/Prefabs/MRKeyboardInputField_TMP.prefab
+  artifactKey: Guid(4daceed0c4c3c09468897226b8717688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboard/Prefabs/MRKeyboardInputField_TMP.prefab using Guid(4daceed0c4c3c09468897226b8717688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdecf431ad9825b080ae2dd8099ed0a1') in 0.058474 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.54 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3479.
+Total: 4.048300 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.168100 ms MarkObjects: 3.534800 ms  DeleteObjects: 0.050300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
