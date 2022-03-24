@@ -9232,7 +9232,7 @@ IL_005f:
 			L_16 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_15, /*hidden argument*/NULL);
 			NullCheck(L_16);
 			Assembly_t * L_17;
-			L_17 = VirtFuncInvoker0< Assembly_t * >::Invoke(23 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_16);
+			L_17 = VirtFuncInvoker0< Assembly_t * >::Invoke(24 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_16);
 			NullCheck(L_17);
 			AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * L_18;
 			L_18 = VirtFuncInvoker0< AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824 * >::Invoke(19 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_17);

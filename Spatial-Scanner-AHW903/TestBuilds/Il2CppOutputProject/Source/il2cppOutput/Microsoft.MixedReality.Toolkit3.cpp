@@ -6083,37 +6083,20 @@ public:
 struct ResourceLoader_t4FC1FC35AFFF36EC300A9A39B2698FEBFB692CC4_StaticFields
 {
 public:
-	// Cached pointer to IActivationFactory
-	Il2CppIActivationFactory* activationFactory;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderFactory
 	IResourceLoaderFactory_t1BA1C3DE378AA9712A71D4944E68129D2443D0F3* ____iresourceLoaderFactory_t1BA1C3DE378AA9712A71D4944E68129D2443D0F3;
-	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics2
-	IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D* ____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D;
-	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics3
-	IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE* ____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE;
-	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics
-	IResourceLoaderStatics_tA244DD4DADA9743A5F1F1E6E336E19AD8CA5C46F* ____iresourceLoaderStatics_tA244DD4DADA9743A5F1F1E6E336E19AD8CA5C46F;
+	// Cached pointer to IActivationFactory
+	Il2CppIActivationFactory* activationFactory;
 	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics4
 	IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890* ____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890;
+	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics
+	IResourceLoaderStatics_tA244DD4DADA9743A5F1F1E6E336E19AD8CA5C46F* ____iresourceLoaderStatics_tA244DD4DADA9743A5F1F1E6E336E19AD8CA5C46F;
+	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics3
+	IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE* ____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE;
+	// Cached pointer to Windows.ApplicationModel.Resources.IResourceLoaderStatics2
+	IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D* ____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D;
 
 public:
-	inline Il2CppIActivationFactory* get_activationFactory()
-	{
-		Il2CppIActivationFactory* returnValue = activationFactory;
-		if (returnValue == NULL)
-		{
-			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.ApplicationModel.Resources.ResourceLoader"));
-			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
-
-			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&activationFactory), returnValue, NULL) != NULL)
-			{
-				returnValue->Release();
-				returnValue = activationFactory;
-			}
-		}
-		return returnValue;
-	}
-
 	inline IResourceLoaderFactory_t1BA1C3DE378AA9712A71D4944E68129D2443D0F3* get_____iresourceLoaderFactory_t1BA1C3DE378AA9712A71D4944E68129D2443D0F3()
 	{
 		IResourceLoaderFactory_t1BA1C3DE378AA9712A71D4944E68129D2443D0F3* returnValue = ____iresourceLoaderFactory_t1BA1C3DE378AA9712A71D4944E68129D2443D0F3;
@@ -6131,35 +6114,35 @@ public:
 		return returnValue;
 	}
 
-	inline IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D* get_____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D()
+	inline Il2CppIActivationFactory* get_activationFactory()
 	{
-		IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D* returnValue = ____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D;
+		Il2CppIActivationFactory* returnValue = activationFactory;
 		if (returnValue == NULL)
 		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D::IID, reinterpret_cast<void**>(&returnValue));
-			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+			il2cpp::utils::StringView<Il2CppNativeChar> className(IL2CPP_NATIVE_STRING("Windows.ApplicationModel.Resources.ResourceLoader"));
+			returnValue = il2cpp_codegen_windows_runtime_get_activation_factory(className);
 
-			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D), returnValue, NULL) != NULL)
+			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&activationFactory), returnValue, NULL) != NULL)
 			{
 				returnValue->Release();
-				returnValue = ____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D;
+				returnValue = activationFactory;
 			}
 		}
 		return returnValue;
 	}
 
-	inline IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE* get_____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE()
+	inline IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890* get_____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890()
 	{
-		IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE* returnValue = ____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE;
+		IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890* returnValue = ____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890;
 		if (returnValue == NULL)
 		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE::IID, reinterpret_cast<void**>(&returnValue));
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890::IID, reinterpret_cast<void**>(&returnValue));
 			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE), returnValue, NULL) != NULL)
+			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890), returnValue, NULL) != NULL)
 			{
 				returnValue->Release();
-				returnValue = ____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE;
+				returnValue = ____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890;
 			}
 		}
 		return returnValue;
@@ -6182,18 +6165,35 @@ public:
 		return returnValue;
 	}
 
-	inline IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890* get_____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890()
+	inline IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE* get_____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE()
 	{
-		IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890* returnValue = ____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890;
+		IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE* returnValue = ____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE;
 		if (returnValue == NULL)
 		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890::IID, reinterpret_cast<void**>(&returnValue));
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE::IID, reinterpret_cast<void**>(&returnValue));
 			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890), returnValue, NULL) != NULL)
+			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE), returnValue, NULL) != NULL)
 			{
 				returnValue->Release();
-				returnValue = ____iresourceLoaderStatics4_tE9BA35763B49527B6FAE6053A6A1250DFC720890;
+				returnValue = ____iresourceLoaderStatics3_tAD0E958AE0F426D9C3F756415B02BF92825541DE;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D* get_____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D()
+	{
+		IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D* returnValue = ____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IResourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iresourceLoaderStatics2_tB96160D4310161F81D4A7C0D5E7D68228661CE5D;
 			}
 		}
 		return returnValue;
@@ -37139,7 +37139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SystemType_GetReference_mDA96E59D39
 		Type_t * L_2 = ___type0;
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, L_2);
+		L_3 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_2);
 		bool L_4;
 		L_4 = String_IsNullOrEmpty_m9AFBB5335B441B94E884B8A9D4A27AD60E3D7F7C(L_3, /*hidden argument*/NULL);
 		if (!L_4)
@@ -37161,7 +37161,7 @@ IL_001c:
 		Type_t * L_6 = ___type0;
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, L_6);
+		L_7 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_6);
 		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_8 = (CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*)(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34*)SZArrayNew(CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34_il2cpp_TypeInfo_var, (uint32_t)1);
 		CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* L_9 = L_8;
 		NullCheck(L_9);
@@ -37398,7 +37398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemType_set_Type_m7CE679A51FE5369CE7D
 		Type_t * L_4 = ___value0;
 		NullCheck(L_4);
 		bool L_5;
-		L_5 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsEnum() */, L_4);
+		L_5 = VirtFuncInvoker0< bool >::Invoke(72 /* System.Boolean System.Type::get_IsEnum() */, L_4);
 		if (L_5)
 		{
 			goto IL_0021;
@@ -37443,7 +37443,7 @@ IL_002a:
 		Type_t * L_10 = ___value0;
 		NullCheck(L_10);
 		String_t* L_11;
-		L_11 = VirtFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_10);
+		L_11 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_10);
 		String_t* L_12;
 		L_12 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(_stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, L_11, _stringLiteralFB0231D69D93A47A94ABFDE22A07442F753F031D, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
@@ -37540,7 +37540,7 @@ IL_000d:
 	{
 		NullCheck(G_B2_0);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, G_B2_0);
+		L_2 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, G_B2_0);
 		G_B3_0 = L_2;
 	}
 
@@ -37729,7 +37729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemTypeAttribute__ctor_m0693EA0F976B0
 		Type_t * L_6 = ___type0;
 		NullCheck(L_6);
 		bool L_7;
-		L_7 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsEnum() */, L_6);
+		L_7 = VirtFuncInvoker0< bool >::Invoke(72 /* System.Boolean System.Type::get_IsEnum() */, L_6);
 		G_B6_0 = ((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 		goto IL_002d;
 	}

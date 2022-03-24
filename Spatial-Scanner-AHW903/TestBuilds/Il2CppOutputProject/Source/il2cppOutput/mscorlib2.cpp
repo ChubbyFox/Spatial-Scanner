@@ -514,6 +514,8 @@ struct ContextCallback_t93707E0430F4FF3E15E1FB5A4844BE89C657AE8B;
 struct ContextCallbackObject_t0E2D94904CEC51006BE71AE154A7E7D9CD4AFA4B;
 // System.Runtime.Remoting.Activation.ContextLevelActivator
 struct ContextLevelActivator_t920964197FEA88F1FBB53FEB891727A5BE0B2519;
+// System.ContextMarshalException
+struct ContextMarshalException_t93ABAC88F14B87831996E9199EE63F99E2B6FF28;
 // System.ContextStaticAttribute
 struct ContextStaticAttribute_t7F3343F17E35F2FD20841A3114D6D8A2A8180FF5;
 // System.Threading.Tasks.ContinuationTaskFromTask
@@ -1124,6 +1126,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4DD3DE8CCECA489C7DDD3362FC292A3BE39B68F1
 IL2CPP_EXTERN_C String_t* _stringLiteral4DD68F8797C190051683A5160706F306B98637A0;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E6EACEF8019EA40E4CAD15A87CBACA290240853;
 IL2CPP_EXTERN_C String_t* _stringLiteral4FB3B17CEC619C238633561C3FAE9D8ADED19582;
+IL2CPP_EXTERN_C String_t* _stringLiteral507A8555B7E0DE27BEA250F3B00C9A77B85E8643;
 IL2CPP_EXTERN_C String_t* _stringLiteral5204BE9DC83E65F70358D48FB17D94E257C49CE8;
 IL2CPP_EXTERN_C String_t* _stringLiteral541ADAD93719A7753AA265CAD6BA6276D2686025;
 IL2CPP_EXTERN_C String_t* _stringLiteral544DC80A2A82A08B6321F56F8987CB7E5DEED1C4;
@@ -17773,6 +17776,15 @@ public:
 };
 
 
+// System.ContextMarshalException
+struct ContextMarshalException_t93ABAC88F14B87831996E9199EE63F99E2B6FF28  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
 // System.Runtime.Remoting.Contexts.CrossContextDelegate
 struct CrossContextDelegate_t12C7A08ED124090185A3E209E6CA9E28148A7682  : public MulticastDelegate_t
 {
@@ -19881,6 +19893,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Context_t8A5B564FD0F970E10A97ACB8A7579FFF3EE4
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerIdentity_set_Context_m13381F8B0FEEBA36D4CF2244D8A36E4BF8BDD2E1_inline (ServerIdentity_t5689BF0CA0122A8E597C9900D39F11F07D79D3A8 * __this, Context_t8A5B564FD0F970E10A97ACB8A7579FFF3EE4C678 * ___value0, const RuntimeMethod* method);
 // System.Runtime.Remoting.Contexts.Context System.Runtime.Remoting.ServerIdentity::get_Context()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Context_t8A5B564FD0F970E10A97ACB8A7579FFF3EE4C678 * ServerIdentity_get_Context_m0F40A7242C5CD1BCBD6884D87986C0AC56A69C19_inline (ServerIdentity_t5689BF0CA0122A8E597C9900D39F11F07D79D3A8 * __this, const RuntimeMethod* method);
+// System.Void System.SystemException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemException__ctor_m65B6562BDBB8EF84A384B217BE96647C0BAC770A (SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62 * __this, String_t* ___message0, const RuntimeMethod* method);
+// System.Void System.Exception::SetErrorCode(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception_SetErrorCode_m92A787DA80F9CBC81E05D158F3D8099A8F1DD44D (Exception_t * __this, int32_t ___hr0, const RuntimeMethod* method);
+// System.Void System.SystemException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemException__ctor_m20F619D15EAA349C6CE181A65A47C336200EBD19 (SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62 * __this, SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1 * ___info0, StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505  ___context1, const RuntimeMethod* method);
 // System.Threading.Tasks.Task System.Threading.Tasks.Task::InternalCurrentIfAttached(System.Threading.Tasks.TaskCreationOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t804B25CFE3FC13AAEE16C8FA3BF52513F2A8DB60 * Task_InternalCurrentIfAttached_m800D1EA24F27EEB479C1ECC808C82071299834B5 (int32_t ___creationOptions0, const RuntimeMethod* method);
 // System.Void System.Threading.Tasks.Task::.ctor(System.Delegate,System.Object,System.Threading.Tasks.Task,System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.InternalTaskOptions,System.Threading.Tasks.TaskScheduler)
@@ -20131,12 +20149,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Buffer_BlockCopy_mD01FC13D87078586714AA235261A9E786C351725 (RuntimeArray * ___src0, int32_t ___srcOffset1, RuntimeArray * ___dst2, int32_t ___dstOffset3, int32_t ___count4, const RuntimeMethod* method);
 // System.Byte System.Convert::ToByte(System.Int64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Convert_ToByte_mA6F83194A5B789A122668505E46060C10E989A55 (int64_t ___value0, const RuntimeMethod* method);
-// System.Void System.SystemException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemException__ctor_m65B6562BDBB8EF84A384B217BE96647C0BAC770A (SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62 * __this, String_t* ___message0, const RuntimeMethod* method);
-// System.Void System.Exception::SetErrorCode(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception_SetErrorCode_m92A787DA80F9CBC81E05D158F3D8099A8F1DD44D (Exception_t * __this, int32_t ___hr0, const RuntimeMethod* method);
-// System.Void System.SystemException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemException__ctor_m20F619D15EAA349C6CE181A65A47C336200EBD19 (SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62 * __this, SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1 * ___info0, StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505  ___context1, const RuntimeMethod* method);
 // System.Void System.Security.Cryptography.CryptographicException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CryptographicException__ctor_m06702F49C2900D6F8D85359F881836E5434D9335 (CryptographicException_tFFE56EF733D1150A0F3738DDE2CC4DE1A61849D5 * __this, const RuntimeMethod* method);
 // System.Void System.Security.Cryptography.CryptographicException::.ctor(System.String)
@@ -29118,7 +29130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConstructionCall__ctor_m53D24D3B22AA101F
 		Type_t * L_1 = ___type0;
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, L_1);
+		L_2 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_1);
 		__this->set__activationTypeName_15(L_2);
 		__this->set__isContextOk_16((bool)1);
 		return;
@@ -32377,6 +32389,41 @@ IL_0061:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.ContextMarshalException::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextMarshalException__ctor_m4E7A39F9056A593382BC8F6070E255148A7C3FED (ContextMarshalException_t93ABAC88F14B87831996E9199EE63F99E2B6FF28 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral507A8555B7E0DE27BEA250F3B00C9A77B85E8643);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0;
+		L_0 = Environment_GetResourceString_m8DFF827596B5FD533D3FE56900FA095F7D674617(_stringLiteral507A8555B7E0DE27BEA250F3B00C9A77B85E8643, /*hidden argument*/NULL);
+		SystemException__ctor_m65B6562BDBB8EF84A384B217BE96647C0BAC770A(__this, L_0, /*hidden argument*/NULL);
+		Exception_SetErrorCode_m92A787DA80F9CBC81E05D158F3D8099A8F1DD44D(__this, ((int32_t)-2146233084), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.ContextMarshalException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextMarshalException__ctor_m755026A234B956FB8F87A96CEF461A78ED2619DD (ContextMarshalException_t93ABAC88F14B87831996E9199EE63F99E2B6FF28 * __this, SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1 * ___info0, StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505  ___context1, const RuntimeMethod* method)
+{
+	{
+		SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1 * L_0 = ___info0;
+		StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505  L_1 = ___context1;
+		SystemException__ctor_m20F619D15EAA349C6CE181A65A47C336200EBD19(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void System.ContextStaticAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextStaticAttribute__ctor_m095EECE3AEEC41337AA276FF028F5D1EDADF3BA0 (ContextStaticAttribute_t7F3343F17E35F2FD20841A3114D6D8A2A8180FF5 * __this, const RuntimeMethod* method)
 {
@@ -33682,7 +33729,7 @@ IL_0242:
 		L_186 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_185, /*hidden argument*/NULL);
 		NullCheck(L_186);
 		String_t* L_187;
-		L_187 = VirtFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_186);
+		L_187 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_186);
 		NullCheck(L_184);
 		ArrayElementTypeCheck (L_184, L_187);
 		(L_184)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_187);
@@ -33690,7 +33737,7 @@ IL_0242:
 		Type_t * L_189 = ___targetType1;
 		NullCheck(L_189);
 		String_t* L_190;
-		L_190 = VirtFuncInvoker0< String_t* >::Invoke(25 /* System.String System.Type::get_FullName() */, L_189);
+		L_190 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_189);
 		NullCheck(L_188);
 		ArrayElementTypeCheck (L_188, L_190);
 		(L_188)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)L_190);
@@ -51837,14 +51884,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CultureInfo_CheckDomainSafetyObject_m429
 		L_1 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		Assembly_t * L_2;
-		L_2 = VirtFuncInvoker0< Assembly_t * >::Invoke(23 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_1);
+		L_2 = VirtFuncInvoker0< Assembly_t * >::Invoke(24 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_1);
 		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_3 = { reinterpret_cast<intptr_t> (CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_4;
 		L_4 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_3, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		Assembly_t * L_5;
-		L_5 = VirtFuncInvoker0< Assembly_t * >::Invoke(23 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_4);
+		L_5 = VirtFuncInvoker0< Assembly_t * >::Invoke(24 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_4);
 		bool L_6;
 		L_6 = Assembly_op_Inequality_m4A6211D91544031D7C1011BE6324E842910ADFE5(L_2, L_5, /*hidden argument*/NULL);
 		if (!L_6)

@@ -1,1 +1,2 @@
 AudioPluginMsHRTF.dll
+Microsoft.MixedReality.SceneUnderstanding.dll

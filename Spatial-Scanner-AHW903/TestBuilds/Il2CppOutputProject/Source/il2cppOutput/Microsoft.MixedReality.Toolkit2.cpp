@@ -42153,7 +42153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MixedRealityServiceInspectorAttribute__c
 		Type_t * L_2 = ___serviceType0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		if (L_3)
 		{
 			goto IL_006a;
@@ -42773,7 +42773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MixedRealityServiceRegistry_TryGetServic
 		Type_t * L_2 = ___interfaceType0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		if (L_3)
 		{
 			goto IL_0034;
@@ -43112,7 +43112,7 @@ IL_0040:
 			L_16 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_15, /*hidden argument*/NULL);
 			NullCheck(L_14);
 			bool L_17;
-			L_17 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_14, L_16);
+			L_17 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_14, L_16);
 			if (!L_17)
 			{
 				goto IL_0069;
@@ -44902,7 +44902,7 @@ IL_03b6:
 		L_126 = SystemType_get_Type_mD7B7EEF3C5ED6B16E2DFB9F89FCE9A8B58895E23_inline(L_125, /*hidden argument*/NULL);
 		NullCheck(L_124);
 		bool L_127;
-		L_127 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_124, L_126);
+		L_127 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_124, L_126);
 		if (!L_127)
 		{
 			goto IL_0433;
@@ -46198,7 +46198,7 @@ IL_001f:
 		Type_t * L_6 = ___interfaceType0;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
+		L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
 		if (!L_7)
 		{
 			goto IL_0056;
@@ -47129,7 +47129,7 @@ IL_0043:
 			Type_t * L_14 = V_2;
 			NullCheck(L_13);
 			bool L_15;
-			L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_14);
+			L_15 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_13, L_14);
 			if (!L_15)
 			{
 				goto IL_0071;
@@ -47155,7 +47155,7 @@ IL_0071:
 			Type_t * L_19 = V_2;
 			NullCheck(L_18);
 			bool L_20;
-			L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
+			L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
 			if (!L_20)
 			{
 				goto IL_0090;
@@ -47181,7 +47181,7 @@ IL_0090:
 			Type_t * L_24 = V_2;
 			NullCheck(L_23);
 			bool L_25;
-			L_25 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_23, L_24);
+			L_25 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_23, L_24);
 			if (!L_25)
 			{
 				goto IL_00ac;
@@ -47207,7 +47207,7 @@ IL_00ac:
 			Type_t * L_29 = V_2;
 			NullCheck(L_28);
 			bool L_30;
-			L_30 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_28, L_29);
+			L_30 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_28, L_29);
 			if (!L_30)
 			{
 				goto IL_00c8;
@@ -47233,7 +47233,7 @@ IL_00c8:
 			Type_t * L_34 = V_2;
 			NullCheck(L_33);
 			bool L_35;
-			L_35 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_33, L_34);
+			L_35 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_33, L_34);
 			if (!L_35)
 			{
 				goto IL_00e4;
@@ -47259,7 +47259,7 @@ IL_00e4:
 			Type_t * L_39 = V_2;
 			NullCheck(L_38);
 			bool L_40;
-			L_40 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_38, L_39);
+			L_40 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_38, L_39);
 			if (!L_40)
 			{
 				goto IL_0100;
@@ -47285,7 +47285,7 @@ IL_0100:
 			Type_t * L_44 = V_2;
 			NullCheck(L_43);
 			bool L_45;
-			L_45 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_43, L_44);
+			L_45 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_43, L_44);
 			if (!L_45)
 			{
 				goto IL_011a;
@@ -47680,7 +47680,7 @@ IL_0015:
 		Type_t * L_4 = ___type0;
 		NullCheck(L_3);
 		bool L_5;
-		L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
+		L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
 		if (L_5)
 		{
 			goto IL_00b9;
@@ -47694,7 +47694,7 @@ IL_0015:
 		Type_t * L_8 = ___type0;
 		NullCheck(L_7);
 		bool L_9;
-		L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_7, L_8);
+		L_9 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_7, L_8);
 		if (L_9)
 		{
 			goto IL_00b9;
@@ -47708,7 +47708,7 @@ IL_0015:
 		Type_t * L_12 = ___type0;
 		NullCheck(L_11);
 		bool L_13;
-		L_13 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_12);
+		L_13 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_12);
 		if (L_13)
 		{
 			goto IL_00b9;
@@ -47722,7 +47722,7 @@ IL_0015:
 		Type_t * L_16 = ___type0;
 		NullCheck(L_15);
 		bool L_17;
-		L_17 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_15, L_16);
+		L_17 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_15, L_16);
 		if (L_17)
 		{
 			goto IL_00b9;
@@ -47736,7 +47736,7 @@ IL_0015:
 		Type_t * L_20 = ___type0;
 		NullCheck(L_19);
 		bool L_21;
-		L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_20);
+		L_21 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_19, L_20);
 		if (L_21)
 		{
 			goto IL_00b9;
@@ -47750,7 +47750,7 @@ IL_0015:
 		Type_t * L_24 = ___type0;
 		NullCheck(L_23);
 		bool L_25;
-		L_25 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_23, L_24);
+		L_25 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_23, L_24);
 		if (L_25)
 		{
 			goto IL_00b9;
@@ -47764,7 +47764,7 @@ IL_0015:
 		Type_t * L_28 = ___type0;
 		NullCheck(L_27);
 		bool L_29;
-		L_29 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_27, L_28);
+		L_29 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_27, L_28);
 		if (L_29)
 		{
 			goto IL_00b9;
@@ -47778,7 +47778,7 @@ IL_0015:
 		Type_t * L_32 = ___type0;
 		NullCheck(L_31);
 		bool L_33;
-		L_33 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_31, L_32);
+		L_33 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_31, L_32);
 		if (L_33)
 		{
 			goto IL_00b9;
@@ -47792,7 +47792,7 @@ IL_0015:
 		Type_t * L_36 = ___type0;
 		NullCheck(L_35);
 		bool L_37;
-		L_37 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_35, L_36);
+		L_37 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_35, L_36);
 		return L_37;
 	}
 
@@ -47827,7 +47827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MixedRealityToolkit_GetService
 		Type_t * L_2 = ___interfaceType0;
 		NullCheck(L_1);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		if (!L_3)
 		{
 			goto IL_0037;
@@ -47999,7 +47999,7 @@ IL_004a:
 		L_19 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_18, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_20;
-		L_20 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(45 /* System.Type[] System.Type::GetInterfaces() */, L_19);
+		L_20 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(46 /* System.Type[] System.Type::GetInterfaces() */, L_19);
 		V_1 = L_20;
 		// for (int i = 0; i < interfaces.Length; i++)
 		V_2 = 0;
@@ -48144,7 +48144,7 @@ IL_0038:
 		Type_t * L_7 = ___interfaceType0;
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_6, L_7);
+		L_8 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_6, L_7);
 		if (L_8)
 		{
 			goto IL_0075;

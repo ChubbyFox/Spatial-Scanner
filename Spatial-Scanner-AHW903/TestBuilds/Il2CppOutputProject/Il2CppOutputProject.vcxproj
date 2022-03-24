@@ -102,6 +102,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppTypeDefinitions.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.SceneUnderstanding.Projections.WSA_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Async_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Gltf_CodeGen.c">
@@ -138,13 +140,23 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.Windows.MixedReality.DotNetWinRT_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Mono.Security_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\netstandard_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Configuration_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Core_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Diagnostics.StackTrace_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Globalization.Extensions_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.IO.Compression_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Numerics.Vectors_CodeGen.c">
     </ClCompile>
@@ -154,11 +166,15 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.InteropServices.WindowsRuntime_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.Serialization.Xml_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.WindowsRuntime.UI.Xaml_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.WindowsRuntime_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Xml.XPath.XDocument_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Xml_CodeGen.c">
     </ClCompile>
@@ -256,6 +272,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods1.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods10.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods2.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods3.cpp">
@@ -327,6 +345,8 @@
     <ClCompile Include="Source\il2cppOutput\Generics32.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics33.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics34.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics4.cpp">
     </ClCompile>
@@ -546,6 +566,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs80.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs81.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs82.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs9.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCodeRegistration.cpp">
@@ -557,6 +581,8 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions1.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions10.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions100.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions11.cpp">
     </ClCompile>
@@ -748,6 +774,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions97.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions98.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions99.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericMethodPointerTable.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppInteropDataTable.cpp">
@@ -757,6 +787,10 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppPCCWMethods.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppReversePInvokeWrapperTable.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.SceneUnderstanding.Projections.WSA.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.SceneUnderstanding.Projections.WSA_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Async.cpp">
     </ClCompile>
@@ -856,6 +890,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit_Attr.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.Windows.MixedReality.DotNetWinRT.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.Windows.MixedReality.DotNetWinRT_Attr.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Mono.Security.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Mono.Security_Attr.cpp">
@@ -886,6 +924,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib2.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\mscorlib20.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib3.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib4.cpp">
@@ -902,6 +942,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib_Attr.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\netstandard.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\netstandard_Attr.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Configuration.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Configuration_Attr.cpp">
@@ -911,6 +955,18 @@
     <ClCompile Include="Source\il2cppOutput\System.Core_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Diagnostics.StackTrace.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Diagnostics.StackTrace_Attr.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Globalization.Extensions.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Globalization.Extensions_Attr.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.IO.Compression.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.IO.Compression_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Numerics.cpp">
     </ClCompile>
@@ -930,6 +986,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.InteropServices.WindowsRuntime_Attr.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.Serialization.Xml.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Runtime.Serialization.Xml_Attr.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.WindowsRuntime.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Runtime.WindowsRuntime.UI.Xaml.cpp">
@@ -943,11 +1003,17 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Xml.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Xml.XPath.XDocument.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System.Xml.XPath.XDocument_Attr.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System.Xml_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System1.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System2.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\System3.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\System_Attr.cpp">
     </ClCompile>

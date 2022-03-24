@@ -5361,10 +5361,10 @@ struct SpeechSynthesizer_tD3FAAE50F4569E9B6E1D0141C3EFEB83EF90081B_StaticFields
 public:
 	// Cached pointer to IActivationFactory
 	Il2CppIActivationFactory* activationFactory;
-	// Cached pointer to Windows.Media.SpeechSynthesis.IInstalledVoicesStatic2
-	IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2* ____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2;
 	// Cached pointer to Windows.Media.SpeechSynthesis.IInstalledVoicesStatic
 	IInstalledVoicesStatic_tC6D6F7AE6B4C3C072BF98C6A5DD1B15B21368615* ____iinstalledVoicesStatic_tC6D6F7AE6B4C3C072BF98C6A5DD1B15B21368615;
+	// Cached pointer to Windows.Media.SpeechSynthesis.IInstalledVoicesStatic2
+	IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2* ____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2;
 
 public:
 	inline Il2CppIActivationFactory* get_activationFactory()
@@ -5384,23 +5384,6 @@ public:
 		return returnValue;
 	}
 
-	inline IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2* get_____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2()
-	{
-		IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2* returnValue = ____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2;
-		if (returnValue == NULL)
-		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2::IID, reinterpret_cast<void**>(&returnValue));
-			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2), returnValue, NULL) != NULL)
-			{
-				returnValue->Release();
-				returnValue = ____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2;
-			}
-		}
-		return returnValue;
-	}
-
 	inline IInstalledVoicesStatic_tC6D6F7AE6B4C3C072BF98C6A5DD1B15B21368615* get_____iinstalledVoicesStatic_tC6D6F7AE6B4C3C072BF98C6A5DD1B15B21368615()
 	{
 		IInstalledVoicesStatic_tC6D6F7AE6B4C3C072BF98C6A5DD1B15B21368615* returnValue = ____iinstalledVoicesStatic_tC6D6F7AE6B4C3C072BF98C6A5DD1B15B21368615;
@@ -5413,6 +5396,23 @@ public:
 			{
 				returnValue->Release();
 				returnValue = ____iinstalledVoicesStatic_tC6D6F7AE6B4C3C072BF98C6A5DD1B15B21368615;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2* get_____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2()
+	{
+		IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2* returnValue = ____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IInstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer((void**)(&____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iinstalledVoicesStatic2_t8571C4F9A0D69E9054E2B0C4FB640451EDE0CCD2;
 			}
 		}
 		return returnValue;
@@ -36870,7 +36870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void States_set_StateModelType_mAC5A426B4A1D5
 		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(109 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
 		if (L_3)
 		{
 			goto IL_002d;
@@ -36918,7 +36918,7 @@ IL_002d:
 		Type_t * L_14 = __this->get_stateModelType_6();
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
 		__this->set_AssemblyQualifiedName_8(L_15);
 	}
 
@@ -46449,7 +46449,7 @@ IL_004e:
 		L_14 = Enumerable_First_TisType_t_m47BA82BE50CA20E7D11983A2ED1D9400476606D1(L_13, /*hidden argument*/Enumerable_First_TisType_t_m47BA82BE50CA20E7D11983A2ED1D9400476606D1_RuntimeMethod_var);
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
 		__this->set_AssemblyQualifiedName_2(L_15);
 	}
 
@@ -46499,7 +46499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThemeDefinition_set_ThemeType_m2A8361507
 		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(109 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
 		if (L_3)
 		{
 			goto IL_002d;
@@ -46547,7 +46547,7 @@ IL_002d:
 		Type_t * L_14 = __this->get_Type_0();
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
 		__this->set_AssemblyQualifiedName_2(L_15);
 	}
 

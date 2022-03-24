@@ -33325,7 +33325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractableEvent_set_ReceiverType_mE6BE
 		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(109 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
 		if (L_3)
 		{
 			goto IL_002d;
@@ -33373,7 +33373,7 @@ IL_002d:
 		Type_t * L_14 = __this->get_receiverType_2();
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
+		L_15 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_14);
 		__this->set_AssemblyQualifiedName_4(L_15);
 	}
 
@@ -41398,7 +41398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InteractableThemeBase_t72CED3675115B1CADB1E75
 		L_2 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_1, /*hidden argument*/NULL);
 		NullCheck(L_0);
 		bool L_3;
-		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
+		L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(109 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_0, L_2);
 		if (L_3)
 		{
 			goto IL_002e;

@@ -35,6 +35,8 @@ struct MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A;
 struct String_t;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+// meshSaving
+struct meshSaving_t101E27C5286B36B0E90D0A47E8118DACDCA0F3B9;
 // meshScript
 struct meshScript_tB3053B131BC173FC1C66A31E4B780C876E108F41;
 // sceneObjects
@@ -315,6 +317,15 @@ public:
 };
 
 
+// meshSaving
+struct meshSaving_t101E27C5286B36B0E90D0A47E8118DACDCA0F3B9  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
 // meshScript
 struct meshScript_tB3053B131BC173FC1C66A31E4B780C876E108F41  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -369,13 +380,13 @@ public:
 // !!0 Microsoft.MixedReality.Toolkit.CoreServices::GetSpatialAwarenessSystemDataProvider<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * CoreServices_GetSpatialAwarenessSystemDataProvider_TisRuntimeObject_mD3A30387912E89BB802ACD7ABFBC50D026901256_gshared (const RuntimeMethod* method);
 
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, const RuntimeMethod* method);
 // !!0 Microsoft.MixedReality.Toolkit.CoreServices::GetSpatialAwarenessSystemDataProvider<Microsoft.MixedReality.Toolkit.SpatialAwareness.IMixedRealitySpatialAwarenessMeshObserver>()
 inline RuntimeObject* CoreServices_GetSpatialAwarenessSystemDataProvider_TisIMixedRealitySpatialAwarenessMeshObserver_t4B11BE496015D0D9C431EDD908DB615E1223554C_mD0B905A3664D58975F2C467534096260BE6E5A79 (const RuntimeMethod* method)
 {
 	return ((  RuntimeObject* (*) (const RuntimeMethod*))CoreServices_GetSpatialAwarenessSystemDataProvider_TisRuntimeObject_mD3A30387912E89BB802ACD7ABFBC50D026901256_gshared)(method);
 }
-// System.Void UnityEngine.MonoBehaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
 #ifdef __clang__
@@ -383,6 +394,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_mCF1EEF2A314F3AE85D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void meshSaving::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void meshSaving_Start_mB8595E0084A6E2C19071D0C85E5C821CBC0843B2 (meshSaving_t101E27C5286B36B0E90D0A47E8118DACDCA0F3B9 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void meshSaving::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void meshSaving_Update_m7B34BE0ACEB7EF80D239B2CC0AC45AF42184CF21 (meshSaving_t101E27C5286B36B0E90D0A47E8118DACDCA0F3B9 * __this, const RuntimeMethod* method)
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void meshSaving::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void meshSaving__ctor_m213E3F094F7958FBDEFD2F3D7F0620FFABD57E75 (meshSaving_t101E27C5286B36B0E90D0A47E8118DACDCA0F3B9 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -427,9 +470,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void meshScript_toggleMesh_mDACCD84ECA534C325
 
 IL_001c:
 	{
-		// if (isActive)
+		// if (!isActive)
 		bool L_3 = __this->get_isActive_4();
-		if (!L_3)
+		if (L_3)
 		{
 			goto IL_0032;
 		}

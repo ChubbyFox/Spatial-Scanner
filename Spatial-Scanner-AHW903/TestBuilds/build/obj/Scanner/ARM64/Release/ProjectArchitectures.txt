@@ -1,1 +1,1 @@
-C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Scanner.vcxproj;arm64
+C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Scanner.vcxproj;arm64

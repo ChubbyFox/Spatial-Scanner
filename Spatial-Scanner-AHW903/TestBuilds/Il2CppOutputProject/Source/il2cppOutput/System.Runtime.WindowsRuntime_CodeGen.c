@@ -68,84 +68,97 @@ extern void Size_ToString_m0433DB6256B42158534031FE03B25F45662CFD7C (void);
 extern void TokenizerHelper_GetNumericListSeparator_m8F66D26308482525EE295CC145F2F1F6220ED81E (void);
 // 0x0000001C System.Void System.WindowsRuntimeSystemExtensions::ConcatenateCancelTokens(System.Threading.CancellationToken,System.Threading.CancellationTokenSource,System.Threading.Tasks.Task)
 extern void WindowsRuntimeSystemExtensions_ConcatenateCancelTokens_m374A4B9A291FCA8E231E671382BE9475DE4E9420 (void);
-// 0x0000001D System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.WindowsRuntimeSystemExtensions::GetAwaiter(Windows.Foundation.IAsyncOperation`1<TResult>)
-// 0x0000001E System.Threading.Tasks.Task`1<TResult> System.WindowsRuntimeSystemExtensions::AsTask(Windows.Foundation.IAsyncOperation`1<TResult>)
-// 0x0000001F System.Threading.Tasks.Task`1<TResult> System.WindowsRuntimeSystemExtensions::AsTask(Windows.Foundation.IAsyncOperation`1<TResult>,System.Threading.CancellationToken)
-// 0x00000020 System.Exception System.WindowsRuntimeSystemExtensions::AttachRestrictedErrorInfo(System.Exception)
+// 0x0000001D System.Runtime.CompilerServices.TaskAwaiter System.WindowsRuntimeSystemExtensions::GetAwaiter(Windows.Foundation.IAsyncAction)
+extern void WindowsRuntimeSystemExtensions_GetAwaiter_m0218FEA730C2DAD8311AA5A6BAE767DC7BB5D58B (void);
+// 0x0000001E System.Threading.Tasks.Task System.WindowsRuntimeSystemExtensions::AsTask(Windows.Foundation.IAsyncAction)
+extern void WindowsRuntimeSystemExtensions_AsTask_m2E55F03056523634B739716B7B550896E84A4EA7 (void);
+// 0x0000001F System.Threading.Tasks.Task System.WindowsRuntimeSystemExtensions::AsTask(Windows.Foundation.IAsyncAction,System.Threading.CancellationToken)
+extern void WindowsRuntimeSystemExtensions_AsTask_m90E8CBD429C9F6E44950602FCA88421E725F7F50 (void);
+// 0x00000020 System.Runtime.CompilerServices.TaskAwaiter`1<TResult> System.WindowsRuntimeSystemExtensions::GetAwaiter(Windows.Foundation.IAsyncOperation`1<TResult>)
+// 0x00000021 System.Threading.Tasks.Task`1<TResult> System.WindowsRuntimeSystemExtensions::AsTask(Windows.Foundation.IAsyncOperation`1<TResult>)
+// 0x00000022 System.Threading.Tasks.Task`1<TResult> System.WindowsRuntimeSystemExtensions::AsTask(Windows.Foundation.IAsyncOperation`1<TResult>,System.Threading.CancellationToken)
+// 0x00000023 System.Exception System.WindowsRuntimeSystemExtensions::AttachRestrictedErrorInfo(System.Exception)
 extern void WindowsRuntimeSystemExtensions_AttachRestrictedErrorInfo_mCB42F984443F85FD8ACB988808BA1FA7D09C83E8 (void);
-// 0x00000021 System.Void System.WindowsRuntimeSystemExtensions/<>c::.cctor()
+// 0x00000024 System.Void System.WindowsRuntimeSystemExtensions/<>c::.cctor()
 extern void U3CU3Ec__cctor_mB724E43DB250CF978F83BC92234DD18315C37297 (void);
-// 0x00000022 System.Void System.WindowsRuntimeSystemExtensions/<>c::.ctor()
+// 0x00000025 System.Void System.WindowsRuntimeSystemExtensions/<>c::.ctor()
 extern void U3CU3Ec__ctor_m9513CC4EE8B992C0AC93FFFCE848D90102E29B4D (void);
-// 0x00000023 System.Void System.WindowsRuntimeSystemExtensions/<>c::<ConcatenateCancelTokens>b__0_0(System.Object)
+// 0x00000026 System.Void System.WindowsRuntimeSystemExtensions/<>c::<ConcatenateCancelTokens>b__0_0(System.Object)
 extern void U3CU3Ec_U3CConcatenateCancelTokensU3Eb__0_0_m58C22FF74F0ED46128DC029260EBB1DBE0B078A9 (void);
-// 0x00000024 System.Void System.WindowsRuntimeSystemExtensions/<>c::<ConcatenateCancelTokens>b__0_1(System.Threading.Tasks.Task,System.Object)
+// 0x00000027 System.Void System.WindowsRuntimeSystemExtensions/<>c::<ConcatenateCancelTokens>b__0_1(System.Threading.Tasks.Task,System.Object)
 extern void U3CU3Ec_U3CConcatenateCancelTokensU3Eb__0_1_m3CA1C6225A9BBFF348E501B52B09F9F1BE240677 (void);
-// 0x00000025 System.UInt32 System.Threading.Tasks.AsyncInfoIdGenerator::CreateNext()
+// 0x00000028 System.UInt32 System.Threading.Tasks.AsyncInfoIdGenerator::CreateNext()
 extern void AsyncInfoIdGenerator_CreateNext_m64A992907A056F364EC61E6FD81AF8825172C572 (void);
-// 0x00000026 System.UInt32 System.Threading.Tasks.AsyncInfoIdGenerator::EnsureInitializedThreadsafe(System.UInt32&)
+// 0x00000029 System.UInt32 System.Threading.Tasks.AsyncInfoIdGenerator::EnsureInitializedThreadsafe(System.UInt32&)
 extern void AsyncInfoIdGenerator_EnsureInitializedThreadsafe_mDD6A11ACF3C28AE5704799980E65445BF3CED61B (void);
-// 0x00000027 System.Void System.Threading.Tasks.AsyncInfoIdGenerator::.cctor()
+// 0x0000002A System.Void System.Threading.Tasks.AsyncInfoIdGenerator::.cctor()
 extern void AsyncInfoIdGenerator__cctor_mA2B1D5EA3A4BA759B7968AE9EC61983455404889 (void);
-// 0x00000028 System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::.ctor(System.Threading.CancellationToken)
-// 0x00000029 System.Object System.Threading.Tasks.AsyncInfoToTaskBridge`1::get_StateLock()
-// 0x0000002A System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::RegisterForCancellation(Windows.Foundation.IAsyncInfo)
-// 0x0000002B System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::CompleteFromAsyncOperation(Windows.Foundation.IAsyncOperation`1<TResult>,Windows.Foundation.AsyncStatus)
-// 0x0000002C System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::Complete(Windows.Foundation.IAsyncInfo,System.Func`2<Windows.Foundation.IAsyncInfo,TResult>,Windows.Foundation.AsyncStatus)
-// 0x0000002D System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::.cctor()
-// 0x0000002E System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::.ctor()
-// 0x0000002F System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::<RegisterForCancellation>b__6_0(System.Object)
-// 0x00000030 TResult System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::<CompleteFromAsyncOperation>b__9_0(Windows.Foundation.IAsyncInfo)
-// 0x00000031 System.InvalidOperationException System.Threading.Tasks.TaskToAsyncInfoAdapter`4::CreateCannotGetResultsFromIncompleteOperationException(System.Exception)
-// 0x00000032 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::Finalize()
-// 0x00000033 System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_CompletedSynchronously()
-// 0x00000034 System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInRunToCompletionState()
-// 0x00000035 System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInErrorState()
-// 0x00000036 System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInClosedState()
-// 0x00000037 System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInTerminalState()
-// 0x00000038 System.Threading.Tasks.Task System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Task()
-// 0x00000039 System.Threading.CancellationTokenSource System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_CancelTokenSource()
-// 0x0000003A System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::EnsureNotClosed()
-// 0x0000003B System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::OnCompleted(TCompletedHandler,Windows.Foundation.AsyncStatus)
-// 0x0000003C System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::OnCompletedInvoker(Windows.Foundation.AsyncStatus)
-// 0x0000003D System.Int32 System.Threading.Tasks.TaskToAsyncInfoAdapter`4::SetAsyncState(System.Int32,System.Int32,System.Boolean,System.Boolean&)
-// 0x0000003E System.Int32 System.Threading.Tasks.TaskToAsyncInfoAdapter`4::SetState(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean&)
-// 0x0000003F Windows.Foundation.AsyncStatus System.Threading.Tasks.TaskToAsyncInfoAdapter`4::GetStatus(System.Int32)
-// 0x00000040 TResult System.Threading.Tasks.TaskToAsyncInfoAdapter`4::GetResultsInternal()
-// 0x00000041 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::TransitionToClosed()
-// 0x00000042 TCompletedHandler System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Completed()
-// 0x00000043 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::set_Completed(TCompletedHandler)
-// 0x00000044 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::Cancel()
-// 0x00000045 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::Close()
-// 0x00000046 System.Exception System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_ErrorCode()
-// 0x00000047 System.UInt32 System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Id()
-// 0x00000048 Windows.Foundation.AsyncStatus System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Status()
-// 0x00000049 TResult System.Threading.Tasks.TaskToAsyncOperationAdapter`1::GetResults()
-// 0x0000004A System.Void System.Threading.Tasks.TaskToAsyncOperationAdapter`1::OnCompleted(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>,Windows.Foundation.AsyncStatus)
-// 0x0000004B System.Void System.Threading.Tasks.TaskToAsyncOperationAdapter`1::Windows.Foundation.IAsyncOperation<TResult>.put_Completed(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>)
-// 0x0000004C System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
-// 0x0000004D System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::.ctor(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32,System.Int32)
-// 0x0000004E System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::CreateKeyValueArray(System.Int32,System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>>)
-// 0x0000004F System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Count()
-// 0x00000050 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000051 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::GetEnumerator()
-// 0x00000052 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::Split(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>&,System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>&)
-// 0x00000053 System.Boolean System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::ContainsKey(TKey)
-// 0x00000054 System.Boolean System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::TryGetValue(TKey,TValue&)
-// 0x00000055 TValue System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Item(TKey)
-// 0x00000056 System.Collections.Generic.IEnumerable`1<TKey> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Keys()
-// 0x00000057 System.Collections.Generic.IEnumerable`1<TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Values()
-// 0x00000058 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::.cctor()
-// 0x00000059 System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer::Compare(System.Collections.Generic.KeyValuePair`2<TKey,TValue>,System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-// 0x0000005A System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer::.ctor()
-// 0x0000005B System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer::.cctor()
-// 0x0000005C System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::.ctor(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32,System.Int32)
-// 0x0000005D System.Boolean System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::MoveNext()
-// 0x0000005E System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::get_Current()
-// 0x0000005F System.Object System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::System.Collections.IEnumerator.get_Current()
-// 0x00000060 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::System.Collections.IEnumerator.Reset()
-// 0x00000061 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::Dispose()
-static Il2CppMethodPointer s_methodPointers[97] = 
+// 0x0000002B System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::.ctor(System.Threading.CancellationToken)
+// 0x0000002C System.Object System.Threading.Tasks.AsyncInfoToTaskBridge`1::get_StateLock()
+// 0x0000002D System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::RegisterForCancellation(Windows.Foundation.IAsyncInfo)
+// 0x0000002E System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::CompleteFromAsyncAction(Windows.Foundation.IAsyncAction,Windows.Foundation.AsyncStatus)
+// 0x0000002F System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::CompleteFromAsyncOperation(Windows.Foundation.IAsyncOperation`1<TResult>,Windows.Foundation.AsyncStatus)
+// 0x00000030 System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1::Complete(Windows.Foundation.IAsyncInfo,System.Func`2<Windows.Foundation.IAsyncInfo,TResult>,Windows.Foundation.AsyncStatus)
+// 0x00000031 System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::.cctor()
+// 0x00000032 System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::.ctor()
+// 0x00000033 System.Void System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::<RegisterForCancellation>b__6_0(System.Object)
+// 0x00000034 TResult System.Threading.Tasks.AsyncInfoToTaskBridge`1/<>c::<CompleteFromAsyncOperation>b__9_0(Windows.Foundation.IAsyncInfo)
+// 0x00000035 System.Void System.Threading.Tasks.TaskToAsyncActionAdapter::GetResults()
+extern void TaskToAsyncActionAdapter_GetResults_m80C8CD1B77250D4E55F672EA38177E27E9DB6E79 (void);
+// 0x00000036 System.Void System.Threading.Tasks.TaskToAsyncActionAdapter::OnCompleted(Windows.Foundation.AsyncActionCompletedHandler,Windows.Foundation.AsyncStatus)
+extern void TaskToAsyncActionAdapter_OnCompleted_mDF719A3367C053B57054D09785C3E0C348C137DD (void);
+// 0x00000037 System.Void System.Threading.Tasks.TaskToAsyncActionAdapter::Windows.Foundation.IAsyncAction.put_Completed(Windows.Foundation.AsyncActionCompletedHandler)
+extern void TaskToAsyncActionAdapter_Windows_Foundation_IAsyncAction_put_Completed_mBB32249F4F0FA126B4CEAD879BD252977935CCA6 (void);
+// 0x00000038 System.InvalidOperationException System.Threading.Tasks.TaskToAsyncInfoAdapter`4::CreateCannotGetResultsFromIncompleteOperationException(System.Exception)
+// 0x00000039 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::Finalize()
+// 0x0000003A System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_CompletedSynchronously()
+// 0x0000003B System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInRunToCompletionState()
+// 0x0000003C System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInErrorState()
+// 0x0000003D System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInClosedState()
+// 0x0000003E System.Boolean System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_IsInTerminalState()
+// 0x0000003F System.Threading.Tasks.Task System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Task()
+// 0x00000040 System.Threading.CancellationTokenSource System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_CancelTokenSource()
+// 0x00000041 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::EnsureNotClosed()
+// 0x00000042 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::OnCompleted(TCompletedHandler,Windows.Foundation.AsyncStatus)
+// 0x00000043 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::OnCompletedInvoker(Windows.Foundation.AsyncStatus)
+// 0x00000044 System.Int32 System.Threading.Tasks.TaskToAsyncInfoAdapter`4::SetAsyncState(System.Int32,System.Int32,System.Boolean,System.Boolean&)
+// 0x00000045 System.Int32 System.Threading.Tasks.TaskToAsyncInfoAdapter`4::SetState(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean&)
+// 0x00000046 Windows.Foundation.AsyncStatus System.Threading.Tasks.TaskToAsyncInfoAdapter`4::GetStatus(System.Int32)
+// 0x00000047 TResult System.Threading.Tasks.TaskToAsyncInfoAdapter`4::GetResultsInternal()
+// 0x00000048 System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::TransitionToClosed()
+// 0x00000049 TCompletedHandler System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Completed()
+// 0x0000004A System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::set_Completed(TCompletedHandler)
+// 0x0000004B System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::Cancel()
+// 0x0000004C System.Void System.Threading.Tasks.TaskToAsyncInfoAdapter`4::Close()
+// 0x0000004D System.Exception System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_ErrorCode()
+// 0x0000004E System.UInt32 System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Id()
+// 0x0000004F Windows.Foundation.AsyncStatus System.Threading.Tasks.TaskToAsyncInfoAdapter`4::get_Status()
+// 0x00000050 TResult System.Threading.Tasks.TaskToAsyncOperationAdapter`1::GetResults()
+// 0x00000051 System.Void System.Threading.Tasks.TaskToAsyncOperationAdapter`1::OnCompleted(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>,Windows.Foundation.AsyncStatus)
+// 0x00000052 System.Void System.Threading.Tasks.TaskToAsyncOperationAdapter`1::Windows.Foundation.IAsyncOperation<TResult>.put_Completed(Windows.Foundation.AsyncOperationCompletedHandler`1<TResult>)
+// 0x00000053 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::.ctor(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>)
+// 0x00000054 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::.ctor(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32,System.Int32)
+// 0x00000055 System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::CreateKeyValueArray(System.Int32,System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>>)
+// 0x00000056 System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Count()
+// 0x00000057 System.Collections.IEnumerator System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000058 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::GetEnumerator()
+// 0x00000059 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::Split(System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>&,System.Collections.Generic.IReadOnlyDictionary`2<TKey,TValue>&)
+// 0x0000005A System.Boolean System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::ContainsKey(TKey)
+// 0x0000005B System.Boolean System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::TryGetValue(TKey,TValue&)
+// 0x0000005C TValue System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Item(TKey)
+// 0x0000005D System.Collections.Generic.IEnumerable`1<TKey> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Keys()
+// 0x0000005E System.Collections.Generic.IEnumerable`1<TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::get_Values()
+// 0x0000005F System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2::.cctor()
+// 0x00000060 System.Int32 System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer::Compare(System.Collections.Generic.KeyValuePair`2<TKey,TValue>,System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+// 0x00000061 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer::.ctor()
+// 0x00000062 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairComparer::.cctor()
+// 0x00000063 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::.ctor(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32,System.Int32)
+// 0x00000064 System.Boolean System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::MoveNext()
+// 0x00000065 System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::get_Current()
+// 0x00000066 System.Object System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::System.Collections.IEnumerator.get_Current()
+// 0x00000067 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::System.Collections.IEnumerator.Reset()
+// 0x00000068 System.Void System.Runtime.InteropServices.WindowsRuntime.ConstantSplittableMap`2/KeyValuePairEnumerator::Dispose()
+static Il2CppMethodPointer s_methodPointers[104] = 
 {
 	Point_get_X_mBB038490F2A4DEDC4933215A768B9A81E4C2CC1B,
 	Point_get_Y_m2F97D657DF50D6247401C2290485AB8543DF6D46,
@@ -175,6 +188,9 @@ static Il2CppMethodPointer s_methodPointers[97] =
 	Size_ToString_m0433DB6256B42158534031FE03B25F45662CFD7C,
 	TokenizerHelper_GetNumericListSeparator_m8F66D26308482525EE295CC145F2F1F6220ED81E,
 	WindowsRuntimeSystemExtensions_ConcatenateCancelTokens_m374A4B9A291FCA8E231E671382BE9475DE4E9420,
+	WindowsRuntimeSystemExtensions_GetAwaiter_m0218FEA730C2DAD8311AA5A6BAE767DC7BB5D58B,
+	WindowsRuntimeSystemExtensions_AsTask_m2E55F03056523634B739716B7B550896E84A4EA7,
+	WindowsRuntimeSystemExtensions_AsTask_m90E8CBD429C9F6E44950602FCA88421E725F7F50,
 	NULL,
 	NULL,
 	NULL,
@@ -195,6 +211,10 @@ static Il2CppMethodPointer s_methodPointers[97] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
+	TaskToAsyncActionAdapter_GetResults_m80C8CD1B77250D4E55F672EA38177E27E9DB6E79,
+	TaskToAsyncActionAdapter_OnCompleted_mDF719A3367C053B57054D09785C3E0C348C137DD,
+	TaskToAsyncActionAdapter_Windows_Foundation_IAsyncAction_put_Completed_mBB32249F4F0FA126B4CEAD879BD252977935CCA6,
 	NULL,
 	NULL,
 	NULL,
@@ -294,47 +314,50 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[23] =
 	{ 0x06000018, Size_GetHashCode_mF60F1C386F7CC56AC0C97E0F87C0AF09B15A2F6C_AdjustorThunk },
 	{ 0x0600001A, Size_ToString_m0433DB6256B42158534031FE03B25F45662CFD7C_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[97] = 
+static const int32_t s_InvokerIndices[104] = 
 {
-	3411,
-	3411,
-	3477,
-	1215,
-	1215,
-	4613,
-	2557,
-	3448,
-	3411,
-	3411,
-	3411,
-	3411,
-	3510,
-	3477,
-	1215,
-	1215,
-	4619,
-	2557,
-	3448,
-	3411,
-	3411,
-	3510,
-	2557,
-	3448,
-	4624,
-	3477,
-	4840,
-	4370,
+	3495,
+	3495,
+	3563,
+	1250,
+	1250,
+	4725,
+	2617,
+	3533,
+	3495,
+	3495,
+	3495,
+	3495,
+	3596,
+	3563,
+	1250,
+	1250,
+	4731,
+	2617,
+	3533,
+	3495,
+	3495,
+	3596,
+	2617,
+	3533,
+	4736,
+	3563,
+	4963,
+	4474,
+	5125,
+	5054,
+	4640,
 	-1,
 	-1,
 	-1,
-	4929,
-	5107,
-	3551,
-	2938,
-	1729,
-	5073,
-	4845,
-	5107,
+	5054,
+	5247,
+	3640,
+	3007,
+	1777,
+	5212,
+	4968,
+	5247,
 	-1,
 	-1,
 	-1,
@@ -344,6 +367,10 @@ static const int32_t s_InvokerIndices[97] =
 	-1,
 	-1,
 	-1,
+	-1,
+	3640,
+	1772,
+	3007,
 	-1,
 	-1,
 	-1,
@@ -398,117 +425,117 @@ static const Il2CppTokenRangePair s_rgctxIndices[10] =
 {
 	{ 0x0200000B, { 19, 14 } },
 	{ 0x0200000C, { 33, 4 } },
-	{ 0x0200000D, { 37, 24 } },
-	{ 0x0200000E, { 61, 3 } },
-	{ 0x0200000F, { 64, 22 } },
-	{ 0x02000010, { 86, 5 } },
-	{ 0x02000011, { 91, 2 } },
-	{ 0x0600001D, { 0, 2 } },
-	{ 0x0600001E, { 2, 1 } },
-	{ 0x0600001F, { 3, 16 } },
+	{ 0x0200000E, { 37, 24 } },
+	{ 0x0200000F, { 61, 3 } },
+	{ 0x02000010, { 64, 22 } },
+	{ 0x02000011, { 86, 5 } },
+	{ 0x02000012, { 91, 2 } },
+	{ 0x06000020, { 0, 2 } },
+	{ 0x06000021, { 2, 1 } },
+	{ 0x06000022, { 3, 16 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[93] = 
 {
-	{ (Il2CppRGCTXDataType)3, 38625 },
-	{ (Il2CppRGCTXDataType)3, 31325 },
-	{ (Il2CppRGCTXDataType)3, 38628 },
-	{ (Il2CppRGCTXDataType)2, 7510 },
-	{ (Il2CppRGCTXDataType)3, 31228 },
-	{ (Il2CppRGCTXDataType)3, 31229 },
-	{ (Il2CppRGCTXDataType)2, 7519 },
-	{ (Il2CppRGCTXDataType)3, 31227 },
-	{ (Il2CppRGCTXDataType)2, 3177 },
-	{ (Il2CppRGCTXDataType)3, 38438 },
-	{ (Il2CppRGCTXDataType)3, 38433 },
-	{ (Il2CppRGCTXDataType)3, 38424 },
-	{ (Il2CppRGCTXDataType)2, 1069 },
-	{ (Il2CppRGCTXDataType)3, 1488 },
-	{ (Il2CppRGCTXDataType)3, 1489 },
-	{ (Il2CppRGCTXDataType)2, 1076 },
-	{ (Il2CppRGCTXDataType)3, 1522 },
-	{ (Il2CppRGCTXDataType)3, 1490 },
-	{ (Il2CppRGCTXDataType)3, 31166 },
-	{ (Il2CppRGCTXDataType)3, 31167 },
-	{ (Il2CppRGCTXDataType)2, 7505 },
-	{ (Il2CppRGCTXDataType)2, 840 },
+	{ (Il2CppRGCTXDataType)3, 40071 },
+	{ (Il2CppRGCTXDataType)3, 32464 },
+	{ (Il2CppRGCTXDataType)3, 40074 },
+	{ (Il2CppRGCTXDataType)2, 7891 },
+	{ (Il2CppRGCTXDataType)3, 32331 },
+	{ (Il2CppRGCTXDataType)3, 32332 },
+	{ (Il2CppRGCTXDataType)2, 7902 },
+	{ (Il2CppRGCTXDataType)3, 32330 },
+	{ (Il2CppRGCTXDataType)2, 3358 },
+	{ (Il2CppRGCTXDataType)3, 39873 },
+	{ (Il2CppRGCTXDataType)3, 39868 },
+	{ (Il2CppRGCTXDataType)3, 39857 },
+	{ (Il2CppRGCTXDataType)2, 1123 },
+	{ (Il2CppRGCTXDataType)3, 1541 },
+	{ (Il2CppRGCTXDataType)3, 1542 },
+	{ (Il2CppRGCTXDataType)2, 1131 },
+	{ (Il2CppRGCTXDataType)3, 1583 },
+	{ (Il2CppRGCTXDataType)3, 1543 },
+	{ (Il2CppRGCTXDataType)3, 32259 },
+	{ (Il2CppRGCTXDataType)3, 32260 },
+	{ (Il2CppRGCTXDataType)2, 7885 },
+	{ (Il2CppRGCTXDataType)2, 887 },
 	{ (Il2CppRGCTXDataType)3, 1 },
-	{ (Il2CppRGCTXDataType)3, 1492 },
-	{ (Il2CppRGCTXDataType)3, 31171 },
-	{ (Il2CppRGCTXDataType)3, 31169 },
+	{ (Il2CppRGCTXDataType)3, 1545 },
+	{ (Il2CppRGCTXDataType)3, 32264 },
+	{ (Il2CppRGCTXDataType)3, 32262 },
+	{ (Il2CppRGCTXDataType)3, 1544 },
 	{ (Il2CppRGCTXDataType)3, 0 },
-	{ (Il2CppRGCTXDataType)2, 3051 },
-	{ (Il2CppRGCTXDataType)3, 12646 },
-	{ (Il2CppRGCTXDataType)3, 1491 },
-	{ (Il2CppRGCTXDataType)3, 12647 },
-	{ (Il2CppRGCTXDataType)3, 31170 },
-	{ (Il2CppRGCTXDataType)3, 31168 },
-	{ (Il2CppRGCTXDataType)2, 845 },
-	{ (Il2CppRGCTXDataType)3, 6 },
-	{ (Il2CppRGCTXDataType)2, 845 },
-	{ (Il2CppRGCTXDataType)2, 3181 },
-	{ (Il2CppRGCTXDataType)3, 31219 },
-	{ (Il2CppRGCTXDataType)3, 31213 },
-	{ (Il2CppRGCTXDataType)3, 31220 },
-	{ (Il2CppRGCTXDataType)3, 31222 },
-	{ (Il2CppRGCTXDataType)3, 38612 },
-	{ (Il2CppRGCTXDataType)2, 566 },
-	{ (Il2CppRGCTXDataType)3, 31218 },
-	{ (Il2CppRGCTXDataType)3, 31215 },
-	{ (Il2CppRGCTXDataType)3, 31223 },
-	{ (Il2CppRGCTXDataType)3, 31221 },
-	{ (Il2CppRGCTXDataType)3, 31224 },
-	{ (Il2CppRGCTXDataType)3, 31212 },
-	{ (Il2CppRGCTXDataType)2, 7508 },
-	{ (Il2CppRGCTXDataType)2, 820 },
-	{ (Il2CppRGCTXDataType)2, 7537 },
-	{ (Il2CppRGCTXDataType)3, 31358 },
-	{ (Il2CppRGCTXDataType)3, 31088 },
-	{ (Il2CppRGCTXDataType)3, 31217 },
-	{ (Il2CppRGCTXDataType)3, 37950 },
-	{ (Il2CppRGCTXDataType)3, 37956 },
-	{ (Il2CppRGCTXDataType)3, 31226 },
-	{ (Il2CppRGCTXDataType)3, 31216 },
-	{ (Il2CppRGCTXDataType)3, 31225 },
-	{ (Il2CppRGCTXDataType)3, 31214 },
-	{ (Il2CppRGCTXDataType)3, 31233 },
-	{ (Il2CppRGCTXDataType)3, 1523 },
-	{ (Il2CppRGCTXDataType)3, 31238 },
-	{ (Il2CppRGCTXDataType)2, 4811 },
+	{ (Il2CppRGCTXDataType)2, 3222 },
+	{ (Il2CppRGCTXDataType)3, 13062 },
+	{ (Il2CppRGCTXDataType)3, 13063 },
+	{ (Il2CppRGCTXDataType)3, 32263 },
+	{ (Il2CppRGCTXDataType)3, 32261 },
+	{ (Il2CppRGCTXDataType)2, 893 },
+	{ (Il2CppRGCTXDataType)3, 7 },
+	{ (Il2CppRGCTXDataType)2, 893 },
+	{ (Il2CppRGCTXDataType)2, 3362 },
+	{ (Il2CppRGCTXDataType)3, 32322 },
+	{ (Il2CppRGCTXDataType)3, 32316 },
+	{ (Il2CppRGCTXDataType)3, 32323 },
+	{ (Il2CppRGCTXDataType)3, 32325 },
+	{ (Il2CppRGCTXDataType)3, 40058 },
+	{ (Il2CppRGCTXDataType)2, 587 },
+	{ (Il2CppRGCTXDataType)3, 32321 },
+	{ (Il2CppRGCTXDataType)3, 32318 },
+	{ (Il2CppRGCTXDataType)3, 32326 },
+	{ (Il2CppRGCTXDataType)3, 32324 },
+	{ (Il2CppRGCTXDataType)3, 32327 },
+	{ (Il2CppRGCTXDataType)3, 32315 },
+	{ (Il2CppRGCTXDataType)2, 7888 },
+	{ (Il2CppRGCTXDataType)2, 866 },
+	{ (Il2CppRGCTXDataType)2, 7920 },
+	{ (Il2CppRGCTXDataType)3, 32497 },
+	{ (Il2CppRGCTXDataType)3, 32168 },
+	{ (Il2CppRGCTXDataType)3, 32320 },
+	{ (Il2CppRGCTXDataType)3, 39363 },
+	{ (Il2CppRGCTXDataType)3, 39369 },
+	{ (Il2CppRGCTXDataType)3, 32329 },
+	{ (Il2CppRGCTXDataType)3, 32319 },
+	{ (Il2CppRGCTXDataType)3, 32328 },
+	{ (Il2CppRGCTXDataType)3, 32317 },
+	{ (Il2CppRGCTXDataType)3, 32336 },
+	{ (Il2CppRGCTXDataType)3, 1584 },
+	{ (Il2CppRGCTXDataType)3, 32341 },
+	{ (Il2CppRGCTXDataType)2, 5064 },
+	{ (Il2CppRGCTXDataType)2, 3714 },
+	{ (Il2CppRGCTXDataType)3, 3785 },
+	{ (Il2CppRGCTXDataType)2, 9138 },
+	{ (Il2CppRGCTXDataType)2, 3969 },
+	{ (Il2CppRGCTXDataType)2, 1287 },
+	{ (Il2CppRGCTXDataType)3, 38210 },
+	{ (Il2CppRGCTXDataType)3, 3786 },
+	{ (Il2CppRGCTXDataType)2, 5843 },
+	{ (Il2CppRGCTXDataType)3, 21669 },
+	{ (Il2CppRGCTXDataType)3, 3788 },
+	{ (Il2CppRGCTXDataType)2, 1287 },
+	{ (Il2CppRGCTXDataType)3, 3784 },
+	{ (Il2CppRGCTXDataType)3, 21880 },
+	{ (Il2CppRGCTXDataType)3, 35239 },
+	{ (Il2CppRGCTXDataType)3, 21882 },
+	{ (Il2CppRGCTXDataType)3, 3787 },
+	{ (Il2CppRGCTXDataType)2, 8954 },
+	{ (Il2CppRGCTXDataType)3, 21881 },
+	{ (Il2CppRGCTXDataType)2, 9006 },
+	{ (Il2CppRGCTXDataType)2, 5840 },
+	{ (Il2CppRGCTXDataType)3, 21566 },
+	{ (Il2CppRGCTXDataType)2, 5842 },
+	{ (Il2CppRGCTXDataType)3, 21902 },
 	{ (Il2CppRGCTXDataType)2, 3510 },
-	{ (Il2CppRGCTXDataType)3, 3611 },
-	{ (Il2CppRGCTXDataType)2, 8675 },
-	{ (Il2CppRGCTXDataType)2, 3748 },
-	{ (Il2CppRGCTXDataType)2, 1220 },
-	{ (Il2CppRGCTXDataType)3, 36855 },
-	{ (Il2CppRGCTXDataType)3, 3612 },
-	{ (Il2CppRGCTXDataType)2, 5550 },
-	{ (Il2CppRGCTXDataType)3, 20955 },
-	{ (Il2CppRGCTXDataType)3, 3614 },
-	{ (Il2CppRGCTXDataType)2, 1220 },
-	{ (Il2CppRGCTXDataType)3, 3610 },
-	{ (Il2CppRGCTXDataType)3, 21160 },
-	{ (Il2CppRGCTXDataType)3, 33939 },
-	{ (Il2CppRGCTXDataType)3, 21162 },
-	{ (Il2CppRGCTXDataType)3, 3613 },
-	{ (Il2CppRGCTXDataType)2, 8499 },
-	{ (Il2CppRGCTXDataType)3, 21161 },
-	{ (Il2CppRGCTXDataType)2, 8547 },
-	{ (Il2CppRGCTXDataType)2, 5547 },
-	{ (Il2CppRGCTXDataType)3, 20855 },
-	{ (Il2CppRGCTXDataType)2, 5549 },
-	{ (Il2CppRGCTXDataType)3, 21182 },
-	{ (Il2CppRGCTXDataType)2, 3327 },
-	{ (Il2CppRGCTXDataType)3, 2382 },
-	{ (Il2CppRGCTXDataType)2, 1153 },
-	{ (Il2CppRGCTXDataType)3, 20956 },
-	{ (Il2CppRGCTXDataType)2, 5683 },
+	{ (Il2CppRGCTXDataType)3, 2496 },
+	{ (Il2CppRGCTXDataType)2, 1216 },
+	{ (Il2CppRGCTXDataType)3, 21670 },
+	{ (Il2CppRGCTXDataType)2, 5979 },
 };
 extern const CustomAttributesCacheGenerator g_System_Runtime_WindowsRuntime_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_CodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_CodeGenModule = 
 {
 	"System.Runtime.WindowsRuntime.dll",
-	97,
+	104,
 	s_methodPointers,
 	23,
 	s_adjustorThunks,

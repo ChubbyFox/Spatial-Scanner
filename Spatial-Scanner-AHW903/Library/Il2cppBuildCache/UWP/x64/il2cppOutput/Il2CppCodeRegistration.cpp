@@ -25,6 +25,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_MidEast_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_Other_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_Rare_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_I18N_West_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_SceneUnderstanding_Projections_WSA_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Async_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Gltf_CodeGenModule;
@@ -43,18 +44,24 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Servi
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_SceneSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_Windows_MixedReality_DotNetWinRT_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Core_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Diagnostics_StackTrace_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Globalization_Extensions_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_Compression_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Numerics_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Numerics_Vectors_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_ObjectModel_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_InteropServices_WindowsRuntime_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_Serialization_Xml_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Xml_XPath_XDocument_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AIModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_ARModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AndroidJNIModule_CodeGenModule;
@@ -98,8 +105,9 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_Management_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_WindowsMixedReality_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_netstandard_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[80] = 
+const Il2CppCodeGenModule* g_CodeGenModules[88] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_I18N_CJK_CodeGenModule),
@@ -108,6 +116,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[80] =
 	(&g_I18N_Other_CodeGenModule),
 	(&g_I18N_Rare_CodeGenModule),
 	(&g_I18N_West_CodeGenModule),
+	(&g_Microsoft_MixedReality_SceneUnderstanding_Projections_WSA_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Async_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Gltf_CodeGenModule),
@@ -126,18 +135,24 @@ const Il2CppCodeGenModule* g_CodeGenModules[80] =
 	(&g_Microsoft_MixedReality_Toolkit_Services_SceneSystem_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Services_SpatialAwarenessSystem_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_CodeGenModule),
+	(&g_Microsoft_Windows_MixedReality_DotNetWinRT_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
 	(&g_System_Core_CodeGenModule),
+	(&g_System_Diagnostics_StackTrace_CodeGenModule),
+	(&g_System_Globalization_Extensions_CodeGenModule),
+	(&g_System_IO_Compression_CodeGenModule),
 	(&g_System_Numerics_CodeGenModule),
 	(&g_System_Numerics_Vectors_CodeGenModule),
 	(&g_System_ObjectModel_CodeGenModule),
 	(&g_System_Runtime_CodeGenModule),
 	(&g_System_Runtime_InteropServices_WindowsRuntime_CodeGenModule),
+	(&g_System_Runtime_Serialization_Xml_CodeGenModule),
 	(&g_System_Runtime_WindowsRuntime_CodeGenModule),
 	(&g_System_Runtime_WindowsRuntime_UI_Xaml_CodeGenModule),
 	(&g_System_Xml_CodeGenModule),
+	(&g_System_Xml_XPath_XDocument_CodeGenModule),
 	(&g_UnityEngine_AIModule_CodeGenModule),
 	(&g_UnityEngine_ARModule_CodeGenModule),
 	(&g_UnityEngine_AndroidJNIModule_CodeGenModule),
@@ -181,24 +196,25 @@ const Il2CppCodeGenModule* g_CodeGenModules[80] =
 	(&g_Unity_XR_WindowsMixedReality_CodeGenModule),
 	(&g_WindowsRuntimeMetadata_CodeGenModule),
 	(&g_mscorlib_CodeGenModule),
+	(&g_netstandard_CodeGenModule),
 };
 IL2CPP_EXTERN_C const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
 	2,
 	g_ReversePInvokeWrapperPointers,
-	34040,
+	35222,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	5113,
+	5253,
 	g_Il2CppInvokerPointers,
-	1330,
+	1372,
 	g_UnresolvedVirtualMethodPointers,
-	5393,
+	5621,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	80,
+	88,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
