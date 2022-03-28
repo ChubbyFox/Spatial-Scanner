@@ -560,7 +560,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "meshScript",
+            "fullManagedTypeName": "Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript",
             "moduleName": "",
             "usedInScenes": []
         },

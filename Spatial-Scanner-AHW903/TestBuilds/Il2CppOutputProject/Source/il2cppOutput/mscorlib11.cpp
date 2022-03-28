@@ -10,6 +10,7 @@
 #include <limits>
 #include <stdint.h>
 
+#include "icalls/mscorlib/System.IO/Path.h"
 #include "icalls/mscorlib/System.Reflection/PropertyInfo.h"
 #include "icalls/mscorlib/System.Security.Cryptography/RNGCryptoServiceProvider.h"
 #include "icalls/mscorlib/System.Runtime.Remoting.Proxies/RealProxy.h"
@@ -16386,6 +16387,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOfUnchecked_m594D9BC18203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_CanonicalizePath_mC4DB5CEAB83FCD0A85B03C1DBBAD4CD4484150DD (String_t* ___path0, const RuntimeMethod* method);
 // System.Boolean System.IO.MonoIO::RemapPath(System.String,System.String&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_RemapPath_mCA13E28157144B5288559DAFD9A5C046364A7E57 (String_t* ___path0, String_t** ___newPath1, const RuntimeMethod* method);
+// System.String System.IO.Path::get_temp_path()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_temp_path_mDBB9BD4A017102C96ACA64815B466AD9085D40D1 (const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_mE27238308FED781F2D6A719F0903F2E1311B058F (RuntimeArray * ___array0, RuntimeFieldHandle_t7BE65FC857501059EBAC9772C93B02CD413D9C96  ___fldHandle1, const RuntimeMethod* method);
 // System.Int32 System.String::LastIndexOf(System.Char)
@@ -26301,6 +26304,73 @@ IL_0154:
 		L_75 = String_Substring_m7A39A2AC0893AE940CF4CEC841326D56FFB9D86B(L_73, 0, L_74, /*hidden argument*/NULL);
 		return L_75;
 	}
+}
+// System.String System.IO.Path::GetTempPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetTempPath_m3A0C2630133CA7FCD4BE0F2B5440A6C46DC53B83 (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	Il2CppChar V_1 = 0x0;
+	{
+		SecurityManager_EnsureElevatedPermissions_m0001DD198EAC7A894C4AC9C9D7443379C0E4899B(/*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		String_t* L_0;
+		L_0 = Path_get_temp_path_mDBB9BD4A017102C96ACA64815B466AD9085D40D1(/*hidden argument*/NULL);
+		V_0 = L_0;
+		String_t* L_1 = V_0;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_1, /*hidden argument*/NULL);
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		String_t* L_3 = V_0;
+		String_t* L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Il2CppChar L_6;
+		L_6 = String_get_Chars_m9B1A5E4C8D70AA33A60F03735AF7B77AB9DBBA70(L_3, ((int32_t)il2cpp_codegen_subtract((int32_t)L_5, (int32_t)1)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		Il2CppChar L_7 = ((Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields*)il2cpp_codegen_static_fields_for(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var))->get_DirectorySeparatorChar_2();
+		if ((((int32_t)L_6) == ((int32_t)L_7)))
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		String_t* L_8 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
+		Il2CppChar L_9 = ((Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_StaticFields*)il2cpp_codegen_static_fields_for(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var))->get_DirectorySeparatorChar_2();
+		V_1 = L_9;
+		String_t* L_10;
+		L_10 = Char_ToString_mE0DE433463C56FD30A4F0A50539553B17147C2F8((Il2CppChar*)(&V_1), /*hidden argument*/NULL);
+		String_t* L_11;
+		L_11 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(L_8, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_003d:
+	{
+		String_t* L_12 = V_0;
+		return L_12;
+	}
+}
+// System.String System.IO.Path::get_temp_path()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_get_temp_path_mDBB9BD4A017102C96ACA64815B466AD9085D40D1 (const RuntimeMethod* method)
+{
+	typedef String_t* (*Path_get_temp_path_mDBB9BD4A017102C96ACA64815B466AD9085D40D1_ftn) ();
+	using namespace il2cpp::icalls;
+	return ((Path_get_temp_path_mDBB9BD4A017102C96ACA64815B466AD9085D40D1_ftn)mscorlib::System::IO::Path::get_temp_path) ();
 }
 // System.Boolean System.IO.Path::IsPathRooted(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Path_IsPathRooted_m7AE5EE2D8E5FA9F9D6FD0AA840C532D1F6CD4EA3 (String_t* ___path0, const RuntimeMethod* method)

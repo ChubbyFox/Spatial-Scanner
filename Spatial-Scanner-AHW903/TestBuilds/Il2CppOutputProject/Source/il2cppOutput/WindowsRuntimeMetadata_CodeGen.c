@@ -576,390 +576,395 @@ extern void ApplicationData_get_Current_mEC0F896D294D660711178C8F7D6F75697B10B23
 extern void ApplicationData_Dispose_mFFB016C1895CAA7DF334B33B04687CAA71D61756 (void);
 // 0x00000182 System.Void Windows.Storage.ApplicationData::Finalize()
 extern void ApplicationData_Finalize_m6471ECD3ACDA6B47020D181C5E70FE34744169BA (void);
-// 0x00000183 Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IBuffer> Windows.Storage.FileIO::ReadBufferAsync(Windows.Storage.IStorageFile)
+// 0x00000183 Windows.Foundation.IAsyncAction Windows.Storage.FileIO::AppendTextAsync(Windows.Storage.IStorageFile,System.String)
+extern void FileIO_AppendTextAsync_m43E7E7074D7E9CB760170590216025B230DF9E56 (void);
+// 0x00000184 Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IBuffer> Windows.Storage.FileIO::ReadBufferAsync(Windows.Storage.IStorageFile)
 extern void FileIO_ReadBufferAsync_m911E2F6D26359AE672FC77B34C443B1A0E2CF018 (void);
-// 0x00000184 Windows.Foundation.IAsyncAction Windows.Storage.FileIO::WriteBytesAsync(Windows.Storage.IStorageFile,System.Byte[])
+// 0x00000185 Windows.Foundation.IAsyncAction Windows.Storage.FileIO::WriteBytesAsync(Windows.Storage.IStorageFile,System.Byte[])
 extern void FileIO_WriteBytesAsync_mCFE4E28CAEDD1B418E1238F934F2FFB4ECAFFF47 (void);
-// 0x00000185 System.Void Windows.Storage.FileIO::Finalize()
+// 0x00000186 System.Void Windows.Storage.FileIO::Finalize()
 extern void FileIO_Finalize_mF4F765FA6D992C35B75E215652DE9021F8BCD575 (void);
-// 0x00000186 System.Void Windows.Storage.IApplicationData::$__Stripped0_get_Version()
-// 0x00000187 System.Void Windows.Storage.IApplicationData::$__Stripped1_SetVersionAsync()
-// 0x00000188 System.Void Windows.Storage.IApplicationData::$__Stripped2_ClearAsync()
-// 0x00000189 System.Void Windows.Storage.IApplicationData::$__Stripped3_ClearAsync()
-// 0x0000018A System.Void Windows.Storage.IApplicationData::$__Stripped4_get_LocalSettings()
-// 0x0000018B System.Void Windows.Storage.IApplicationData::$__Stripped5_get_RoamingSettings()
-// 0x0000018C Windows.Storage.StorageFolder Windows.Storage.IApplicationData::get_LocalFolder()
-// 0x0000018D System.Void Windows.Storage.IApplicationData::$__Stripped6_get_RoamingFolder()
-// 0x0000018E System.Void Windows.Storage.IApplicationData::$__Stripped7_get_TemporaryFolder()
-// 0x0000018F System.Void Windows.Storage.IApplicationData::$__Stripped8_add_DataChanged()
-// 0x00000190 System.Void Windows.Storage.IApplicationData::$__Stripped9_remove_DataChanged()
-// 0x00000191 System.Void Windows.Storage.IApplicationData::$__Stripped10_SignalDataChanged()
-// 0x00000192 System.Void Windows.Storage.IApplicationData::$__Stripped11_get_RoamingStorageQuota()
-// 0x00000193 System.Void Windows.Storage.IApplicationData2::$__Stripped0_get_LocalCacheFolder()
-// 0x00000194 System.Void Windows.Storage.IApplicationData3::$__Stripped0_GetPublisherCacheFolder()
-// 0x00000195 System.Void Windows.Storage.IApplicationData3::$__Stripped1_ClearPublisherCacheFolderAsync()
-// 0x00000196 System.Void Windows.Storage.IApplicationData3::$__Stripped2_get_SharedLocalFolder()
-// 0x00000197 Windows.Storage.ApplicationData Windows.Storage.IApplicationDataStatics::get_Current()
-// 0x00000198 System.Void Windows.Storage.IApplicationDataStatics2::$__Stripped0_GetForUserAsync()
-// 0x00000199 System.Void Windows.Storage.IFileIOStatics::$__Stripped0_ReadTextAsync()
-// 0x0000019A System.Void Windows.Storage.IFileIOStatics::$__Stripped1_ReadTextAsync()
-// 0x0000019B System.Void Windows.Storage.IFileIOStatics::$__Stripped2_WriteTextAsync()
-// 0x0000019C System.Void Windows.Storage.IFileIOStatics::$__Stripped3_WriteTextAsync()
-// 0x0000019D System.Void Windows.Storage.IFileIOStatics::$__Stripped4_AppendTextAsync()
-// 0x0000019E System.Void Windows.Storage.IFileIOStatics::$__Stripped5_AppendTextAsync()
-// 0x0000019F System.Void Windows.Storage.IFileIOStatics::$__Stripped6_ReadLinesAsync()
-// 0x000001A0 System.Void Windows.Storage.IFileIOStatics::$__Stripped7_ReadLinesAsync()
-// 0x000001A1 System.Void Windows.Storage.IFileIOStatics::$__Stripped8_WriteLinesAsync()
-// 0x000001A2 System.Void Windows.Storage.IFileIOStatics::$__Stripped9_WriteLinesAsync()
-// 0x000001A3 System.Void Windows.Storage.IFileIOStatics::$__Stripped10_AppendLinesAsync()
-// 0x000001A4 System.Void Windows.Storage.IFileIOStatics::$__Stripped11_AppendLinesAsync()
-// 0x000001A5 Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IBuffer> Windows.Storage.IFileIOStatics::ReadBufferAsync(Windows.Storage.IStorageFile)
-// 0x000001A6 System.Void Windows.Storage.IFileIOStatics::$__Stripped12_WriteBufferAsync()
-// 0x000001A7 Windows.Foundation.IAsyncAction Windows.Storage.IFileIOStatics::WriteBytesAsync(Windows.Storage.IStorageFile,System.Byte[])
-// 0x000001A8 System.Void Windows.Storage.IStorageFile::$__Stripped0_get_FileType()
-// 0x000001A9 System.Void Windows.Storage.IStorageFile::$__Stripped1_get_ContentType()
-// 0x000001AA System.Void Windows.Storage.IStorageFile::$__Stripped2_OpenAsync()
-// 0x000001AB System.Void Windows.Storage.IStorageFile::$__Stripped3_OpenTransactedWriteAsync()
-// 0x000001AC System.Void Windows.Storage.IStorageFile::$__Stripped4_CopyAsync()
-// 0x000001AD System.Void Windows.Storage.IStorageFile::$__Stripped5_CopyAsync()
-// 0x000001AE System.Void Windows.Storage.IStorageFile::$__Stripped6_CopyAsync()
-// 0x000001AF System.Void Windows.Storage.IStorageFile::$__Stripped7_CopyAndReplaceAsync()
-// 0x000001B0 System.Void Windows.Storage.IStorageFile::$__Stripped8_MoveAsync()
-// 0x000001B1 System.Void Windows.Storage.IStorageFile::$__Stripped9_MoveAsync()
-// 0x000001B2 System.Void Windows.Storage.IStorageFile::$__Stripped10_MoveAsync()
-// 0x000001B3 System.Void Windows.Storage.IStorageFile::$__Stripped11_MoveAndReplaceAsync()
-// 0x000001B4 System.Void Windows.Storage.IStorageFile2::$__Stripped0_OpenAsync()
-// 0x000001B5 System.Void Windows.Storage.IStorageFile2::$__Stripped1_OpenTransactedWriteAsync()
-// 0x000001B6 System.Void Windows.Storage.IStorageFilePropertiesWithAvailability::$__Stripped0_get_IsAvailable()
-// 0x000001B7 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.IStorageFileStatics::GetFileFromPathAsync(System.String)
-// 0x000001B8 System.Void Windows.Storage.IStorageFileStatics::$__Stripped0_GetFileFromApplicationUriAsync()
-// 0x000001B9 System.Void Windows.Storage.IStorageFileStatics::$__Stripped1_CreateStreamedFileAsync()
-// 0x000001BA System.Void Windows.Storage.IStorageFileStatics::$__Stripped2_ReplaceWithStreamedFileAsync()
-// 0x000001BB System.Void Windows.Storage.IStorageFileStatics::$__Stripped3_CreateStreamedFileFromUriAsync()
-// 0x000001BC System.Void Windows.Storage.IStorageFileStatics::$__Stripped4_ReplaceWithStreamedFileFromUriAsync()
-// 0x000001BD System.Void Windows.Storage.IStorageFileStatics2::$__Stripped0_GetFileFromPathForUserAsync()
-// 0x000001BE Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.IStorageFolder::CreateFileAsync(System.String)
+// 0x00000187 System.Void Windows.Storage.IApplicationData::$__Stripped0_get_Version()
+// 0x00000188 System.Void Windows.Storage.IApplicationData::$__Stripped1_SetVersionAsync()
+// 0x00000189 System.Void Windows.Storage.IApplicationData::$__Stripped2_ClearAsync()
+// 0x0000018A System.Void Windows.Storage.IApplicationData::$__Stripped3_ClearAsync()
+// 0x0000018B System.Void Windows.Storage.IApplicationData::$__Stripped4_get_LocalSettings()
+// 0x0000018C System.Void Windows.Storage.IApplicationData::$__Stripped5_get_RoamingSettings()
+// 0x0000018D Windows.Storage.StorageFolder Windows.Storage.IApplicationData::get_LocalFolder()
+// 0x0000018E System.Void Windows.Storage.IApplicationData::$__Stripped6_get_RoamingFolder()
+// 0x0000018F System.Void Windows.Storage.IApplicationData::$__Stripped7_get_TemporaryFolder()
+// 0x00000190 System.Void Windows.Storage.IApplicationData::$__Stripped8_add_DataChanged()
+// 0x00000191 System.Void Windows.Storage.IApplicationData::$__Stripped9_remove_DataChanged()
+// 0x00000192 System.Void Windows.Storage.IApplicationData::$__Stripped10_SignalDataChanged()
+// 0x00000193 System.Void Windows.Storage.IApplicationData::$__Stripped11_get_RoamingStorageQuota()
+// 0x00000194 System.Void Windows.Storage.IApplicationData2::$__Stripped0_get_LocalCacheFolder()
+// 0x00000195 System.Void Windows.Storage.IApplicationData3::$__Stripped0_GetPublisherCacheFolder()
+// 0x00000196 System.Void Windows.Storage.IApplicationData3::$__Stripped1_ClearPublisherCacheFolderAsync()
+// 0x00000197 System.Void Windows.Storage.IApplicationData3::$__Stripped2_get_SharedLocalFolder()
+// 0x00000198 Windows.Storage.ApplicationData Windows.Storage.IApplicationDataStatics::get_Current()
+// 0x00000199 System.Void Windows.Storage.IApplicationDataStatics2::$__Stripped0_GetForUserAsync()
+// 0x0000019A System.Void Windows.Storage.IFileIOStatics::$__Stripped0_ReadTextAsync()
+// 0x0000019B System.Void Windows.Storage.IFileIOStatics::$__Stripped1_ReadTextAsync()
+// 0x0000019C System.Void Windows.Storage.IFileIOStatics::$__Stripped2_WriteTextAsync()
+// 0x0000019D System.Void Windows.Storage.IFileIOStatics::$__Stripped3_WriteTextAsync()
+// 0x0000019E Windows.Foundation.IAsyncAction Windows.Storage.IFileIOStatics::AppendTextAsync(Windows.Storage.IStorageFile,System.String)
+// 0x0000019F System.Void Windows.Storage.IFileIOStatics::$__Stripped4_AppendTextAsync()
+// 0x000001A0 System.Void Windows.Storage.IFileIOStatics::$__Stripped5_ReadLinesAsync()
+// 0x000001A1 System.Void Windows.Storage.IFileIOStatics::$__Stripped6_ReadLinesAsync()
+// 0x000001A2 System.Void Windows.Storage.IFileIOStatics::$__Stripped7_WriteLinesAsync()
+// 0x000001A3 System.Void Windows.Storage.IFileIOStatics::$__Stripped8_WriteLinesAsync()
+// 0x000001A4 System.Void Windows.Storage.IFileIOStatics::$__Stripped9_AppendLinesAsync()
+// 0x000001A5 System.Void Windows.Storage.IFileIOStatics::$__Stripped10_AppendLinesAsync()
+// 0x000001A6 Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IBuffer> Windows.Storage.IFileIOStatics::ReadBufferAsync(Windows.Storage.IStorageFile)
+// 0x000001A7 System.Void Windows.Storage.IFileIOStatics::$__Stripped11_WriteBufferAsync()
+// 0x000001A8 Windows.Foundation.IAsyncAction Windows.Storage.IFileIOStatics::WriteBytesAsync(Windows.Storage.IStorageFile,System.Byte[])
+// 0x000001A9 System.Void Windows.Storage.IStorageFile::$__Stripped0_get_FileType()
+// 0x000001AA System.Void Windows.Storage.IStorageFile::$__Stripped1_get_ContentType()
+// 0x000001AB System.Void Windows.Storage.IStorageFile::$__Stripped2_OpenAsync()
+// 0x000001AC System.Void Windows.Storage.IStorageFile::$__Stripped3_OpenTransactedWriteAsync()
+// 0x000001AD System.Void Windows.Storage.IStorageFile::$__Stripped4_CopyAsync()
+// 0x000001AE System.Void Windows.Storage.IStorageFile::$__Stripped5_CopyAsync()
+// 0x000001AF System.Void Windows.Storage.IStorageFile::$__Stripped6_CopyAsync()
+// 0x000001B0 System.Void Windows.Storage.IStorageFile::$__Stripped7_CopyAndReplaceAsync()
+// 0x000001B1 System.Void Windows.Storage.IStorageFile::$__Stripped8_MoveAsync()
+// 0x000001B2 System.Void Windows.Storage.IStorageFile::$__Stripped9_MoveAsync()
+// 0x000001B3 System.Void Windows.Storage.IStorageFile::$__Stripped10_MoveAsync()
+// 0x000001B4 System.Void Windows.Storage.IStorageFile::$__Stripped11_MoveAndReplaceAsync()
+// 0x000001B5 System.Void Windows.Storage.IStorageFile2::$__Stripped0_OpenAsync()
+// 0x000001B6 System.Void Windows.Storage.IStorageFile2::$__Stripped1_OpenTransactedWriteAsync()
+// 0x000001B7 System.Void Windows.Storage.IStorageFilePropertiesWithAvailability::$__Stripped0_get_IsAvailable()
+// 0x000001B8 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.IStorageFileStatics::GetFileFromPathAsync(System.String)
+// 0x000001B9 System.Void Windows.Storage.IStorageFileStatics::$__Stripped0_GetFileFromApplicationUriAsync()
+// 0x000001BA System.Void Windows.Storage.IStorageFileStatics::$__Stripped1_CreateStreamedFileAsync()
+// 0x000001BB System.Void Windows.Storage.IStorageFileStatics::$__Stripped2_ReplaceWithStreamedFileAsync()
+// 0x000001BC System.Void Windows.Storage.IStorageFileStatics::$__Stripped3_CreateStreamedFileFromUriAsync()
+// 0x000001BD System.Void Windows.Storage.IStorageFileStatics::$__Stripped4_ReplaceWithStreamedFileFromUriAsync()
+// 0x000001BE System.Void Windows.Storage.IStorageFileStatics2::$__Stripped0_GetFileFromPathForUserAsync()
+// 0x000001BF Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.IStorageFolder::CreateFileAsync(System.String)
 extern void IStorageFolder_CreateFileAsync_mEC48282A297195B05840A14BC48298C6F3B28D63 (void);
-// 0x000001BF System.Void Windows.Storage.IStorageFolder::$__Stripped0_CreateFileAsync()
-// 0x000001C0 System.Void Windows.Storage.IStorageFolder::$__Stripped1_CreateFolderAsync()
-// 0x000001C1 System.Void Windows.Storage.IStorageFolder::$__Stripped2_CreateFolderAsync()
-// 0x000001C2 System.Void Windows.Storage.IStorageFolder::$__Stripped3_GetFileAsync()
-// 0x000001C3 System.Void Windows.Storage.IStorageFolder::$__Stripped4_GetFolderAsync()
-// 0x000001C4 System.Void Windows.Storage.IStorageFolder::$__Stripped5_GetItemAsync()
-// 0x000001C5 System.Void Windows.Storage.IStorageFolder::$__Stripped6_GetFilesAsync()
-// 0x000001C6 System.Void Windows.Storage.IStorageFolder::$__Stripped7_GetFoldersAsync()
-// 0x000001C7 System.Void Windows.Storage.IStorageFolder::$__Stripped8_GetItemsAsync()
-// 0x000001C8 System.Void Windows.Storage.IStorageFolder2::$__Stripped0_TryGetItemAsync()
-// 0x000001C9 System.Void Windows.Storage.IStorageFolder3::$__Stripped0_TryGetChangeTracker()
-// 0x000001CA System.Void Windows.Storage.IStorageFolderStatics::$__Stripped0_GetFolderFromPathAsync()
-// 0x000001CB System.Void Windows.Storage.IStorageFolderStatics2::$__Stripped0_GetFolderFromPathForUserAsync()
-// 0x000001CC System.Void Windows.Storage.IStorageItem::$__Stripped0_RenameAsync()
-// 0x000001CD System.Void Windows.Storage.IStorageItem::$__Stripped1_RenameAsync()
-// 0x000001CE System.Void Windows.Storage.IStorageItem::$__Stripped2_DeleteAsync()
-// 0x000001CF System.Void Windows.Storage.IStorageItem::$__Stripped3_DeleteAsync()
-// 0x000001D0 System.Void Windows.Storage.IStorageItem::$__Stripped4_GetBasicPropertiesAsync()
-// 0x000001D1 System.Void Windows.Storage.IStorageItem::$__Stripped5_get_Name()
-// 0x000001D2 System.Void Windows.Storage.IStorageItem::$__Stripped6_get_Path()
-// 0x000001D3 System.Void Windows.Storage.IStorageItem::$__Stripped7_get_Attributes()
-// 0x000001D4 System.Void Windows.Storage.IStorageItem::$__Stripped8_get_DateCreated()
-// 0x000001D5 System.Void Windows.Storage.IStorageItem::$__Stripped9_IsOfType()
-// 0x000001D6 System.Void Windows.Storage.IStorageItem2::$__Stripped0_GetParentAsync()
-// 0x000001D7 System.Void Windows.Storage.IStorageItem2::$__Stripped1_IsEqual()
-// 0x000001D8 System.Void Windows.Storage.IStorageItemProperties::$__Stripped0_GetThumbnailAsync()
-// 0x000001D9 System.Void Windows.Storage.IStorageItemProperties::$__Stripped1_GetThumbnailAsync()
-// 0x000001DA System.Void Windows.Storage.IStorageItemProperties::$__Stripped2_GetThumbnailAsync()
-// 0x000001DB System.Void Windows.Storage.IStorageItemProperties::$__Stripped3_get_DisplayName()
-// 0x000001DC System.Void Windows.Storage.IStorageItemProperties::$__Stripped4_get_DisplayType()
-// 0x000001DD System.Void Windows.Storage.IStorageItemProperties::$__Stripped5_get_FolderRelativeId()
-// 0x000001DE System.Void Windows.Storage.IStorageItemProperties::$__Stripped6_get_Properties()
-// 0x000001DF System.Void Windows.Storage.IStorageItemProperties2::$__Stripped0_GetScaledImageAsThumbnailAsync()
-// 0x000001E0 System.Void Windows.Storage.IStorageItemProperties2::$__Stripped1_GetScaledImageAsThumbnailAsync()
-// 0x000001E1 System.Void Windows.Storage.IStorageItemProperties2::$__Stripped2_GetScaledImageAsThumbnailAsync()
-// 0x000001E2 System.Void Windows.Storage.IStorageItemPropertiesWithProvider::$__Stripped0_get_Provider()
-// 0x000001E3 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped0_GetIndexedStateAsync()
-// 0x000001E4 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped1_CreateFileQuery()
-// 0x000001E5 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped2_CreateFileQuery()
-// 0x000001E6 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped3_CreateFileQueryWithOptions()
-// 0x000001E7 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped4_CreateFolderQuery()
-// 0x000001E8 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped5_CreateFolderQuery()
-// 0x000001E9 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped6_CreateFolderQueryWithOptions()
-// 0x000001EA System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped7_CreateItemQuery()
-// 0x000001EB System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped8_CreateItemQueryWithOptions()
-// 0x000001EC System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped9_GetFilesAsync()
-// 0x000001ED System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped10_GetFilesAsync()
-// 0x000001EE System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped11_GetFoldersAsync()
-// 0x000001EF System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped12_GetFoldersAsync()
-// 0x000001F0 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped13_GetItemsAsync()
-// 0x000001F1 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped14_AreQueryOptionsSupported()
-// 0x000001F2 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped15_IsCommonFolderQuerySupported()
-// 0x000001F3 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped16_IsCommonFileQuerySupported()
-// 0x000001F4 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.StorageFile::GetFileFromPathAsync(System.String)
+// 0x000001C0 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.IStorageFolder::CreateFileAsync(System.String,Windows.Storage.CreationCollisionOption)
+extern void IStorageFolder_CreateFileAsync_mF662EE99EE57A50B1C479DE77B615E0F6D7F8F8E (void);
+// 0x000001C1 System.Void Windows.Storage.IStorageFolder::$__Stripped0_CreateFolderAsync()
+// 0x000001C2 System.Void Windows.Storage.IStorageFolder::$__Stripped1_CreateFolderAsync()
+// 0x000001C3 System.Void Windows.Storage.IStorageFolder::$__Stripped2_GetFileAsync()
+// 0x000001C4 System.Void Windows.Storage.IStorageFolder::$__Stripped3_GetFolderAsync()
+// 0x000001C5 System.Void Windows.Storage.IStorageFolder::$__Stripped4_GetItemAsync()
+// 0x000001C6 System.Void Windows.Storage.IStorageFolder::$__Stripped5_GetFilesAsync()
+// 0x000001C7 System.Void Windows.Storage.IStorageFolder::$__Stripped6_GetFoldersAsync()
+// 0x000001C8 System.Void Windows.Storage.IStorageFolder::$__Stripped7_GetItemsAsync()
+// 0x000001C9 System.Void Windows.Storage.IStorageFolder2::$__Stripped0_TryGetItemAsync()
+// 0x000001CA System.Void Windows.Storage.IStorageFolder3::$__Stripped0_TryGetChangeTracker()
+// 0x000001CB System.Void Windows.Storage.IStorageFolderStatics::$__Stripped0_GetFolderFromPathAsync()
+// 0x000001CC System.Void Windows.Storage.IStorageFolderStatics2::$__Stripped0_GetFolderFromPathForUserAsync()
+// 0x000001CD System.Void Windows.Storage.IStorageItem::$__Stripped0_RenameAsync()
+// 0x000001CE System.Void Windows.Storage.IStorageItem::$__Stripped1_RenameAsync()
+// 0x000001CF System.Void Windows.Storage.IStorageItem::$__Stripped2_DeleteAsync()
+// 0x000001D0 System.Void Windows.Storage.IStorageItem::$__Stripped3_DeleteAsync()
+// 0x000001D1 System.Void Windows.Storage.IStorageItem::$__Stripped4_GetBasicPropertiesAsync()
+// 0x000001D2 System.Void Windows.Storage.IStorageItem::$__Stripped5_get_Name()
+// 0x000001D3 System.Void Windows.Storage.IStorageItem::$__Stripped6_get_Path()
+// 0x000001D4 System.Void Windows.Storage.IStorageItem::$__Stripped7_get_Attributes()
+// 0x000001D5 System.Void Windows.Storage.IStorageItem::$__Stripped8_get_DateCreated()
+// 0x000001D6 System.Void Windows.Storage.IStorageItem::$__Stripped9_IsOfType()
+// 0x000001D7 System.Void Windows.Storage.IStorageItem2::$__Stripped0_GetParentAsync()
+// 0x000001D8 System.Void Windows.Storage.IStorageItem2::$__Stripped1_IsEqual()
+// 0x000001D9 System.Void Windows.Storage.IStorageItemProperties::$__Stripped0_GetThumbnailAsync()
+// 0x000001DA System.Void Windows.Storage.IStorageItemProperties::$__Stripped1_GetThumbnailAsync()
+// 0x000001DB System.Void Windows.Storage.IStorageItemProperties::$__Stripped2_GetThumbnailAsync()
+// 0x000001DC System.Void Windows.Storage.IStorageItemProperties::$__Stripped3_get_DisplayName()
+// 0x000001DD System.Void Windows.Storage.IStorageItemProperties::$__Stripped4_get_DisplayType()
+// 0x000001DE System.Void Windows.Storage.IStorageItemProperties::$__Stripped5_get_FolderRelativeId()
+// 0x000001DF System.Void Windows.Storage.IStorageItemProperties::$__Stripped6_get_Properties()
+// 0x000001E0 System.Void Windows.Storage.IStorageItemProperties2::$__Stripped0_GetScaledImageAsThumbnailAsync()
+// 0x000001E1 System.Void Windows.Storage.IStorageItemProperties2::$__Stripped1_GetScaledImageAsThumbnailAsync()
+// 0x000001E2 System.Void Windows.Storage.IStorageItemProperties2::$__Stripped2_GetScaledImageAsThumbnailAsync()
+// 0x000001E3 System.Void Windows.Storage.IStorageItemPropertiesWithProvider::$__Stripped0_get_Provider()
+// 0x000001E4 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped0_GetIndexedStateAsync()
+// 0x000001E5 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped1_CreateFileQuery()
+// 0x000001E6 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped2_CreateFileQuery()
+// 0x000001E7 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped3_CreateFileQueryWithOptions()
+// 0x000001E8 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped4_CreateFolderQuery()
+// 0x000001E9 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped5_CreateFolderQuery()
+// 0x000001EA System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped6_CreateFolderQueryWithOptions()
+// 0x000001EB System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped7_CreateItemQuery()
+// 0x000001EC System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped8_CreateItemQueryWithOptions()
+// 0x000001ED System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped9_GetFilesAsync()
+// 0x000001EE System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped10_GetFilesAsync()
+// 0x000001EF System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped11_GetFoldersAsync()
+// 0x000001F0 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped12_GetFoldersAsync()
+// 0x000001F1 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped13_GetItemsAsync()
+// 0x000001F2 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped14_AreQueryOptionsSupported()
+// 0x000001F3 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped15_IsCommonFolderQuerySupported()
+// 0x000001F4 System.Void Windows.Storage.Search.IStorageFolderQueryOperations::$__Stripped16_IsCommonFileQuerySupported()
+// 0x000001F5 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.StorageFile::GetFileFromPathAsync(System.String)
 extern void StorageFile_GetFileFromPathAsync_m3A6A1DF85B0DC9EC63AA7D9079C7192B55AE155F (void);
-// 0x000001F5 System.Void Windows.Storage.StorageFile::Finalize()
+// 0x000001F6 System.Void Windows.Storage.StorageFile::Finalize()
 extern void StorageFile_Finalize_m32B072A043CBC06B2D31CC0720123B8B0C724F2B (void);
-// 0x000001F6 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.StorageFolder::CreateFileAsync(System.String)
+// 0x000001F7 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.StorageFolder::CreateFileAsync(System.String)
 extern void StorageFolder_CreateFileAsync_m2BBEA322CCB9783AD83365F618EB73DFD9099375 (void);
-// 0x000001F7 System.Void Windows.Storage.StorageFolder::Finalize()
+// 0x000001F8 Windows.Foundation.IAsyncOperation`1<Windows.Storage.StorageFile> Windows.Storage.StorageFolder::CreateFileAsync(System.String,Windows.Storage.CreationCollisionOption)
+extern void StorageFolder_CreateFileAsync_m34F3CB53AFCA4762C7B57C4F5F586C5099CD9EA1 (void);
+// 0x000001F9 System.Void Windows.Storage.StorageFolder::Finalize()
 extern void StorageFolder_Finalize_m26045F156DC26871C19D104958C101B2589A9E91 (void);
-// 0x000001F8 System.Void Windows.Storage.Streams.DataReader::.ctor(Windows.Storage.Streams.IInputStream)
+// 0x000001FA System.Void Windows.Storage.Streams.DataReader::.ctor(Windows.Storage.Streams.IInputStream)
 extern void DataReader__ctor_mF2123BC23FC33A58A140ACB4C04B5007B4974360 (void);
-// 0x000001F9 System.Void Windows.Storage.Streams.DataReader::ReadBytes(System.Byte[])
+// 0x000001FB System.Void Windows.Storage.Streams.DataReader::ReadBytes(System.Byte[])
 extern void DataReader_ReadBytes_m168DE8F805771DDEF9FA1DA403581ADC41AB1630 (void);
-// 0x000001FA Windows.Storage.Streams.DataReaderLoadOperation Windows.Storage.Streams.DataReader::LoadAsync(System.UInt32)
+// 0x000001FC Windows.Storage.Streams.DataReaderLoadOperation Windows.Storage.Streams.DataReader::LoadAsync(System.UInt32)
 extern void DataReader_LoadAsync_m86C38A1B7E7A4E32A1C458692C96B63187114005 (void);
-// 0x000001FB System.Void Windows.Storage.Streams.DataReader::Close()
+// 0x000001FD System.Void Windows.Storage.Streams.DataReader::Close()
 extern void DataReader_Close_mE6376E2FE7B7052E75E7B3D09B3D18B765C13680 (void);
-// 0x000001FC Windows.Storage.Streams.DataReader Windows.Storage.Streams.DataReader::FromBuffer(Windows.Storage.Streams.IBuffer)
+// 0x000001FE Windows.Storage.Streams.DataReader Windows.Storage.Streams.DataReader::FromBuffer(Windows.Storage.Streams.IBuffer)
 extern void DataReader_FromBuffer_m7BCC76F9DB4ADFF944106476160568DE91FB8E99 (void);
-// 0x000001FD System.Void Windows.Storage.Streams.DataReader::Dispose()
+// 0x000001FF System.Void Windows.Storage.Streams.DataReader::Dispose()
 extern void DataReader_Dispose_mD5539F7E0FD3A67D9D1B9893FC8801D1C6F9B001 (void);
-// 0x000001FE System.Void Windows.Storage.Streams.DataReader::Finalize()
+// 0x00000200 System.Void Windows.Storage.Streams.DataReader::Finalize()
 extern void DataReader_Finalize_m37B74B7A1F728C44DE1169806429F853449D85E0 (void);
-// 0x000001FF System.Void Windows.Storage.Streams.DataReaderLoadOperation::put_Completed(Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32>)
+// 0x00000201 System.Void Windows.Storage.Streams.DataReaderLoadOperation::put_Completed(Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32>)
 extern void DataReaderLoadOperation_put_Completed_m60D549C4CD2C1D155A913B811B218A2B376F5521 (void);
-// 0x00000200 Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32> Windows.Storage.Streams.DataReaderLoadOperation::get_Completed()
+// 0x00000202 Windows.Foundation.AsyncOperationCompletedHandler`1<System.UInt32> Windows.Storage.Streams.DataReaderLoadOperation::get_Completed()
 extern void DataReaderLoadOperation_get_Completed_mD4D6A58E791F9DBB0F4993E7BAA30DFE802BEEF3 (void);
-// 0x00000201 System.UInt32 Windows.Storage.Streams.DataReaderLoadOperation::GetResults()
+// 0x00000203 System.UInt32 Windows.Storage.Streams.DataReaderLoadOperation::GetResults()
 extern void DataReaderLoadOperation_GetResults_m8B13A8EE99404432C8D218CAB5956217CC834D56 (void);
-// 0x00000202 System.UInt32 Windows.Storage.Streams.DataReaderLoadOperation::get_Id()
+// 0x00000204 System.UInt32 Windows.Storage.Streams.DataReaderLoadOperation::get_Id()
 extern void DataReaderLoadOperation_get_Id_m68A1F7D9FA4FE32A62E162870DB6AB24E8AF9A40 (void);
-// 0x00000203 Windows.Foundation.AsyncStatus Windows.Storage.Streams.DataReaderLoadOperation::get_Status()
+// 0x00000205 Windows.Foundation.AsyncStatus Windows.Storage.Streams.DataReaderLoadOperation::get_Status()
 extern void DataReaderLoadOperation_get_Status_m6B0C3E4FF4D8FFBD9AE7F8764B9BE14AE058266C (void);
-// 0x00000204 System.Exception Windows.Storage.Streams.DataReaderLoadOperation::get_ErrorCode()
+// 0x00000206 System.Exception Windows.Storage.Streams.DataReaderLoadOperation::get_ErrorCode()
 extern void DataReaderLoadOperation_get_ErrorCode_m5EC1EDDCE4249E2438C8C97D12D6A9530A2CA2BD (void);
-// 0x00000205 System.Void Windows.Storage.Streams.DataReaderLoadOperation::Cancel()
+// 0x00000207 System.Void Windows.Storage.Streams.DataReaderLoadOperation::Cancel()
 extern void DataReaderLoadOperation_Cancel_mC4B6A32965095E940CB547409E467577CB52C3F1 (void);
-// 0x00000206 System.Void Windows.Storage.Streams.DataReaderLoadOperation::Close()
+// 0x00000208 System.Void Windows.Storage.Streams.DataReaderLoadOperation::Close()
 extern void DataReaderLoadOperation_Close_mE266746A01FA10759C5E81DC09FC288B23FB77EB (void);
-// 0x00000207 System.Void Windows.Storage.Streams.DataReaderLoadOperation::Finalize()
+// 0x00000209 System.Void Windows.Storage.Streams.DataReaderLoadOperation::Finalize()
 extern void DataReaderLoadOperation_Finalize_m4C8925E10CF7B72E3F9CC8909961EF318A81DA20 (void);
-// 0x00000208 System.Void Windows.Storage.Streams.IBuffer::$__Stripped0_get_Capacity()
-// 0x00000209 System.UInt32 Windows.Storage.Streams.IBuffer::get_Length()
+// 0x0000020A System.Void Windows.Storage.Streams.IBuffer::$__Stripped0_get_Capacity()
+// 0x0000020B System.UInt32 Windows.Storage.Streams.IBuffer::get_Length()
 extern void IBuffer_get_Length_m5433B1C2AADBE9CE086F6DAE6E300C687A17DB19 (void);
-// 0x0000020A System.Void Windows.Storage.Streams.IBuffer::$__Stripped1_put_Length()
-// 0x0000020B System.Void Windows.Storage.Streams.IContentTypeProvider::$__Stripped0_get_ContentType()
-// 0x0000020C System.Void Windows.Storage.Streams.IDataReader::$__Stripped0_get_UnconsumedBufferLength()
-// 0x0000020D System.Void Windows.Storage.Streams.IDataReader::$__Stripped1_get_UnicodeEncoding()
-// 0x0000020E System.Void Windows.Storage.Streams.IDataReader::$__Stripped2_put_UnicodeEncoding()
-// 0x0000020F System.Void Windows.Storage.Streams.IDataReader::$__Stripped3_get_ByteOrder()
-// 0x00000210 System.Void Windows.Storage.Streams.IDataReader::$__Stripped4_put_ByteOrder()
-// 0x00000211 System.Void Windows.Storage.Streams.IDataReader::$__Stripped5_get_InputStreamOptions()
-// 0x00000212 System.Void Windows.Storage.Streams.IDataReader::$__Stripped6_put_InputStreamOptions()
-// 0x00000213 System.Void Windows.Storage.Streams.IDataReader::$__Stripped7_ReadByte()
-// 0x00000214 System.Void Windows.Storage.Streams.IDataReader::ReadBytes(System.Byte[])
+// 0x0000020C System.Void Windows.Storage.Streams.IBuffer::$__Stripped1_put_Length()
+// 0x0000020D System.Void Windows.Storage.Streams.IContentTypeProvider::$__Stripped0_get_ContentType()
+// 0x0000020E System.Void Windows.Storage.Streams.IDataReader::$__Stripped0_get_UnconsumedBufferLength()
+// 0x0000020F System.Void Windows.Storage.Streams.IDataReader::$__Stripped1_get_UnicodeEncoding()
+// 0x00000210 System.Void Windows.Storage.Streams.IDataReader::$__Stripped2_put_UnicodeEncoding()
+// 0x00000211 System.Void Windows.Storage.Streams.IDataReader::$__Stripped3_get_ByteOrder()
+// 0x00000212 System.Void Windows.Storage.Streams.IDataReader::$__Stripped4_put_ByteOrder()
+// 0x00000213 System.Void Windows.Storage.Streams.IDataReader::$__Stripped5_get_InputStreamOptions()
+// 0x00000214 System.Void Windows.Storage.Streams.IDataReader::$__Stripped6_put_InputStreamOptions()
+// 0x00000215 System.Void Windows.Storage.Streams.IDataReader::$__Stripped7_ReadByte()
+// 0x00000216 System.Void Windows.Storage.Streams.IDataReader::ReadBytes(System.Byte[])
 extern void IDataReader_ReadBytes_mBDD7640B55CB957BAC47F732E09DE8A85CD41F96 (void);
-// 0x00000215 System.Void Windows.Storage.Streams.IDataReader::$__Stripped8_ReadBuffer()
-// 0x00000216 System.Void Windows.Storage.Streams.IDataReader::$__Stripped9_ReadBoolean()
-// 0x00000217 System.Void Windows.Storage.Streams.IDataReader::$__Stripped10_ReadGuid()
-// 0x00000218 System.Void Windows.Storage.Streams.IDataReader::$__Stripped11_ReadInt16()
-// 0x00000219 System.Void Windows.Storage.Streams.IDataReader::$__Stripped12_ReadInt32()
-// 0x0000021A System.Void Windows.Storage.Streams.IDataReader::$__Stripped13_ReadInt64()
-// 0x0000021B System.Void Windows.Storage.Streams.IDataReader::$__Stripped14_ReadUInt16()
-// 0x0000021C System.Void Windows.Storage.Streams.IDataReader::$__Stripped15_ReadUInt32()
-// 0x0000021D System.Void Windows.Storage.Streams.IDataReader::$__Stripped16_ReadUInt64()
-// 0x0000021E System.Void Windows.Storage.Streams.IDataReader::$__Stripped17_ReadSingle()
-// 0x0000021F System.Void Windows.Storage.Streams.IDataReader::$__Stripped18_ReadDouble()
-// 0x00000220 System.Void Windows.Storage.Streams.IDataReader::$__Stripped19_ReadString()
-// 0x00000221 System.Void Windows.Storage.Streams.IDataReader::$__Stripped20_ReadDateTime()
-// 0x00000222 System.Void Windows.Storage.Streams.IDataReader::$__Stripped21_ReadTimeSpan()
-// 0x00000223 Windows.Storage.Streams.DataReaderLoadOperation Windows.Storage.Streams.IDataReader::LoadAsync(System.UInt32)
+// 0x00000217 System.Void Windows.Storage.Streams.IDataReader::$__Stripped8_ReadBuffer()
+// 0x00000218 System.Void Windows.Storage.Streams.IDataReader::$__Stripped9_ReadBoolean()
+// 0x00000219 System.Void Windows.Storage.Streams.IDataReader::$__Stripped10_ReadGuid()
+// 0x0000021A System.Void Windows.Storage.Streams.IDataReader::$__Stripped11_ReadInt16()
+// 0x0000021B System.Void Windows.Storage.Streams.IDataReader::$__Stripped12_ReadInt32()
+// 0x0000021C System.Void Windows.Storage.Streams.IDataReader::$__Stripped13_ReadInt64()
+// 0x0000021D System.Void Windows.Storage.Streams.IDataReader::$__Stripped14_ReadUInt16()
+// 0x0000021E System.Void Windows.Storage.Streams.IDataReader::$__Stripped15_ReadUInt32()
+// 0x0000021F System.Void Windows.Storage.Streams.IDataReader::$__Stripped16_ReadUInt64()
+// 0x00000220 System.Void Windows.Storage.Streams.IDataReader::$__Stripped17_ReadSingle()
+// 0x00000221 System.Void Windows.Storage.Streams.IDataReader::$__Stripped18_ReadDouble()
+// 0x00000222 System.Void Windows.Storage.Streams.IDataReader::$__Stripped19_ReadString()
+// 0x00000223 System.Void Windows.Storage.Streams.IDataReader::$__Stripped20_ReadDateTime()
+// 0x00000224 System.Void Windows.Storage.Streams.IDataReader::$__Stripped21_ReadTimeSpan()
+// 0x00000225 Windows.Storage.Streams.DataReaderLoadOperation Windows.Storage.Streams.IDataReader::LoadAsync(System.UInt32)
 extern void IDataReader_LoadAsync_m5320DE30E3837B33E10C0E0415A43CDE12669C5F (void);
-// 0x00000224 System.Void Windows.Storage.Streams.IDataReader::$__Stripped22_DetachBuffer()
-// 0x00000225 System.Void Windows.Storage.Streams.IDataReader::$__Stripped23_DetachStream()
-// 0x00000226 Windows.Storage.Streams.DataReader Windows.Storage.Streams.IDataReaderFactory::CreateDataReader(Windows.Storage.Streams.IInputStream)
-// 0x00000227 Windows.Storage.Streams.DataReader Windows.Storage.Streams.IDataReaderStatics::FromBuffer(Windows.Storage.Streams.IBuffer)
-// 0x00000228 System.Void Windows.Storage.Streams.IInputStream::$__Stripped0_ReadAsync()
-// 0x00000229 System.Void Windows.Storage.Streams.IInputStreamReference::$__Stripped0_OpenSequentialReadAsync()
-// 0x0000022A System.Void Windows.Storage.Streams.IOutputStream::$__Stripped0_WriteAsync()
-// 0x0000022B System.Void Windows.Storage.Streams.IOutputStream::$__Stripped1_FlushAsync()
-// 0x0000022C System.UInt64 Windows.Storage.Streams.IRandomAccessStream::get_Size()
+// 0x00000226 System.Void Windows.Storage.Streams.IDataReader::$__Stripped22_DetachBuffer()
+// 0x00000227 System.Void Windows.Storage.Streams.IDataReader::$__Stripped23_DetachStream()
+// 0x00000228 Windows.Storage.Streams.DataReader Windows.Storage.Streams.IDataReaderFactory::CreateDataReader(Windows.Storage.Streams.IInputStream)
+// 0x00000229 Windows.Storage.Streams.DataReader Windows.Storage.Streams.IDataReaderStatics::FromBuffer(Windows.Storage.Streams.IBuffer)
+// 0x0000022A System.Void Windows.Storage.Streams.IInputStream::$__Stripped0_ReadAsync()
+// 0x0000022B System.Void Windows.Storage.Streams.IInputStreamReference::$__Stripped0_OpenSequentialReadAsync()
+// 0x0000022C System.Void Windows.Storage.Streams.IOutputStream::$__Stripped0_WriteAsync()
+// 0x0000022D System.Void Windows.Storage.Streams.IOutputStream::$__Stripped1_FlushAsync()
+// 0x0000022E System.UInt64 Windows.Storage.Streams.IRandomAccessStream::get_Size()
 extern void IRandomAccessStream_get_Size_mF9E844A817D64D4E78CD248CCBF6E07B77BCC3E6 (void);
-// 0x0000022D System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped0_put_Size()
-// 0x0000022E Windows.Storage.Streams.IInputStream Windows.Storage.Streams.IRandomAccessStream::GetInputStreamAt(System.UInt64)
+// 0x0000022F System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped0_put_Size()
+// 0x00000230 Windows.Storage.Streams.IInputStream Windows.Storage.Streams.IRandomAccessStream::GetInputStreamAt(System.UInt64)
 extern void IRandomAccessStream_GetInputStreamAt_m9CC820A0D61D6396A06770F777B93F17F48195CB (void);
-// 0x0000022F System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped1_GetOutputStreamAt()
-// 0x00000230 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped2_get_Position()
-// 0x00000231 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped3_Seek()
-// 0x00000232 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped4_CloneStream()
-// 0x00000233 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped5_get_CanRead()
-// 0x00000234 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped6_get_CanWrite()
-// 0x00000235 System.Void Windows.Storage.Streams.IRandomAccessStreamReference::$__Stripped0_OpenReadAsync()
-// 0x00000236 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsage()
-// 0x00000237 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsageLimit()
-// 0x00000238 System.Void Windows.System.IMemoryManagerStatics::$__Stripped0_get_AppMemoryUsageLevel()
-// 0x00000239 System.Void Windows.System.IMemoryManagerStatics::$__Stripped1_add_AppMemoryUsageIncreased()
-// 0x0000023A System.Void Windows.System.IMemoryManagerStatics::$__Stripped2_remove_AppMemoryUsageIncreased()
-// 0x0000023B System.Void Windows.System.IMemoryManagerStatics::$__Stripped3_add_AppMemoryUsageDecreased()
-// 0x0000023C System.Void Windows.System.IMemoryManagerStatics::$__Stripped4_remove_AppMemoryUsageDecreased()
-// 0x0000023D System.Void Windows.System.IMemoryManagerStatics::$__Stripped5_add_AppMemoryUsageLimitChanging()
-// 0x0000023E System.Void Windows.System.IMemoryManagerStatics::$__Stripped6_remove_AppMemoryUsageLimitChanging()
-// 0x0000023F System.Void Windows.System.IMemoryManagerStatics2::$__Stripped0_GetAppMemoryReport()
-// 0x00000240 System.Void Windows.System.IMemoryManagerStatics2::$__Stripped1_GetProcessMemoryReport()
-// 0x00000241 System.Void Windows.System.IMemoryManagerStatics3::$__Stripped0_TrySetAppMemoryUsageLimit()
-// 0x00000242 System.Void Windows.System.IMemoryManagerStatics4::$__Stripped0_get_ExpectedAppMemoryUsageLimit()
-// 0x00000243 System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsage()
+// 0x00000231 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped1_GetOutputStreamAt()
+// 0x00000232 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped2_get_Position()
+// 0x00000233 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped3_Seek()
+// 0x00000234 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped4_CloneStream()
+// 0x00000235 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped5_get_CanRead()
+// 0x00000236 System.Void Windows.Storage.Streams.IRandomAccessStream::$__Stripped6_get_CanWrite()
+// 0x00000237 System.Void Windows.Storage.Streams.IRandomAccessStreamReference::$__Stripped0_OpenReadAsync()
+// 0x00000238 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsage()
+// 0x00000239 System.UInt64 Windows.System.IMemoryManagerStatics::get_AppMemoryUsageLimit()
+// 0x0000023A System.Void Windows.System.IMemoryManagerStatics::$__Stripped0_get_AppMemoryUsageLevel()
+// 0x0000023B System.Void Windows.System.IMemoryManagerStatics::$__Stripped1_add_AppMemoryUsageIncreased()
+// 0x0000023C System.Void Windows.System.IMemoryManagerStatics::$__Stripped2_remove_AppMemoryUsageIncreased()
+// 0x0000023D System.Void Windows.System.IMemoryManagerStatics::$__Stripped3_add_AppMemoryUsageDecreased()
+// 0x0000023E System.Void Windows.System.IMemoryManagerStatics::$__Stripped4_remove_AppMemoryUsageDecreased()
+// 0x0000023F System.Void Windows.System.IMemoryManagerStatics::$__Stripped5_add_AppMemoryUsageLimitChanging()
+// 0x00000240 System.Void Windows.System.IMemoryManagerStatics::$__Stripped6_remove_AppMemoryUsageLimitChanging()
+// 0x00000241 System.Void Windows.System.IMemoryManagerStatics2::$__Stripped0_GetAppMemoryReport()
+// 0x00000242 System.Void Windows.System.IMemoryManagerStatics2::$__Stripped1_GetProcessMemoryReport()
+// 0x00000243 System.Void Windows.System.IMemoryManagerStatics3::$__Stripped0_TrySetAppMemoryUsageLimit()
+// 0x00000244 System.Void Windows.System.IMemoryManagerStatics4::$__Stripped0_get_ExpectedAppMemoryUsageLimit()
+// 0x00000245 System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsage()
 extern void MemoryManager_get_AppMemoryUsage_mC56F027A2D650BCC43228CD8AEDCEBB517F0B677 (void);
-// 0x00000244 System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsageLimit()
+// 0x00000246 System.UInt64 Windows.System.MemoryManager::get_AppMemoryUsageLimit()
 extern void MemoryManager_get_AppMemoryUsageLimit_m4037BAE37C41E7F7FE868436D715C41E4CD9E636 (void);
-// 0x00000245 System.Void Windows.System.MemoryManager::Finalize()
+// 0x00000247 System.Void Windows.System.MemoryManager::Finalize()
 extern void MemoryManager_Finalize_m32730D6E439088B61A9D7DE5C6C5B45FA6529549 (void);
-// 0x00000246 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped0_get_HasTouchpad()
-// 0x00000247 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped1_get_HasThumbstick()
-// 0x00000248 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped2_get_SimpleHapticsController()
-// 0x00000249 System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_VendorId()
-// 0x0000024A System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_ProductId()
-// 0x0000024B System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_Version()
-// 0x0000024C Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.ISpatialInteractionController2::TryGetRenderableModelAsync()
-// 0x0000024D System.Void Windows.UI.Input.Spatial.ISpatialInteractionController3::$__Stripped0_TryGetBatteryReport()
-// 0x0000024E System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped0_add_SourceDetected()
-// 0x0000024F System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped1_remove_SourceDetected()
-// 0x00000250 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped2_add_SourceLost()
-// 0x00000251 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped3_remove_SourceLost()
-// 0x00000252 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped4_add_SourceUpdated()
-// 0x00000253 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped5_remove_SourceUpdated()
-// 0x00000254 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped6_add_SourcePressed()
-// 0x00000255 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped7_remove_SourcePressed()
-// 0x00000256 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped8_add_SourceReleased()
-// 0x00000257 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped9_remove_SourceReleased()
-// 0x00000258 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped10_add_InteractionDetected()
-// 0x00000259 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped11_remove_InteractionDetected()
-// 0x0000025A System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.ISpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
-// 0x0000025B Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics::GetForCurrentView()
-// 0x0000025C System.Boolean Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics2::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
-// 0x0000025D System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource::$__Stripped0_get_Id()
-// 0x0000025E Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.ISpatialInteractionSource::get_Kind()
-// 0x0000025F System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped0_get_IsPointingSupported()
-// 0x00000260 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped1_get_IsMenuSupported()
-// 0x00000261 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped2_get_IsGraspSupported()
-// 0x00000262 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.ISpatialInteractionSource2::get_Controller()
-// 0x00000263 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped3_TryGetStateAtTimestamp()
-// 0x00000264 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.ISpatialInteractionSource3::get_Handedness()
-// 0x00000265 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource4::$__Stripped0_TryCreateHandMeshObserver()
-// 0x00000266 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.ISpatialInteractionSource4::TryCreateHandMeshObserverAsync()
-// 0x00000267 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.ISpatialInteractionSourceState::get_Source()
-// 0x00000268 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped0_get_Properties()
-// 0x00000269 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped1_get_IsPressed()
-// 0x0000026A System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped2_get_Timestamp()
-// 0x0000026B System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped3_TryGetPointerPose()
-// 0x0000026C System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped0_get_IsSelectPressed()
-// 0x0000026D System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped1_get_IsMenuPressed()
-// 0x0000026E System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped2_get_IsGrasped()
-// 0x0000026F System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped3_get_SelectPressedValue()
-// 0x00000270 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped4_get_ControllerProperties()
-// 0x00000271 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.ISpatialInteractionSourceState3::TryGetHandPose()
-// 0x00000272 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose::$__Stripped0_get_Timestamp()
-// 0x00000273 Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.ISpatialPointerPose::get_Head()
-// 0x00000274 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose2::$__Stripped0_TryGetInteractionSourcePose()
-// 0x00000275 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped0_get_Eyes()
-// 0x00000276 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped1_get_IsHeadCapturedBySystem()
-// 0x00000277 Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.ISpatialPointerPoseStatics::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
-// 0x00000278 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_VendorId()
+// 0x00000248 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped0_get_HasTouchpad()
+// 0x00000249 System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped1_get_HasThumbstick()
+// 0x0000024A System.Void Windows.UI.Input.Spatial.ISpatialInteractionController::$__Stripped2_get_SimpleHapticsController()
+// 0x0000024B System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_VendorId()
+// 0x0000024C System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_ProductId()
+// 0x0000024D System.UInt16 Windows.UI.Input.Spatial.ISpatialInteractionController::get_Version()
+// 0x0000024E Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.ISpatialInteractionController2::TryGetRenderableModelAsync()
+// 0x0000024F System.Void Windows.UI.Input.Spatial.ISpatialInteractionController3::$__Stripped0_TryGetBatteryReport()
+// 0x00000250 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped0_add_SourceDetected()
+// 0x00000251 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped1_remove_SourceDetected()
+// 0x00000252 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped2_add_SourceLost()
+// 0x00000253 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped3_remove_SourceLost()
+// 0x00000254 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped4_add_SourceUpdated()
+// 0x00000255 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped5_remove_SourceUpdated()
+// 0x00000256 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped6_add_SourcePressed()
+// 0x00000257 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped7_remove_SourcePressed()
+// 0x00000258 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped8_add_SourceReleased()
+// 0x00000259 System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped9_remove_SourceReleased()
+// 0x0000025A System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped10_add_InteractionDetected()
+// 0x0000025B System.Void Windows.UI.Input.Spatial.ISpatialInteractionManager::$__Stripped11_remove_InteractionDetected()
+// 0x0000025C System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.ISpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
+// 0x0000025D Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics::GetForCurrentView()
+// 0x0000025E System.Boolean Windows.UI.Input.Spatial.ISpatialInteractionManagerStatics2::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
+// 0x0000025F System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource::$__Stripped0_get_Id()
+// 0x00000260 Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.ISpatialInteractionSource::get_Kind()
+// 0x00000261 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped0_get_IsPointingSupported()
+// 0x00000262 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped1_get_IsMenuSupported()
+// 0x00000263 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped2_get_IsGraspSupported()
+// 0x00000264 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.ISpatialInteractionSource2::get_Controller()
+// 0x00000265 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource2::$__Stripped3_TryGetStateAtTimestamp()
+// 0x00000266 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.ISpatialInteractionSource3::get_Handedness()
+// 0x00000267 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSource4::$__Stripped0_TryCreateHandMeshObserver()
+// 0x00000268 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.ISpatialInteractionSource4::TryCreateHandMeshObserverAsync()
+// 0x00000269 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.ISpatialInteractionSourceState::get_Source()
+// 0x0000026A System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped0_get_Properties()
+// 0x0000026B System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped1_get_IsPressed()
+// 0x0000026C System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped2_get_Timestamp()
+// 0x0000026D System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState::$__Stripped3_TryGetPointerPose()
+// 0x0000026E System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped0_get_IsSelectPressed()
+// 0x0000026F System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped1_get_IsMenuPressed()
+// 0x00000270 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped2_get_IsGrasped()
+// 0x00000271 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped3_get_SelectPressedValue()
+// 0x00000272 System.Void Windows.UI.Input.Spatial.ISpatialInteractionSourceState2::$__Stripped4_get_ControllerProperties()
+// 0x00000273 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.ISpatialInteractionSourceState3::TryGetHandPose()
+// 0x00000274 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose::$__Stripped0_get_Timestamp()
+// 0x00000275 Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.ISpatialPointerPose::get_Head()
+// 0x00000276 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose2::$__Stripped0_TryGetInteractionSourcePose()
+// 0x00000277 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped0_get_Eyes()
+// 0x00000278 System.Void Windows.UI.Input.Spatial.ISpatialPointerPose3::$__Stripped1_get_IsHeadCapturedBySystem()
+// 0x00000279 Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.ISpatialPointerPoseStatics::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
+// 0x0000027A System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_VendorId()
 extern void SpatialInteractionController_get_VendorId_mFA4C0E49C5F91D0D3BB411B7CE4346A1D909609B (void);
-// 0x00000279 System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_ProductId()
+// 0x0000027B System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_ProductId()
 extern void SpatialInteractionController_get_ProductId_m7A6756B1F64BFEAA4398555190277FC94199A744 (void);
-// 0x0000027A System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_Version()
+// 0x0000027C System.UInt16 Windows.UI.Input.Spatial.SpatialInteractionController::get_Version()
 extern void SpatialInteractionController_get_Version_mE798D242DAEE266C80EF790A41CC240E0368570E (void);
-// 0x0000027B Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.SpatialInteractionController::TryGetRenderableModelAsync()
+// 0x0000027D Windows.Foundation.IAsyncOperation`1<Windows.Storage.Streams.IRandomAccessStreamWithContentType> Windows.UI.Input.Spatial.SpatialInteractionController::TryGetRenderableModelAsync()
 extern void SpatialInteractionController_TryGetRenderableModelAsync_m860C17ECB83D18A7A4B7BCECD005FDF45641A14C (void);
-// 0x0000027C System.Void Windows.UI.Input.Spatial.SpatialInteractionController::Finalize()
+// 0x0000027E System.Void Windows.UI.Input.Spatial.SpatialInteractionController::Finalize()
 extern void SpatialInteractionController_Finalize_m642EB566F306A3C04583BCE2BE4C764F0B2DD0A5 (void);
-// 0x0000027D System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.SpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
+// 0x0000027F System.Collections.Generic.IReadOnlyList`1<Windows.UI.Input.Spatial.SpatialInteractionSourceState> Windows.UI.Input.Spatial.SpatialInteractionManager::GetDetectedSourcesAtTimestamp(Windows.Perception.PerceptionTimestamp)
 extern void SpatialInteractionManager_GetDetectedSourcesAtTimestamp_mFDD037494C2CC363994DF81B98E33ADAD4CBE7F4 (void);
-// 0x0000027E System.Boolean Windows.UI.Input.Spatial.SpatialInteractionManager::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
+// 0x00000280 System.Boolean Windows.UI.Input.Spatial.SpatialInteractionManager::IsSourceKindSupported(Windows.UI.Input.Spatial.SpatialInteractionSourceKind)
 extern void SpatialInteractionManager_IsSourceKindSupported_m5ADA1FAB14D51E057C9097C2B24D01C0E3A88EB8 (void);
-// 0x0000027F Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.SpatialInteractionManager::GetForCurrentView()
+// 0x00000281 Windows.UI.Input.Spatial.SpatialInteractionManager Windows.UI.Input.Spatial.SpatialInteractionManager::GetForCurrentView()
 extern void SpatialInteractionManager_GetForCurrentView_m77EF39A84C58C1F95BF8E7D002F88B86B9382560 (void);
-// 0x00000280 System.Void Windows.UI.Input.Spatial.SpatialInteractionManager::Finalize()
+// 0x00000282 System.Void Windows.UI.Input.Spatial.SpatialInteractionManager::Finalize()
 extern void SpatialInteractionManager_Finalize_mA2949D4E2F4B8797DF477422FF6BD8A6DA683D3B (void);
-// 0x00000281 Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.SpatialInteractionSource::get_Kind()
+// 0x00000283 Windows.UI.Input.Spatial.SpatialInteractionSourceKind Windows.UI.Input.Spatial.SpatialInteractionSource::get_Kind()
 extern void SpatialInteractionSource_get_Kind_mB837C9DC9D8F931CF39DDD57BF2BA08A67B71563 (void);
-// 0x00000282 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.SpatialInteractionSource::get_Controller()
+// 0x00000284 Windows.UI.Input.Spatial.SpatialInteractionController Windows.UI.Input.Spatial.SpatialInteractionSource::get_Controller()
 extern void SpatialInteractionSource_get_Controller_m31E0D64BF83B1B6604E0C39983311A99313F991D (void);
-// 0x00000283 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.SpatialInteractionSource::get_Handedness()
+// 0x00000285 Windows.UI.Input.Spatial.SpatialInteractionSourceHandedness Windows.UI.Input.Spatial.SpatialInteractionSource::get_Handedness()
 extern void SpatialInteractionSource_get_Handedness_m7A992293451DE1EC0F32AC0ADA84209090427A8C (void);
-// 0x00000284 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.SpatialInteractionSource::TryCreateHandMeshObserverAsync()
+// 0x00000286 Windows.Foundation.IAsyncOperation`1<Windows.Perception.People.HandMeshObserver> Windows.UI.Input.Spatial.SpatialInteractionSource::TryCreateHandMeshObserverAsync()
 extern void SpatialInteractionSource_TryCreateHandMeshObserverAsync_mE8630D9D92744C27BD5EBD758B42C3CB6ACFEC5C (void);
-// 0x00000285 System.Void Windows.UI.Input.Spatial.SpatialInteractionSource::Finalize()
+// 0x00000287 System.Void Windows.UI.Input.Spatial.SpatialInteractionSource::Finalize()
 extern void SpatialInteractionSource_Finalize_m2E7441F57E01F76AE61CB05870AB437017873B24 (void);
-// 0x00000286 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.SpatialInteractionSourceState::get_Source()
+// 0x00000288 Windows.UI.Input.Spatial.SpatialInteractionSource Windows.UI.Input.Spatial.SpatialInteractionSourceState::get_Source()
 extern void SpatialInteractionSourceState_get_Source_mDFBB7ECDC326D42075DCF0B8D5779B7D11EAFD8F (void);
-// 0x00000287 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.SpatialInteractionSourceState::TryGetHandPose()
+// 0x00000289 Windows.Perception.People.HandPose Windows.UI.Input.Spatial.SpatialInteractionSourceState::TryGetHandPose()
 extern void SpatialInteractionSourceState_TryGetHandPose_m9B623E31B753FD11674C848601622016AF260110 (void);
-// 0x00000288 System.Void Windows.UI.Input.Spatial.SpatialInteractionSourceState::Finalize()
+// 0x0000028A System.Void Windows.UI.Input.Spatial.SpatialInteractionSourceState::Finalize()
 extern void SpatialInteractionSourceState_Finalize_m65423EE26DA8DD2AB9DA87C46363C2CFC82329BC (void);
-// 0x00000289 Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.SpatialPointerPose::get_Head()
+// 0x0000028B Windows.Perception.People.HeadPose Windows.UI.Input.Spatial.SpatialPointerPose::get_Head()
 extern void SpatialPointerPose_get_Head_mC788CD23770CD682FC645D987F6C91B9768AC60A (void);
-// 0x0000028A Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.SpatialPointerPose::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
+// 0x0000028C Windows.UI.Input.Spatial.SpatialPointerPose Windows.UI.Input.Spatial.SpatialPointerPose::TryGetAtTimestamp(Windows.Perception.Spatial.SpatialCoordinateSystem,Windows.Perception.PerceptionTimestamp)
 extern void SpatialPointerPose_TryGetAtTimestamp_m0038031AA8B49B7F5B7716B9D771E71137C8812B (void);
-// 0x0000028B System.Void Windows.UI.Input.Spatial.SpatialPointerPose::Finalize()
+// 0x0000028D System.Void Windows.UI.Input.Spatial.SpatialPointerPose::Finalize()
 extern void SpatialPointerPose_Finalize_m8F6C143526C3742BA8C41AB1E8754A3D272A5D66 (void);
-// 0x0000028C System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
-// 0x0000028D System.Void Windows.UI.ViewManagement.IInputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
-// 0x0000028E System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
-// 0x0000028F System.Void Windows.UI.ViewManagement.IInputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
-// 0x00000290 System.Void Windows.UI.ViewManagement.IInputPane::$__Stripped0_get_OccludedRect()
-// 0x00000291 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryShow()
-// 0x00000292 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryHide()
-// 0x00000293 System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped0_get_Visible()
-// 0x00000294 System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped1_put_Visible()
-// 0x00000295 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.IInputPaneStatics::GetForCurrentView()
-// 0x00000296 System.Void Windows.UI.ViewManagement.IInputPaneStatics2::$__Stripped0_GetForUIContext()
-// 0x00000297 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped0_get_OccludedRect()
-// 0x00000298 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped1_put_EnsuredFocusedElementInView()
-// 0x00000299 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped2_get_EnsuredFocusedElementInView()
-// 0x0000029A System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000028E System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000028F System.Void Windows.UI.ViewManagement.IInputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x00000290 System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.IInputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x00000291 System.Void Windows.UI.ViewManagement.IInputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x00000292 System.Void Windows.UI.ViewManagement.IInputPane::$__Stripped0_get_OccludedRect()
+// 0x00000293 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryShow()
+// 0x00000294 System.Boolean Windows.UI.ViewManagement.IInputPane2::TryHide()
+// 0x00000295 System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped0_get_Visible()
+// 0x00000296 System.Void Windows.UI.ViewManagement.IInputPaneControl::$__Stripped1_put_Visible()
+// 0x00000297 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.IInputPaneStatics::GetForCurrentView()
+// 0x00000298 System.Void Windows.UI.ViewManagement.IInputPaneStatics2::$__Stripped0_GetForUIContext()
+// 0x00000299 System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped0_get_OccludedRect()
+// 0x0000029A System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped1_put_EnsuredFocusedElementInView()
+// 0x0000029B System.Void Windows.UI.ViewManagement.IInputPaneVisibilityEventArgs::$__Stripped2_get_EnsuredFocusedElementInView()
+// 0x0000029C System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Showing(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
 extern void InputPane_add_Showing_m510DB824DF283E477B413C64BE61B2FC04F9BE23 (void);
-// 0x0000029B System.Void Windows.UI.ViewManagement.InputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x0000029D System.Void Windows.UI.ViewManagement.InputPane::remove_Showing(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
 extern void InputPane_remove_Showing_m59CF2BD5B31F30E9C32FCBBD4805627FDB367747 (void);
-// 0x0000029C System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
+// 0x0000029E System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Windows.UI.ViewManagement.InputPane::add_Hiding(Windows.Foundation.TypedEventHandler`2<Windows.UI.ViewManagement.InputPane,Windows.UI.ViewManagement.InputPaneVisibilityEventArgs>)
 extern void InputPane_add_Hiding_mBCF3CC1091181DD03D13F468A9FB45BE7FDE5112 (void);
-// 0x0000029D System.Void Windows.UI.ViewManagement.InputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
+// 0x0000029F System.Void Windows.UI.ViewManagement.InputPane::remove_Hiding(System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken)
 extern void InputPane_remove_Hiding_mAC2C1C54000EB20167222F325263400E964C9E13 (void);
-// 0x0000029E System.Boolean Windows.UI.ViewManagement.InputPane::TryShow()
+// 0x000002A0 System.Boolean Windows.UI.ViewManagement.InputPane::TryShow()
 extern void InputPane_TryShow_m9BD2715E64C17BFB5602DA8BAFA794DD83236842 (void);
-// 0x0000029F System.Boolean Windows.UI.ViewManagement.InputPane::TryHide()
+// 0x000002A1 System.Boolean Windows.UI.ViewManagement.InputPane::TryHide()
 extern void InputPane_TryHide_m379F5A7CB24231C21343A18608E763D783430937 (void);
-// 0x000002A0 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.InputPane::GetForCurrentView()
+// 0x000002A2 Windows.UI.ViewManagement.InputPane Windows.UI.ViewManagement.InputPane::GetForCurrentView()
 extern void InputPane_GetForCurrentView_mD4BE2A539C97CEF616B95558886A9DE875CBD45C (void);
-// 0x000002A1 System.Void Windows.UI.ViewManagement.InputPane::Finalize()
+// 0x000002A3 System.Void Windows.UI.ViewManagement.InputPane::Finalize()
 extern void InputPane_Finalize_m8809B1FF06ECD21D728BE2FD2327093FD0E70BEB (void);
-// 0x000002A2 System.Void Windows.UI.ViewManagement.InputPaneVisibilityEventArgs::Finalize()
+// 0x000002A4 System.Void Windows.UI.ViewManagement.InputPaneVisibilityEventArgs::Finalize()
 extern void InputPaneVisibilityEventArgs_Finalize_m32338BD57EC4DA232D1916DB6F6FA7C001EFB6D0 (void);
-// 0x000002A3 Windows.UI.Xaml.Interop.IBindableIterator Windows.UI.Xaml.Interop.IBindableIterable::First()
+// 0x000002A5 Windows.UI.Xaml.Interop.IBindableIterator Windows.UI.Xaml.Interop.IBindableIterable::First()
 extern void IBindableIterable_First_m91EC6ED0173145266318FDB7F9074798CD766BD7 (void);
-// 0x000002A4 System.Object Windows.UI.Xaml.Interop.IBindableIterator::get_Current()
+// 0x000002A6 System.Object Windows.UI.Xaml.Interop.IBindableIterator::get_Current()
 extern void IBindableIterator_get_Current_m53A4B6F2DECC874908CA9335785007A39D6FC93E (void);
-// 0x000002A5 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::get_HasCurrent()
+// 0x000002A7 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::get_HasCurrent()
 extern void IBindableIterator_get_HasCurrent_m4FD33F7F3A504A8F4A4C7DE3965342B19EA3A974 (void);
-// 0x000002A6 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::MoveNext()
+// 0x000002A8 System.Boolean Windows.UI.Xaml.Interop.IBindableIterator::MoveNext()
 extern void IBindableIterator_MoveNext_mA70DABC057BE3ED9199D4E0E6FEBDF6ED3570A75 (void);
-// 0x000002A7 System.Object Windows.UI.Xaml.Interop.IBindableVector::GetAt(System.UInt32)
+// 0x000002A9 System.Object Windows.UI.Xaml.Interop.IBindableVector::GetAt(System.UInt32)
 extern void IBindableVector_GetAt_m33D2170810828C01473D9BDC22745A0354FA4FED (void);
-// 0x000002A8 System.UInt32 Windows.UI.Xaml.Interop.IBindableVector::get_Size()
+// 0x000002AA System.UInt32 Windows.UI.Xaml.Interop.IBindableVector::get_Size()
 extern void IBindableVector_get_Size_m45347BCD42A1FE180ED2B377BB9C88C7B50CD7D9 (void);
-// 0x000002A9 Windows.UI.Xaml.Interop.IBindableVectorView Windows.UI.Xaml.Interop.IBindableVector::GetView()
+// 0x000002AB Windows.UI.Xaml.Interop.IBindableVectorView Windows.UI.Xaml.Interop.IBindableVector::GetView()
 extern void IBindableVector_GetView_m9736FE93BC8979E0CBF8ED26090D1FE54C2E1A38 (void);
-// 0x000002AA System.Boolean Windows.UI.Xaml.Interop.IBindableVector::IndexOf(System.Object,System.UInt32&)
+// 0x000002AC System.Boolean Windows.UI.Xaml.Interop.IBindableVector::IndexOf(System.Object,System.UInt32&)
 extern void IBindableVector_IndexOf_m2F1A64750D19C5A03E9B65880F4A04275E6AABF4 (void);
-// 0x000002AB System.Void Windows.UI.Xaml.Interop.IBindableVector::SetAt(System.UInt32,System.Object)
+// 0x000002AD System.Void Windows.UI.Xaml.Interop.IBindableVector::SetAt(System.UInt32,System.Object)
 extern void IBindableVector_SetAt_mD4C84EC02EAD7F636873B77E6D48E7132055A213 (void);
-// 0x000002AC System.Void Windows.UI.Xaml.Interop.IBindableVector::InsertAt(System.UInt32,System.Object)
+// 0x000002AE System.Void Windows.UI.Xaml.Interop.IBindableVector::InsertAt(System.UInt32,System.Object)
 extern void IBindableVector_InsertAt_m19A0C885F7C7A7FFA257A46218D7232317E022B5 (void);
-// 0x000002AD System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAt(System.UInt32)
+// 0x000002AF System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAt(System.UInt32)
 extern void IBindableVector_RemoveAt_m1AC6E54165809374E91F456B9922A9B24F8652B0 (void);
-// 0x000002AE System.Void Windows.UI.Xaml.Interop.IBindableVector::Append(System.Object)
+// 0x000002B0 System.Void Windows.UI.Xaml.Interop.IBindableVector::Append(System.Object)
 extern void IBindableVector_Append_mCA138F8E4026725AC867B607FA63709B6752BB7F (void);
-// 0x000002AF System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAtEnd()
+// 0x000002B1 System.Void Windows.UI.Xaml.Interop.IBindableVector::RemoveAtEnd()
 extern void IBindableVector_RemoveAtEnd_mB3178911995D4CC7BAC0EA43720C1280267E54E3 (void);
-// 0x000002B0 System.Void Windows.UI.Xaml.Interop.IBindableVector::Clear()
+// 0x000002B2 System.Void Windows.UI.Xaml.Interop.IBindableVector::Clear()
 extern void IBindableVector_Clear_mEF05B40EFF6D42CBB5A5E336B0946FECE7A4A6EF (void);
-// 0x000002B1 System.Object Windows.UI.Xaml.Interop.IBindableVectorView::GetAt(System.UInt32)
+// 0x000002B3 System.Object Windows.UI.Xaml.Interop.IBindableVectorView::GetAt(System.UInt32)
 extern void IBindableVectorView_GetAt_mB119DB25AF57A337D2C7112063778434CE0F5CF5 (void);
-// 0x000002B2 System.UInt32 Windows.UI.Xaml.Interop.IBindableVectorView::get_Size()
+// 0x000002B4 System.UInt32 Windows.UI.Xaml.Interop.IBindableVectorView::get_Size()
 extern void IBindableVectorView_get_Size_m4F48139B27CB215D7E728F77E748FA6573F7DA09 (void);
-// 0x000002B3 System.Boolean Windows.UI.Xaml.Interop.IBindableVectorView::IndexOf(System.Object,System.UInt32&)
+// 0x000002B5 System.Boolean Windows.UI.Xaml.Interop.IBindableVectorView::IndexOf(System.Object,System.UInt32&)
 extern void IBindableVectorView_IndexOf_mD85EC41D34BC2E450FA0133CC802906157D765F2 (void);
-static Il2CppMethodPointer s_methodPointers[691] = 
+static Il2CppMethodPointer s_methodPointers[693] = 
 {
 	AsyncActionCompletedHandler__ctor_mFB087F426B85A21CFD3EC42705296735802E4C6E,
 	AsyncActionCompletedHandler_Invoke_m351D4D540D59485AB4607AD62FDB182A704C4239,
@@ -1347,6 +1352,7 @@ static Il2CppMethodPointer s_methodPointers[691] =
 	ApplicationData_get_Current_mEC0F896D294D660711178C8F7D6F75697B10B230,
 	ApplicationData_Dispose_mFFB016C1895CAA7DF334B33B04687CAA71D61756,
 	ApplicationData_Finalize_m6471ECD3ACDA6B47020D181C5E70FE34744169BA,
+	FileIO_AppendTextAsync_m43E7E7074D7E9CB760170590216025B230DF9E56,
 	FileIO_ReadBufferAsync_m911E2F6D26359AE672FC77B34C443B1A0E2CF018,
 	FileIO_WriteBytesAsync_mCFE4E28CAEDD1B418E1238F934F2FFB4ECAFFF47,
 	FileIO_Finalize_mF4F765FA6D992C35B75E215652DE9021F8BCD575,
@@ -1407,7 +1413,7 @@ static Il2CppMethodPointer s_methodPointers[691] =
 	NULL,
 	NULL,
 	IStorageFolder_CreateFileAsync_mEC48282A297195B05840A14BC48298C6F3B28D63,
-	NULL,
+	IStorageFolder_CreateFileAsync_mF662EE99EE57A50B1C479DE77B615E0F6D7F8F8E,
 	NULL,
 	NULL,
 	NULL,
@@ -1463,6 +1469,7 @@ static Il2CppMethodPointer s_methodPointers[691] =
 	StorageFile_GetFileFromPathAsync_m3A6A1DF85B0DC9EC63AA7D9079C7192B55AE155F,
 	StorageFile_Finalize_m32B072A043CBC06B2D31CC0720123B8B0C724F2B,
 	StorageFolder_CreateFileAsync_m2BBEA322CCB9783AD83365F618EB73DFD9099375,
+	StorageFolder_CreateFileAsync_m34F3CB53AFCA4762C7B57C4F5F586C5099CD9EA1,
 	StorageFolder_Finalize_m26045F156DC26871C19D104958C101B2589A9E91,
 	DataReader__ctor_mF2123BC23FC33A58A140ACB4C04B5007B4974360,
 	DataReader_ReadBytes_m168DE8F805771DDEF9FA1DA403581ADC41AB1630,
@@ -1653,10 +1660,10 @@ static Il2CppMethodPointer s_methodPointers[691] =
 	IBindableVectorView_get_Size_m4F48139B27CB215D7E728F77E748FA6573F7DA09,
 	IBindableVectorView_IndexOf_mD85EC41D34BC2E450FA0133CC802906157D765F2,
 };
-static const int32_t s_InvokerIndices[691] = 
+static const int32_t s_InvokerIndices[693] = 
 {
-	1774,
-	1772,
+	1781,
+	1779,
 	-1,
 	-1,
 	-1,
@@ -1695,664 +1702,666 @@ static const int32_t s_InvokerIndices[691] =
 	-1,
 	-1,
 	-1,
-	3007,
-	3563,
-	3640,
-	3533,
-	3533,
-	3563,
-	3640,
-	3640,
+	3018,
+	3575,
+	3652,
+	3545,
+	3545,
+	3575,
+	3652,
+	3652,
 	-1,
 	-1,
 	-1,
-	3640,
-	3533,
-	3596,
-	3596,
-	3532,
-	3532,
-	3533,
-	3533,
-	3534,
-	3534,
-	3604,
-	3495,
-	3532,
-	3596,
-	3563,
-	3517,
-	3492,
-	3621,
-	3570,
-	3605,
-	3586,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
-	2912,
+	3652,
+	3545,
+	3608,
+	3608,
+	3544,
+	3544,
+	3545,
+	3545,
+	3546,
+	3546,
+	3616,
+	3507,
+	3544,
+	3608,
+	3575,
+	3529,
+	3504,
+	3633,
+	3582,
+	3617,
+	3598,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
+	2923,
 	-1,
 	-1,
-	3563,
-	1656,
-	1000,
-	3640,
-	3640,
-	5095,
-	4719,
-	4719,
-	4716,
-	3640,
-	3007,
-	2978,
-	2978,
-	1772,
-	1772,
-	3640,
-	3640,
-	3007,
+	3575,
+	1662,
+	1004,
+	3652,
+	3652,
+	5112,
+	4733,
+	4733,
+	4730,
+	3652,
+	3018,
+	2989,
+	2989,
+	1779,
+	1779,
+	3652,
+	3652,
+	3018,
 	7,
-	2617,
-	1393,
-	3640,
-	3640,
-	1393,
-	3640,
-	3640,
-	3640,
-	1390,
-	3640,
-	2978,
-	2978,
-	3640,
-	3007,
-	3640,
-	1000,
-	2978,
-	3640,
+	2628,
+	1399,
+	3652,
+	3652,
+	1399,
+	3652,
+	3652,
+	3652,
+	1396,
+	3652,
+	2989,
+	2989,
+	3652,
+	3018,
+	3652,
+	1004,
+	2989,
+	3652,
 	-1,
 	-1,
-	2345,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	2345,
-	5224,
-	3640,
-	2345,
-	2345,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
+	2355,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	2355,
+	5241,
+	3652,
+	2355,
+	2355,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3545,
+	3608,
+	2628,
+	2355,
+	2355,
+	1256,
+	3575,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3018,
+	1784,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3575,
+	3545,
+	3608,
+	2628,
+	2355,
+	3575,
+	3575,
+	3575,
+	5071,
+	5071,
+	3652,
+	3575,
+	2352,
+	3545,
+	1393,
+	1148,
+	2352,
+	3545,
+	3575,
+	3575,
+	3652,
+	3608,
+	3652,
+	3575,
 	3533,
-	3596,
-	2617,
-	2345,
-	2345,
-	1250,
-	3563,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3007,
-	1777,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3563,
-	3533,
-	3596,
-	2617,
-	2345,
-	3563,
-	3563,
-	3563,
-	5054,
-	5054,
-	3640,
-	3563,
-	2342,
-	3533,
-	1387,
-	1144,
-	2342,
-	3533,
-	3563,
-	3563,
-	3640,
-	3596,
-	3640,
-	3563,
-	3521,
-	2967,
-	3640,
-	2342,
-	5224,
-	3640,
-	3563,
-	3640,
-	3563,
-	3640,
-	3037,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3596,
-	3640,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3521,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	2967,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	2342,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3037,
-	3640,
-	3596,
-	1978,
-	2944,
-	5224,
-	3640,
-	3640,
-	3596,
-	1978,
-	2944,
-	3563,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	2345,
-	2345,
-	3007,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3534,
-	2343,
-	3640,
-	3640,
-	3640,
-	3640,
-	2345,
-	2345,
-	3007,
-	3640,
-	5224,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	2335,
-	3640,
-	3533,
-	3533,
-	3007,
-	2345,
-	3563,
-	3533,
-	3533,
-	3640,
-	3563,
-	3007,
-	3640,
-	3640,
-	3634,
-	3634,
-	3640,
-	3640,
-	3533,
-	3533,
-	3007,
-	2345,
-	3563,
-	3533,
-	3533,
-	3563,
-	3007,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3634,
-	3634,
-	3640,
-	3640,
-	5044,
-	3640,
-	1917,
-	2339,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	5049,
-	3640,
-	1917,
-	3640,
-	3563,
-	3640,
-	5224,
-	3640,
-	3640,
-	5054,
-	4646,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	2345,
-	3640,
-	1250,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	2345,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	2345,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	5054,
-	3640,
-	2345,
-	3640,
-	3007,
-	3007,
-	2342,
-	3640,
-	5054,
-	3640,
-	3640,
-	3007,
-	3563,
-	3533,
-	3533,
-	3533,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3533,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3007,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	2342,
-	3640,
-	3640,
-	2345,
-	2345,
-	3640,
-	3640,
-	3640,
-	3640,
-	3534,
-	3640,
-	2343,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3534,
-	3534,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	5213,
-	5213,
-	3640,
-	3640,
-	3640,
-	3640,
-	3532,
-	3532,
-	3532,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	2345,
-	3563,
-	2587,
-	3640,
-	3533,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3533,
-	3640,
-	3563,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3640,
-	3563,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	1250,
-	3532,
-	3532,
-	3532,
-	3563,
-	3640,
-	2345,
-	5091,
-	5224,
-	3640,
-	3533,
-	3563,
-	3533,
-	3563,
-	3640,
-	3563,
-	3563,
-	3640,
-	3563,
-	4646,
-	3640,
-	1978,
-	2944,
-	1978,
-	2944,
-	3640,
-	3596,
-	3596,
-	3640,
-	3640,
-	3563,
-	3640,
-	3640,
-	3640,
-	3640,
-	1978,
-	2944,
-	1978,
-	2944,
-	3596,
-	3596,
-	5224,
-	3640,
-	3640,
-	3563,
-	3563,
-	3596,
-	3596,
-	2342,
-	3533,
-	3563,
-	1387,
-	1656,
-	1656,
 	2978,
-	3007,
-	3640,
-	3640,
-	2342,
+	3652,
+	2352,
+	5241,
+	3652,
+	3575,
+	3652,
+	3575,
+	3652,
+	3048,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3608,
+	3652,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
 	3533,
-	1387,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	2978,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	2352,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3048,
+	3652,
+	3608,
+	1987,
+	2955,
+	5241,
+	3652,
+	3652,
+	3608,
+	1987,
+	2955,
+	3575,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	2355,
+	2355,
+	3018,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3546,
+	2353,
+	3652,
+	3652,
+	3652,
+	3652,
+	2355,
+	2355,
+	3018,
+	3652,
+	5241,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	2345,
+	3652,
+	3545,
+	3545,
+	3018,
+	2355,
+	3575,
+	3545,
+	3545,
+	3652,
+	3575,
+	3018,
+	3652,
+	3652,
+	3646,
+	3646,
+	3652,
+	3652,
+	3545,
+	3545,
+	3018,
+	2355,
+	3575,
+	3545,
+	3545,
+	3575,
+	3018,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3646,
+	3646,
+	3652,
+	3652,
+	5061,
+	3652,
+	1925,
+	2349,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	5066,
+	3652,
+	1925,
+	3652,
+	3575,
+	3652,
+	5241,
+	3652,
+	3652,
+	4660,
+	5071,
+	4660,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	1256,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	2355,
+	3652,
+	1256,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	2355,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	2355,
+	1255,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	5071,
+	3652,
+	2355,
+	1255,
+	3652,
+	3018,
+	3018,
+	2352,
+	3652,
+	5071,
+	3652,
+	3652,
+	3018,
+	3575,
+	3545,
+	3545,
+	3545,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3545,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3018,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	2352,
+	3652,
+	3652,
+	2355,
+	2355,
+	3652,
+	3652,
+	3652,
+	3652,
+	3546,
+	3652,
+	2353,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3546,
+	3546,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	5230,
+	5230,
+	3652,
+	3652,
+	3652,
+	3652,
+	3544,
+	3544,
+	3544,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	2355,
+	3575,
+	2598,
+	3652,
+	3545,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3545,
+	3652,
+	3575,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3575,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	1256,
+	3544,
+	3544,
+	3544,
+	3575,
+	3652,
+	2355,
+	5108,
+	5241,
+	3652,
+	3545,
+	3575,
+	3545,
+	3575,
+	3652,
+	3575,
+	3575,
+	3652,
+	3575,
+	4660,
+	3652,
+	1987,
+	2955,
+	1987,
+	2955,
+	3652,
+	3608,
+	3608,
+	3652,
+	3652,
+	3575,
+	3652,
+	3652,
+	3652,
+	3652,
+	1987,
+	2955,
+	1987,
+	2955,
+	3608,
+	3608,
+	5241,
+	3652,
+	3652,
+	3575,
+	3575,
+	3608,
+	3608,
+	2352,
+	3545,
+	3575,
+	1393,
+	1662,
+	1662,
+	2989,
+	3018,
+	3652,
+	3652,
+	2352,
+	3545,
+	1393,
 };
 extern const CustomAttributesCacheGenerator g_WindowsRuntimeMetadata_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule;
 const Il2CppCodeGenModule g_WindowsRuntimeMetadata_CodeGenModule = 
 {
 	"WindowsRuntimeMetadata",
-	691,
+	693,
 	s_methodPointers,
 	0,
 	NULL,

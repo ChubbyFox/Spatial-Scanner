@@ -4,508 +4,474 @@
   	Msvc Linker Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\ARM64\link.exe
   	Msvc Compiler Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\ARM64\cl.exe
   
-  	Output directory: C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release
-  	Cache directory: C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release
+  	Output directory: C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release
+  	Cache directory: C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release
   pch-c.c
   pch-cpp.cpp
   Il2CppGenericMethodPointerTable.cpp
   Il2CppTypeDefinitions.c
   Il2CppCCalculateTypeValues.cpp
-  Generics11.cpp
   Il2CppCCalculateFieldValues1.cpp
-  Il2CppInteropDataTable.cpp
+  Il2CppCCalculateFieldValues.cpp
   GenericMethods3.cpp
   Il2CppInvokerTable.cpp
-  Il2CppCCalculateFieldValues.cpp
-  Il2CppMetadataUsage.c
+  Generics11.cpp
+  Il2CppInteropDataTable.cpp
   Generics7.cpp
   GenericMethods.cpp
-  Generics18.cpp
-  Il2CppPCCWMethods.cpp
-  Microsoft.MixedReality.Toolkit.SDK5.cpp
-  Microsoft.MixedReality.Toolkit.SDK1.cpp
-  Unity.TextMeshPro2.cpp
-  Generics19.cpp
-  Il2CppCCWs26.cpp
-  GenericMethods6.cpp
-  Generics30.cpp
-  Microsoft.MixedReality.Toolkit2.cpp
-  mscorlib_CodeGen.c
-  Microsoft.MixedReality.Toolkit.SDK6.cpp
-  GenericMethods7.cpp
-  Microsoft.MixedReality.Toolkit1.cpp
-  GenericMethods5.cpp
-  Microsoft.MixedReality.Toolkit.SDK3.cpp
+  Il2CppMetadataUsage.c
   Generics17.cpp
+  Il2CppPCCWMethods.cpp
+  Generics18.cpp
+  GenericMethods7.cpp
+  GenericMethods6.cpp
+  Unity.TextMeshPro2.cpp
+  Il2CppCCWs26.cpp
+  Microsoft.MixedReality.Toolkit.SDK5.cpp
+  Generics30.cpp
+  Microsoft.MixedReality.Toolkit.SDK1.cpp
+  Microsoft.MixedReality.Toolkit2.cpp
+  Generics19.cpp
+  Microsoft.MixedReality.Toolkit.SDK6.cpp
+  mscorlib_CodeGen.c
+  Microsoft.MixedReality.Toolkit1.cpp
+  Il2CppCCWs64.cpp
+  Microsoft.MixedReality.Toolkit.SDK3.cpp
   Microsoft.MixedReality.Toolkit.SDK7.cpp
-  Microsoft.MixedReality.Toolkit.SDK4.cpp
-  GenericMethods1.cpp
-  Microsoft.MixedReality.Toolkit3.cpp
   Generics21.cpp
-  Microsoft.MixedReality.Toolkit.Services.InputSystem.cpp
-  Il2CppCCalculateTypeValues1.cpp
-  Unity.TextMeshPro.cpp
-  Il2CppCCWs3.cpp
-  Microsoft.MixedReality.Toolkit4.cpp
-  Generics12.cpp
+  Microsoft.MixedReality.Toolkit.SDK4.cpp
   Il2CppCCWs55.cpp
+  GenericMethods5.cpp
+  Il2CppCCalculateTypeValues1.cpp
+  GenericMethods1.cpp
+  Il2CppCCWs3.cpp
+  Microsoft.MixedReality.Toolkit3.cpp
+  Generics12.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSystem.cpp
+  Unity.TextMeshPro.cpp
   Generics6.cpp
+  Microsoft.MixedReality.Toolkit4.cpp
   mscorlib2.cpp
   Generics26.cpp
   Microsoft.MixedReality.Toolkit.SDK.cpp
   UnityEngine.CoreModule1.cpp
   Microsoft.MixedReality.Toolkit.cpp
-  mscorlib1.cpp
   GenericMethods9.cpp
-  UnityEngine.UI.cpp
-  mscorlib19.cpp
-  Il2CppCCWs63.cpp
+  mscorlib1.cpp
   Unity.TextMeshPro3.cpp
-  mscorlib16.cpp
-  Generics33.cpp
+  mscorlib19.cpp
+  UnityEngine.UI.cpp
   Generics5.cpp
+  mscorlib16.cpp
   Generics20.cpp
-  mscorlib8.cpp
-  Microsoft.MixedReality.Toolkit.SDK2.cpp
-  Unity.TextMeshPro1.cpp
   Generics28.cpp
   Generics31.cpp
-  GenericMethods2.cpp
-  Generics13.cpp
+  Microsoft.MixedReality.Toolkit.SDK2.cpp
+  mscorlib8.cpp
+  Unity.TextMeshPro1.cpp
+  Generics33.cpp
   UnityEngine.CoreModule.cpp
-  mscorlib6.cpp
   mscorlib.cpp
+  mscorlib6.cpp
+  Generics13.cpp
   mscorlib12.cpp
   Generics.cpp
-  Generics4.cpp
   mscorlib9.cpp
   Generics3.cpp
-  Microsoft.MixedReality.Toolkit.Services.InputSimulation.cpp
   mscorlib7.cpp
-  mscorlib11.cpp
-  mscorlib15.cpp
-  mscorlib3.cpp
-  Il2CppCCWs74.cpp
-  Generics14.cpp
   Generics32.cpp
-  Il2CppGenericInstDefinitions.c
-  Unity.TextMeshPro4.cpp
+  GenericMethods2.cpp
+  Generics4.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSimulation.cpp
+  mscorlib15.cpp
+  Il2CppCCWs74.cpp
+  mscorlib11.cpp
+  mscorlib3.cpp
+  Generics14.cpp
+  mscorlib4.cpp
   Generics16.cpp
+  Unity.TextMeshPro4.cpp
   mscorlib18.cpp
+  Il2CppGenericInstDefinitions.c
   UnityEngine.UI2.cpp
   Generics1.cpp
-  mscorlib4.cpp
   mscorlib13.cpp
-  Microsoft.MixedReality.Toolkit.SDK_Attr.cpp
   mscorlib17.cpp
   mscorlib10.cpp
-  GenericMethods4.cpp
+  Microsoft.MixedReality.Toolkit.SDK_Attr.cpp
   Generics2.cpp
+  GenericMethods4.cpp
   Generics29.cpp
-  Generics15.cpp
-  Generics27.cpp
   mscorlib14.cpp
-  UnityEngine.UI1.cpp
+  Generics15.cpp
   GenericMethods8.cpp
+  UnityEngine.UI1.cpp
   Generics9.cpp
-  UnityEngine.UI3.cpp
-  Microsoft.MixedReality.Toolkit_Attr.cpp
+  mscorlib5.cpp
   Generics10.cpp
   Generics8.cpp
-  Microsoft.MixedReality.Toolkit.SDK_CodeGen.c
-  mscorlib5.cpp
-  Generics24.cpp
-  Microsoft.MixedReality.Toolkit.Gltf.cpp
-  Generics25.cpp
+  Generics27.cpp
+  Microsoft.MixedReality.Toolkit_Attr.cpp
+  UnityEngine.UI3.cpp
+  Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.cpp
   Generics22.cpp
+  System.cpp
+  Generics25.cpp
+  Microsoft.MixedReality.Toolkit.SDK_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Gltf.cpp
+  Generics24.cpp
+  Generics34.cpp
   Generics23.cpp
   Il2CppGenericClassTable.c
-  Il2CppGenericAdjustorThunkTable.cpp
   UnityEngine.CoreModule_Attr.cpp
-  Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.cpp
+  Il2CppGenericAdjustorThunkTable.cpp
   Unity.TextMeshPro5.cpp
-  Il2CppGenericMethodTable.c
-  System.cpp
-  Microsoft.MixedReality.Toolkit.Services.InputAnimation.cpp
-  Microsoft.MixedReality.Toolkit_CodeGen.c
-  Unity.XR.WindowsMixedReality.cpp
-  Il2CppCCWs64.cpp
-  mscorlib_Attr.cpp
-  System1.cpp
-  Microsoft.MixedReality.Toolkit.Providers.XRSDK.cpp
-  Il2CppCCWs66.cpp
   Il2CppCCWs68.cpp
-  Generics34.cpp
-  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.cpp
-  UnresolvedVirtualCallStubs.cpp
-  Microsoft.MixedReality.Toolkit.Providers.OpenXR.cpp
-  UnityEngine.CoreModule2.cpp
-  Il2CppGenericMethodDefinitions.c
+  Il2CppCCWs66.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputAnimation.cpp
+  Il2CppGenericMethodTable.c
+  Microsoft.MixedReality.Toolkit_CodeGen.c
+  System1.cpp
+  Unity.XR.WindowsMixedReality.cpp
+  mscorlib_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK.cpp
   Microsoft.MixedReality.Toolkit.Services.SceneSystem.cpp
-  Il2CppCCWs67.cpp
-  System2.cpp
-  Il2CppCCWs30.cpp
-  mscorlib20.cpp
-  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.cpp
-  Microsoft.Windows.MixedReality.DotNetWinRT.cpp
-  UnityEngine.IMGUIModule.cpp
-  UnityEngine.CoreModule_CodeGen.c
-  WindowsRuntimeMetadata.cpp
-  Il2CppCCWs78.cpp
-  Il2CppCCWs75.cpp
-  Il2CppCCWs81.cpp
-  Microsoft.MixedReality.Toolkit.Services.InputSystem1.cpp
+  UnityEngine.CoreModule2.cpp
   Il2CppCCWs69.cpp
+  UnresolvedVirtualCallStubs.cpp
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.cpp
+  System2.cpp
+  Il2CppGenericMethodDefinitions.c
+  Il2CppCCWs30.cpp
+  Il2CppCCWs72.cpp
+  Microsoft.MixedReality.Toolkit.Providers.OpenXR.cpp
+  mscorlib20.cpp
+  Il2CppCCWs75.cpp
+  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.cpp
+  UnityEngine.IMGUIModule.cpp
+  WindowsRuntimeMetadata.cpp
+  Microsoft.Windows.MixedReality.DotNetWinRT.cpp
+  UnityEngine.CoreModule_CodeGen.c
+  Il2CppCCWs50.cpp
+  Il2CppCCWs70.cpp
+  Il2CppCCWs81.cpp
   Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSystem1.cpp
+  Il2CppCCWs63.cpp
+  I18N.cpp
+  Il2CppCCWs78.cpp
   System3.cpp
   Il2CppCCWs18.cpp
   Il2CppCCWs19.cpp
-  Il2CppCCWs77.cpp
-  I18N.cpp
   UnityEngine.XRModule.cpp
   I18N.CJK.cpp
-  Il2CppCCWs65.cpp
-  Il2CppCCWs72.cpp
-  Il2CppCCWs50.cpp
+  Il2CppCCWs80.cpp
   UnityEngine.AndroidJNIModule.cpp
-  Il2CppCCWs71.cpp
-  Il2CppCCWs53.cpp
-  Il2CppCCWs49.cpp
-  Il2CppCCWs73.cpp
+  Il2CppCCWs77.cpp
   Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.cpp
-  Il2CppCCTypeValuesTable.cpp
-  Microsoft.MixedReality.Toolkit5.cpp
-  UnityEngine.UnityWebRequestModule.cpp
-  UnityEngine.UI_CodeGen.c
-  Il2CppCCWs51.cpp
-  Microsoft.MixedReality.SceneUnderstanding.Projections.WSA.cpp
   Il2CppCCWs54.cpp
-  Unity.TextMeshPro_CodeGen.c
+  Il2CppCCWs73.cpp
+  Microsoft.MixedReality.Toolkit5.cpp
+  Microsoft.MixedReality.SceneUnderstanding.Projections.WSA.cpp
+  UnityEngine.UnityWebRequestModule.cpp
+  Il2CppCCWs71.cpp
+  Il2CppCCWs51.cpp
+  Il2CppCCWs67.cpp
+  Il2CppCCWs53.cpp
+  Il2CppCCTypeValuesTable.cpp
+  UnityEngine.UI_CodeGen.c
   Il2CppCCWs17.cpp
   Il2CppCCWs52.cpp
-  Il2CppCCWs70.cpp
   Il2CppCCWs20.cpp
-  Il2CppCCWs.cpp
-  I18N.Rare4.cpp
-  char-conversions.cpp
-  Il2CppCCWs23.cpp
   Il2CppCCWs28.cpp
-  Il2CppCCWs21.cpp
-  Il2CppCCWs82.cpp
-  I18N.Rare2.cpp
-  Il2CppCCWs29.cpp
-  Il2CppCCWs24.cpp
-  Il2CppCCWs22.cpp
-  Il2CppCCWs60.cpp
+  Unity.TextMeshPro_CodeGen.c
   Il2CppCCWs61.cpp
+  Il2CppCCWs79.cpp
+  I18N.Rare4.cpp
+  Il2CppCCWs.cpp
+  Il2CppCCWs82.cpp
+  Il2CppCCWs21.cpp
+  Il2CppCCWs24.cpp
+  Il2CppCCWs23.cpp
+  Il2CppCCWs29.cpp
+  Il2CppCCWs60.cpp
+  I18N.Rare2.cpp
+  Il2CppCCWs22.cpp
+  Il2CppCCWs62.cpp
   I18N.Rare.cpp
   I18N.Rare1.cpp
+  Assembly-CSharp.cpp
   I18N.Rare3.cpp
   I18N.West.cpp
-  Il2CppCCWs80.cpp
   Il2CppCCWs1.cpp
   Il2CppCCWs2.cpp
-  Il2CppCCWs62.cpp
+  Il2CppCCWs25.cpp
   Il2CppCCWs27.cpp
-  Il2CppCCWs76.cpp
   UnityEngine.UI_Attr.cpp
   I18N.Other.cpp
-  Il2CppCCWs79.cpp
   I18N.West1.cpp
-  Il2CppCCWs59.cpp
-  Il2CppCCWs57.cpp
-  Il2CppCCWs25.cpp
-  Il2CppCCWs58.cpp
   Il2CppCCWs56.cpp
-  Il2CppCCFieldValuesTable.cpp
+  Il2CppCCWs49.cpp
+  Il2CppCCWs57.cpp
   Unity.XR.ARSubsystems.cpp
-  UnityEngine.PhysicsModule.cpp
+  Il2CppCCWs65.cpp
   UnityEngine.TextCoreModule.cpp
+  Il2CppCCWs58.cpp
+  Il2CppCCFieldValuesTable.cpp
+  UnityEngine.AnimationModule.cpp
+  UnityEngine.PhysicsModule.cpp
+  GenericMethods10.cpp
   I18N.MidEast.cpp
   UnityEngine.TerrainModule.cpp
-  UnityEngine.AnimationModule.cpp
-  System_CodeGen.c
-  UnityEngine.UIModule.cpp
+  System.Numerics.cpp
   Unity.TextMeshPro_Attr.cpp
+  UnityEngine.UIModule.cpp
   System.Runtime.WindowsRuntime.cpp
   Microsoft.MixedReality.Toolkit.Async.cpp
   UnityEngine.TextRenderingModule.cpp
-  System.Numerics.cpp
+  Il2CppCCWs59.cpp
+  Il2CppCCWs76.cpp
+  System_CodeGen.c
   Unity.XR.Management.cpp
   Microsoft.MixedReality.Toolkit.Services.InputSimulation_Attr.cpp
-  UnityEngine.SubsystemsModule.cpp
   Microsoft.MixedReality.Toolkit.Services.TeleportSystem.cpp
+  UnityEngine.SubsystemsModule.cpp
   UnityEngine.IMGUIModule_Attr.cpp
   UnityEngine.AnimationModule_Attr.cpp
+  Il2CppCCWs32.cpp
   UnityEngine.PhysicsModule_Attr.cpp
   Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.cpp
-  Il2CppCCWs32.cpp
+  UnityEngine.SpatialTracking.cpp
+  Il2CppCCWs44.cpp
   Microsoft.MixedReality.Toolkit.Services.CameraSystem.cpp
-  UnityEngine.SharedInternalsModule.cpp
   UnityEngine.XRModule_Attr.cpp
   UnityEngine.Physics2DModule.cpp
-  UnityEngine.SpatialTracking.cpp
+  UnityEngine.SharedInternalsModule.cpp
   UnityEngine.AudioModule.cpp
-  Il2CppCCWs42.cpp
-  Il2CppCCWs44.cpp
-  Microsoft.MixedReality.Toolkit.Services.InputSystem_CodeGen.c
   Microsoft.MixedReality.Toolkit.Services.InputSystem_Attr.cpp
-  UnityEngine.ParticleSystemModule.cpp
-  UnityEngine.InputLegacyModule.cpp
-  Il2CppCCWs33.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSystem_CodeGen.c
+  Il2CppCCWs42.cpp
   Il2CppCCWs34.cpp
+  UnityEngine.ParticleSystemModule.cpp
   UnityEngine.Physics2DModule_Attr.cpp
+  Il2CppCCWs33.cpp
+  UnityEngine.InputLegacyModule.cpp
   System_Attr.cpp
   Il2CppCCWs43.cpp
+  Il2CppCCWs45.cpp
   Il2CppCCWs41.cpp
-  Il2CppCCWs35.cpp
   UnityEngine.AudioModule_Attr.cpp
   Il2CppCCWs39.cpp
-  GenericMethods10.cpp
-  UnityEngine.SharedInternalsModule_Attr.cpp
+  Il2CppCCWs35.cpp
   UnityEngine.ParticleSystemModule_Attr.cpp
+  UnityEngine.SharedInternalsModule_Attr.cpp
+  Il2CppCCWs48.cpp
+  UnityEngine.TextCoreModule_Attr.cpp
   Il2CppCCWs31.cpp
   UnityEngine.AndroidJNIModule_Attr.cpp
-  UnityEngine.TextCoreModule_Attr.cpp
-  Il2CppCCWs37.cpp
-  Il2CppCCWs45.cpp
-  Il2CppCCWs47.cpp
   Mono.Security.cpp
-  Il2CppCCWs48.cpp
+  Il2CppCCWs37.cpp
+  Il2CppCCWs47.cpp
   Il2CppCCWs46.cpp
-  Microsoft.MixedReality.Toolkit.Services.InputAnimation_Attr.cpp
   Il2CppCCWs40.cpp
+  Il2CppCCWs38.cpp
+  Il2CppCCWs7.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputAnimation_Attr.cpp
   Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding_Attr.cpp
   UnityEngine.TextRenderingModule_Attr.cpp
-  Il2CppCCWs7.cpp
-  UnityEngine.VFXModule_Attr.cpp
-  Il2CppCCWs38.cpp
   Il2CppCCWs36.cpp
   Microsoft.MixedReality.Toolkit.Services.InputSimulation_CodeGen.c
-  WindowsRuntimeMetadata_CodeGen.c
+  UnityEngine.VFXModule_Attr.cpp
   UnityEngine.UnityWebRequestModule_Attr.cpp
   UnityEngine.UIModule_Attr.cpp
-  UnityEngine.SubsystemsModule_Attr.cpp
+  WindowsRuntimeMetadata_CodeGen.c
   UnityEngine.TilemapModule_Attr.cpp
-  UnityEngine.VideoModule_Attr.cpp
   Il2CppCCWs12.cpp
+  UnityEngine.SubsystemsModule_Attr.cpp
+  UnityEngine.VideoModule_Attr.cpp
   Microsoft.MixedReality.Toolkit.Services.SceneSystem_Attr.cpp
   UnityEngine.TerrainModule_Attr.cpp
   UnityEngine.UIElementsNativeModule.cpp
   UnityEngine.UIElementsNativeModule_Attr.cpp
-  Microsoft.MixedReality.Toolkit.Providers.OpenXR_Attr.cpp
   Unity.XR.InteractionSubsystems.cpp
-  UnityEngine.InputLegacyModule_Attr.cpp
   Il2CppCCWs11.cpp
+  Microsoft.MixedReality.Toolkit.Providers.OpenXR_Attr.cpp
   Unity.XR.WindowsMixedReality_CodeGen.c
+  UnityEngine.InputLegacyModule_Attr.cpp
   UnityEngine.UnityAnalyticsModule_Attr.cpp
-  UnityEngine.GridModule_Attr.cpp
   UnityEngine.TilemapModule.cpp
-  UnityEngine.VFXModule.cpp
-  System.Core_Attr.cpp
+  UnityEngine.GridModule_Attr.cpp
   Il2CppCCWs16.cpp
+  System.Core_Attr.cpp
+  UnityEngine.VFXModule.cpp
   Il2CppCCWs14.cpp
-  Microsoft.MixedReality.Toolkit.Gltf_Attr.cpp
   Il2CppCCWs8.cpp
-  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared_Attr.cpp
-  UnityEngine.ImageConversionModule_Attr.cpp
   Il2CppCCWs15.cpp
+  Microsoft.MixedReality.Toolkit.Gltf_Attr.cpp
   UnityEngine.AIModule_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared_Attr.cpp
   UnityEngine.VRModule_Attr.cpp
+  UnityEngine.ImageConversionModule_Attr.cpp
   UnityEngine.DirectorModule_Attr.cpp
-  UnityEngine.SpriteShapeModule_Attr.cpp
   UnityEngine.JSONSerializeModule_Attr.cpp
-  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality_Attr.cpp
-  Il2CppCCWs4.cpp
-  UnityEngine.VideoModule.cpp
+  UnityEngine.SpriteShapeModule_Attr.cpp
   Il2CppCCWs6.cpp
-  UnityEngine.InputModule_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality_Attr.cpp
+  UnityEngine.VideoModule.cpp
+  Il2CppCCWs4.cpp
   Il2CppCCWs13.cpp
+  UnityEngine.InputModule_Attr.cpp
   Il2CppCCWs9.cpp
   Il2CppCCWs5.cpp
-  Unity.XR.WindowsMixedReality_Attr.cpp
   Il2CppCCWs10.cpp
   UnityEngine.AssetBundleModule_Attr.cpp
+  Unity.XR.WindowsMixedReality_Attr.cpp
   UnityEngine.ARModule_Attr.cpp
-  UnityEngine.UnityAnalyticsModule.cpp
-  deflate.c
-  Microsoft.MixedReality.Toolkit.Services.InputAnimation_CodeGen.c
-  Microsoft.Windows.MixedReality.DotNetWinRT_CodeGen.c
   Microsoft.MixedReality.Toolkit.Providers.XRSDK_Attr.cpp
-  Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem_Attr.cpp
-  Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput_Attr.cpp
-  Unity.XR.Management_Attr.cpp
+  UnityEngine.UnityAnalyticsModule.cpp
+  Microsoft.Windows.MixedReality.DotNetWinRT_CodeGen.c
   Microsoft.MixedReality.Toolkit.Async_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputAnimation_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput_Attr.cpp
   I18N.Rare_CodeGen.c
   UnityEngine.XRModule_CodeGen.c
+  Unity.XR.Management_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem_Attr.cpp
   UnityEngine.IMGUIModule_CodeGen.c
-  Microsoft.MixedReality.Toolkit.Services.SceneSystem_CodeGen.c
   Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.SceneSystem_CodeGen.c
   UnityEngine.AndroidJNIModule_CodeGen.c
   I18N.CJK_CodeGen.c
   System.Xml_Attr.cpp
-  Microsoft.MixedReality.Toolkit.Gltf_CodeGen.c
-  System.Configuration_Attr.cpp
-  System.Configuration.cpp
-  System.Numerics_Attr.cpp
   UnityEngine.InputModule.cpp
-  inflate.c
+  System.Configuration.cpp
+  System.Configuration_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Gltf_CodeGen.c
+  System.Numerics_Attr.cpp
   UnityEngine.JSONSerializeModule.cpp
-  trees.c
-  UnityEngine.PhysicsModule_CodeGen.c
   UnityEngine.TextCoreModule_CodeGen.c
-  Microsoft.Windows.MixedReality.DotNetWinRT_Attr.cpp
+  Assembly-CSharp_Attr.cpp
+  UnityEngine.PhysicsModule_CodeGen.c
   Unity.XR.ARSubsystems_Attr.cpp
+  Microsoft.Windows.MixedReality.DotNetWinRT_Attr.cpp
   Unity.Subsystem.Registration.cpp
   Il2CppGenericComDefinitions3.cpp
-  System.Core_CodeGen.c
   UnityEngine.AssetBundleModule.cpp
   Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared_CodeGen.c
-  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality_CodeGen.c
   Microsoft.MixedReality.SceneUnderstanding.Projections.WSA_CodeGen.c
-  Unity.XR.ARSubsystems_CodeGen.c
-  Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem_CodeGen.c
   System.Numerics.Vectors_Attr.cpp
+  System.Core_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality_CodeGen.c
   Microsoft.MixedReality.SceneUnderstanding.Projections.WSA_Attr.cpp
-  UnityEngine.UnityWebRequestModule_CodeGen.c
-  System.Runtime.WindowsRuntime_Attr.cpp
+  Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem_CodeGen.c
+  Unity.XR.ARSubsystems_CodeGen.c
   UnityEngine.AnimationModule_CodeGen.c
+  System.Runtime.WindowsRuntime_Attr.cpp
+  UnityEngine.UnityWebRequestModule_CodeGen.c
   Mono.Security_Attr.cpp
-  System.Core.cpp
   Microsoft.MixedReality.Toolkit.Providers.OpenXR_CodeGen.c
+  System.Core.cpp
   UnityEngine.SpatialTracking_Attr.cpp
   Il2CppGenericComDefinitions96.cpp
-  UnityEngine.UIModule_CodeGen.c
   System.Runtime.WindowsRuntime_CodeGen.c
-  xamarin_getifaddrs.c
+  UnityEngine.UIModule_CodeGen.c
   UnityEngine.ARModule.cpp
   Microsoft.MixedReality.Toolkit.Services.CameraSystem_Attr.cpp
   I18N_CodeGen.c
-  System.Runtime.WindowsRuntime.UI.Xaml.cpp
   UnityEngine.SubsystemsModule_CodeGen.c
+  System.Runtime.WindowsRuntime.UI.Xaml.cpp
   System.Globalization.Extensions_Attr.cpp
   System.Diagnostics.StackTrace_Attr.cpp
+  System.Runtime.InteropServices.WindowsRuntime_Attr.cpp
   Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_Attr.cpp
   System.ObjectModel_Attr.cpp
-  System.Runtime_Attr.cpp
-  System.Runtime.InteropServices.WindowsRuntime_Attr.cpp
+  UnityEngine.ParticleSystemModule_CodeGen.c
   Microsoft.MixedReality.Toolkit.Providers.XRSDK_CodeGen.c
+  System.Runtime_Attr.cpp
   netstandard_Attr.cpp
   I18N.West_CodeGen.c
-  UnityEngine.ParticleSystemModule_CodeGen.c
-  Microsoft.MixedReality.Toolkit.Services.TeleportSystem_Attr.cpp
-  UnityEngine.AIModule.cpp
-  il2cpp-api.cpp
-  Microsoft.MixedReality.Toolkit.Async_CodeGen.c
   Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.TeleportSystem_Attr.cpp
   UnityEngine.DirectorModule.cpp
-  Unity.XR.Management_CodeGen.c
-  WindowsRuntimeMetadata_Attr.cpp
-  infback.c
+  UnityEngine.AIModule.cpp
+  Microsoft.MixedReality.Toolkit.Async_CodeGen.c
   I18N.Other_CodeGen.c
-  UnityEngine.VRModule.cpp
+  WindowsRuntimeMetadata_Attr.cpp
+  Unity.XR.Management_CodeGen.c
   UnityEngine.AudioModule_CodeGen.c
-  Assembly-CSharp.cpp
-  gzread.c
-C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Il2CppOutputProject\IL2CPP\external\zlib\gzread.c(319): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Il2CppOutputProject\IL2CPP\external\zlib\gzread.c(400): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Il2CppOutputProject\IL2CPP\external\zlib\gzread.c(472): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   UnityEngine.TextRenderingModule_CodeGen.c
-  gzwrite.c
-C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Il2CppOutputProject\IL2CPP\external\zlib\gzwrite.c(212): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Il2CppOutputProject\IL2CPP\external\zlib\gzwrite.c(232): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Il2CppOutputProject\IL2CPP\external\zlib\gzwrite.c(371): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  UnityEngine.SharedInternalsModule_CodeGen.c
+  UnityEngine.VRModule.cpp
   UnityEngine.Physics2DModule_CodeGen.c
   System.Numerics_CodeGen.c
-  UnityEngine.SharedInternalsModule_CodeGen.c
-  System.Runtime.WindowsRuntime.UI.Xaml_Attr.cpp
-  Unity.XR.InteractionSubsystems_CodeGen.c
   Unity.XR.InteractionSubsystems_Attr.cpp
-  Il2CppGenericComDefinitions42.cpp
-  gzlib.c
+  System.Runtime.WindowsRuntime.UI.Xaml_Attr.cpp
   I18N_Attr.cpp
-  UnityEngine.InputLegacyModule_CodeGen.c
   UnityEngine.TerrainModule_CodeGen.c
-  Il2CppCodeRegistration.cpp
-  I18N.Other_Attr.cpp
+  Unity.XR.InteractionSubsystems_CodeGen.c
+  UnityEngine.InputLegacyModule_CodeGen.c
   I18N.MidEast_Attr.cpp
-  crc32.c
+  I18N.Other_Attr.cpp
+  Il2CppCodeRegistration.cpp
   I18N.Rare_Attr.cpp
   I18N.West_Attr.cpp
   I18N.CJK_Attr.cpp
-  inftrees.c
+  Il2CppGenericComDefinitions42.cpp
   UnityEngine.SpatialTracking_CodeGen.c
-  inffast.c
-  Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_CodeGen.c
   I18N.MidEast_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_CodeGen.c
   UnityEngine.TilemapModule_CodeGen.c
-  Unity.Subsystem.Registration_Attr.cpp
-  Assembly-CSharp_Attr.cpp
+  Il2CppGenericComDefinitions43.cpp
   UnityEngine_Attr.cpp
-  Microsoft.MixedReality.Toolkit.Services.TeleportSystem_CodeGen.c
-  UnityEngine.VideoModule_CodeGen.c
+  Unity.Subsystem.Registration_Attr.cpp
+  Assembly-CSharp_CodeGen.c
   UnityEngine.ImageConversionModule.cpp
+  Microsoft.MixedReality.Toolkit.Services.TeleportSystem_CodeGen.c
   UnityEngine.VFXModule_CodeGen.c
+  UnityEngine.VideoModule_CodeGen.c
   UnityEngine.UIElementsNativeModule_CodeGen.c
-  Microsoft.MixedReality.Toolkit.Services.CameraSystem_CodeGen.c
   UnityEngine.UnityAnalyticsModule_CodeGen.c
-  zutil.c
-  System.Xml.cpp
+  Microsoft.MixedReality.Toolkit.Services.CameraSystem_CodeGen.c
   System.Configuration_CodeGen.c
+  System.Xml.cpp
   UnityEngine.GridModule.cpp
   Mono.Security_CodeGen.c
-  UnityEngine.SpriteShapeModule.cpp
   UnityEngine.InputModule_CodeGen.c
-  adler32.c
+  UnityEngine.SpriteShapeModule.cpp
   Il2CppReversePInvokeWrapperTable.cpp
-  uncompr.c
-  compress.c
   System.Runtime.WindowsRuntime.UI.Xaml_CodeGen.c
-  Assembly-CSharp_CodeGen.c
-  UnityEngine.JSONSerializeModule_CodeGen.c
   UnityEngine.ARModule_CodeGen.c
+  UnityEngine.JSONSerializeModule_CodeGen.c
   UnityEngine.AIModule_CodeGen.c
-  UnityAdsStubs.cpp
-  Lump_libil2cpp_icalls.cpp
-  Lump_libil2cpp_metadata.cpp
   UnityEngine.DirectorModule_CodeGen.c
-  Lump_libil2cpp_utils.cpp
-  UnityEngine.VRModule_CodeGen.c
   UnityEngine.ImageConversionModule_CodeGen.c
-  krait_signal_handler.c
+  UnityEngine.VRModule_CodeGen.c
   Unity.Subsystem.Registration_CodeGen.c
-  gc.c
   Il2CppMetadataRegistration.c
-  UnityEngine.GridModule_CodeGen.c
   System.Xml_CodeGen.c
+  UnityEngine.GridModule_CodeGen.c
   System.Globalization.Extensions.cpp
-  System.Diagnostics.StackTrace.cpp
   netstandard.cpp
-  System.Numerics.Vectors.cpp
-  Lump_libil2cpp_vm-utils.cpp
+  System.Diagnostics.StackTrace.cpp
   System.IO.Compression.cpp
-  Lump_libil2cpp_gc.cpp
-  System.ObjectModel.cpp
+  System.Numerics.Vectors.cpp
   System.Runtime.cpp
-  System.Runtime.Serialization.Xml.cpp
-  Lump_libil2cpp_mono.cpp
+  System.ObjectModel.cpp
   System.Runtime.InteropServices.WindowsRuntime.cpp
   System.Xml.XPath.XDocument.cpp
   UnityEngine.cpp
+  System.Runtime.Serialization.Xml.cpp
   System.Runtime.InteropServices.WindowsRuntime_CodeGen.c
-  gzclose.c
-  il2cpp-benchmark-support.cpp
-  System.Diagnostics.StackTrace_CodeGen.c
   System.Globalization.Extensions_CodeGen.c
   UnityEngine.AssetBundleModule_CodeGen.c
+  System.Diagnostics.StackTrace_CodeGen.c
   UnityEngine.SpriteShapeModule_CodeGen.c
   System.Numerics.Vectors_CodeGen.c
-  System.ObjectModel_CodeGen.c
   System.Runtime_CodeGen.c
+  System.ObjectModel_CodeGen.c
   netstandard_CodeGen.c
   UnityEngine_CodeGen.c
   System.Runtime.Serialization.Xml_CodeGen.c
-  Lump_libil2cpp_os.cpp
   System.Xml.XPath.XDocument_CodeGen.c
   System.IO.Compression_CodeGen.c
   System.IO.Compression_Attr.cpp
@@ -513,118 +479,112 @@ C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuild
   System.Xml.XPath.XDocument_Attr.cpp
   Il2CppGenericComDefinitions.cpp
   Il2CppGenericComDefinitions1.cpp
-  Lump_libil2cpp_debugger.cpp
   Il2CppGenericComDefinitions10.cpp
-  Il2CppGenericComDefinitions11.cpp
-  Il2CppGenericComDefinitions13.cpp
+  Il2CppGenericComDefinitions101.cpp
   Il2CppGenericComDefinitions100.cpp
+  Il2CppGenericComDefinitions11.cpp
   Il2CppGenericComDefinitions12.cpp
   Il2CppGenericComDefinitions14.cpp
+  Il2CppGenericComDefinitions13.cpp
   Il2CppGenericComDefinitions15.cpp
   Il2CppGenericComDefinitions16.cpp
+  Il2CppGenericComDefinitions18.cpp
   Il2CppGenericComDefinitions17.cpp
   Il2CppGenericComDefinitions19.cpp
-  Il2CppGenericComDefinitions18.cpp
   Il2CppGenericComDefinitions2.cpp
-  Il2CppGenericComDefinitions21.cpp
-  Lump_libil2cpp_codegen.cpp
   Il2CppGenericComDefinitions20.cpp
+  Il2CppGenericComDefinitions21.cpp
   Il2CppGenericComDefinitions22.cpp
   Il2CppGenericComDefinitions23.cpp
-  Il2CppGenericComDefinitions26.cpp
-  Il2CppGenericComDefinitions25.cpp
   Il2CppGenericComDefinitions24.cpp
-  Il2CppGenericComDefinitions28.cpp
+  Il2CppGenericComDefinitions25.cpp
+  Il2CppGenericComDefinitions26.cpp
   Il2CppGenericComDefinitions27.cpp
+  Il2CppGenericComDefinitions28.cpp
   Il2CppGenericComDefinitions29.cpp
-  Il2CppGenericComDefinitions31.cpp
-  Il2CppGenericComDefinitions33.cpp
   Il2CppGenericComDefinitions30.cpp
-  Il2CppGenericComDefinitions35.cpp
-  Il2CppGenericComDefinitions34.cpp
+  Il2CppGenericComDefinitions31.cpp
   Il2CppGenericComDefinitions32.cpp
-  Il2CppGenericComDefinitions37.cpp
-  Il2CppGenericComDefinitions39.cpp
-  Il2CppGenericComDefinitions38.cpp
+  Il2CppGenericComDefinitions33.cpp
+  Il2CppGenericComDefinitions34.cpp
+  Il2CppGenericComDefinitions35.cpp
   Il2CppGenericComDefinitions36.cpp
-  Il2CppGenericComDefinitions40.cpp
+  Il2CppGenericComDefinitions37.cpp
+  Il2CppGenericComDefinitions38.cpp
+  Il2CppGenericComDefinitions39.cpp
   Il2CppGenericComDefinitions4.cpp
+  Il2CppGenericComDefinitions40.cpp
   Il2CppGenericComDefinitions41.cpp
-  Il2CppGenericComDefinitions43.cpp
-  Il2CppGenericComDefinitions45.cpp
-  Il2CppGenericComDefinitions48.cpp
   Il2CppGenericComDefinitions44.cpp
-  Il2CppGenericComDefinitions47.cpp
+  Il2CppGenericComDefinitions45.cpp
   Il2CppGenericComDefinitions46.cpp
+  Il2CppGenericComDefinitions47.cpp
+  Il2CppGenericComDefinitions48.cpp
   Il2CppGenericComDefinitions49.cpp
   Il2CppGenericComDefinitions5.cpp
-  Il2CppGenericComDefinitions51.cpp
   Il2CppGenericComDefinitions50.cpp
+  Il2CppGenericComDefinitions51.cpp
+  Il2CppGenericComDefinitions52.cpp
   Il2CppGenericComDefinitions53.cpp
   Il2CppGenericComDefinitions54.cpp
-  Il2CppGenericComDefinitions52.cpp
-  Il2CppGenericComDefinitions56.cpp
   Il2CppGenericComDefinitions55.cpp
-  Il2CppGenericComDefinitions59.cpp
-  Il2CppGenericComDefinitions58.cpp
+  Il2CppGenericComDefinitions56.cpp
   Il2CppGenericComDefinitions57.cpp
-  Il2CppGenericComDefinitions60.cpp
+  Il2CppGenericComDefinitions58.cpp
+  Il2CppGenericComDefinitions59.cpp
   Il2CppGenericComDefinitions6.cpp
+  Il2CppGenericComDefinitions60.cpp
   Il2CppGenericComDefinitions61.cpp
   Il2CppGenericComDefinitions62.cpp
-  Il2CppGenericComDefinitions65.cpp
-  Il2CppGenericComDefinitions64.cpp
   Il2CppGenericComDefinitions63.cpp
+  Il2CppGenericComDefinitions64.cpp
+  Il2CppGenericComDefinitions65.cpp
   Il2CppGenericComDefinitions66.cpp
   Il2CppGenericComDefinitions67.cpp
   Il2CppGenericComDefinitions68.cpp
   Il2CppGenericComDefinitions69.cpp
   Il2CppGenericComDefinitions7.cpp
-  Lump_libil2cpp_vm.cpp
-  Il2CppGenericComDefinitions70.cpp
   Il2CppGenericComDefinitions72.cpp
+  Il2CppGenericComDefinitions70.cpp
   Il2CppGenericComDefinitions71.cpp
   Il2CppGenericComDefinitions73.cpp
-  Il2CppGenericComDefinitions74.cpp
-  Il2CppGenericComDefinitions75.cpp
   Il2CppGenericComDefinitions76.cpp
   Il2CppGenericComDefinitions77.cpp
+  Il2CppGenericComDefinitions74.cpp
+  Il2CppGenericComDefinitions75.cpp
+  Il2CppGenericComDefinitions8.cpp
+  Il2CppGenericComDefinitions80.cpp
   Il2CppGenericComDefinitions78.cpp
   Il2CppGenericComDefinitions79.cpp
-  Il2CppGenericComDefinitions80.cpp
-  Il2CppGenericComDefinitions8.cpp
-  Il2CppGenericComDefinitions81.cpp
+  Il2CppGenericComDefinitions82.cpp
   Il2CppGenericComDefinitions83.cpp
   Il2CppGenericComDefinitions84.cpp
-  Il2CppGenericComDefinitions85.cpp
-  Il2CppGenericComDefinitions82.cpp
-  Il2CppGenericComDefinitions86.cpp
-  Il2CppGenericComDefinitions88.cpp
-  Il2CppGenericComDefinitions89.cpp
+  Il2CppGenericComDefinitions81.cpp
   Il2CppGenericComDefinitions87.cpp
+  Il2CppGenericComDefinitions88.cpp
+  Il2CppGenericComDefinitions85.cpp
+  Il2CppGenericComDefinitions86.cpp
+  Il2CppGenericComDefinitions89.cpp
   Il2CppGenericComDefinitions9.cpp
   Il2CppGenericComDefinitions90.cpp
-  Il2CppGenericComDefinitions92.cpp
   Il2CppGenericComDefinitions91.cpp
-  Il2CppGenericComDefinitions94.cpp
+  Il2CppGenericComDefinitions92.cpp
   Il2CppGenericComDefinitions93.cpp
+  Il2CppGenericComDefinitions94.cpp
   Il2CppGenericComDefinitions95.cpp
+  Il2CppGenericComDefinitions99.cpp
   Il2CppGenericComDefinitions97.cpp
   Il2CppGenericComDefinitions98.cpp
-  Il2CppGenericComDefinitions99.cpp
-  il2cpp-runtime-stats.cpp
-  ObjectFiles: 599 of which compiled: 599
-  	Time Compile: 14943 milliseconds Generics17.cpp
-  	Time Compile: 9504 milliseconds Il2CppCCWs55.cpp
-  	Time Compile: 8988 milliseconds Il2CppCCWs3.cpp
-  	Time Compile: 8643 milliseconds Il2CppCCWs26.cpp
-  	Time Compile: 8058 milliseconds Unity.TextMeshPro3.cpp
-  	Time Compile: 7587 milliseconds System.cpp
-  	Time Compile: 7414 milliseconds Il2CppPCCWMethods.cpp
-  	Time Compile: 7221 milliseconds mscorlib5.cpp
-  	Time Compile: 6947 milliseconds Generics30.cpp
-  	Time Compile: 6573 milliseconds Unity.TextMeshPro4.cpp
-  Total compilation time: 72809 milliseconds.
-  Creating library C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release\linkresult_A96855C6FB91F869ADE5E95F4E39E648\GameAssembly.lib and object C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release\linkresult_A96855C6FB91F869ADE5E95F4E39E648\GameAssembly.exp
-  Total link time: 4879 milliseconds.
-  Cleaned up 571 object files.
+  ObjectFiles: 600 of which compiled: 567
+  	Time Compile: 74455 milliseconds Generics17.cpp
+  	Time Compile: 51192 milliseconds Il2CppCCWs3.cpp
+  	Time Compile: 48313 milliseconds Il2CppCCWs55.cpp
+  	Time Compile: 47861 milliseconds System.cpp
+  	Time Compile: 47358 milliseconds Il2CppCCWs26.cpp
+  	Time Compile: 43687 milliseconds mscorlib5.cpp
+  	Time Compile: 39918 milliseconds Unity.TextMeshPro3.cpp
+  	Time Compile: 39007 milliseconds Il2CppPCCWMethods.cpp
+  	Time Compile: 38877 milliseconds Unity.TextMeshPro4.cpp
+  	Time Compile: 31025 milliseconds Il2CppCCWs64.cpp
+  Total compilation time: 610497 milliseconds.
+  Cleaned up 2 object files.

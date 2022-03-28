@@ -54,7 +54,7 @@
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="meshScript" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript" preserve="nothing"/>
 		<type fullname="sceneObjects" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Providers.OpenXR">

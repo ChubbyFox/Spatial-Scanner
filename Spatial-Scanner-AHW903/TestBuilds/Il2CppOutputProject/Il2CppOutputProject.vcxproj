@@ -584,6 +584,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions100.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions101.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions11.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions12.cpp">

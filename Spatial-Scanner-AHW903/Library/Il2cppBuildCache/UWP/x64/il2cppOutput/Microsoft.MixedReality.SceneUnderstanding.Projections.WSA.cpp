@@ -42,10 +42,16 @@ struct Func_2_t6D2C78FDA16F87704D1F73CFAE69FFEBCFBC68C6;
 struct Func_2_tDBA2043B9C88E38F924461AE65D9BEFD2E897370;
 // System.Func`2<System.IntPtr,Microsoft.MixedReality.SceneUnderstanding.SceneQuad>
 struct Func_2_t63FFA8F9861997E7248E7A587F701133C47F16DC;
+// System.Func`2<System.Object,System.IntPtr>
+struct Func_2_tA91BD521AD24AC80A33E22B0B3E0D94F1C21D2E2;
+// System.Func`2<Microsoft.MixedReality.SceneUnderstanding.SceneFragment,System.IntPtr>
+struct Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8;
 // System.Collections.Generic.IEnumerable`1<System.IntPtr>
 struct IEnumerable_1_t3D6B9EB43382EB4019BF7653871B60C7270CDC5E;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t52B1AC8D9E5E1ED28DF6C46A37C9A1B00B394F9D;
+// System.Collections.Generic.IEnumerable`1<Microsoft.MixedReality.SceneUnderstanding.SceneFragment>
+struct IEnumerable_1_tD3B78381164C576CE6147C8CB51962A44496D8C0;
 // System.Collections.Generic.IEnumerable`1<Microsoft.MixedReality.SceneUnderstanding.SceneMesh>
 struct IEnumerable_1_tAED27680B76302011A159BB575807FA666117ABA;
 // System.Collections.Generic.IEnumerable`1<Microsoft.MixedReality.SceneUnderstanding.SceneObject>
@@ -88,6 +94,8 @@ struct DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8;
 struct IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6;
 // System.Object[]
 struct ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE;
+// Microsoft.MixedReality.SceneUnderstanding.SceneFragment[]
+struct SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B;
 // Microsoft.MixedReality.SceneUnderstanding.SceneMesh[]
 struct SceneMeshU5BU5D_tFEAC5C8F7A3A8AAAEA401DDF20D2606239DF4918;
 // Microsoft.MixedReality.SceneUnderstanding.SceneObject[]
@@ -144,6 +152,8 @@ struct Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D;
 struct SceneBuffer_tB6CC20C4884C27AB0D6A90513DB5590CFA1919E8;
 // Microsoft.MixedReality.SceneUnderstanding.SceneComponent
 struct SceneComponent_t96DA3B45D4A6E5F36A31849DC1EABD77B4F73A8C;
+// Microsoft.MixedReality.SceneUnderstanding.SceneFragment
+struct SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538;
 // Microsoft.MixedReality.SceneUnderstanding.SceneMesh
 struct SceneMesh_tF19B785EC11EB194861D02759A39BEEB53DD56EF;
 // Microsoft.MixedReality.SceneUnderstanding.SceneObject
@@ -184,6 +194,7 @@ IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t28CFE84C5E99A119C69C1C27FFEE71A7B8BA06B6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t87292EC843A5187D8AE66A7C0748C368286829A3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tA0DF5F760D691E71E08A33C877121128EA8CDF4D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_t63FFA8F9861997E7248E7A587F701133C47F16DC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_t6D2C78FDA16F87704D1F73CFAE69FFEBCFBC68C6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_tDBA2043B9C88E38F924461AE65D9BEFD2E897370_il2cpp_TypeInfo_var;
@@ -195,6 +206,7 @@ IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t26260C4EE0444C5FA02299420
 IL2CPP_EXTERN_C RuntimeClass* ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneBuffer_tB6CC20C4884C27AB0D6A90513DB5590CFA1919E8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneMesh_tF19B785EC11EB194861D02759A39BEEB53DD56EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneObject_t2EF9F84C5DDB101EE4B53827FE38617BB0B4F6BC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneQuad_t5A787A2CD5D2BBC1E41270659989B8211A9D00A5_il2cpp_TypeInfo_var;
@@ -214,6 +226,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral2CE2C17741ED25198CD318B850D1FC1948BA6904
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA8DFD923DB95CBD9ED4E17497DFF203E1F96C32;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4AC5CC6D0C334DD584ADD20D4891E15497710D9F_TisU3CRequestAccessAsyncU3Ed__4_t246ED59D6A624EB17E40981E8AC7C550A56C7C4D_m6EE768BF2BA4BB3441406CE9DBE1641266ABC9A1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t7ACC30C810A3FDA9F553E9ABA3D69AB76684070C_TisU3CComputeAsyncU3Ed__5_tEF60E57D45BDA39A8EE2BACF3D507D6FC83A94B2_m3FA2F8013ABC7A88202CFE2F178D0D72710B0B83_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncTaskMethodBuilder_1_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t7ACC30C810A3FDA9F553E9ABA3D69AB76684070C_TisU3CComputeAsyncU3Ed__6_t0F727A93AB48850E9AD37FCD97032E042FB2D309_m6B4645ECACC1AB852A80A3A0D110E261F121343D_RuntimeMethod_var;
@@ -241,6 +254,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Empty_TisIntPtr_t_m903647419745A
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisIntPtr_t_TisSceneMesh_tF19B785EC11EB194861D02759A39BEEB53DD56EF_m601AFD962C397609CCAFC0A98D784C692BB2C680_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisIntPtr_t_TisSceneObject_t2EF9F84C5DDB101EE4B53827FE38617BB0B4F6BC_mACB0F6E48F2423A5A5AF01B87972736140B9CF01_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisIntPtr_t_TisSceneQuad_t5A787A2CD5D2BBC1E41270659989B8211A9D00A5_m91D471B4640143DF85E50323E3FE16D434B889F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisSceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_TisIntPtr_t_mA30BAC9B58F0B9D644092C3062AD781882D08DA0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisIntPtr_t_mCAE3C111BE0829E5BE36A7EC0EC48CB6CDA85BE1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisSceneMesh_tF19B785EC11EB194861D02759A39BEEB53DD56EF_m8BD491589A91C77DF08ECD02C366424C5159802E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisSceneObject_t2EF9F84C5DDB101EE4B53827FE38617BB0B4F6BC_m7DC923457A0FD1A0B44A732FAADE4850BB41707D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisSceneQuad_t5A787A2CD5D2BBC1E41270659989B8211A9D00A5_m7AFAB491B9205C9FECDB802E0C3B7F21A8ADA3E5_RuntimeMethod_var;
@@ -249,6 +264,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m853EED8FAC0B76BD5CAC7BE3D5E99
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_mC7C784F29116BFBA40C2FBD0DC65773EFB677A41_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m28784CE40A520ECC6471D31983C72E7BD4D8D6FA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m657439AC3AA8C64C5E5C9542E9A02F7C2F7451B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m923546BE55545F14F47913CDCC06EE4EEA87210B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m9653752FC06BEA8CFFD7FC29D8856446D314CAA0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeLibraryHelpers_CheckStatus_m7405CD95D3D1932573FE80C57C56C2EECE567B33_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeLibraryHelpers_CheckStatus_m83E1CCB9A897C461419CF6F583D878C052D6E4C1_RuntimeMethod_var;
@@ -264,6 +280,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Task_1_GetAwaiter_mC8EAE6DB36882DAC23127E2E
 IL2CPP_EXTERN_C const RuntimeMethod* Task_Run_TisSceneBuffer_tB6CC20C4884C27AB0D6A90513DB5590CFA1919E8_m61EF43D21EFC42B5B2D797D493B7366067EEEC7B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_Run_TisSceneObserverAccessStatus_t83BCCBF5C05EF18D5E7E673FBF7798E0E3FD9D0A_mB44685E8E642DF9EE71EC178A5E19F228EE1200F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_Run_TisScene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D_mB6D0F679D5E636D7F12FC6C0E48796564C91EBF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CFromFragmentsU3Eb__13_0_mF341DB1F415059EA2C767CB60843649A27A1391E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CRequestAccessAsyncU3Eb__4_0_m361F169342D508E7061796DB80A126BFC7435E17_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3Cget_MeshesU3Eb__6_0_m2B6083A4D46D5E2EF1FFDDBC6335A0010A706D0A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3Cget_QuadsU3Eb__4_0_mEDC63D86250BD3B174BB023E7CC1A9EC13B7F76A_RuntimeMethod_var;
@@ -278,6 +295,7 @@ struct Exception_t_marshaled_pinvoke;
 
 struct ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726;
 struct IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6;
+struct SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B;
 struct SceneMeshU5BU5D_tFEAC5C8F7A3A8AAAEA401DDF20D2606239DF4918;
 struct SceneObjectU5BU5D_t28497916AFD7087192C488A9C2E8A27DCDC6D8EA;
 struct SceneQuadU5BU5D_t2BC5A7D22D127F8260E33F6A560E786E76101104;
@@ -304,6 +322,32 @@ public:
 
 
 // System.Object
+
+
+// System.EmptyArray`1<System.IntPtr>
+struct EmptyArray_1_t168CDCBB28756DA5C87BB6663F20112EC8317129  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EmptyArray_1_t168CDCBB28756DA5C87BB6663F20112EC8317129_StaticFields
+{
+public:
+	// T[] System.EmptyArray`1::Value
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* ___Value_0;
+
+public:
+	inline static int32_t get_offset_of_Value_0() { return static_cast<int32_t>(offsetof(EmptyArray_1_t168CDCBB28756DA5C87BB6663F20112EC8317129_StaticFields, ___Value_0)); }
+	inline IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* get_Value_0() const { return ___Value_0; }
+	inline IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6** get_address_of_Value_0() { return &___Value_0; }
+	inline void set_Value_0(IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* value)
+	{
+		___Value_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Value_0), (void*)value);
+	}
+};
 
 
 // System.Linq.EmptyEnumerable`1<System.IntPtr>
@@ -440,6 +484,8 @@ public:
 	U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3 * ___U3CU3E9_0;
 	// System.Func`2<System.IntPtr,Microsoft.MixedReality.SceneUnderstanding.SceneObject> Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::<>9__6_0
 	Func_2_tDBA2043B9C88E38F924461AE65D9BEFD2E897370 * ___U3CU3E9__6_0_1;
+	// System.Func`2<Microsoft.MixedReality.SceneUnderstanding.SceneFragment,System.IntPtr> Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::<>9__13_0
+	Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * ___U3CU3E9__13_0_2;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E9_0() { return static_cast<int32_t>(offsetof(U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_StaticFields, ___U3CU3E9_0)); }
@@ -458,6 +504,15 @@ public:
 	{
 		___U3CU3E9__6_0_1 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9__6_0_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E9__13_0_2() { return static_cast<int32_t>(offsetof(U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_StaticFields, ___U3CU3E9__13_0_2)); }
+	inline Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * get_U3CU3E9__13_0_2() const { return ___U3CU3E9__13_0_2; }
+	inline Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 ** get_address_of_U3CU3E9__13_0_2() { return &___U3CU3E9__13_0_2; }
+	inline void set_U3CU3E9__13_0_2(Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * value)
+	{
+		___U3CU3E9__13_0_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E9__13_0_2), (void*)value);
 	}
 };
 
@@ -2021,6 +2076,24 @@ public:
 };
 
 
+// Microsoft.MixedReality.SceneUnderstanding.SceneFragment
+struct SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538  : public RuntimeObject
+{
+public:
+	// System.IntPtr Microsoft.MixedReality.SceneUnderstanding.SceneFragment::handle
+	intptr_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538, ___handle_0)); }
+	inline intptr_t get_handle_0() const { return ___handle_0; }
+	inline intptr_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(intptr_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+
 // Microsoft.MixedReality.SceneUnderstanding.SceneMeshLevelOfDetail
 struct SceneMeshLevelOfDetail_t925CB1AFEDD5DBFC9039E5BEC35B34EF33024F5E 
 {
@@ -2790,6 +2863,15 @@ public:
 };
 
 
+// System.Func`2<Microsoft.MixedReality.SceneUnderstanding.SceneFragment,System.IntPtr>
+struct Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // System.ArgumentException
 struct ArgumentException_t505FA8C11E883F2D96C797AD9D396490794DEE00  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
 {
@@ -3420,6 +3502,43 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
+// Microsoft.MixedReality.SceneUnderstanding.SceneFragment[]
+struct SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * m_Items[1];
+
+public:
+	inline SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
 // Microsoft.MixedReality.SceneUnderstanding.SceneQuad[]
 struct SceneQuadU5BU5D_t2BC5A7D22D127F8260E33F6A560E786E76101104  : public RuntimeArray
 {
@@ -3504,6 +3623,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m01C83B45985F21ACDD85311314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisIntPtr_t_TisRuntimeObject_m5401B883B68D0DE8291C7FB5E93E0D5A309557A3_gshared (RuntimeObject* ___source0, Func_2_tBAE19E72D7DA6A7039B9076A73522B08CCF10BAC * ___selector1, const RuntimeMethod* method);
 // !!0[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* Enumerable_ToArray_TisRuntimeObject_m21E15191FE8BDBAE753CC592A1DB55EA3BCE7B5B_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
+// System.Void System.Func`2<System.Object,System.IntPtr>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m33BD035CDA176D11C396E32733157C68C3CF5B7F_gshared (Func_2_tA91BD521AD24AC80A33E22B0B3E0D94F1C21D2E2 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
+// System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.IntPtr>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisRuntimeObject_TisIntPtr_t_m22EEB84999629E0A524BDDB42D9CC6AE15A2FEF3_gshared (RuntimeObject* ___source0, Func_2_tA91BD521AD24AC80A33E22B0B3E0D94F1C21D2E2 * ___selector1, const RuntimeMethod* method);
+// !!0[] System.Linq.Enumerable::ToArray<System.IntPtr>(System.Collections.Generic.IEnumerable`1<!!0>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* Enumerable_ToArray_TisIntPtr_t_mCAE3C111BE0829E5BE36A7EC0EC48CB6CDA85BE1_gshared (RuntimeObject* ___source0, const RuntimeMethod* method);
+// !!0[] System.Array::Empty<System.IntPtr>()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_gshared_inline (const RuntimeMethod* method);
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<!0> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::Create()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_1_tA127A1F52E95BB1EF071855A5C4A5C5439CB7522  AsyncTaskMethodBuilder_1_Create_mFB6F6EE0A26AD03508C6A555A4B257A452846302_gshared (const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Int32Enum>::Start<Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<RequestAccessAsync>d__4>(!!0&)
@@ -3625,6 +3752,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m212AF0E66AA81FEDC9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Scene__ctor_m0C72BC23B92CCBB187457DE33E8E0DFB05BC4EBB (Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_deserialize_serialized_scene_scene_previous_scene(System.Byte[],System.Int32,System.IntPtr,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_deserialize_serialized_scene_scene_previous_scene_mC0FDE2CFDB57F050EE40F43DBE82DAA331145A6C (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___serialized_scene0, int32_t ___serialized_scene_count1, intptr_t ___previous_scene2, intptr_t* ___result3, const RuntimeMethod* method);
+// System.Void System.Func`2<Microsoft.MixedReality.SceneUnderstanding.SceneFragment,System.IntPtr>::.ctor(System.Object,System.IntPtr)
+inline void Func_2__ctor_m923546BE55545F14F47913CDCC06EE4EEA87210B (Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_2__ctor_m33BD035CDA176D11C396E32733157C68C3CF5B7F_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<Microsoft.MixedReality.SceneUnderstanding.SceneFragment,System.IntPtr>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
+inline RuntimeObject* Enumerable_Select_TisSceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_TisIntPtr_t_mA30BAC9B58F0B9D644092C3062AD781882D08DA0 (RuntimeObject* ___source0, Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * ___selector1, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 *, const RuntimeMethod*))Enumerable_Select_TisRuntimeObject_TisIntPtr_t_m22EEB84999629E0A524BDDB42D9CC6AE15A2FEF3_gshared)(___source0, ___selector1, method);
+}
+// !!0[] System.Linq.Enumerable::ToArray<System.IntPtr>(System.Collections.Generic.IEnumerable`1<!!0>)
+inline IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* Enumerable_ToArray_TisIntPtr_t_mCAE3C111BE0829E5BE36A7EC0EC48CB6CDA85BE1 (RuntimeObject* ___source0, const RuntimeMethod* method)
+{
+	return ((  IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisIntPtr_t_mCAE3C111BE0829E5BE36A7EC0EC48CB6CDA85BE1_gshared)(___source0, method);
+}
+// !!0[] System.Array::Empty<System.IntPtr>()
+inline IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_inline (const RuntimeMethod* method)
+{
+	return ((  IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* (*) (const RuntimeMethod*))Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_gshared_inline)(method);
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_from_fragments_scene_fragments(System.IntPtr[],System.Int32,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_from_fragments_scene_fragments_mBEBFF5C61EA89FF791DCE5FF4F3F0915916CBF3C (IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* ___scene_fragments0, int32_t ___scene_fragments_count1, intptr_t* ___result2, const RuntimeMethod* method);
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_buffer_addref(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_buffer_addref_m3B50BA2B669F776CA2B7315C829A9CB78D180D04 (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_buffer_release(System.IntPtr)
@@ -3641,6 +3790,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_component_addr
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_component_release_mA6C3D1887A4266F21C5957FE8161AAE9AC74A24C (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_component_get_id(System.IntPtr,System.Guid&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_component_get_id_m4F12DA0ABF571DBBCA065A04B40CFEF5F7D4B709 (intptr_t ___handle0, Guid_t * ___result1, const RuntimeMethod* method);
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_addref(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_addref_m43264752A2E410493AA975A222DBF90C3250D693 (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_release(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_release_mEDA0DAD0C908F953568D24D1A58085E75BFDF45A (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_dispose(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_dispose_mC4DA12D0CA552810D982C46F236D512181C1C469 (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_deserialize(System.Byte[],System.Int32,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_deserialize_m249557262D64F40651B567EACB6C8538EBDA47C3 (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___serialized_scene_fragment0, int32_t ___serialized_scene_fragment_count1, intptr_t* ___result2, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneFragment__ctor_mCB9A3A774F8F4F0E86611E72CF6E82E6EB54AAA8 (SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
 // System.Void Microsoft.MixedReality.SceneUnderstanding.SceneComponent::.ctor(System.IntPtr,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneComponent__ctor_m0EBFC08B4D3850BC3FBB26ABA50E0069D7DB6A15 (SceneComponent_t96DA3B45D4A6E5F36A31849DC1EABD77B4F73A8C * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_mesh_get_triangle_index_count(System.IntPtr,System.UInt32&)
@@ -3961,6 +4120,21 @@ IL2CPP_EXTERN_C int32_t CDECL su_scene_deserialize_serialized_scene(uint8_t*, in
 IL2CPP_EXTERN_C int32_t CDECL su_scene_deserialize_serialized_scene_scene_previous_scene(uint8_t*, int32_t, intptr_t, intptr_t*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_from_fragments_scene_fragments(intptr_t*, int32_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_fragment_release(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_fragment_addref(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_fragment_deserialize(uint8_t*, int32_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_fragment_dispose(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL su_scene_get_scene_objects(intptr_t, intptr_t**, int32_t*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
@@ -4263,6 +4437,135 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_deserialize_se
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_deserialize_serialized_scene_scene_previous_scene)(____serialized_scene0_marshaled, ___serialized_scene_count1, ___previous_scene2, ___result3);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(____serialized_scene0_marshaled, ___serialized_scene_count1, ___previous_scene2, ___result3);
+	#endif
+
+	return returnValue;
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_from_fragments_scene_fragments(System.IntPtr[],System.Int32,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_from_fragments_scene_fragments_mBEBFF5C61EA89FF791DCE5FF4F3F0915916CBF3C (IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* ___scene_fragments0, int32_t ___scene_fragments_count1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (intptr_t*, int32_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_from_fragments_scene_fragments", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___scene_fragments0' to native representation
+	intptr_t* ____scene_fragments0_marshaled = NULL;
+	if (___scene_fragments0 != NULL)
+	{
+		____scene_fragments0_marshaled = reinterpret_cast<intptr_t*>((___scene_fragments0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_from_fragments_scene_fragments)(____scene_fragments0_marshaled, ___scene_fragments_count1, ___result2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____scene_fragments0_marshaled, ___scene_fragments_count1, ___result2);
+	#endif
+
+	return returnValue;
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_release(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_release_mEDA0DAD0C908F953568D24D1A58085E75BFDF45A (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_fragment_release", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_fragment_release)(___handle0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___handle0);
+	#endif
+
+	return returnValue;
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_addref(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_addref_m43264752A2E410493AA975A222DBF90C3250D693 (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_fragment_addref", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_fragment_addref)(___handle0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___handle0);
+	#endif
+
+	return returnValue;
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_deserialize(System.Byte[],System.Int32,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_deserialize_m249557262D64F40651B567EACB6C8538EBDA47C3 (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___serialized_scene_fragment0, int32_t ___serialized_scene_fragment_count1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (uint8_t*, int32_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(int32_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_fragment_deserialize", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___serialized_scene_fragment0' to native representation
+	uint8_t* ____serialized_scene_fragment0_marshaled = NULL;
+	if (___serialized_scene_fragment0 != NULL)
+	{
+		____serialized_scene_fragment0_marshaled = reinterpret_cast<uint8_t*>((___serialized_scene_fragment0)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_fragment_deserialize)(____serialized_scene_fragment0_marshaled, ___serialized_scene_fragment_count1, ___result2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____serialized_scene_fragment0_marshaled, ___serialized_scene_fragment_count1, ___result2);
+	#endif
+
+	return returnValue;
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_fragment_dispose(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_fragment_dispose_mC4DA12D0CA552810D982C46F236D512181C1C469 (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_fragment_dispose", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_fragment_dispose)(___handle0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___handle0);
 	#endif
 
 	return returnValue;
@@ -5720,6 +6023,152 @@ IL_0035:
 		return L_10;
 	}
 }
+// Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Scene::FromFragments(Microsoft.MixedReality.SceneUnderstanding.SceneFragment[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D * Scene_FromFragments_m0E7D5E013FED54A4B4D448F83EA965E591541DC1 (SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B* ___sceneFragments0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisSceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_TisIntPtr_t_mA30BAC9B58F0B9D644092C3062AD781882D08DA0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisIntPtr_t_mCAE3C111BE0829E5BE36A7EC0EC48CB6CDA85BE1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2__ctor_m923546BE55545F14F47913CDCC06EE4EEA87210B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CFromFragmentsU3Eb__13_0_mF341DB1F415059EA2C767CB60843649A27A1391E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* G_B5_0 = NULL;
+	Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * G_B4_0 = NULL;
+	SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B* G_B4_1 = NULL;
+	Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * G_B3_0 = NULL;
+	SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B* G_B3_1 = NULL;
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* G_B7_0 = NULL;
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* G_B6_0 = NULL;
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* G_B9_0 = NULL;
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* G_B8_0 = NULL;
+	int32_t G_B10_0 = 0;
+	IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* G_B10_1 = NULL;
+	{
+		// IntPtr[] sceneFragments_array = sceneFragments?.Select(x => x?.handle ?? IntPtr.Zero).ToArray() ?? Array.Empty<IntPtr>();
+		SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B* L_0 = ___sceneFragments0;
+		if (L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		G_B5_0 = ((IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6*)(NULL));
+		goto IL_0030;
+	}
+
+IL_0006:
+	{
+		SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B* L_1 = ___sceneFragments0;
+		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_il2cpp_TypeInfo_var);
+		Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * L_2 = ((U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_il2cpp_TypeInfo_var))->get_U3CU3E9__13_0_2();
+		Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * L_3 = L_2;
+		G_B3_0 = L_3;
+		G_B3_1 = L_1;
+		if (L_3)
+		{
+			G_B4_0 = L_3;
+			G_B4_1 = L_1;
+			goto IL_0026;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_il2cpp_TypeInfo_var);
+		U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3 * L_4 = ((U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
+		Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * L_5 = (Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 *)il2cpp_codegen_object_new(Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8_il2cpp_TypeInfo_var);
+		Func_2__ctor_m923546BE55545F14F47913CDCC06EE4EEA87210B(L_5, L_4, (intptr_t)((intptr_t)U3CU3Ec_U3CFromFragmentsU3Eb__13_0_mF341DB1F415059EA2C767CB60843649A27A1391E_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m923546BE55545F14F47913CDCC06EE4EEA87210B_RuntimeMethod_var);
+		Func_2_t4080DD0A999394A565D0C0034A4556B8F8F855E8 * L_6 = L_5;
+		((U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3_il2cpp_TypeInfo_var))->set_U3CU3E9__13_0_2(L_6);
+		G_B4_0 = L_6;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_0026:
+	{
+		RuntimeObject* L_7;
+		L_7 = Enumerable_Select_TisSceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_TisIntPtr_t_mA30BAC9B58F0B9D644092C3062AD781882D08DA0((RuntimeObject*)(RuntimeObject*)G_B4_1, G_B4_0, /*hidden argument*/Enumerable_Select_TisSceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_TisIntPtr_t_mA30BAC9B58F0B9D644092C3062AD781882D08DA0_RuntimeMethod_var);
+		IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* L_8;
+		L_8 = Enumerable_ToArray_TisIntPtr_t_mCAE3C111BE0829E5BE36A7EC0EC48CB6CDA85BE1(L_7, /*hidden argument*/Enumerable_ToArray_TisIntPtr_t_mCAE3C111BE0829E5BE36A7EC0EC48CB6CDA85BE1_RuntimeMethod_var);
+		G_B5_0 = L_8;
+	}
+
+IL_0030:
+	{
+		IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* L_9 = G_B5_0;
+		G_B6_0 = L_9;
+		if (L_9)
+		{
+			G_B7_0 = L_9;
+			goto IL_0039;
+		}
+	}
+	{
+		IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* L_10;
+		L_10 = Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_inline(/*hidden argument*/Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_RuntimeMethod_var);
+		G_B7_0 = L_10;
+	}
+
+IL_0039:
+	{
+		// Microsoft.MixedReality.SceneUnderstanding.NativeLibraryHelpers.CheckStatus(Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_from_fragments_scene_fragments(sceneFragments_array, sceneFragments?.Length ?? 0, out result_handle));
+		SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B* L_11 = ___sceneFragments0;
+		G_B8_0 = G_B7_0;
+		if (L_11)
+		{
+			G_B9_0 = G_B7_0;
+			goto IL_003f;
+		}
+	}
+	{
+		G_B10_0 = 0;
+		G_B10_1 = G_B8_0;
+		goto IL_0042;
+	}
+
+IL_003f:
+	{
+		SceneFragmentU5BU5D_tE1EE57545EBA99982B93F8A66DA0E8C61DFB6B8B* L_12 = ___sceneFragments0;
+		NullCheck(L_12);
+		G_B10_0 = ((int32_t)((int32_t)(((RuntimeArray*)L_12)->max_length)));
+		G_B10_1 = G_B9_0;
+	}
+
+IL_0042:
+	{
+		int32_t L_13;
+		L_13 = NativeLibrary_su_scene_from_fragments_scene_fragments_mBEBFF5C61EA89FF791DCE5FF4F3F0915916CBF3C(G_B10_1, G_B10_0, (intptr_t*)(&V_0), /*hidden argument*/NULL);
+		NativeLibraryHelpers_CheckStatus_m7405CD95D3D1932573FE80C57C56C2EECE567B33(L_13, /*hidden argument*/NULL);
+		// result_object = (result_handle != IntPtr.Zero) ? new Microsoft.MixedReality.SceneUnderstanding.Scene(result_handle, transfer:true) : null;
+		intptr_t L_14 = V_0;
+		bool L_15;
+		L_15 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_14, (intptr_t)(0), /*hidden argument*/NULL);
+		if (L_15)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		return (Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D *)NULL;
+	}
+
+IL_005d:
+	{
+		intptr_t L_16 = V_0;
+		Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D * L_17 = (Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D *)il2cpp_codegen_object_new(Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D_il2cpp_TypeInfo_var);
+		Scene__ctor_m0C72BC23B92CCBB187457DE33E8E0DFB05BC4EBB(L_17, (intptr_t)L_16, (bool)1, /*hidden argument*/NULL);
+		// return result_object;
+		return L_17;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -5992,6 +6441,166 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Guid_t  SceneComponent_get_Id_mDCAD1C842657B4
 		// return result;
 		Guid_t  L_3 = V_0;
 		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneFragment__ctor_mCB9A3A774F8F4F0E86611E72CF6E82E6EB54AAA8 (SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method)
+{
+	{
+		// internal SceneFragment(IntPtr ahandle, bool transfer)
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		// this.handle = ahandle;
+		intptr_t L_0 = ___ahandle0;
+		__this->set_handle_0((intptr_t)L_0);
+		// if (!transfer) Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_fragment_addref(ahandle);
+		bool L_1 = ___transfer1;
+		if (L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// if (!transfer) Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_fragment_addref(ahandle);
+		intptr_t L_2 = ___ahandle0;
+		int32_t L_3;
+		L_3 = NativeLibrary_su_scene_fragment_addref_m43264752A2E410493AA975A222DBF90C3250D693((intptr_t)L_2, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneFragment_Finalize_mA16CDF9F914AB6619DC8429684098A4AFBC1E83E (SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * __this, const RuntimeMethod* method)
+{
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		// NativeLibraryHelpers.CheckStatus(this.handle, NativeLibrary.su_scene_fragment_release(this.handle));
+		intptr_t L_0 = __this->get_handle_0();
+		intptr_t L_1 = __this->get_handle_0();
+		int32_t L_2;
+		L_2 = NativeLibrary_su_scene_fragment_release_mEDA0DAD0C908F953568D24D1A58085E75BFDF45A((intptr_t)L_1, /*hidden argument*/NULL);
+		NativeLibraryHelpers_CheckStatus_m83E1CCB9A897C461419CF6F583D878C052D6E4C1((intptr_t)L_0, L_2, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x1F, FINALLY_0018);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0018;
+	}
+
+FINALLY_0018:
+	{ // begin finally (depth: 1)
+		// }
+		Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A(__this, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(24)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(24)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x1F, IL_001f)
+	}
+
+IL_001f:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneFragment_Dispose_mBE55BC7DEC0C8FD4B3483AC441688263DAC267E7 (SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * __this, const RuntimeMethod* method)
+{
+	{
+		// NativeLibraryHelpers.CheckStatus(this.handle, NativeLibrary.su_scene_fragment_dispose (this.handle));
+		intptr_t L_0 = __this->get_handle_0();
+		intptr_t L_1 = __this->get_handle_0();
+		int32_t L_2;
+		L_2 = NativeLibrary_su_scene_fragment_dispose_mC4DA12D0CA552810D982C46F236D512181C1C469((intptr_t)L_1, /*hidden argument*/NULL);
+		NativeLibraryHelpers_CheckStatus_m83E1CCB9A897C461419CF6F583D878C052D6E4C1((intptr_t)L_0, L_2, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// Microsoft.MixedReality.SceneUnderstanding.SceneFragment Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Deserialize(System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * SceneFragment_Deserialize_m31FC02F1B5882ED8D63A1A4F3CCE6B33F50D9777 (ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___serializedSceneFragment0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* G_B2_0 = NULL;
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* G_B3_1 = NULL;
+	{
+		// Microsoft.MixedReality.SceneUnderstanding.NativeLibraryHelpers.CheckStatus(Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_fragment_deserialize(serializedSceneFragment, serializedSceneFragment?.Length ?? 0, out result_handle));
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_0 = ___serializedSceneFragment0;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_1 = ___serializedSceneFragment0;
+		G_B1_0 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_0;
+			goto IL_0007;
+		}
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		goto IL_000a;
+	}
+
+IL_0007:
+	{
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_2 = ___serializedSceneFragment0;
+		NullCheck(L_2);
+		G_B3_0 = ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)));
+		G_B3_1 = G_B2_0;
+	}
+
+IL_000a:
+	{
+		int32_t L_3;
+		L_3 = NativeLibrary_su_scene_fragment_deserialize_m249557262D64F40651B567EACB6C8538EBDA47C3(G_B3_1, G_B3_0, (intptr_t*)(&V_0), /*hidden argument*/NULL);
+		NativeLibraryHelpers_CheckStatus_m7405CD95D3D1932573FE80C57C56C2EECE567B33(L_3, /*hidden argument*/NULL);
+		// result_object = (result_handle != IntPtr.Zero) ? new Microsoft.MixedReality.SceneUnderstanding.SceneFragment(result_handle, transfer:true) : null;
+		intptr_t L_4 = V_0;
+		bool L_5;
+		L_5 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_4, (intptr_t)(0), /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		return (SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 *)NULL;
+	}
+
+IL_0025:
+	{
+		intptr_t L_6 = V_0;
+		SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * L_7 = (SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 *)il2cpp_codegen_object_new(SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_il2cpp_TypeInfo_var);
+		SceneFragment__ctor_mCB9A3A774F8F4F0E86611E72CF6E82E6EB54AAA8(L_7, (intptr_t)L_6, (bool)1, /*hidden argument*/NULL);
+		// return result_object;
+		return L_7;
 	}
 }
 #ifdef __clang__
@@ -6886,6 +7495,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SceneObject_t2EF9F84C5DDB101EE4B53827FE38617B
 		SceneObject_t2EF9F84C5DDB101EE4B53827FE38617BB0B4F6BC * L_1 = (SceneObject_t2EF9F84C5DDB101EE4B53827FE38617BB0B4F6BC *)il2cpp_codegen_object_new(SceneObject_t2EF9F84C5DDB101EE4B53827FE38617BB0B4F6BC_il2cpp_TypeInfo_var);
 		SceneObject__ctor_m1AA7DF0094E66607CC2E2B1FE7CB84A46FB69B1B(L_1, (intptr_t)L_0, (bool)1, /*hidden argument*/NULL);
 		return L_1;
+	}
+}
+// System.IntPtr Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::<FromFragments>b__13_0(Microsoft.MixedReality.SceneUnderstanding.SceneFragment)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t U3CU3Ec_U3CFromFragmentsU3Eb__13_0_mF341DB1F415059EA2C767CB60843649A27A1391E (U3CU3Ec_t821AD8A9E8BBB28AEFF7B642399C87C0E988BDC3 * __this, SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * ___x0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// IntPtr[] sceneFragments_array = sceneFragments?.Select(x => x?.handle ?? IntPtr.Zero).ToArray() ?? Array.Empty<IntPtr>();
+		SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * L_0 = ___x0;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return (intptr_t)(0);
+	}
+
+IL_0009:
+	{
+		SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538 * L_1 = ___x0;
+		NullCheck(L_1);
+		intptr_t L_2 = L_1->get_handle_0();
+		return (intptr_t)L_2;
 	}
 }
 #ifdef __clang__
@@ -7928,5 +8566,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Empty_T
 		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->rgctx_data, 0));
 		IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* L_0 = ((EmptyEnumerable_1_tEAA607D90204C519C372298048C7AE03536BEA2C_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(method->rgctx_data, 0)))->get_Instance_0();
 		return (RuntimeObject*)L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* Array_Empty_TisIntPtr_t_m81A9A601EB41F240B8FF9E0EEE280263890FA95C_gshared_inline (const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->rgctx_data, 0));
+		IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* L_0 = ((EmptyArray_1_t168CDCBB28756DA5C87BB6663F20112EC8317129_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(method->rgctx_data, 0)))->get_Value_0();
+		return (IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6*)L_0;
 	}
 }

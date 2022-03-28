@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-S450B9N</Machine>
+    <Machine>DESKTOP-LPA11IK</Machine>
     <WindowsUser>andyw</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,14 +10,14 @@
     <PackageArchitecture>arm64</PackageArchitecture>
     <PackageIdentityName>141d4742-282d-4ea0-b11a-269a27ffdf7b</PackageIdentityName>
     <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\Scanner\ARM64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\Scanner\ARM64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\AppX</LayoutDir>
     <RegisteredManifestChecksum>200D7549A303177E29BF3B060B58F359957DA333E24FC78F857A2730EB007D1B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>Template3D_1.0.0.0_arm64__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Template3D_pzq3xp76mxafg!App</RegisteredUserModeAppID>
@@ -26,16 +26,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T08:29:49.813</Modified>
+      <Modified>2022-03-28T01:26:24.914</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\Scanner.exe">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\Scanner.exe">
       <PackagePath>Scanner.exe</PackagePath>
-      <Modified>2022-03-22T08:29:49.220</Modified>
+      <Modified>2022-03-28T01:26:19.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -45,224 +45,224 @@
       <PackagePath>UnityPlayer.dll</PackagePath>
       <Modified>2022-02-15T00:03:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\Scanner.winmd">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\Scanner.winmd">
       <PackagePath>Scanner.winmd</PackagePath>
-      <Modified>2022-03-22T01:53:59.702</Modified>
+      <Modified>2022-03-28T01:26:18.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T01:55:08.693</Modified>
+      <Modified>2022-02-14T23:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T01:55:07.928</Modified>
+      <Modified>2022-02-14T23:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T01:55:08.880</Modified>
+      <Modified>2022-02-14T23:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T01:55:09.124</Modified>
+      <Modified>2022-02-14T23:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T01:55:09.126</Modified>
+      <Modified>2022-02-14T23:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T01:55:09.082</Modified>
+      <Modified>2022-02-14T23:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-22T01:55:07.524</Modified>
+      <Modified>2022-02-14T23:30:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\StoreManifest.xml">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2022-03-22T07:32:16.468</Modified>
+      <Modified>2022-03-28T01:11:30.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\mconfig\config.xml">
       <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\boot.config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2022-03-22T07:32:15.641</Modified>
+      <Modified>2022-03-28T01:11:27.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\machine.config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\web.config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\machine.config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\web.config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\machine.config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\web.config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\web.config">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\globalgamemanagers">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2022-03-22T07:32:08.100</Modified>
+      <Modified>2022-03-28T01:11:10.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\level0">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2022-03-22T07:32:05.244</Modified>
+      <Modified>2022-03-28T01:11:05.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\config">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\config">
       <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
       <Modified>2022-02-14T23:36:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
       <Modified>2022-02-14T23:30:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2022-03-22T07:32:15.639</Modified>
+      <Modified>2022-03-28T01:11:27.926</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2022-03-22T07:32:08.171</Modified>
+      <Modified>2022-03-28T01:11:10.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\resources.assets">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2022-03-22T07:32:08.631</Modified>
+      <Modified>2022-03-28T01:11:11.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2022-03-22T07:32:14.346</Modified>
+      <Modified>2022-03-28T01:11:24.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\level0.resS">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2022-03-22T07:32:05.240</Modified>
+      <Modified>2022-03-28T01:11:05.672</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\resources.assets.resS">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2022-03-22T07:32:08.631</Modified>
+      <Modified>2022-03-28T01:11:11.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2022-03-22T07:32:14.340</Modified>
+      <Modified>2022-03-28T01:11:24.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2022-03-22T07:32:42.379</Modified>
+      <Modified>2022-03-28T01:12:25.497</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\resources.resource">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\resources.resource">
       <PackagePath>Data\resources.resource</PackagePath>
-      <Modified>2022-03-22T07:32:08.625</Modified>
+      <Modified>2022-03-28T01:11:11.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\sharedassets0.resource">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2022-03-22T07:32:14.315</Modified>
+      <Modified>2022-03-28T01:11:24.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\RuntimeInitializeOnLoads.json">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\RuntimeInitializeOnLoads.json">
       <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
-      <Modified>2022-03-22T07:32:00.824</Modified>
+      <Modified>2022-03-28T01:11:04.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\ScriptingAssemblies.json">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\ScriptingAssemblies.json">
       <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
-      <Modified>2022-03-22T07:32:07.943</Modified>
+      <Modified>2022-03-28T01:11:09.614</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json">
       <PackagePath>Data\UnitySubsystems\WindowsMRXRSDK\UnitySubsystemsManifest.json</PackagePath>
       <Modified>2022-01-28T12:20:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\browscap.ini">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\browscap.ini">
       <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
       <Modified>2022-02-14T23:36:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\settings.map">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\settings.map">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\settings.map">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\settings.map">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
       <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
       <Modified>2022-02-14T23:34:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\Metadata\global-metadata.dat">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2022-03-22T07:32:38.677</Modified>
+      <Modified>2022-03-28T00:26:29.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2022-03-22T07:32:31.287</Modified>
+      <Modified>2022-03-28T00:25:58.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2022-03-22T07:32:31.286</Modified>
+      <Modified>2022-03-28T00:25:58.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\AudioPluginMsHRTF.dll">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\AudioPluginMsHRTF.dll">
       <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
       <Modified>2022-01-28T12:20:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Microsoft.MixedReality.SceneUnderstanding.dll">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\Microsoft.MixedReality.SceneUnderstanding.dll">
       <PackagePath>Microsoft.MixedReality.SceneUnderstanding.dll</PackagePath>
-      <Modified>2022-03-11T06:24:46.436</Modified>
+      <Modified>2022-03-27T21:28:23.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\WindowsMRXRSDK.dll">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\WindowsMRXRSDK.dll">
       <PackagePath>WindowsMRXRSDK.dll</PackagePath>
       <Modified>2022-01-28T12:20:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\GameAssembly.dll">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2022-03-22T08:29:45.964</Modified>
+      <Modified>2022-03-28T00:32:06.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
       <PackagePath>baselib.dll</PackagePath>
       <Modified>2022-02-15T00:03:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\resources.pri">
+    <AppxPackagedFile Include="C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-03-22T08:29:49.651</Modified>
+      <Modified>2022-03-28T01:26:22.043</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

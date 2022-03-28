@@ -91,31 +91,31 @@ static Il2CppMethodPointer s_methodPointers[25] =
 };
 static const int32_t s_InvokerIndices[25] = 
 {
-	3007,
-	3640,
-	3563,
-	3007,
-	3640,
-	3640,
-	3640,
+	3018,
+	3652,
+	3575,
+	3018,
+	3652,
+	3652,
+	3652,
 	-1,
-	3007,
-	3007,
-	3596,
-	3604,
-	3043,
-	1777,
-	1777,
-	1777,
-	1777,
-	3007,
-	5247,
-	5247,
-	3640,
-	1777,
-	1777,
-	1777,
-	1777,
+	3018,
+	3018,
+	3608,
+	3616,
+	3054,
+	1784,
+	1784,
+	1784,
+	1784,
+	3018,
+	5264,
+	5264,
+	3652,
+	1784,
+	1784,
+	1784,
+	1784,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -123,7 +123,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
 {
-	{ (Il2CppRGCTXDataType)3, 38625 },
+	{ (Il2CppRGCTXDataType)3, 38841 },
 };
 extern const CustomAttributesCacheGenerator g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_TeleportSystem_CodeGenModule;
