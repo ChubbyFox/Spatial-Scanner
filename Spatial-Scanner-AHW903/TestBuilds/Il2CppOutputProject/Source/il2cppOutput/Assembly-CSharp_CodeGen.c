@@ -18,125 +18,305 @@ extern void sceneObjects_Start_mA78AF5BCAD4CC72D5240663ADF3ADFE2CCF8A0A6 (void);
 extern void sceneObjects_toggleModel_m2BAFF7F9A62F034B7994FCEB58D0DD46EFF741D6 (void);
 // 0x00000003 System.Void sceneObjects::.ctor()
 extern void sceneObjects__ctor_mD46DC270CB5DBEB91A9AF3559A62948C916A73D1 (void);
-// 0x00000004 Microsoft.MixedReality.SceneUnderstanding.SceneFragment Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetLatestSceneSerialization()
+// 0x00000004 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.SceneUnderstandingProperties::.ctor()
+extern void SceneUnderstandingProperties__ctor_m4DF0FC231A5BFB1AFB28185359735661D2131422 (void);
+// 0x00000005 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::Start()
+extern void meshScript_Start_m6D9A9015FE95E39D2D3F0B6B14CD3382AA2B9E07 (void);
+// 0x00000006 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::Update()
+extern void meshScript_Update_m17F65846C558853A85E33161B12D9F02DD2A1218 (void);
+// 0x00000007 Microsoft.MixedReality.SceneUnderstanding.SceneFragment Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetLatestSceneSerialization()
 extern void meshScript_GetLatestSceneSerialization_m6E0DF0C1D76A23D1E3CF406D734B4F01E8269733 (void);
-// 0x00000005 System.Nullable`1<UnityEngine.Color> Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetColor(Microsoft.MixedReality.SceneUnderstanding.SceneObjectKind)
+// 0x00000008 System.Guid Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetLatestSUSceneId()
+extern void meshScript_GetLatestSUSceneId_m80A8326DEC29737BC6E336621C1174389CC8711D (void);
+// 0x00000009 Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetLatestDeserializedScene()
+extern void meshScript_GetLatestDeserializedScene_mA390642F548F44BAB5D0D6128B4E297DEEBD63E8 (void);
+// 0x0000000A System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::RetrieveDataContinuously()
+extern void meshScript_RetrieveDataContinuously_m7FA616BF5B4E2408183E1CC5ACB06C703D42FAB2 (void);
+// 0x0000000B System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::RetrieveData(System.Single,System.Boolean,System.Boolean,System.Boolean,System.Boolean,Microsoft.MixedReality.SceneUnderstanding.SceneMeshLevelOfDetail)
+extern void meshScript_RetrieveData_m8349FC40BA3EDAE21848AC7A4CFEC236F4F6A527 (void);
+// 0x0000000C System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::DisplayDataAsync()
+extern void meshScript_DisplayDataAsync_m6218AC8059227897E7DADC7DD81BA7F09B3F9D79 (void);
+// 0x0000000D System.Collections.IEnumerator Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::DisplayDataRoutine(System.Threading.Tasks.TaskCompletionSource`1<System.Boolean>)
+extern void meshScript_DisplayDataRoutine_m551B8AB745473218970C9629F0695D6619115E5D (void);
+// 0x0000000E System.Boolean Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::DisplaySceneObject(Microsoft.MixedReality.SceneUnderstanding.SceneObject)
+extern void meshScript_DisplaySceneObject_m1A168566C03DE4AD5C920C52F1B83CA9AB22A663 (void);
+// 0x0000000F System.Collections.Generic.List`1<UnityEngine.GameObject> Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::CreateWorldMeshInUnity(Microsoft.MixedReality.SceneUnderstanding.SceneObject)
+extern void meshScript_CreateWorldMeshInUnity_m0BF6BC9308578A5C126341F5348739E570D81734 (void);
+// 0x00000010 System.Collections.Generic.List`1<UnityEngine.GameObject> Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::CreateSUObjectInUnity(Microsoft.MixedReality.SceneUnderstanding.SceneObject)
+extern void meshScript_CreateSUObjectInUnity_m8ACA1321909917ED2A11782B5D15737A40A2A0BE (void);
+// 0x00000011 UnityEngine.Mesh Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GenerateUnityMeshFromSceneObjectMeshes(System.Collections.Generic.IEnumerable`1<Microsoft.MixedReality.SceneUnderstanding.SceneMesh>)
+extern void meshScript_GenerateUnityMeshFromSceneObjectMeshes_mAEF09AF56FD0DF7ACA3159F7A115E9D2F848F881 (void);
+// 0x00000012 UnityEngine.Mesh Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GenerateUnityMeshFromSceneObjectQuad(Microsoft.MixedReality.SceneUnderstanding.SceneQuad)
+extern void meshScript_GenerateUnityMeshFromSceneObjectQuad_m42C8623CFDB938EFD4B75F8170E8D6A4F253562C (void);
+// 0x00000013 System.Nullable`1<UnityEngine.Color> Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetColor(Microsoft.MixedReality.SceneUnderstanding.SceneObjectKind)
 extern void meshScript_GetColor_m9329816A33114C16F56150F3EFE131CAE326C72C (void);
-// 0x00000006 System.Byte[] Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetLatestSceneBytes()
+// 0x00000014 System.Int32 Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetLayer(Microsoft.MixedReality.SceneUnderstanding.SceneObjectKind)
+extern void meshScript_GetLayer_m96607EFA8DCDCFC372774D7BE25622983071F90E (void);
+// 0x00000015 UnityEngine.Material Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetMaterial(Microsoft.MixedReality.SceneUnderstanding.SceneObjectKind,Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.RenderMode)
+extern void meshScript_GetMaterial_m245AEAD7547D539476F4F7A7209275D52F222351 (void);
+// 0x00000016 UnityEngine.Material Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetSceneObjectSourceMaterial(Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.RenderMode,Microsoft.MixedReality.SceneUnderstanding.SceneObjectKind)
+extern void meshScript_GetSceneObjectSourceMaterial_mE2DF6DE7C4CDB5742D43EB964D58E983AF4475B4 (void);
+// 0x00000017 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::AddMeshToUnityObject(UnityEngine.GameObject,UnityEngine.Mesh,System.Nullable`1<UnityEngine.Color>,UnityEngine.Material)
+extern void meshScript_AddMeshToUnityObject_mBE240B6707D39B91D31471FF38E9A4E3966CBCBF (void);
+// 0x00000018 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::ApplyQuadRegionMask(Microsoft.MixedReality.SceneUnderstanding.SceneQuad,UnityEngine.GameObject,UnityEngine.Color)
+extern void meshScript_ApplyQuadRegionMask_m19D6DCC09406B656164D39D139D5A06F10CB0284 (void);
+// 0x00000019 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::DestroyAllGameObjectsUnderParent(UnityEngine.Transform)
+extern void meshScript_DestroyAllGameObjectsUnderParent_mC69E40538AB89841283795ABD1087BA8CDBF0080 (void);
+// 0x0000001A System.Nullable`1<System.Numerics.Matrix4x4> Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetSceneToUnityTransformAsMatrix4x4(Microsoft.MixedReality.SceneUnderstanding.Scene)
+extern void meshScript_GetSceneToUnityTransformAsMatrix4x4_m15CC935B7CF5FCC376221E9F2C3087F36E3ECE89 (void);
+// 0x0000001B System.Numerics.Matrix4x4 Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::ConvertRightHandedMatrix4x4ToLeftHanded(System.Numerics.Matrix4x4)
+extern void meshScript_ConvertRightHandedMatrix4x4ToLeftHanded_m9AFC292A79C587B3EBB094134CBEAF10D49BF9C8 (void);
+// 0x0000001C System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SetUnityTransformFromMatrix4x4(UnityEngine.Transform,System.Numerics.Matrix4x4,System.Boolean)
+extern void meshScript_SetUnityTransformFromMatrix4x4_m5CD05755DD51044416EED9C2BF63DC9CB7A545B1 (void);
+// 0x0000001D System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::OrientSceneForPC(UnityEngine.GameObject,Microsoft.MixedReality.SceneUnderstanding.Scene)
+extern void meshScript_OrientSceneForPC_m958F6F7121F52EB58995841D9A34FC2C7BFC4451 (void);
+// 0x0000001E System.Byte[] Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::GetLatestSceneBytes()
 extern void meshScript_GetLatestSceneBytes_mB6EB39337BF0BE4AA62D3D244D60790D6A0CCE25 (void);
-// 0x00000007 System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveBytesToDiskAsync()
+// 0x0000001F System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveBytesToDiskAsync()
 extern void meshScript_SaveBytesToDiskAsync_mA22F0327AA9739391D7A71EFD5659807E7C7D8B1 (void);
-// 0x00000008 System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveObjsToDiskAsync()
+// 0x00000020 System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveObjsToDiskAsync()
 extern void meshScript_SaveObjsToDiskAsync_mE11EDEA8FB2646E2BA971AEDC044A871E670D203 (void);
-// 0x00000009 System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveAllSceneObjectsOfAKindAsOneObj(System.Collections.Generic.List`1<Microsoft.MixedReality.SceneUnderstanding.SceneObject>,System.Nullable`1<UnityEngine.Color>,System.String)
+// 0x00000021 System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveAllSceneObjectsOfAKindAsOneObj(System.Collections.Generic.List`1<Microsoft.MixedReality.SceneUnderstanding.SceneObject>,System.Nullable`1<UnityEngine.Color>,System.String)
 extern void meshScript_SaveAllSceneObjectsOfAKindAsOneObj_mF89F48658DE977440271645408A4D4886234FF05 (void);
-// 0x0000000A System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveStringToDiskAsync(System.String,System.String)
+// 0x00000022 System.Threading.Tasks.Task Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::SaveStringToDiskAsync(System.String,System.String)
 extern void meshScript_SaveStringToDiskAsync_mB7945CE2811F1DD80D67AD3A7225F843EC5E2EEE (void);
-// 0x0000000B System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::TransformVertices(System.Numerics.Matrix4x4,System.Numerics.Vector3[])
+// 0x00000023 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::TransformVertices(System.Numerics.Matrix4x4,System.Numerics.Vector3[])
 extern void meshScript_TransformVertices_m58425535E6A5E5A8EA79F65BDF93C6DD763755F5 (void);
-// 0x0000000C System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::hideMesh()
-extern void meshScript_hideMesh_mFDAC048257250ECC82B1CC1C90076767AA680019 (void);
-// 0x0000000D System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::showMesh()
-extern void meshScript_showMesh_m5DF145E7F20D96C6CC437A5A937A480B0EB0D388 (void);
-// 0x0000000E System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::saveMesh()
-extern void meshScript_saveMesh_m27D0F3C249F6FFD7C32A735B17CB4932C430C027 (void);
-// 0x0000000F System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::.ctor()
+// 0x00000024 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::toggleMesh()
+extern void meshScript_toggleMesh_m8F142DCDC166935B3DAC33538D079BA5B9EA78ED (void);
+// 0x00000025 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::suspendMesh()
+extern void meshScript_suspendMesh_m6D9F97E2E1E78A9046AAD3CD61BBF47DCE4E3C7E (void);
+// 0x00000026 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::resumeMesh()
+extern void meshScript_resumeMesh_mDDB82B7463D272126D30AD4C850E42205FEA69C6 (void);
+// 0x00000027 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::saveData()
+extern void meshScript_saveData_m4370468107B9C9305B7C3728D97CA2717A32AB95 (void);
+// 0x00000028 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::meshCoarse()
+extern void meshScript_meshCoarse_m8991C865888C97E9E878AC989DDF1FC11437A22C (void);
+// 0x00000029 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::meshMedium()
+extern void meshScript_meshMedium_m2CB52B22816724EE9609BF7B0D782D9840DE5586 (void);
+// 0x0000002A System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::meshFine()
+extern void meshScript_meshFine_m0F8F45406B3520AD26C51F2A4692C9588C61D634 (void);
+// 0x0000002B System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::.ctor()
 extern void meshScript__ctor_m75E6BCEFF902736320873E5221CFC6C02B9E49E7 (void);
-// 0x00000010 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveBytesToDiskAsync>d__15::MoveNext()
-extern void U3CSaveBytesToDiskAsyncU3Ed__15_MoveNext_m3B2FEE95E45AA58D26D95242E982D04A87F9893D (void);
-// 0x00000011 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveBytesToDiskAsync>d__15::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CSaveBytesToDiskAsyncU3Ed__15_SetStateMachine_m8E62EC571208FDF6ACA3F00EB8879E4189897CE1 (void);
-// 0x00000012 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveObjsToDiskAsync>d__16::MoveNext()
-extern void U3CSaveObjsToDiskAsyncU3Ed__16_MoveNext_mA6B48420AE8D3E5D868C7060A5B55C96D8C9A5BF (void);
-// 0x00000013 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveObjsToDiskAsync>d__16::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CSaveObjsToDiskAsyncU3Ed__16_SetStateMachine_m303F0302B764757DB6B99BC0E1203B513ED37345 (void);
-// 0x00000014 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveAllSceneObjectsOfAKindAsOneObj>d__17::MoveNext()
-extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_MoveNext_m5D77AF926EC46BEB0FD5061C38C2F273EAB4C624 (void);
-// 0x00000015 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveAllSceneObjectsOfAKindAsOneObj>d__17::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_SetStateMachine_mFCD4BFDAB4805FC1FD7801CE5FE2E69FE8C7CB2F (void);
-// 0x00000016 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveStringToDiskAsync>d__18::MoveNext()
-extern void U3CSaveStringToDiskAsyncU3Ed__18_MoveNext_m797C70F662ACE925F8541891B6151F119F8A28FA (void);
-// 0x00000017 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveStringToDiskAsync>d__18::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern void U3CSaveStringToDiskAsyncU3Ed__18_SetStateMachine_m1F3C1F2EE0C3152389D047EE0996D57EA12256B2 (void);
-static Il2CppMethodPointer s_methodPointers[23] = 
+// 0x0000002C System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript::<Start>b__76_0()
+extern void meshScript_U3CStartU3Eb__76_0_mC0FAB84B904A0CE289AED81FE466C85C63056043 (void);
+// 0x0000002D System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<Start>d__76::MoveNext()
+extern void U3CStartU3Ed__76_MoveNext_m3DA79E2D139633D70F7DD3F67E0907B9D1E06BDA (void);
+// 0x0000002E System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<Start>d__76::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__76_SetStateMachine_m1C755C3E581B20B088EC2425B1743A3F6AD67ED6 (void);
+// 0x0000002F System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<Update>d__77::MoveNext()
+extern void U3CUpdateU3Ed__77_MoveNext_mC7EFF5DD2FB0088C33FF349CD7B00D9929FF26D0 (void);
+// 0x00000030 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<Update>d__77::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CUpdateU3Ed__77_SetStateMachine_m37E21F1D7122A9671721507A5465536DEEF7EFCC (void);
+// 0x00000031 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84::.ctor(System.Int32)
+extern void U3CDisplayDataRoutineU3Ed__84__ctor_m0582D1BBF1BD1783DD93C17BFDF03B1099A3879A (void);
+// 0x00000032 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84::System.IDisposable.Dispose()
+extern void U3CDisplayDataRoutineU3Ed__84_System_IDisposable_Dispose_m0910FBB72A988F4705DEA478EB92BE097B56098B (void);
+// 0x00000033 System.Boolean Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84::MoveNext()
+extern void U3CDisplayDataRoutineU3Ed__84_MoveNext_mA457A0A029CC6EF17A7F06B4A6542D019EF5CFAF (void);
+// 0x00000034 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84::<>m__Finally1()
+extern void U3CDisplayDataRoutineU3Ed__84_U3CU3Em__Finally1_m26128E6EB5490F07393DF9F1CE835D6BD763193C (void);
+// 0x00000035 System.Object Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDisplayDataRoutineU3Ed__84_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C94017BA7849227296D9D517DC9CE5838AC50E1 (void);
+// 0x00000036 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84::System.Collections.IEnumerator.Reset()
+extern void U3CDisplayDataRoutineU3Ed__84_System_Collections_IEnumerator_Reset_m57DEE160B87956F33F516AC0B95C70EDA165466E (void);
+// 0x00000037 System.Object Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84::System.Collections.IEnumerator.get_Current()
+extern void U3CDisplayDataRoutineU3Ed__84_System_Collections_IEnumerator_get_Current_m21AF1494AC38A5BB2FB0F104EF91901034A0D66E (void);
+// 0x00000038 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveBytesToDiskAsync>d__102::MoveNext()
+extern void U3CSaveBytesToDiskAsyncU3Ed__102_MoveNext_mEA84E1BF5E794E0A2B662AE107595701F50DF146 (void);
+// 0x00000039 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveBytesToDiskAsync>d__102::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSaveBytesToDiskAsyncU3Ed__102_SetStateMachine_mDB509BFA8A506523B9DE017B2231CC123C4FDC3D (void);
+// 0x0000003A System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveObjsToDiskAsync>d__103::MoveNext()
+extern void U3CSaveObjsToDiskAsyncU3Ed__103_MoveNext_mE93FA5CA7E5BC236A1005BA91D17E183986FD01F (void);
+// 0x0000003B System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveObjsToDiskAsync>d__103::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSaveObjsToDiskAsyncU3Ed__103_SetStateMachine_m7E30B86E973AFAB52548FF2AA752339568F3D804 (void);
+// 0x0000003C System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveAllSceneObjectsOfAKindAsOneObj>d__104::MoveNext()
+extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_MoveNext_m640BA83A9B06C618C2540F46665A4D7F4F0FE7A8 (void);
+// 0x0000003D System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveAllSceneObjectsOfAKindAsOneObj>d__104::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_SetStateMachine_m7F4CBDCB6C3E28C4ED491FC31A9A44EAC811CC78 (void);
+// 0x0000003E System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveStringToDiskAsync>d__105::MoveNext()
+extern void U3CSaveStringToDiskAsyncU3Ed__105_MoveNext_m29FBB43812D00C18AE0EE842BF19A0F7B9ED06CB (void);
+// 0x0000003F System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<SaveStringToDiskAsync>d__105::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CSaveStringToDiskAsyncU3Ed__105_SetStateMachine_m6502D772E6DCA0A276CC6862B1D906092CD9C8EB (void);
+// 0x00000040 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<toggleMesh>d__107::MoveNext()
+extern void U3CtoggleMeshU3Ed__107_MoveNext_m6CA0C8CC0C904303554ECE6410695066BE089AD9 (void);
+// 0x00000041 System.Void Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<toggleMesh>d__107::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CtoggleMeshU3Ed__107_SetStateMachine_m7460881405EF4A0290B18C7C03EBC35D749C1A4A (void);
+static Il2CppMethodPointer s_methodPointers[65] = 
 {
 	sceneObjects_Start_mA78AF5BCAD4CC72D5240663ADF3ADFE2CCF8A0A6,
 	sceneObjects_toggleModel_m2BAFF7F9A62F034B7994FCEB58D0DD46EFF741D6,
 	sceneObjects__ctor_mD46DC270CB5DBEB91A9AF3559A62948C916A73D1,
+	SceneUnderstandingProperties__ctor_m4DF0FC231A5BFB1AFB28185359735661D2131422,
+	meshScript_Start_m6D9A9015FE95E39D2D3F0B6B14CD3382AA2B9E07,
+	meshScript_Update_m17F65846C558853A85E33161B12D9F02DD2A1218,
 	meshScript_GetLatestSceneSerialization_m6E0DF0C1D76A23D1E3CF406D734B4F01E8269733,
+	meshScript_GetLatestSUSceneId_m80A8326DEC29737BC6E336621C1174389CC8711D,
+	meshScript_GetLatestDeserializedScene_mA390642F548F44BAB5D0D6128B4E297DEEBD63E8,
+	meshScript_RetrieveDataContinuously_m7FA616BF5B4E2408183E1CC5ACB06C703D42FAB2,
+	meshScript_RetrieveData_m8349FC40BA3EDAE21848AC7A4CFEC236F4F6A527,
+	meshScript_DisplayDataAsync_m6218AC8059227897E7DADC7DD81BA7F09B3F9D79,
+	meshScript_DisplayDataRoutine_m551B8AB745473218970C9629F0695D6619115E5D,
+	meshScript_DisplaySceneObject_m1A168566C03DE4AD5C920C52F1B83CA9AB22A663,
+	meshScript_CreateWorldMeshInUnity_m0BF6BC9308578A5C126341F5348739E570D81734,
+	meshScript_CreateSUObjectInUnity_m8ACA1321909917ED2A11782B5D15737A40A2A0BE,
+	meshScript_GenerateUnityMeshFromSceneObjectMeshes_mAEF09AF56FD0DF7ACA3159F7A115E9D2F848F881,
+	meshScript_GenerateUnityMeshFromSceneObjectQuad_m42C8623CFDB938EFD4B75F8170E8D6A4F253562C,
 	meshScript_GetColor_m9329816A33114C16F56150F3EFE131CAE326C72C,
+	meshScript_GetLayer_m96607EFA8DCDCFC372774D7BE25622983071F90E,
+	meshScript_GetMaterial_m245AEAD7547D539476F4F7A7209275D52F222351,
+	meshScript_GetSceneObjectSourceMaterial_mE2DF6DE7C4CDB5742D43EB964D58E983AF4475B4,
+	meshScript_AddMeshToUnityObject_mBE240B6707D39B91D31471FF38E9A4E3966CBCBF,
+	meshScript_ApplyQuadRegionMask_m19D6DCC09406B656164D39D139D5A06F10CB0284,
+	meshScript_DestroyAllGameObjectsUnderParent_mC69E40538AB89841283795ABD1087BA8CDBF0080,
+	meshScript_GetSceneToUnityTransformAsMatrix4x4_m15CC935B7CF5FCC376221E9F2C3087F36E3ECE89,
+	meshScript_ConvertRightHandedMatrix4x4ToLeftHanded_m9AFC292A79C587B3EBB094134CBEAF10D49BF9C8,
+	meshScript_SetUnityTransformFromMatrix4x4_m5CD05755DD51044416EED9C2BF63DC9CB7A545B1,
+	meshScript_OrientSceneForPC_m958F6F7121F52EB58995841D9A34FC2C7BFC4451,
 	meshScript_GetLatestSceneBytes_mB6EB39337BF0BE4AA62D3D244D60790D6A0CCE25,
 	meshScript_SaveBytesToDiskAsync_mA22F0327AA9739391D7A71EFD5659807E7C7D8B1,
 	meshScript_SaveObjsToDiskAsync_mE11EDEA8FB2646E2BA971AEDC044A871E670D203,
 	meshScript_SaveAllSceneObjectsOfAKindAsOneObj_mF89F48658DE977440271645408A4D4886234FF05,
 	meshScript_SaveStringToDiskAsync_mB7945CE2811F1DD80D67AD3A7225F843EC5E2EEE,
 	meshScript_TransformVertices_m58425535E6A5E5A8EA79F65BDF93C6DD763755F5,
-	meshScript_hideMesh_mFDAC048257250ECC82B1CC1C90076767AA680019,
-	meshScript_showMesh_m5DF145E7F20D96C6CC437A5A937A480B0EB0D388,
-	meshScript_saveMesh_m27D0F3C249F6FFD7C32A735B17CB4932C430C027,
+	meshScript_toggleMesh_m8F142DCDC166935B3DAC33538D079BA5B9EA78ED,
+	meshScript_suspendMesh_m6D9F97E2E1E78A9046AAD3CD61BBF47DCE4E3C7E,
+	meshScript_resumeMesh_mDDB82B7463D272126D30AD4C850E42205FEA69C6,
+	meshScript_saveData_m4370468107B9C9305B7C3728D97CA2717A32AB95,
+	meshScript_meshCoarse_m8991C865888C97E9E878AC989DDF1FC11437A22C,
+	meshScript_meshMedium_m2CB52B22816724EE9609BF7B0D782D9840DE5586,
+	meshScript_meshFine_m0F8F45406B3520AD26C51F2A4692C9588C61D634,
 	meshScript__ctor_m75E6BCEFF902736320873E5221CFC6C02B9E49E7,
-	U3CSaveBytesToDiskAsyncU3Ed__15_MoveNext_m3B2FEE95E45AA58D26D95242E982D04A87F9893D,
-	U3CSaveBytesToDiskAsyncU3Ed__15_SetStateMachine_m8E62EC571208FDF6ACA3F00EB8879E4189897CE1,
-	U3CSaveObjsToDiskAsyncU3Ed__16_MoveNext_mA6B48420AE8D3E5D868C7060A5B55C96D8C9A5BF,
-	U3CSaveObjsToDiskAsyncU3Ed__16_SetStateMachine_m303F0302B764757DB6B99BC0E1203B513ED37345,
-	U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_MoveNext_m5D77AF926EC46BEB0FD5061C38C2F273EAB4C624,
-	U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_SetStateMachine_mFCD4BFDAB4805FC1FD7801CE5FE2E69FE8C7CB2F,
-	U3CSaveStringToDiskAsyncU3Ed__18_MoveNext_m797C70F662ACE925F8541891B6151F119F8A28FA,
-	U3CSaveStringToDiskAsyncU3Ed__18_SetStateMachine_m1F3C1F2EE0C3152389D047EE0996D57EA12256B2,
+	meshScript_U3CStartU3Eb__76_0_mC0FAB84B904A0CE289AED81FE466C85C63056043,
+	U3CStartU3Ed__76_MoveNext_m3DA79E2D139633D70F7DD3F67E0907B9D1E06BDA,
+	U3CStartU3Ed__76_SetStateMachine_m1C755C3E581B20B088EC2425B1743A3F6AD67ED6,
+	U3CUpdateU3Ed__77_MoveNext_mC7EFF5DD2FB0088C33FF349CD7B00D9929FF26D0,
+	U3CUpdateU3Ed__77_SetStateMachine_m37E21F1D7122A9671721507A5465536DEEF7EFCC,
+	U3CDisplayDataRoutineU3Ed__84__ctor_m0582D1BBF1BD1783DD93C17BFDF03B1099A3879A,
+	U3CDisplayDataRoutineU3Ed__84_System_IDisposable_Dispose_m0910FBB72A988F4705DEA478EB92BE097B56098B,
+	U3CDisplayDataRoutineU3Ed__84_MoveNext_mA457A0A029CC6EF17A7F06B4A6542D019EF5CFAF,
+	U3CDisplayDataRoutineU3Ed__84_U3CU3Em__Finally1_m26128E6EB5490F07393DF9F1CE835D6BD763193C,
+	U3CDisplayDataRoutineU3Ed__84_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2C94017BA7849227296D9D517DC9CE5838AC50E1,
+	U3CDisplayDataRoutineU3Ed__84_System_Collections_IEnumerator_Reset_m57DEE160B87956F33F516AC0B95C70EDA165466E,
+	U3CDisplayDataRoutineU3Ed__84_System_Collections_IEnumerator_get_Current_m21AF1494AC38A5BB2FB0F104EF91901034A0D66E,
+	U3CSaveBytesToDiskAsyncU3Ed__102_MoveNext_mEA84E1BF5E794E0A2B662AE107595701F50DF146,
+	U3CSaveBytesToDiskAsyncU3Ed__102_SetStateMachine_mDB509BFA8A506523B9DE017B2231CC123C4FDC3D,
+	U3CSaveObjsToDiskAsyncU3Ed__103_MoveNext_mE93FA5CA7E5BC236A1005BA91D17E183986FD01F,
+	U3CSaveObjsToDiskAsyncU3Ed__103_SetStateMachine_m7E30B86E973AFAB52548FF2AA752339568F3D804,
+	U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_MoveNext_m640BA83A9B06C618C2540F46665A4D7F4F0FE7A8,
+	U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_SetStateMachine_m7F4CBDCB6C3E28C4ED491FC31A9A44EAC811CC78,
+	U3CSaveStringToDiskAsyncU3Ed__105_MoveNext_m29FBB43812D00C18AE0EE842BF19A0F7B9ED06CB,
+	U3CSaveStringToDiskAsyncU3Ed__105_SetStateMachine_m6502D772E6DCA0A276CC6862B1D906092CD9C8EB,
+	U3CtoggleMeshU3Ed__107_MoveNext_m6CA0C8CC0C904303554ECE6410695066BE089AD9,
+	U3CtoggleMeshU3Ed__107_SetStateMachine_m7460881405EF4A0290B18C7C03EBC35D749C1A4A,
 };
-extern void U3CSaveBytesToDiskAsyncU3Ed__15_MoveNext_m3B2FEE95E45AA58D26D95242E982D04A87F9893D_AdjustorThunk (void);
-extern void U3CSaveBytesToDiskAsyncU3Ed__15_SetStateMachine_m8E62EC571208FDF6ACA3F00EB8879E4189897CE1_AdjustorThunk (void);
-extern void U3CSaveObjsToDiskAsyncU3Ed__16_MoveNext_mA6B48420AE8D3E5D868C7060A5B55C96D8C9A5BF_AdjustorThunk (void);
-extern void U3CSaveObjsToDiskAsyncU3Ed__16_SetStateMachine_m303F0302B764757DB6B99BC0E1203B513ED37345_AdjustorThunk (void);
-extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_MoveNext_m5D77AF926EC46BEB0FD5061C38C2F273EAB4C624_AdjustorThunk (void);
-extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_SetStateMachine_mFCD4BFDAB4805FC1FD7801CE5FE2E69FE8C7CB2F_AdjustorThunk (void);
-extern void U3CSaveStringToDiskAsyncU3Ed__18_MoveNext_m797C70F662ACE925F8541891B6151F119F8A28FA_AdjustorThunk (void);
-extern void U3CSaveStringToDiskAsyncU3Ed__18_SetStateMachine_m1F3C1F2EE0C3152389D047EE0996D57EA12256B2_AdjustorThunk (void);
-static Il2CppTokenAdjustorThunkPair s_adjustorThunks[8] = 
+extern void U3CStartU3Ed__76_MoveNext_m3DA79E2D139633D70F7DD3F67E0907B9D1E06BDA_AdjustorThunk (void);
+extern void U3CStartU3Ed__76_SetStateMachine_m1C755C3E581B20B088EC2425B1743A3F6AD67ED6_AdjustorThunk (void);
+extern void U3CUpdateU3Ed__77_MoveNext_mC7EFF5DD2FB0088C33FF349CD7B00D9929FF26D0_AdjustorThunk (void);
+extern void U3CUpdateU3Ed__77_SetStateMachine_m37E21F1D7122A9671721507A5465536DEEF7EFCC_AdjustorThunk (void);
+extern void U3CSaveBytesToDiskAsyncU3Ed__102_MoveNext_mEA84E1BF5E794E0A2B662AE107595701F50DF146_AdjustorThunk (void);
+extern void U3CSaveBytesToDiskAsyncU3Ed__102_SetStateMachine_mDB509BFA8A506523B9DE017B2231CC123C4FDC3D_AdjustorThunk (void);
+extern void U3CSaveObjsToDiskAsyncU3Ed__103_MoveNext_mE93FA5CA7E5BC236A1005BA91D17E183986FD01F_AdjustorThunk (void);
+extern void U3CSaveObjsToDiskAsyncU3Ed__103_SetStateMachine_m7E30B86E973AFAB52548FF2AA752339568F3D804_AdjustorThunk (void);
+extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_MoveNext_m640BA83A9B06C618C2540F46665A4D7F4F0FE7A8_AdjustorThunk (void);
+extern void U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_SetStateMachine_m7F4CBDCB6C3E28C4ED491FC31A9A44EAC811CC78_AdjustorThunk (void);
+extern void U3CSaveStringToDiskAsyncU3Ed__105_MoveNext_m29FBB43812D00C18AE0EE842BF19A0F7B9ED06CB_AdjustorThunk (void);
+extern void U3CSaveStringToDiskAsyncU3Ed__105_SetStateMachine_m6502D772E6DCA0A276CC6862B1D906092CD9C8EB_AdjustorThunk (void);
+extern void U3CtoggleMeshU3Ed__107_MoveNext_m6CA0C8CC0C904303554ECE6410695066BE089AD9_AdjustorThunk (void);
+extern void U3CtoggleMeshU3Ed__107_SetStateMachine_m7460881405EF4A0290B18C7C03EBC35D749C1A4A_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[14] = 
 {
-	{ 0x06000010, U3CSaveBytesToDiskAsyncU3Ed__15_MoveNext_m3B2FEE95E45AA58D26D95242E982D04A87F9893D_AdjustorThunk },
-	{ 0x06000011, U3CSaveBytesToDiskAsyncU3Ed__15_SetStateMachine_m8E62EC571208FDF6ACA3F00EB8879E4189897CE1_AdjustorThunk },
-	{ 0x06000012, U3CSaveObjsToDiskAsyncU3Ed__16_MoveNext_mA6B48420AE8D3E5D868C7060A5B55C96D8C9A5BF_AdjustorThunk },
-	{ 0x06000013, U3CSaveObjsToDiskAsyncU3Ed__16_SetStateMachine_m303F0302B764757DB6B99BC0E1203B513ED37345_AdjustorThunk },
-	{ 0x06000014, U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_MoveNext_m5D77AF926EC46BEB0FD5061C38C2F273EAB4C624_AdjustorThunk },
-	{ 0x06000015, U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__17_SetStateMachine_mFCD4BFDAB4805FC1FD7801CE5FE2E69FE8C7CB2F_AdjustorThunk },
-	{ 0x06000016, U3CSaveStringToDiskAsyncU3Ed__18_MoveNext_m797C70F662ACE925F8541891B6151F119F8A28FA_AdjustorThunk },
-	{ 0x06000017, U3CSaveStringToDiskAsyncU3Ed__18_SetStateMachine_m1F3C1F2EE0C3152389D047EE0996D57EA12256B2_AdjustorThunk },
+	{ 0x0600002D, U3CStartU3Ed__76_MoveNext_m3DA79E2D139633D70F7DD3F67E0907B9D1E06BDA_AdjustorThunk },
+	{ 0x0600002E, U3CStartU3Ed__76_SetStateMachine_m1C755C3E581B20B088EC2425B1743A3F6AD67ED6_AdjustorThunk },
+	{ 0x0600002F, U3CUpdateU3Ed__77_MoveNext_mC7EFF5DD2FB0088C33FF349CD7B00D9929FF26D0_AdjustorThunk },
+	{ 0x06000030, U3CUpdateU3Ed__77_SetStateMachine_m37E21F1D7122A9671721507A5465536DEEF7EFCC_AdjustorThunk },
+	{ 0x06000038, U3CSaveBytesToDiskAsyncU3Ed__102_MoveNext_mEA84E1BF5E794E0A2B662AE107595701F50DF146_AdjustorThunk },
+	{ 0x06000039, U3CSaveBytesToDiskAsyncU3Ed__102_SetStateMachine_mDB509BFA8A506523B9DE017B2231CC123C4FDC3D_AdjustorThunk },
+	{ 0x0600003A, U3CSaveObjsToDiskAsyncU3Ed__103_MoveNext_mE93FA5CA7E5BC236A1005BA91D17E183986FD01F_AdjustorThunk },
+	{ 0x0600003B, U3CSaveObjsToDiskAsyncU3Ed__103_SetStateMachine_m7E30B86E973AFAB52548FF2AA752339568F3D804_AdjustorThunk },
+	{ 0x0600003C, U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_MoveNext_m640BA83A9B06C618C2540F46665A4D7F4F0FE7A8_AdjustorThunk },
+	{ 0x0600003D, U3CSaveAllSceneObjectsOfAKindAsOneObjU3Ed__104_SetStateMachine_m7F4CBDCB6C3E28C4ED491FC31A9A44EAC811CC78_AdjustorThunk },
+	{ 0x0600003E, U3CSaveStringToDiskAsyncU3Ed__105_MoveNext_m29FBB43812D00C18AE0EE842BF19A0F7B9ED06CB_AdjustorThunk },
+	{ 0x0600003F, U3CSaveStringToDiskAsyncU3Ed__105_SetStateMachine_m6502D772E6DCA0A276CC6862B1D906092CD9C8EB_AdjustorThunk },
+	{ 0x06000040, U3CtoggleMeshU3Ed__107_MoveNext_m6CA0C8CC0C904303554ECE6410695066BE089AD9_AdjustorThunk },
+	{ 0x06000041, U3CtoggleMeshU3Ed__107_SetStateMachine_m7460881405EF4A0290B18C7C03EBC35D749C1A4A_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[23] = 
+static const int32_t s_InvokerIndices[65] = 
 {
-	3652,
-	3652,
-	3652,
-	3575,
-	1924,
-	3575,
-	3575,
-	3575,
-	809,
-	1256,
-	1763,
-	3652,
-	3652,
-	3652,
-	3652,
-	3652,
-	3018,
-	3652,
-	3018,
-	3652,
-	3018,
-	3652,
-	3018,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3594,
+	3548,
+	3594,
+	3671,
+	172,
+	3594,
+	2374,
+	2647,
+	2374,
+	2374,
+	2374,
+	2374,
+	1943,
+	2187,
+	1265,
+	1265,
+	684,
+	1030,
+	3037,
+	1944,
+	2335,
+	1024,
+	1803,
+	3594,
+	3594,
+	3594,
+	823,
+	1275,
+	1782,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3671,
+	3037,
+	3671,
+	3037,
+	3008,
+	3671,
+	3627,
+	3671,
+	3594,
+	3671,
+	3594,
+	3671,
+	3037,
+	3671,
+	3037,
+	3671,
+	3037,
+	3671,
+	3037,
+	3671,
+	3037,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	23,
+	65,
 	s_methodPointers,
-	8,
+	14,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,

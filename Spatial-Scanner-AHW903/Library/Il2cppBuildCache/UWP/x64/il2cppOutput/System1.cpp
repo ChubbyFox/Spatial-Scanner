@@ -25872,6 +25872,50 @@ IL_0009:
 		return;
 	}
 }
+// System.Void System.Diagnostics.Stopwatch::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stopwatch_Stop_mF6DEB63574AC382A681D1D8B9FFE56C1C806BE63 (Stopwatch_t78C5E942A89311381E0D8894576457C33462DF89 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Stopwatch_t78C5E942A89311381E0D8894576457C33462DF89_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get_is_running_4();
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0009:
+	{
+		int64_t L_1 = __this->get_elapsed_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Stopwatch_t78C5E942A89311381E0D8894576457C33462DF89_il2cpp_TypeInfo_var);
+		int64_t L_2;
+		L_2 = Stopwatch_GetTimestamp_m8CAF46C3B4D7460B70C325D666B7F6470D2208DB(/*hidden argument*/NULL);
+		int64_t L_3 = __this->get_started_3();
+		__this->set_elapsed_2(((int64_t)il2cpp_codegen_add((int64_t)L_1, (int64_t)((int64_t)il2cpp_codegen_subtract((int64_t)L_2, (int64_t)L_3)))));
+		int64_t L_4 = __this->get_elapsed_2();
+		if ((((int64_t)L_4) >= ((int64_t)((int64_t)((int64_t)0)))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		__this->set_elapsed_2(((int64_t)((int64_t)0)));
+	}
+
+IL_0034:
+	{
+		__this->set_is_running_4((bool)0);
+		return;
+	}
+}
 // System.Void System.Diagnostics.Stopwatch::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stopwatch__cctor_mC828CB8602A28CFD9436192D5A47475B31D34766 (const RuntimeMethod* method)
 {

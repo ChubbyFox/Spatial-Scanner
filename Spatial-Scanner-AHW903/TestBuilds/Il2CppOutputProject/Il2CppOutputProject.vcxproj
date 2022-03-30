@@ -570,6 +570,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs82.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs83.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs9.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCodeRegistration.cpp">
@@ -585,6 +587,8 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions100.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions101.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions102.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions11.cpp">
     </ClCompile>

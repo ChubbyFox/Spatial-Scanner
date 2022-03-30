@@ -7,15 +7,9 @@ public class sceneObjects : MonoBehaviour
     public GameObject Model;
     private bool isActive = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        isActive = false;
-        Model.SetActive(false); // hide objects when starts
-    }
-
     public void toggleModel()
     {
+        Debug.Log("Toggle mOdel Visibiltiy.");
         isActive = !isActive;   // swap current value
         Model.SetActive(isActive); // set active varable  model
     }

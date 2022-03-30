@@ -14,8 +14,12 @@
 
 // System.Delegate[]
 struct DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8;
+// System.AsyncCallback
+struct AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA;
 // System.DelegateData
 struct DelegateData_t17DD30660E330C49381DAA99F934BE75CB11F288;
+// System.IAsyncResult
+struct IAsyncResult_tC9F97BF36FCF122D29D3101D80642278297BF370;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Void
@@ -285,6 +289,22 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 	Delegate_t_marshaled_com** ___delegates_11;
 };
 
+// System.EventHandler`1<System.Object>
+struct EventHandler_1_tFA1C30E54FA1061D79E711F65F9A174BFBD8CDCB  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+// COM Callable Wrapper interface definition for System.EventHandler`1<System.Object>
+struct IEventHandler_1_tFA1C30E54FA1061D79E711F65F9A174BFBD8CDCB_ComCallableWrapper : Il2CppIUnknown
+{
+	static const Il2CppGuid IID;
+	virtual il2cpp_hresult_t STDCALL Invoke(Il2CppIInspectable* ___sender0, Il2CppIInspectable* ___e1) = 0;
+};
+
+
 // Windows.Foundation.EventHandler`1<System.Object>
 struct EventHandler_1_t73968F2558235E2E8274933705EFBFF5F58D02E5  : public MulticastDelegate_t
 {
@@ -306,6 +326,70 @@ struct IEventHandler_1_t73968F2558235E2E8274933705EFBFF5F58D02E5_ComCallableWrap
 
 
 
+const Il2CppGuid IEventHandler_1_tFA1C30E54FA1061D79E711F65F9A174BFBD8CDCB_ComCallableWrapper::IID = { 0xc50898f6, 0xc536, 0x5f47, 0x85, 0x83, 0x8b, 0x2c, 0x24, 0x38, 0xa1, 0x3b };
+// Native invoker for System.EventHandler`1<System.Object>
+IL2CPP_EXTERN_C  void EventHandler_1_Invoke_mEAFD7F9E52E7DF356F3C4F0262BCFBA7769C83C0_NativeInvoker (Il2CppComObject * __this, RuntimeObject * ___sender0, RuntimeObject * ___e1, const RuntimeMethod* method)
+{
+	IEventHandler_1_tFA1C30E54FA1061D79E711F65F9A174BFBD8CDCB_ComCallableWrapper* ____eventHandler_1_tFA1C30E54FA1061D79E711F65F9A174BFBD8CDCB = il2cpp_codegen_com_query_interface<IEventHandler_1_tFA1C30E54FA1061D79E711F65F9A174BFBD8CDCB_ComCallableWrapper>(static_cast<Il2CppComObject*>(__this));
+
+	// Marshaling of parameter '___sender0' to native representation
+	Il2CppIInspectable* ____sender0_marshaled = NULL;
+	if (___sender0 != NULL)
+	{
+		if (il2cpp_codegen_is_import_or_windows_runtime(___sender0))
+		{
+			____sender0_marshaled = il2cpp_codegen_com_query_interface<Il2CppIInspectable>(static_cast<Il2CppComObject*>(___sender0));
+			(____sender0_marshaled)->AddRef();
+		}
+		else
+		{
+			____sender0_marshaled = il2cpp_codegen_com_get_or_create_ccw<Il2CppIInspectable>(___sender0);
+		}
+	}
+	else
+	{
+		____sender0_marshaled = NULL;
+	}
+
+	// Marshaling of parameter '___e1' to native representation
+	Il2CppIInspectable* ____e1_marshaled = NULL;
+	if (___e1 != NULL)
+	{
+		if (il2cpp_codegen_is_import_or_windows_runtime(___e1))
+		{
+			____e1_marshaled = il2cpp_codegen_com_query_interface<Il2CppIInspectable>(static_cast<Il2CppComObject*>(___e1));
+			(____e1_marshaled)->AddRef();
+		}
+		else
+		{
+			____e1_marshaled = il2cpp_codegen_com_get_or_create_ccw<Il2CppIInspectable>(___e1);
+		}
+	}
+	else
+	{
+		____e1_marshaled = NULL;
+	}
+
+	// Native function invocation
+	const il2cpp_hresult_t hr = ____eventHandler_1_tFA1C30E54FA1061D79E711F65F9A174BFBD8CDCB->Invoke(____sender0_marshaled, ____e1_marshaled);
+
+	il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+	// Marshaling cleanup of parameter '___sender0' native representation
+	if (____sender0_marshaled != NULL)
+	{
+		(____sender0_marshaled)->Release();
+		____sender0_marshaled = NULL;
+	}
+
+	// Marshaling cleanup of parameter '___e1' native representation
+	if (____e1_marshaled != NULL)
+	{
+		(____e1_marshaled)->Release();
+		____e1_marshaled = NULL;
+	}
+
+}
 const Il2CppGuid IEventHandler_1_t73968F2558235E2E8274933705EFBFF5F58D02E5_ComCallableWrapper::IID = { 0xc50898f6, 0xc536, 0x5f47, 0x85, 0x83, 0x8b, 0x2c, 0x24, 0x38, 0xa1, 0x3b };
 // Native invoker for Windows.Foundation.EventHandler`1<System.Object>
 IL2CPP_EXTERN_C  void EventHandler_1_Invoke_m682141553C11B7BDF8A5AB1F3B1647D8D05B7516_NativeInvoker (Il2CppComObject * __this, RuntimeObject * ___sender0, RuntimeObject * ___args1, const RuntimeMethod* method)

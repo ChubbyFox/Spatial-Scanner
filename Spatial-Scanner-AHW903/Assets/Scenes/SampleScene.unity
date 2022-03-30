@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,11 +157,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: 
+      value: toggleMesh
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: meshScript, Assembly-CSharp
+      value: Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript,
+        Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -173,7 +174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621426241315, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_Name
-      value: ShowMesh
+      value: ToggleMesh
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992557, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_Mesh
@@ -181,7 +182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992595, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_text
-      value: Show Mesh
+      value: Toggle Mesh
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992595, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_textAlignment
@@ -343,7 +344,8 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ToggleProfiler
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6241848921227587195, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
 --- !u!114 &439394982 stripped
 MonoBehaviour:
@@ -577,6 +579,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d453695ea9c75a44bdd176abf73face, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  QuerySceneFromDevice: 1
+  SUSerializedScenePaths: []
+  SceneRoot: {fileID: 0}
+  BoundingSphereRadiusInMeters: 10
+  AutoRefresh: 1
+  AutoRefreshIntervalInSeconds: 5
+  SceneObjectRequestMode: 3
+  MeshQuality: 2
+  RequestInferredRegions: 1
+  ColorForBackgroundObjects: {r: 0.953, g: 0.475, b: 0.875, a: 1}
+  ColorForWallObjects: {r: 0.953, g: 0.494, b: 0.475, a: 1}
+  ColorForFloorObjects: {r: 0.733, g: 0.953, b: 0.475, a: 1}
+  ColorForCeilingObjects: {r: 0.475, g: 0.596, b: 0.953, a: 1}
+  ColorForPlatformsObjects: {r: 0.204, g: 0.792, b: 0.714, a: 1}
+  ColorForUnknownObjects: {r: 1, g: 1, b: 1, a: 1}
+  ColorForInferredObjects: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  ColorForWorldObjects: {r: 0, g: 1, b: 1, a: 1}
+  LayerForBackgroundObjects: 0
+  LayerForWallObjects: 0
+  LayerForFloorObjects: 0
+  LayerForCeilingObjects: 0
+  LayerForPlatformsObjects: 0
+  LayerForUnknownObjects: 0
+  LayerForInferredObjects: 0
+  LayerForWorldObjects: 0
+  SceneObjectBackgroundMeshMaterial: {fileID: 0}
+  SceneObjectWallMeshMaterial: {fileID: 0}
+  SceneObjectFloorMeshMaterial: {fileID: 0}
+  SceneObjectCeilingMeshMaterial: {fileID: 0}
+  SceneObjectPlatformMeshMaterial: {fileID: 0}
+  SceneObjectUnknownMeshMaterial: {fileID: 0}
+  SceneObjectInferredMeshMaterial: {fileID: 0}
+  SceneObjectBackgroundQuadMaterial: {fileID: 0}
+  SceneObjectWallQuadMaterial: {fileID: 0}
+  SceneObjectFloorQuadMaterial: {fileID: 0}
+  SceneObjectCeilingQuadMaterial: {fileID: 0}
+  SceneObjectPlatformQuadMaterial: {fileID: 0}
+  SceneObjectUnknownQuadMaterial: {fileID: 0}
+  SceneObjectInferredQuadMaterial: {fileID: 0}
+  SceneObjectWireframeMaterial: {fileID: 0}
+  TransparentOcclussion: {fileID: 0}
+  FilterAllSceneObjects: 1
+  FilterPlatformSceneObjects: 1
+  FilterBackgroundSceneObjects: 1
+  FilterUnknownSceneObjects: 1
+  FilterWorldMesh: 0
+  FilterCompletelyInferredSceneObjects: 1
+  FilterWallSceneObjects: 1
+  FilterFloorSceneObjects: 1
+  FilterCeilingSceneObjects: 1
+  AddCollidersInPlatformSceneObjects: 0
+  AddCollidersInBackgroundSceneObjects: 0
+  AddCollidersInUnknownSceneObjects: 0
+  AddCollidersInWorldMesh: 0
+  AddCollidersInCompletelyInferredSceneObjects: 0
+  AddCollidersInWallSceneObjects: 0
+  AddCollidersInFloorSceneObjects: 0
+  AddCollidersCeilingSceneObjects: 0
+  IsInGhostMode: 0
+  AlignSUObjectsNormalToUnityYAxis: 1
+  OnLoadStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLoadFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  TimeElapsedSinceLastAutoRefresh: 0
 --- !u!4 &820446215
 Transform:
   m_ObjectHideFlags: 0
@@ -1259,10 +1328,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1035347319}
-  - {fileID: 657871522}
   - {fileID: 123432288}
   - {fileID: 867233659}
   - {fileID: 1626709489}
+  - {fileID: 657871522}
   m_Father: {fileID: 167519457162219763}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1356,14 +1425,19 @@ PrefabInstance:
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 820446213}
+      objectReference: {fileID: 820446214}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: 
+      value: saveData
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
+      propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript,
+        Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
@@ -1371,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621426241315, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_Name
@@ -1431,7 +1505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1549,7 +1623,8 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnToggleHandJoint
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6241848921227587195, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
 --- !u!1 &5029850922353828222
 GameObject:
@@ -1616,7 +1691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
@@ -1624,7 +1699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: hideMesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2070291447063185073, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: ButtonPressed.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
@@ -1652,7 +1727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621426241315, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_Name
-      value: HideMesh
+      value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992557, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_Mesh
@@ -1660,7 +1735,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992595, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_text
-      value: Hide Mesh
+      value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 2204069621878992595, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_textAlignment
@@ -1708,7 +1783,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1768,7 +1843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7060011145322376313, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_text
-      value: Say "Hide Mesh"
+      value: Say "Select"
       objectReference: {fileID: 0}
     - target: {fileID: 7060011145322376313, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_textAlignment
@@ -1817,7 +1892,7 @@ PrefabInstance:
     - target: {fileID: 8405082116546204954, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: iconQuadTexture
       value: 
-      objectReference: {fileID: 2800000, guid: cb5a9c3bdc2017d4f9e805e3a7e72b1d, type: 3}
+      objectReference: {fileID: 2800000, guid: ac8550a474419054d9621216812fd098, type: 3}
     - target: {fileID: 8779034279059886464, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ToggleProfiler
@@ -2026,7 +2101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_LocalScale.x
@@ -2437,7 +2512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2204069623020599746, guid: 3f1f46cbecbe08e46a303ccfdb5b498a, type: 3}
       propertyPath: m_LocalScale.x
@@ -2801,7 +2876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6742094790733259646, guid: 64790b91b91094d49942373c4e83c237, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1324
+      value: 0.1644
       objectReference: {fileID: 0}
     - target: {fileID: 6742094790733259646, guid: 64790b91b91094d49942373c4e83c237, type: 3}
       propertyPath: m_LocalPosition.y

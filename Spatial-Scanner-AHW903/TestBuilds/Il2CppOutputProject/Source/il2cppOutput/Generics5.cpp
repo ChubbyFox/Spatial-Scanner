@@ -3793,37 +3793,37 @@ struct ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365  : publi
 {
 public:
 	// System.Runtime.CompilerServices.Ephemeron[] System.Runtime.CompilerServices.ConditionalWeakTable`2::data
-	EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* ___data_0;
+	EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* ___data_4;
 	// System.Object System.Runtime.CompilerServices.ConditionalWeakTable`2::_lock
-	RuntimeObject * ____lock_1;
+	RuntimeObject * ____lock_5;
 	// System.Int32 System.Runtime.CompilerServices.ConditionalWeakTable`2::size
-	int32_t ___size_2;
+	int32_t ___size_6;
 
 public:
-	inline static int32_t get_offset_of_data_0() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365, ___data_0)); }
-	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* get_data_0() const { return ___data_0; }
-	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8** get_address_of_data_0() { return &___data_0; }
-	inline void set_data_0(EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* value)
+	inline static int32_t get_offset_of_data_4() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365, ___data_4)); }
+	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* get_data_4() const { return ___data_4; }
+	inline EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8** get_address_of_data_4() { return &___data_4; }
+	inline void set_data_4(EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* value)
 	{
-		___data_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___data_0), (void*)value);
+		___data_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___data_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of__lock_1() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365, ____lock_1)); }
-	inline RuntimeObject * get__lock_1() const { return ____lock_1; }
-	inline RuntimeObject ** get_address_of__lock_1() { return &____lock_1; }
-	inline void set__lock_1(RuntimeObject * value)
+	inline static int32_t get_offset_of__lock_5() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365, ____lock_5)); }
+	inline RuntimeObject * get__lock_5() const { return ____lock_5; }
+	inline RuntimeObject ** get_address_of__lock_5() { return &____lock_5; }
+	inline void set__lock_5(RuntimeObject * value)
 	{
-		____lock_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____lock_1), (void*)value);
+		____lock_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____lock_5), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_size_2() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365, ___size_2)); }
-	inline int32_t get_size_2() const { return ___size_2; }
-	inline int32_t* get_address_of_size_2() { return &___size_2; }
-	inline void set_size_2(int32_t value)
+	inline static int32_t get_offset_of_size_6() { return static_cast<int32_t>(offsetof(ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365, ___size_6)); }
+	inline int32_t get_size_6() const { return ___size_6; }
+	inline int32_t* get_address_of_size_6() { return &___size_6; }
+	inline void set_size_6(int32_t value)
 	{
-		___size_2 = value;
+		___size_6 = value;
 	}
 };
 
@@ -42389,12 +42389,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalWeakTable_2__ctor_m8E40E9007C
 	{
 		RuntimeObject * L_0 = (RuntimeObject *)il2cpp_codegen_object_new(RuntimeObject_il2cpp_TypeInfo_var);
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(L_0, /*hidden argument*/NULL);
-		__this->set__lock_1(L_0);
+		__this->set__lock_5(L_0);
 		NullCheck((RuntimeObject *)__this);
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405((RuntimeObject *)__this, /*hidden argument*/NULL);
 		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_1 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)(EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)SZArrayNew(EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8_il2cpp_TypeInfo_var, (uint32_t)((int32_t)13));
-		__this->set_data_0(L_1);
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_2 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		__this->set_data_4(L_1);
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_2 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		IL2CPP_RUNTIME_CLASS_INIT(GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var);
 		GC_register_ephemeron_array_mE3B14C8B6CDB8513F200AC3D92AD670592C64307((EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)L_2, /*hidden argument*/NULL);
 		return;
@@ -42449,7 +42449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalWeakTable_2_RehashWithoutResi
 	RuntimeObject * V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_0 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_0 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		NullCheck(L_0);
 		V_0 = (int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
 		V_1 = (int32_t)0;
@@ -42458,7 +42458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalWeakTable_2_RehashWithoutResi
 
 IL_000d:
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_1 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_1 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		RuntimeObject * L_3 = (RuntimeObject *)((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2)))->get_key_0();
@@ -42470,7 +42470,7 @@ IL_000d:
 		}
 	}
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_6 = V_1;
 		NullCheck(L_5);
 		((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->set_key_0(NULL);
@@ -42498,7 +42498,7 @@ IL_003b:
 
 IL_0046:
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_10 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_10 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_11 = V_2;
 		NullCheck(L_10);
 		RuntimeObject * L_12 = (RuntimeObject *)((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->get_key_0();
@@ -42519,7 +42519,7 @@ IL_0046:
 
 IL_006e:
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_17 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_17 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_18 = V_4;
 		NullCheck(L_17);
 		RuntimeObject * L_19 = (RuntimeObject *)((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->get_key_0();
@@ -42529,24 +42529,24 @@ IL_006e:
 		}
 	}
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_20 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_20 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_21 = V_4;
 		NullCheck(L_20);
 		RuntimeObject * L_22 = V_3;
 		((L_20)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_21)))->set_key_0(L_22);
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_23 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_23 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_24 = V_4;
 		NullCheck(L_23);
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_25 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_25 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_26 = V_2;
 		NullCheck(L_25);
 		RuntimeObject * L_27 = (RuntimeObject *)((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_26)))->get_value_1();
 		((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_24)))->set_value_1(L_27);
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_28 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_28 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_29 = V_2;
 		NullCheck(L_28);
 		((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_29)))->set_key_0(NULL);
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_30 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_30 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_31 = V_2;
 		NullCheck(L_30);
 		((L_30)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_31)))->set_value_1(NULL);
@@ -42555,7 +42555,7 @@ IL_006e:
 
 IL_00de:
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_32 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_32 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_33 = V_4;
 		NullCheck(L_32);
 		RuntimeObject * L_34 = (RuntimeObject *)((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33)))->get_key_0();
@@ -42604,14 +42604,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalWeakTable_2_RecomputeSize_mF1
 {
 	int32_t V_0 = 0;
 	{
-		__this->set_size_2(0);
+		__this->set_size_6(0);
 		V_0 = (int32_t)0;
 		goto IL_0030;
 	}
 
 IL_000b:
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_0 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_0 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		RuntimeObject * L_2 = (RuntimeObject *)((L_0)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_1)))->get_key_0();
@@ -42621,8 +42621,8 @@ IL_000b:
 		}
 	}
 	{
-		int32_t L_3 = (int32_t)__this->get_size_2();
-		__this->set_size_2(((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1)));
+		int32_t L_3 = (int32_t)__this->get_size_6();
+		__this->set_size_6(((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1)));
 	}
 
 IL_002c:
@@ -42634,7 +42634,7 @@ IL_002c:
 IL_0030:
 	{
 		int32_t L_5 = V_0;
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_6 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_6 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		NullCheck(L_6);
 		if ((((int32_t)L_5) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length))))))
 		{
@@ -42669,13 +42669,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalWeakTable_2_Rehash_m7093BE8BC
 	{
 		NullCheck((ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365 *)__this);
 		((  void (*) (ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0)->methodPointer)((ConditionalWeakTable_2_tCF100268EF76D0BC19F774221E488BBB4CD4B365 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0));
-		int32_t L_0 = (int32_t)__this->get_size_2();
+		int32_t L_0 = (int32_t)__this->get_size_6();
 		IL2CPP_RUNTIME_CLASS_INIT(HashHelpers_t001D7D03DA7A3C3426744B45509316917E7A90F9_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = HashHelpers_GetPrime_m011AA1E1C23994FC160C25F3AD051749CA8BA48F((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(((float)((float)((float)((float)L_0))/(float)(0.699999988f))))<<(int32_t)1))|(int32_t)1)), /*hidden argument*/NULL);
 		V_0 = (uint32_t)L_1;
 		uint32_t L_2 = V_0;
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_3 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_3 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		NullCheck(L_3);
 		if ((!(((float)((float)((float)((double)((uint32_t)L_2))))) > ((float)((float)il2cpp_codegen_multiply((float)((float)((float)((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))))), (float)(0.5f)))))))
 		{
@@ -42684,7 +42684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalWeakTable_2_Rehash_m7093BE8BC
 	}
 	{
 		uint32_t L_4 = V_0;
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		NullCheck(L_5);
 		if ((!(((float)((float)((float)((double)((uint32_t)L_4))))) < ((float)((float)il2cpp_codegen_multiply((float)((float)((float)((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length))))), (float)(1.10000002f)))))))
 		{
@@ -42705,19 +42705,19 @@ IL_004d:
 		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_8 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var);
 		GC_register_ephemeron_array_mE3B14C8B6CDB8513F200AC3D92AD670592C64307((EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)L_8, /*hidden argument*/NULL);
-		__this->set_size_2(0);
+		__this->set_size_6(0);
 		V_2 = (int32_t)0;
 		goto IL_011c;
 	}
 
 IL_0068:
 	{
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_9 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_9 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		RuntimeObject * L_11 = (RuntimeObject *)((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)))->get_key_0();
 		V_3 = (RuntimeObject *)L_11;
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_12 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_12 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		int32_t L_13 = V_2;
 		NullCheck(L_12);
 		RuntimeObject * L_14 = (RuntimeObject *)((L_12)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->get_value_1();
@@ -42818,8 +42818,8 @@ IL_00ed:
 		NullCheck(L_38);
 		RuntimeObject * L_40 = V_4;
 		((L_38)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_39)))->set_value_1(L_40);
-		int32_t L_41 = (int32_t)__this->get_size_2();
-		__this->set_size_2(((int32_t)il2cpp_codegen_add((int32_t)L_41, (int32_t)1)));
+		int32_t L_41 = (int32_t)__this->get_size_6();
+		__this->set_size_6(((int32_t)il2cpp_codegen_add((int32_t)L_41, (int32_t)1)));
 	}
 
 IL_0118:
@@ -42831,7 +42831,7 @@ IL_0118:
 IL_011c:
 	{
 		int32_t L_43 = V_2;
-		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_44 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_44 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 		NullCheck(L_44);
 		if ((((int32_t)L_43) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_44)->max_length))))))
 		{
@@ -42840,7 +42840,7 @@ IL_011c:
 	}
 	{
 		EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_45 = V_1;
-		__this->set_data_0(L_45);
+		__this->set_data_4(L_45);
 		return;
 	}
 }
@@ -42877,7 +42877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalWeakTable_2_Add_m92A993D020EA
 
 IL_0018:
 	{
-		RuntimeObject * L_2 = (RuntimeObject *)__this->get__lock_1();
+		RuntimeObject * L_2 = (RuntimeObject *)__this->get__lock_5();
 		V_0 = (RuntimeObject *)L_2;
 		V_1 = (bool)0;
 	}
@@ -42888,8 +42888,8 @@ IL_0021:
 		{
 			RuntimeObject * L_3 = V_0;
 			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4((RuntimeObject *)L_3, (bool*)(bool*)(&V_1), /*hidden argument*/NULL);
-			int32_t L_4 = (int32_t)__this->get_size_2();
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			int32_t L_4 = (int32_t)__this->get_size_6();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			NullCheck(L_5);
 			if ((!(((float)((float)((float)L_4))) >= ((float)((float)il2cpp_codegen_multiply((float)((float)((float)((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length))))), (float)(0.699999988f)))))))
 			{
@@ -42905,7 +42905,7 @@ IL_0041:
 
 IL_0047:
 		{
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_6 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_6 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			NullCheck(L_6);
 			V_2 = (int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)));
 			V_5 = (int32_t)(-1);
@@ -42920,7 +42920,7 @@ IL_0047:
 
 IL_006a:
 		{
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_11 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_11 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_12 = V_3;
 			NullCheck(L_11);
 			RuntimeObject * L_13 = (RuntimeObject *)((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_12)))->get_key_0();
@@ -43021,18 +43021,18 @@ IL_00c2:
 
 IL_00c7:
 		{
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_29 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_29 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_30 = V_5;
 			NullCheck(L_29);
 			RuntimeObject * L_31 = ___key0;
 			((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_30)))->set_key_0(L_31);
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_32 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_32 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_33 = V_5;
 			NullCheck(L_32);
 			RuntimeObject * L_34 = ___value1;
 			((L_32)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_33)))->set_value_1(L_34);
-			int32_t L_35 = (int32_t)__this->get_size_2();
-			__this->set_size_2(((int32_t)il2cpp_codegen_add((int32_t)L_35, (int32_t)1)));
+			int32_t L_35 = (int32_t)__this->get_size_6();
+			__this->set_size_6(((int32_t)il2cpp_codegen_add((int32_t)L_35, (int32_t)1)));
 			IL2CPP_LEAVE(0x111, FINALLY_0107);
 		}
 	} // end try (depth: 1)
@@ -43107,7 +43107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConditionalWeakTable_2_Remove_m0B765A2BA
 
 IL_0018:
 	{
-		RuntimeObject * L_2 = (RuntimeObject *)__this->get__lock_1();
+		RuntimeObject * L_2 = (RuntimeObject *)__this->get__lock_5();
 		V_0 = (RuntimeObject *)L_2;
 		V_1 = (bool)0;
 	}
@@ -43118,7 +43118,7 @@ IL_0021:
 		{
 			RuntimeObject * L_3 = V_0;
 			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4((RuntimeObject *)L_3, (bool*)(bool*)(&V_1), /*hidden argument*/NULL);
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_4 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_4 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			NullCheck(L_4);
 			V_2 = (int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)));
 			RuntimeObject * L_5 = ___key0;
@@ -43132,7 +43132,7 @@ IL_0021:
 
 IL_0049:
 		{
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_9 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_9 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_10 = V_3;
 			NullCheck(L_9);
 			RuntimeObject * L_11 = (RuntimeObject *)((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_10)))->get_key_0();
@@ -43147,18 +43147,18 @@ IL_0049:
 
 IL_0066:
 		{
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_14 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_14 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_15 = V_3;
 			NullCheck(L_14);
 			IL2CPP_RUNTIME_CLASS_INIT(GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var);
 			RuntimeObject * L_16 = ((GC_tD6F0377620BF01385965FD29272CF088A4309C0D_StaticFields*)il2cpp_codegen_static_fields_for(GC_tD6F0377620BF01385965FD29272CF088A4309C0D_il2cpp_TypeInfo_var))->get_EPHEMERON_TOMBSTONE_0();
 			((L_14)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_15)))->set_key_0(L_16);
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_17 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_17 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_18 = V_3;
 			NullCheck(L_17);
 			((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->set_value_1(NULL);
-			int32_t L_19 = (int32_t)__this->get_size_2();
-			__this->set_size_2(((int32_t)il2cpp_codegen_subtract((int32_t)L_19, (int32_t)1)));
+			int32_t L_19 = (int32_t)__this->get_size_6();
+			__this->set_size_6(((int32_t)il2cpp_codegen_subtract((int32_t)L_19, (int32_t)1)));
 			V_6 = (bool)1;
 			IL2CPP_LEAVE(0xC4, FINALLY_00b8);
 		}
@@ -43283,7 +43283,7 @@ IL_0018:
 	{
 		RuntimeObject ** L_2 = ___value1;
 		il2cpp_codegen_initobj(L_2, sizeof(RuntimeObject *));
-		RuntimeObject * L_3 = (RuntimeObject *)__this->get__lock_1();
+		RuntimeObject * L_3 = (RuntimeObject *)__this->get__lock_5();
 		V_0 = (RuntimeObject *)L_3;
 		V_1 = (bool)0;
 	}
@@ -43294,7 +43294,7 @@ IL_0028:
 		{
 			RuntimeObject * L_4 = V_0;
 			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4((RuntimeObject *)L_4, (bool*)(bool*)(&V_1), /*hidden argument*/NULL);
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_5 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			NullCheck(L_5);
 			V_2 = (int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length)));
 			RuntimeObject * L_6 = ___key0;
@@ -43308,7 +43308,7 @@ IL_0028:
 
 IL_0050:
 		{
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_10 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_10 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_11 = V_3;
 			NullCheck(L_10);
 			RuntimeObject * L_12 = (RuntimeObject *)((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_11)))->get_key_0();
@@ -43324,7 +43324,7 @@ IL_0050:
 IL_006d:
 		{
 			RuntimeObject ** L_15 = ___value1;
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_16 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_16 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_17 = V_3;
 			NullCheck(L_16);
 			RuntimeObject * L_18 = (RuntimeObject *)((L_16)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_17)))->get_value_1();
@@ -43449,7 +43449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * ConditionalWeakTable_2_GetVal
 
 IL_0013:
 	{
-		RuntimeObject * L_2 = (RuntimeObject *)__this->get__lock_1();
+		RuntimeObject * L_2 = (RuntimeObject *)__this->get__lock_5();
 		V_1 = (RuntimeObject *)L_2;
 		V_2 = (bool)0;
 	}
@@ -43551,7 +43551,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * ConditionalWeakTable_2_FindEq
 	Exception_t * __last_unhandled_exception = 0;
 	il2cpp::utils::ExceptionSupportStack<int32_t, 2> __leave_targets;
 	{
-		RuntimeObject * L_0 = (RuntimeObject *)__this->get__lock_1();
+		RuntimeObject * L_0 = (RuntimeObject *)__this->get__lock_5();
 		V_0 = (RuntimeObject *)L_0;
 		V_1 = (bool)0;
 	}
@@ -43568,7 +43568,7 @@ IL_0009:
 
 IL_0015:
 		{
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_2 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_2 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			int32_t L_3 = V_2;
 			NullCheck(L_2);
 			int32_t L_4 = L_3;
@@ -43607,7 +43607,7 @@ IL_0055:
 IL_0059:
 		{
 			int32_t L_16 = V_2;
-			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_17 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_0();
+			EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8* L_17 = (EphemeronU5BU5D_tA2F880A59471B7642CA02323CD56295126FC28A8*)__this->get_data_4();
 			NullCheck(L_17);
 			if ((((int32_t)L_16) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length))))))
 			{

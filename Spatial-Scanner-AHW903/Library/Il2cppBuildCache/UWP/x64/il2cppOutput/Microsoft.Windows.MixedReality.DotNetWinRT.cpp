@@ -148,15 +148,15 @@ struct InterfaceFuncInvoker1
 		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
-template <typename R>
-struct InterfaceFuncInvoker0
+template <typename R, typename T1, typename T2, typename T3>
+struct InterfaceFuncInvoker3
 {
-	typedef R (*Func)(void*, const RuntimeMethod*);
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
 
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2>
@@ -170,15 +170,15 @@ struct InterfaceFuncInvoker2
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct InterfaceFuncInvoker3
+template <typename R>
+struct InterfaceFuncInvoker0
 {
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+	typedef R (*Func)(void*, const RuntimeMethod*);
 
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2, typename T3, typename T4>
@@ -282,10 +282,14 @@ struct Func_1_tC7E4392C86577E380FCAA581632B1BEC403404B8;
 struct Func_1_t9BA18FC3B87A826456BBAB9261FFDEBDB2CAB63D;
 // System.Func`1<Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration2>
 struct Func_1_t5A6ED0C5524F5C93B8D74D24A74A68F8A339E7D1;
+// System.Func`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2>
+struct Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C;
 // System.Func`1<System.Object>
 struct Func_1_t807CEE610086E24A0167BAA97A64062016E09D49;
 // System.Func`1<WinRT.WinrtModule>
 struct Func_1_tD6D79AA0B3230EF5C7023AEBF730E7FC74EFDC60;
+// System.Func`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics>
+struct Func_1_tE22E3EB12315717CF1E0F45B52EF0AFB389CE29F;
 // System.Func`2<System.Int32,Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod>
 struct Func_2_tEB1CEF9B1A473FFF678094D54FF82305BE83D885;
 // System.Func`2<System.Int32,System.Int32Enum>
@@ -304,12 +308,18 @@ struct Lazy_1_tD4A21B2AB23B7C64F74EACCE5BE91A4A2A014784;
 struct Lazy_1_t72545EC7F9434095D60AF78FDDE73B5EB68FB217;
 // System.Lazy`1<Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration2>
 struct Lazy_1_tD4F625857ED92EE4C5C31C3B4A5B1A424DD32331;
+// System.Lazy`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2>
+struct Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8;
 // System.Lazy`1<System.Object>
 struct Lazy_1_t9AEDA4BDE3E10120674776405939013BDFB29948;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3;
+// WinRT.ObjectReference`1<WinRT.Interop.IActivationFactoryVftbl>
+struct ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626;
 // WinRT.ObjectReference`1<WinRT.Interop.IInspectableVftbl>
 struct ObjectReference_1_t2F073970332376AC7E81E0ED3BED09A8A621C373;
+// WinRT.ObjectReference`1<WinRT.Interop.IReference_Matrix4x4>
+struct ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828;
 // WinRT.ObjectReference`1<WinRT.Interop.IVectorViewOfEnum>
 struct ObjectReference_1_t69B7FF47D0913C112063ECCA591E65CB1249EDA7;
 // WinRT.ObjectReference`1<WinRT.Interop.IVectorViewOfObject>
@@ -332,6 +342,12 @@ struct ObjectReference_1_t7EEFE9778AEB4040979F2AFEBDDC9CCE3300E82A;
 struct ObjectReference_1_t7B726F96210FB11E49FB23324ED01CFE4190BC45;
 // WinRT.ObjectReference`1<Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration2/Vftbl>
 struct ObjectReference_1_t9311F3B3887AEC9FFC7803E5FCA9710C5FC84547;
+// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>
+struct ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19;
+// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl>
+struct ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE;
+// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>
+struct ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.WeakReference`1<WinRT.DllModule>>
 struct ValueCollection_t4AB4F32951061E5175079C2C16E65FA0D43B336B;
 // WinRT.VectorViewOfEnum`1<Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod>
@@ -346,8 +362,16 @@ struct VectorViewOfObject_1_t0F02C63FA667720224662F26AABE137DFAF551F4;
 struct WeakLazy_1_tFC73BDD1B2C65D7FBAD848AA2D7BD2DCCB7BDC95;
 // WinRT.WeakLazy`1<WinRT.WinrtModule>
 struct WeakLazy_1_t33C6F69309B8D36C41D403DE0EE6AE72E65DD888;
+// WinRT.WeakLazy`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics>
+struct WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486;
+// System.WeakReference`1<WinRT.DllModule>
+struct WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA;
+// System.WeakReference`1<System.Object>
+struct WeakReference_1_t223E87F227F99044D112FF1E7FC7DA135365CB76;
 // System.WeakReference`1<WinRT.WinrtModule>
 struct WeakReference_1_tD2E530BF1A1F01B124CAC0E8EFC381C6E1986853;
+// System.WeakReference`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics>
+struct WeakReference_1_t566A7D5C1CE20A4240FBCA2194046950BF8978F4;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,System.WeakReference`1<WinRT.DllModule>>[]
 struct EntryU5BU5D_tFBFBBFD7EDFB0814A1CB8EDD9F90866A0FC53949;
 // System.Byte[]
@@ -378,8 +402,12 @@ struct Binder_t2BEE27FD84737D1E79BC47FD67F6D3DD2F2DDA30;
 struct Delegate_t;
 // System.DelegateData
 struct DelegateData_t17DD30660E330C49381DAA99F934BE75CB11F288;
+// WinRT.DllModule
+struct DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679;
 // System.EventHandler
 struct EventHandler_t084491E53EC706ACA0A15CA17488C075B4ECA44B;
+// WinRT.HString
+struct HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A;
 // Microsoft.Windows.Graphics.Holographic.HolographicCamera
 struct HolographicCamera_t2AE279553DC29B919E5CCB3D60EEA57FF8DAF1A3;
 // Microsoft.Windows.Graphics.Holographic.HolographicCameraPose
@@ -418,6 +446,12 @@ struct IHolographicViewConfiguration2_t55926039B23FE6B8359FBCC4B8A37A3E2DE08B25;
 struct IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C;
 // WinRT.IObjectReference
 struct IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76;
+// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem
+struct ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics
+struct ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2
+struct ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4;
 // WinRT.Interop.IUnknownVftbl
 struct IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542;
 // System.Int32
@@ -436,10 +470,14 @@ struct RandomNumberGenerator_t2CB5440F189986116A2FA9F907AE52644047AC50;
 struct ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089;
 // System.Runtime.Serialization.SafeSerializationManager
 struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
+// Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem
+struct SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18;
 // System.String
 struct String_t;
 // System.Type
 struct Type_t;
+// System.Reflection.TypeInfo
+struct TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F;
 // System.UnhandledExceptionEventHandler
 struct UnhandledExceptionEventHandler_t1DF125A860ED9B70F24ADFA6CB0781533A23DA64;
 // System.Void
@@ -452,6 +490,8 @@ struct _get_PropertyAsBool_t81C52D14731B69B64512D483DA29436BE355061B;
 struct _get_PropertyAsDouble_tC92F2D17FE9E484302E3C0BDE6124821B132C023;
 // WinRT.Interop._get_PropertyAsEnum
 struct _get_PropertyAsEnum_tCE51ACBA5B43B55E59BF86A4B06DF14DC5CF48CC;
+// WinRT.Interop._get_PropertyAsMatrix4x4
+struct _get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E;
 // WinRT.Interop._get_PropertyAsObject
 struct _get_PropertyAsObject_t7C771A672C1D27AF590712AF8551A16CEF17383E;
 // WinRT.Interop._get_PropertyAsUInt
@@ -460,6 +500,10 @@ struct _get_PropertyAsUInt_t961AEF15ECB2E1AD974355B17B469563350D5687;
 struct _put_PropertyAsBool_t9E600FE1A5CAADA2728BB9819FF55B956AA611EB;
 // WinRT.Interop._put_PropertyAsEnum
 struct _put_PropertyAsEnum_t3FCDD75B1462F39B75961D1ABB7FF2FEA65546AF;
+// WinRT.DllModule/DllGetActivationFactory
+struct DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137;
+// WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance
+struct _ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9;
 // Microsoft.Windows.Graphics.Holographic.IHolographicFramePrediction/<>c
 struct U3CU3Ec_t8AD64FE0DF07215E59572BC02593CE708238921F;
 // Microsoft.Windows.Graphics.Holographic.IHolographicViewConfiguration2/<>c
@@ -502,9 +546,28 @@ struct DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0C333C;
 struct IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E;
 // WinRT.Platform/IPlatformLinkage
 struct IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90;
+// Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics
+struct Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80;
 // Microsoft.Windows.Graphics.Holographic.IHolographicFrame/Vftbl/_GetRenderingParameters
 struct _GetRenderingParameters_t92BCCAE8D039F16284B3C6F7E8BD5FBBAA143A2E;
+// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo
+struct _TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode
+struct _CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPosition
+struct _CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPositionAndOrientation
+struct _CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateLocatorForNode
+struct _CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReference
+struct _TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPosition
+struct _TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E;
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPositionAndOrientation
+struct _TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617;
 
+IL2CPP_EXTERN_C RuntimeClass* ActivationFactory_1_t25EF52493397407C71C0613FF68A2C45A809E004_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CreateT_tDA9DD6973DF80490CB3DF4F1AFCB96C770591B36_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8_il2cpp_TypeInfo_var;
@@ -514,7 +577,9 @@ IL2CPP_EXTERN_C RuntimeClass* DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t5A6ED0C5524F5C93B8D74D24A74A68F8A339E7D1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_t9BA18FC3B87A826456BBAB9261FFDEBDB2CAB63D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_1_tC7E4392C86577E380FCAA581632B1BEC403404B8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Func_2_tEB1CEF9B1A473FFF678094D54FF82305BE83D885_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Guid_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HolographicCameraPose_t7F422A2F2D97351EB7096598097ED6E644013DCE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HolographicCameraRenderingParameters_t3FFD9BAA17BD528A879F6D211A48F9AA2E3FDA62_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HolographicCamera_t2AE279553DC29B919E5CCB3D60EEA57FF8DAF1A3_il2cpp_TypeInfo_var;
@@ -533,26 +598,42 @@ IL2CPP_EXTERN_C RuntimeClass* IHolographicViewConfiguration_t7173985762725C2E628
 IL2CPP_EXTERN_C RuntimeClass* IID_tBE503CDB5C20C31B407D2F6EB4B26081F88FC26C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Il2CppComObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Lazy_1_t72545EC7F9434095D60AF78FDDE73B5EB68FB217_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Lazy_1_tD4A21B2AB23B7C64F74EACCE5BE91A4A2A014784_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Lazy_1_tD4F625857ED92EE4C5C31C3B4A5B1A424DD32331_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t5F89FF8F269EFA0404698D56C3633D79EF15C0B4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t8AD64FE0DF07215E59572BC02593CE708238921F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt32_tE60352A06233E4E69DD198BCC67142159F686B15_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VectorViewOfEnum_1_tFDBCCBEFF6D5675C1C6A4E61BB85068D574B21E2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VectorViewOfObject_1_tA2A64EC4999D04D9D7C591AD86A814CFA54D48FD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WeakLazy_1_t33C6F69309B8D36C41D403DE0EE6AE72E65DD888_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WinrtModule_tAF6EE49994730C8AE82CF6C89969225C4795AA18_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _AddRef_tC0E15E1F58A4D4F881282EB5F68ECC6F5EC11450_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _Bool_tAF568BB1DA307C702B8143F011EE18CF07FB94BA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetAt_t68536959B253B7FF0F165A410D347926EA90F6CF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetAt_tA1FFD085C90BCB0F325B9DEF64BBBB00ED500A16_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetIids_tE4E0C3C068308436001DAACB56DB2B7A677E31D6_il2cpp_TypeInfo_var;
@@ -569,9 +650,14 @@ IL2CPP_EXTERN_C RuntimeClass* _MoveNext_t94205B0A5054D612F83212B387B86A8054F6815
 IL2CPP_EXTERN_C RuntimeClass* _MoveNext_tB8CABFCE7232C6948305EA96AD30B489D38CDCB8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _QueryInterface_t337BE1CDB77E15F5330CD2850EAFD2C547C6E5DD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _Release_t75C67687471D9D4B389D178CBDDD004E2BC005B6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _get_PropertyAsBool_t81C52D14731B69B64512D483DA29436BE355061B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _get_PropertyAsDouble_tC92F2D17FE9E484302E3C0BDE6124821B132C023_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _get_PropertyAsEnum_tCE51ACBA5B43B55E59BF86A4B06DF14DC5CF48CC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _get_PropertyAsObject_t7C771A672C1D27AF590712AF8551A16CEF17383E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _get_PropertyAsUInt_t961AEF15ECB2E1AD974355B17B469563350D5687_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _put_PropertyAsBool_t9E600FE1A5CAADA2728BB9819FF55B956AA611EB_il2cpp_TypeInfo_var;
@@ -583,9 +669,13 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4201DFBD8CAB7C9A03E8B1367CFCBB72F014FBB8
 IL2CPP_EXTERN_C String_t* _stringLiteral73908C06C84C4BE07CC5E20FC2850C795792759B;
 IL2CPP_EXTERN_C String_t* _stringLiteral8C30C2A121B10CF66C074014633BC557626C1D72;
 IL2CPP_EXTERN_C String_t* _stringLiteralEB4CF09C157EFFADC79B7ADF5C0202D2B4C570CF;
+IL2CPP_EXTERN_C const RuntimeMethod* ActivationFactory_1_As_TisVftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_mB75038F8281B3BC6C44CDAE2C2D3513F78A933FD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CreateT__ctor_m1E914A9A6B7FC8E11192873E2966AFF41AB9924A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m9AD49A388A2A057476FDD06F85E2C361619B9D75_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m49F9153483E7881B0F295D8149596F7CC575D3AB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m2B4C8A563D52717D853AC06915C4FE43C5521093_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_m845DF2404CE942976C18573874A1BA227CD7C990_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_mBC25E9203E59B92104A41FF6D5171B832EECC093_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_mEEDB960B44D48F86B8D13B747296133B89C40F5C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_1__ctor_mFD505EE66843FBFEFA4A03B3820926BE7871B22F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2__ctor_m81C7BBA40CAC3192E0BF20EAA60A53BA9EE645B8_RuntimeMethod_var;
@@ -593,31 +683,45 @@ IL2CPP_EXTERN_C const RuntimeMethod* HolographicCameraRenderingParameters_U3C_ct
 IL2CPP_EXTERN_C const RuntimeMethod* HolographicCamera_U3C_ctorU3Eb__2_0_m62AE9B3B24568770971F4435887CE8E091C8B09B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HolographicViewConfiguration_U3C_ctorU3Eb__2_0_mC0B4F814EE65137A7747CA106953AAAFAF1F9167_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IL2CPPLinkage__AddDllDirectory_mC6645F42E60CF07B2C454882870749F17D487728_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IObjectReference_As_TisVftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_mED3E66D16B8112B4FA78472C74E48CE15A014549_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IObjectReference_As_TisVftbl_t44ED14D45AFDDB06A3AFA4BA7CC083571FFDE5BF_m2B4C7AE49987B8F3B1317225CA7A950ECF253A45_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IObjectReference_As_TisVftbl_t7534986437606D18803D5F504E1104A9616045E6_m35B16D2AF9E0D0447A0E2A61887DA3B64EF97D16_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IObjectReference_As_TisVftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_m6FF4ECBEEB6F2CAE3668C8A0A1613408CEAB41E8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IObjectReference_As_TisVftbl_t95A47E6D94D685C06DAEE8A4D68A5CFFB6C8C557_m94DCC22A8E1239440F68E0063439C5950F0F49D9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IObjectReference_As_TisVftbl_t998C74EEC5DF116E76728D469B1A45C8B98467C2_m064F8122D55754D29F9729F9ADB2E5EA8D9C37E5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IObjectReference_As_TisVftbl_tF973721A034EE8DE94A75635A352BE00F3706404_m226E99E6B231E2E2F55A75B361B4FAD4D0C1A175_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Lazy_1__ctor_m298BBC11525DB7A741B41077579FA25245E77928_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Lazy_1__ctor_mAAB67BA0C93C4F4437EE5F8F6F4DB900D351C9D8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Lazy_1__ctor_mACCB5F79505EC02758C0D46F271FF3256F90EA5D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Lazy_1__ctor_mB251D8B4BA52BF6CFC07A0AA5154046AB3F7E362_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Lazy_1_get_Value_m581C4D970F69488E4A877D578F257C347537A403_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Lazy_1_get_Value_mB0DC22C5E6215762B48DB2327ECA420CA28D7DEF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Lazy_1_get_Value_mF7AAA395B023AE7142F1DD3F8BF0F674D8266BCD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ModuleReference_Release_mD02F81CFCBA7A22F28D034B1B15F2FB49670DAD4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m823FF883B6D04BE8AFA031ACA385DC45333166F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_m3EFA0781B57B427CC85D7C83CBEC9A0385DAC6E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_m9C10202628A43AFB8E2864E01B75D5C1F5664555_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_mBAC1B46E76B05400A5BC7A9EA88976C422BA2D57_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_mC8399B51C1185F3089A239BBC65D4CB3D1F92DEB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_mCC082B968172E38454E9918A8A492936533B0B5C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_mE357BCC940CDBA0A018A2A7E26669C6B8C91E8C7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_mF0CA12DA03213C90491550621B830611CDAAD2D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_Attach_mFACD680A8C82E87CB60C51A0A89DB3A2C4D9A894_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ObjectReference_1_FromNativePtr_m0F54B0C2440971F098ED703F993880BB09D1256D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Platform_TryGetProcAddress_TisDllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137_m925516A36AED5EF16D811C650D0B5968922B412F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Statics_U3C_ctorU3Eb__1_0_mA09F5882EF5FB3F89784960ECAE7E67CAC73628B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3Cget_CameraPosesU3Eb__6_0_m281E26914BE8342EC900CD763C3271F213B23088_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3Cget_SupportedDepthReprojectionMethodsU3Eb__6_0_m41F93EFE7F1942001F0EF5CCD5A070B493366893_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VectorViewOfEnum_1__ctor_m96DAD23AC4375573998F2162864196A48085481A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VectorViewOfObject_1__ctor_mA6802B3FF780D1128D3A7E92E49B60813A38EBEF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WeakLazy_1__ctor_m0F7B3BC9C64E6E2962F3A7AA719EA3C0E62C1F84_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WeakLazy_1__ctor_mA34373257ED1CE1A0A4C569654CFB1265FCAD67C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* WeakLazy_1_get_Value_m1D5A455FE43A85E0795FC4401BCCE0C9045DB59B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WeakLazy_1_get_Value_mDEF6DE08A17CF2BA995154926236A3A4E857347B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WeakReference_1_TryGetTarget_m87C914306C9F0510BCDCB302E729A904E7F6F33B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* WeakReference_1__ctor_m1B1AB1E9EFEA1E352DB50C8DC5510ACCDD68224F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -946,6 +1050,64 @@ public:
 };
 
 
+// System.Lazy`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2>
+struct Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8  : public RuntimeObject
+{
+public:
+	// System.Object System.Lazy`1::m_boxed
+	RuntimeObject * ___m_boxed_1;
+	// System.Func`1<T> System.Lazy`1::m_valueFactory
+	Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * ___m_valueFactory_2;
+	// System.Object System.Lazy`1::m_threadSafeObj
+	RuntimeObject * ___m_threadSafeObj_3;
+
+public:
+	inline static int32_t get_offset_of_m_boxed_1() { return static_cast<int32_t>(offsetof(Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8, ___m_boxed_1)); }
+	inline RuntimeObject * get_m_boxed_1() const { return ___m_boxed_1; }
+	inline RuntimeObject ** get_address_of_m_boxed_1() { return &___m_boxed_1; }
+	inline void set_m_boxed_1(RuntimeObject * value)
+	{
+		___m_boxed_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_boxed_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_valueFactory_2() { return static_cast<int32_t>(offsetof(Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8, ___m_valueFactory_2)); }
+	inline Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * get_m_valueFactory_2() const { return ___m_valueFactory_2; }
+	inline Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C ** get_address_of_m_valueFactory_2() { return &___m_valueFactory_2; }
+	inline void set_m_valueFactory_2(Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * value)
+	{
+		___m_valueFactory_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_valueFactory_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_threadSafeObj_3() { return static_cast<int32_t>(offsetof(Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8, ___m_threadSafeObj_3)); }
+	inline RuntimeObject * get_m_threadSafeObj_3() const { return ___m_threadSafeObj_3; }
+	inline RuntimeObject ** get_address_of_m_threadSafeObj_3() { return &___m_threadSafeObj_3; }
+	inline void set_m_threadSafeObj_3(RuntimeObject * value)
+	{
+		___m_threadSafeObj_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_threadSafeObj_3), (void*)value);
+	}
+};
+
+struct Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8_StaticFields
+{
+public:
+	// System.Func`1<T> System.Lazy`1::ALREADY_INVOKED_SENTINEL
+	Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * ___ALREADY_INVOKED_SENTINEL_0;
+
+public:
+	inline static int32_t get_offset_of_ALREADY_INVOKED_SENTINEL_0() { return static_cast<int32_t>(offsetof(Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8_StaticFields, ___ALREADY_INVOKED_SENTINEL_0)); }
+	inline Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * get_ALREADY_INVOKED_SENTINEL_0() const { return ___ALREADY_INVOKED_SENTINEL_0; }
+	inline Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C ** get_address_of_ALREADY_INVOKED_SENTINEL_0() { return &___ALREADY_INVOKED_SENTINEL_0; }
+	inline void set_ALREADY_INVOKED_SENTINEL_0(Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * value)
+	{
+		___ALREADY_INVOKED_SENTINEL_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ALREADY_INVOKED_SENTINEL_0), (void*)value);
+	}
+};
+
+
 // WinRT.WeakLazy`1<WinRT.WinrtModule>
 struct WeakLazy_1_t33C6F69309B8D36C41D403DE0EE6AE72E65DD888  : public RuntimeObject
 {
@@ -975,35 +1137,39 @@ public:
 	}
 };
 
+
+// WinRT.WeakLazy`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics>
+struct WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486  : public RuntimeObject
+{
+public:
+	// System.Func`1<T> WinRT.WeakLazy`1::_constructor
+	Func_1_tE22E3EB12315717CF1E0F45B52EF0AFB389CE29F * ____constructor_0;
+	// System.WeakReference`1<T> WinRT.WeakLazy`1::_instance
+	WeakReference_1_t566A7D5C1CE20A4240FBCA2194046950BF8978F4 * ____instance_1;
+
+public:
+	inline static int32_t get_offset_of__constructor_0() { return static_cast<int32_t>(offsetof(WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486, ____constructor_0)); }
+	inline Func_1_tE22E3EB12315717CF1E0F45B52EF0AFB389CE29F * get__constructor_0() const { return ____constructor_0; }
+	inline Func_1_tE22E3EB12315717CF1E0F45B52EF0AFB389CE29F ** get_address_of__constructor_0() { return &____constructor_0; }
+	inline void set__constructor_0(Func_1_tE22E3EB12315717CF1E0F45B52EF0AFB389CE29F * value)
+	{
+		____constructor_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____constructor_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__instance_1() { return static_cast<int32_t>(offsetof(WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486, ____instance_1)); }
+	inline WeakReference_1_t566A7D5C1CE20A4240FBCA2194046950BF8978F4 * get__instance_1() const { return ____instance_1; }
+	inline WeakReference_1_t566A7D5C1CE20A4240FBCA2194046950BF8978F4 ** get_address_of__instance_1() { return &____instance_1; }
+	inline void set__instance_1(WeakReference_1_t566A7D5C1CE20A4240FBCA2194046950BF8978F4 * value)
+	{
+		____instance_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____instance_1), (void*)value);
+	}
+};
+
 struct Il2CppArrayBounds;
 
 // System.Array
-
-
-// WinRT.DllModule
-struct DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields
-{
-public:
-	// System.Collections.Generic.Dictionary`2<System.String,System.WeakReference`1<WinRT.DllModule>> WinRT.DllModule::_cache
-	Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * ____cache_0;
-
-public:
-	inline static int32_t get_offset_of__cache_0() { return static_cast<int32_t>(offsetof(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields, ____cache_0)); }
-	inline Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * get__cache_0() const { return ____cache_0; }
-	inline Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 ** get_address_of__cache_0() { return &____cache_0; }
-	inline void set__cache_0(Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * value)
-	{
-		____cache_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____cache_0), (void*)value);
-	}
-};
 
 
 // Microsoft.Windows.Graphics.Holographic.HolographicCamera
@@ -1324,6 +1490,63 @@ public:
 };
 
 
+// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem
+struct ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE  : public RuntimeObject
+{
+public:
+	// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl> Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem::_obj
+	ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * ____obj_0;
+
+public:
+	inline static int32_t get_offset_of__obj_0() { return static_cast<int32_t>(offsetof(ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE, ____obj_0)); }
+	inline ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * get__obj_0() const { return ____obj_0; }
+	inline ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 ** get_address_of__obj_0() { return &____obj_0; }
+	inline void set__obj_0(ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * value)
+	{
+		____obj_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____obj_0), (void*)value);
+	}
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics
+struct ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8  : public RuntimeObject
+{
+public:
+	// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl> Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics::_obj
+	ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * ____obj_0;
+
+public:
+	inline static int32_t get_offset_of__obj_0() { return static_cast<int32_t>(offsetof(ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8, ____obj_0)); }
+	inline ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * get__obj_0() const { return ____obj_0; }
+	inline ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE ** get_address_of__obj_0() { return &____obj_0; }
+	inline void set__obj_0(ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * value)
+	{
+		____obj_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____obj_0), (void*)value);
+	}
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2
+struct ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4  : public RuntimeObject
+{
+public:
+	// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl> Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2::_obj
+	ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * ____obj_0;
+
+public:
+	inline static int32_t get_offset_of__obj_0() { return static_cast<int32_t>(offsetof(ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4, ____obj_0)); }
+	inline ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * get__obj_0() const { return ____obj_0; }
+	inline ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E ** get_address_of__obj_0() { return &____obj_0; }
+	inline void set__obj_0(ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * value)
+	{
+		____obj_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____obj_0), (void*)value);
+	}
+};
+
+
 // System.MarshalByRefObject
 struct MarshalByRefObject_tD4DF91B488B284F899417EC468D8E50E933306A8  : public RuntimeObject
 {
@@ -1384,6 +1607,51 @@ public:
 	{
 		____platformLinkage_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____platformLinkage_0), (void*)value);
+	}
+};
+
+
+// Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem
+struct SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18  : public RuntimeObject
+{
+public:
+	// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem::_interface
+	ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * ____interface_0;
+
+public:
+	inline static int32_t get_offset_of__interface_0() { return static_cast<int32_t>(offsetof(SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18, ____interface_0)); }
+	inline ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * get__interface_0() const { return ____interface_0; }
+	inline ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE ** get_address_of__interface_0() { return &____interface_0; }
+	inline void set__interface_0(ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * value)
+	{
+		____interface_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____interface_0), (void*)value);
+	}
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview
+struct SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_StaticFields
+{
+public:
+	// WinRT.WeakLazy`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics> Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview::_statics
+	WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 * ____statics_0;
+
+public:
+	inline static int32_t get_offset_of__statics_0() { return static_cast<int32_t>(offsetof(SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_StaticFields, ____statics_0)); }
+	inline WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 * get__statics_0() const { return ____statics_0; }
+	inline WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 ** get_address_of__statics_0() { return &____statics_0; }
+	inline void set__statics_0(WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 * value)
+	{
+		____statics_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____statics_0), (void*)value);
 	}
 };
 
@@ -1691,6 +1959,24 @@ struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA_marshaled_com
 {
 };
 
+// System.Runtime.InteropServices.GCHandle
+struct GCHandle_t757890BC4BBBEDE5A623A3C110013EDD24613603 
+{
+public:
+	// System.Int32 System.Runtime.InteropServices.GCHandle::handle
+	int32_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(GCHandle_t757890BC4BBBEDE5A623A3C110013EDD24613603, ___handle_0)); }
+	inline int32_t get_handle_0() const { return ___handle_0; }
+	inline int32_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(int32_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+
 // System.Guid
 struct Guid_t 
 {
@@ -1968,6 +2254,238 @@ public:
 };
 
 
+// System.Numerics.Matrix4x4
+struct Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 
+{
+public:
+	// System.Single System.Numerics.Matrix4x4::M11
+	float ___M11_0;
+	// System.Single System.Numerics.Matrix4x4::M12
+	float ___M12_1;
+	// System.Single System.Numerics.Matrix4x4::M13
+	float ___M13_2;
+	// System.Single System.Numerics.Matrix4x4::M14
+	float ___M14_3;
+	// System.Single System.Numerics.Matrix4x4::M21
+	float ___M21_4;
+	// System.Single System.Numerics.Matrix4x4::M22
+	float ___M22_5;
+	// System.Single System.Numerics.Matrix4x4::M23
+	float ___M23_6;
+	// System.Single System.Numerics.Matrix4x4::M24
+	float ___M24_7;
+	// System.Single System.Numerics.Matrix4x4::M31
+	float ___M31_8;
+	// System.Single System.Numerics.Matrix4x4::M32
+	float ___M32_9;
+	// System.Single System.Numerics.Matrix4x4::M33
+	float ___M33_10;
+	// System.Single System.Numerics.Matrix4x4::M34
+	float ___M34_11;
+	// System.Single System.Numerics.Matrix4x4::M41
+	float ___M41_12;
+	// System.Single System.Numerics.Matrix4x4::M42
+	float ___M42_13;
+	// System.Single System.Numerics.Matrix4x4::M43
+	float ___M43_14;
+	// System.Single System.Numerics.Matrix4x4::M44
+	float ___M44_15;
+
+public:
+	inline static int32_t get_offset_of_M11_0() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M11_0)); }
+	inline float get_M11_0() const { return ___M11_0; }
+	inline float* get_address_of_M11_0() { return &___M11_0; }
+	inline void set_M11_0(float value)
+	{
+		___M11_0 = value;
+	}
+
+	inline static int32_t get_offset_of_M12_1() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M12_1)); }
+	inline float get_M12_1() const { return ___M12_1; }
+	inline float* get_address_of_M12_1() { return &___M12_1; }
+	inline void set_M12_1(float value)
+	{
+		___M12_1 = value;
+	}
+
+	inline static int32_t get_offset_of_M13_2() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M13_2)); }
+	inline float get_M13_2() const { return ___M13_2; }
+	inline float* get_address_of_M13_2() { return &___M13_2; }
+	inline void set_M13_2(float value)
+	{
+		___M13_2 = value;
+	}
+
+	inline static int32_t get_offset_of_M14_3() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M14_3)); }
+	inline float get_M14_3() const { return ___M14_3; }
+	inline float* get_address_of_M14_3() { return &___M14_3; }
+	inline void set_M14_3(float value)
+	{
+		___M14_3 = value;
+	}
+
+	inline static int32_t get_offset_of_M21_4() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M21_4)); }
+	inline float get_M21_4() const { return ___M21_4; }
+	inline float* get_address_of_M21_4() { return &___M21_4; }
+	inline void set_M21_4(float value)
+	{
+		___M21_4 = value;
+	}
+
+	inline static int32_t get_offset_of_M22_5() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M22_5)); }
+	inline float get_M22_5() const { return ___M22_5; }
+	inline float* get_address_of_M22_5() { return &___M22_5; }
+	inline void set_M22_5(float value)
+	{
+		___M22_5 = value;
+	}
+
+	inline static int32_t get_offset_of_M23_6() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M23_6)); }
+	inline float get_M23_6() const { return ___M23_6; }
+	inline float* get_address_of_M23_6() { return &___M23_6; }
+	inline void set_M23_6(float value)
+	{
+		___M23_6 = value;
+	}
+
+	inline static int32_t get_offset_of_M24_7() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M24_7)); }
+	inline float get_M24_7() const { return ___M24_7; }
+	inline float* get_address_of_M24_7() { return &___M24_7; }
+	inline void set_M24_7(float value)
+	{
+		___M24_7 = value;
+	}
+
+	inline static int32_t get_offset_of_M31_8() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M31_8)); }
+	inline float get_M31_8() const { return ___M31_8; }
+	inline float* get_address_of_M31_8() { return &___M31_8; }
+	inline void set_M31_8(float value)
+	{
+		___M31_8 = value;
+	}
+
+	inline static int32_t get_offset_of_M32_9() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M32_9)); }
+	inline float get_M32_9() const { return ___M32_9; }
+	inline float* get_address_of_M32_9() { return &___M32_9; }
+	inline void set_M32_9(float value)
+	{
+		___M32_9 = value;
+	}
+
+	inline static int32_t get_offset_of_M33_10() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M33_10)); }
+	inline float get_M33_10() const { return ___M33_10; }
+	inline float* get_address_of_M33_10() { return &___M33_10; }
+	inline void set_M33_10(float value)
+	{
+		___M33_10 = value;
+	}
+
+	inline static int32_t get_offset_of_M34_11() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M34_11)); }
+	inline float get_M34_11() const { return ___M34_11; }
+	inline float* get_address_of_M34_11() { return &___M34_11; }
+	inline void set_M34_11(float value)
+	{
+		___M34_11 = value;
+	}
+
+	inline static int32_t get_offset_of_M41_12() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M41_12)); }
+	inline float get_M41_12() const { return ___M41_12; }
+	inline float* get_address_of_M41_12() { return &___M41_12; }
+	inline void set_M41_12(float value)
+	{
+		___M41_12 = value;
+	}
+
+	inline static int32_t get_offset_of_M42_13() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M42_13)); }
+	inline float get_M42_13() const { return ___M42_13; }
+	inline float* get_address_of_M42_13() { return &___M42_13; }
+	inline void set_M42_13(float value)
+	{
+		___M42_13 = value;
+	}
+
+	inline static int32_t get_offset_of_M43_14() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M43_14)); }
+	inline float get_M43_14() const { return ___M43_14; }
+	inline float* get_address_of_M43_14() { return &___M43_14; }
+	inline void set_M43_14(float value)
+	{
+		___M43_14 = value;
+	}
+
+	inline static int32_t get_offset_of_M44_15() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504, ___M44_15)); }
+	inline float get_M44_15() const { return ___M44_15; }
+	inline float* get_address_of_M44_15() { return &___M44_15; }
+	inline void set_M44_15(float value)
+	{
+		___M44_15 = value;
+	}
+};
+
+struct Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_StaticFields
+{
+public:
+	// System.Numerics.Matrix4x4 System.Numerics.Matrix4x4::_identity
+	Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  ____identity_16;
+
+public:
+	inline static int32_t get_offset_of__identity_16() { return static_cast<int32_t>(offsetof(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_StaticFields, ____identity_16)); }
+	inline Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  get__identity_16() const { return ____identity_16; }
+	inline Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * get_address_of__identity_16() { return &____identity_16; }
+	inline void set__identity_16(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  value)
+	{
+		____identity_16 = value;
+	}
+};
+
+
+// System.Numerics.Quaternion
+struct Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C 
+{
+public:
+	// System.Single System.Numerics.Quaternion::X
+	float ___X_0;
+	// System.Single System.Numerics.Quaternion::Y
+	float ___Y_1;
+	// System.Single System.Numerics.Quaternion::Z
+	float ___Z_2;
+	// System.Single System.Numerics.Quaternion::W
+	float ___W_3;
+
+public:
+	inline static int32_t get_offset_of_X_0() { return static_cast<int32_t>(offsetof(Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C, ___X_0)); }
+	inline float get_X_0() const { return ___X_0; }
+	inline float* get_address_of_X_0() { return &___X_0; }
+	inline void set_X_0(float value)
+	{
+		___X_0 = value;
+	}
+
+	inline static int32_t get_offset_of_Y_1() { return static_cast<int32_t>(offsetof(Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C, ___Y_1)); }
+	inline float get_Y_1() const { return ___Y_1; }
+	inline float* get_address_of_Y_1() { return &___Y_1; }
+	inline void set_Y_1(float value)
+	{
+		___Y_1 = value;
+	}
+
+	inline static int32_t get_offset_of_Z_2() { return static_cast<int32_t>(offsetof(Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C, ___Z_2)); }
+	inline float get_Z_2() const { return ___Z_2; }
+	inline float* get_address_of_Z_2() { return &___Z_2; }
+	inline void set_Z_2(float value)
+	{
+		___Z_2 = value;
+	}
+
+	inline static int32_t get_offset_of_W_3() { return static_cast<int32_t>(offsetof(Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C, ___W_3)); }
+	inline float get_W_3() const { return ___W_3; }
+	inline float* get_address_of_W_3() { return &___W_3; }
+	inline void set_W_3(float value)
+	{
+		___W_3 = value;
+	}
+};
+
+
 // System.UInt32
 struct UInt32_tE60352A06233E4E69DD198BCC67142159F686B15 
 {
@@ -1982,6 +2500,44 @@ public:
 	inline void set_m_value_0(uint32_t value)
 	{
 		___m_value_0 = value;
+	}
+};
+
+
+// System.Numerics.Vector3
+struct Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 
+{
+public:
+	// System.Single System.Numerics.Vector3::X
+	float ___X_0;
+	// System.Single System.Numerics.Vector3::Y
+	float ___Y_1;
+	// System.Single System.Numerics.Vector3::Z
+	float ___Z_2;
+
+public:
+	inline static int32_t get_offset_of_X_0() { return static_cast<int32_t>(offsetof(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4, ___X_0)); }
+	inline float get_X_0() const { return ___X_0; }
+	inline float* get_address_of_X_0() { return &___X_0; }
+	inline void set_X_0(float value)
+	{
+		___X_0 = value;
+	}
+
+	inline static int32_t get_offset_of_Y_1() { return static_cast<int32_t>(offsetof(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4, ___Y_1)); }
+	inline float get_Y_1() const { return ___Y_1; }
+	inline float* get_address_of_Y_1() { return &___Y_1; }
+	inline void set_Y_1(float value)
+	{
+		___Y_1 = value;
+	}
+
+	inline static int32_t get_offset_of_Z_2() { return static_cast<int32_t>(offsetof(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4, ___Z_2)); }
+	inline float get_Z_2() const { return ___Z_2; }
+	inline float* get_address_of_Z_2() { return &___Z_2; }
+	inline void set_Z_2(float value)
+	{
+		___Z_2 = value;
 	}
 };
 
@@ -2016,6 +2572,53 @@ public:
 	inline void set_RawValue_0(int32_t value)
 	{
 		___RawValue_0 = value;
+	}
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics
+struct Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80  : public ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8
+{
+public:
+	// System.Lazy`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2> Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics::_interface2
+	Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 * ____interface2_1;
+
+public:
+	inline static int32_t get_offset_of__interface2_1() { return static_cast<int32_t>(offsetof(Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80, ____interface2_1)); }
+	inline Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 * get__interface2_1() const { return ____interface2_1; }
+	inline Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 ** get_address_of__interface2_1() { return &____interface2_1; }
+	inline void set__interface2_1(Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 * value)
+	{
+		____interface2_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____interface2_1), (void*)value);
+	}
+};
+
+
+// System.Nullable`1<System.Numerics.Matrix4x4>
+struct Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8 
+{
+public:
+	// T System.Nullable`1::value
+	Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  ___value_0;
+	// System.Boolean System.Nullable`1::has_value
+	bool ___has_value_1;
+
+public:
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8, ___value_0)); }
+	inline Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  get_value_0() const { return ___value_0; }
+	inline Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * get_address_of_value_0() { return &___value_0; }
+	inline void set_value_0(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  value)
+	{
+		___value_0 = value;
+	}
+
+	inline static int32_t get_offset_of_has_value_1() { return static_cast<int32_t>(offsetof(Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8, ___has_value_1)); }
+	inline bool get_has_value_1() const { return ___has_value_1; }
+	inline bool* get_address_of_has_value_1() { return &___has_value_1; }
+	inline void set_has_value_1(bool value)
+	{
+		___has_value_1 = value;
 	}
 };
 
@@ -2056,6 +2659,34 @@ public:
 	{
 		____castToEnum_2 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____castToEnum_2), (void*)value);
+	}
+};
+
+
+// System.WeakReference`1<WinRT.DllModule>
+struct WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA  : public RuntimeObject
+{
+public:
+	// System.Runtime.InteropServices.GCHandle System.WeakReference`1::handle
+	GCHandle_t757890BC4BBBEDE5A623A3C110013EDD24613603  ___handle_0;
+	// System.Boolean System.WeakReference`1::trackResurrection
+	bool ___trackResurrection_1;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA, ___handle_0)); }
+	inline GCHandle_t757890BC4BBBEDE5A623A3C110013EDD24613603  get_handle_0() const { return ___handle_0; }
+	inline GCHandle_t757890BC4BBBEDE5A623A3C110013EDD24613603 * get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(GCHandle_t757890BC4BBBEDE5A623A3C110013EDD24613603  value)
+	{
+		___handle_0 = value;
+	}
+
+	inline static int32_t get_offset_of_trackResurrection_1() { return static_cast<int32_t>(offsetof(WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA, ___trackResurrection_1)); }
+	inline bool get_trackResurrection_1() const { return ___trackResurrection_1; }
+	inline bool* get_address_of_trackResurrection_1() { return &___trackResurrection_1; }
+	inline void set_trackResurrection_1(bool value)
+	{
+		___trackResurrection_1 = value;
 	}
 };
 
@@ -2809,6 +3440,24 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
 };
 
+// WinRT.HString
+struct HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A  : public RuntimeObject
+{
+public:
+	// System.IntPtr WinRT.HString::Handle
+	intptr_t ___Handle_0;
+
+public:
+	inline static int32_t get_offset_of_Handle_0() { return static_cast<int32_t>(offsetof(HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A, ___Handle_0)); }
+	inline intptr_t get_Handle_0() const { return ___Handle_0; }
+	inline intptr_t* get_address_of_Handle_0() { return &___Handle_0; }
+	inline void set_Handle_0(intptr_t value)
+	{
+		___Handle_0 = value;
+	}
+};
+
+
 // Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod
 struct HolographicDepthReprojectionMethod_tF9945DD977D85952A1F8024B1D1185F19D18EAEC 
 {
@@ -3054,6 +3703,124 @@ public:
 public:
 };
 
+
+// WinRT.DllModule
+struct DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679  : public RuntimeObject
+{
+public:
+	// System.String WinRT.DllModule::_fileName
+	String_t* ____fileName_0;
+	// WinRT.ModuleReference WinRT.DllModule::_moduleHandle
+	ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ____moduleHandle_1;
+	// WinRT.DllModule/DllGetActivationFactory WinRT.DllModule::_GetActivationFactory
+	DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * ____GetActivationFactory_2;
+
+public:
+	inline static int32_t get_offset_of__fileName_0() { return static_cast<int32_t>(offsetof(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679, ____fileName_0)); }
+	inline String_t* get__fileName_0() const { return ____fileName_0; }
+	inline String_t** get_address_of__fileName_0() { return &____fileName_0; }
+	inline void set__fileName_0(String_t* value)
+	{
+		____fileName_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____fileName_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__moduleHandle_1() { return static_cast<int32_t>(offsetof(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679, ____moduleHandle_1)); }
+	inline ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  get__moduleHandle_1() const { return ____moduleHandle_1; }
+	inline ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 * get_address_of__moduleHandle_1() { return &____moduleHandle_1; }
+	inline void set__moduleHandle_1(ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  value)
+	{
+		____moduleHandle_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&____moduleHandle_1))->____module_0), (void*)NULL);
+	}
+
+	inline static int32_t get_offset_of__GetActivationFactory_2() { return static_cast<int32_t>(offsetof(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679, ____GetActivationFactory_2)); }
+	inline DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * get__GetActivationFactory_2() const { return ____GetActivationFactory_2; }
+	inline DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 ** get_address_of__GetActivationFactory_2() { return &____GetActivationFactory_2; }
+	inline void set__GetActivationFactory_2(DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * value)
+	{
+		____GetActivationFactory_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____GetActivationFactory_2), (void*)value);
+	}
+};
+
+struct DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields
+{
+public:
+	// System.Collections.Generic.Dictionary`2<System.String,System.WeakReference`1<WinRT.DllModule>> WinRT.DllModule::_cache
+	Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * ____cache_3;
+
+public:
+	inline static int32_t get_offset_of__cache_3() { return static_cast<int32_t>(offsetof(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields, ____cache_3)); }
+	inline Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * get__cache_3() const { return ____cache_3; }
+	inline Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 ** get_address_of__cache_3() { return &____cache_3; }
+	inline void set__cache_3(Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * value)
+	{
+		____cache_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____cache_3), (void*)value);
+	}
+};
+
+
+// WinRT.Interop.IActivationFactoryVftbl
+struct IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64 
+{
+public:
+	static const Il2CppGuid CLSID;
+
+public:
+	// WinRT.Interop.IInspectableVftbl WinRT.Interop.IActivationFactoryVftbl::IInspectableVftbl
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  ___IInspectableVftbl_0;
+	// WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance WinRT.Interop.IActivationFactoryVftbl::ActivateInstance
+	_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * ___ActivateInstance_1;
+
+public:
+	inline static int32_t get_offset_of_IInspectableVftbl_0() { return static_cast<int32_t>(offsetof(IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64, ___IInspectableVftbl_0)); }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  get_IInspectableVftbl_0() const { return ___IInspectableVftbl_0; }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C * get_address_of_IInspectableVftbl_0() { return &___IInspectableVftbl_0; }
+	inline void set_IInspectableVftbl_0(IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  value)
+	{
+		___IInspectableVftbl_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_ActivateInstance_1() { return static_cast<int32_t>(offsetof(IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64, ___ActivateInstance_1)); }
+	inline _ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * get_ActivateInstance_1() const { return ___ActivateInstance_1; }
+	inline _ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 ** get_address_of_ActivateInstance_1() { return &___ActivateInstance_1; }
+	inline void set_ActivateInstance_1(_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * value)
+	{
+		___ActivateInstance_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ActivateInstance_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of WinRT.Interop.IActivationFactoryVftbl
+struct IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_pinvoke
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___ActivateInstance_1;
+};
+// Native definition for COM marshalling of WinRT.Interop.IActivationFactoryVftbl
+struct IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_com
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___ActivateInstance_1;
+};
 
 // WinRT.Interop.IIterableOfEnum
 struct IIterableOfEnum_tE52B6E657D1EB83E17B7F2608DDC43FBBEEB1E37 
@@ -3406,6 +4173,66 @@ public:
 	}
 };
 
+
+// WinRT.Interop.IReference_Matrix4x4
+struct IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3 
+{
+public:
+	static const Il2CppGuid CLSID;
+
+public:
+	// WinRT.Interop.IInspectableVftbl WinRT.Interop.IReference_Matrix4x4::IInspectableVftbl
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  ___IInspectableVftbl_0;
+	// WinRT.Interop._get_PropertyAsMatrix4x4 WinRT.Interop.IReference_Matrix4x4::get_Value
+	_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * ___get_Value_1;
+
+public:
+	inline static int32_t get_offset_of_IInspectableVftbl_0() { return static_cast<int32_t>(offsetof(IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3, ___IInspectableVftbl_0)); }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  get_IInspectableVftbl_0() const { return ___IInspectableVftbl_0; }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C * get_address_of_IInspectableVftbl_0() { return &___IInspectableVftbl_0; }
+	inline void set_IInspectableVftbl_0(IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  value)
+	{
+		___IInspectableVftbl_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_get_Value_1() { return static_cast<int32_t>(offsetof(IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3, ___get_Value_1)); }
+	inline _get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * get_get_Value_1() const { return ___get_Value_1; }
+	inline _get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E ** get_address_of_get_Value_1() { return &___get_Value_1; }
+	inline void set_get_Value_1(_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * value)
+	{
+		___get_Value_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___get_Value_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of WinRT.Interop.IReference_Matrix4x4
+struct IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_pinvoke
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___get_Value_1;
+};
+// Native definition for COM marshalling of WinRT.Interop.IReference_Matrix4x4
+struct IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_com
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___get_Value_1;
+};
 
 // WinRT.Interop.IVectorViewOfEnum
 struct IVectorViewOfEnum_t608B9680A266720E5205FEC3C916FD75638BA465 
@@ -4568,6 +5395,251 @@ struct Vftbl_t44ED14D45AFDDB06A3AFA4BA7CC083571FFDE5BF_marshaled_com
 	Il2CppMethodPointer ___get_SupportedDepthReprojectionMethods_1;
 };
 
+// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl
+struct Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631 
+{
+public:
+	static const Il2CppGuid CLSID;
+
+public:
+	// WinRT.Interop.IInspectableVftbl Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl::IInspectableVftbl
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  ___IInspectableVftbl_0;
+	// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl::TryGetTransformTo
+	_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * ___TryGetTransformTo_1;
+
+public:
+	inline static int32_t get_offset_of_IInspectableVftbl_0() { return static_cast<int32_t>(offsetof(Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631, ___IInspectableVftbl_0)); }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  get_IInspectableVftbl_0() const { return ___IInspectableVftbl_0; }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C * get_address_of_IInspectableVftbl_0() { return &___IInspectableVftbl_0; }
+	inline void set_IInspectableVftbl_0(IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  value)
+	{
+		___IInspectableVftbl_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_TryGetTransformTo_1() { return static_cast<int32_t>(offsetof(Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631, ___TryGetTransformTo_1)); }
+	inline _TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * get_TryGetTransformTo_1() const { return ___TryGetTransformTo_1; }
+	inline _TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C ** get_address_of_TryGetTransformTo_1() { return &___TryGetTransformTo_1; }
+	inline void set_TryGetTransformTo_1(_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * value)
+	{
+		___TryGetTransformTo_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TryGetTransformTo_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl
+struct Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_pinvoke
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___TryGetTransformTo_1;
+};
+// Native definition for COM marshalling of Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl
+struct Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_com
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___TryGetTransformTo_1;
+};
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl
+struct Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92 
+{
+public:
+	static const Il2CppGuid CLSID;
+
+public:
+	// WinRT.Interop.IInspectableVftbl Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl::IInspectableVftbl
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  ___IInspectableVftbl_0;
+	// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl::CreateCoordinateSystemForNode
+	_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * ___CreateCoordinateSystemForNode_1;
+	// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPosition Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl::CreateCoordinateSystemForNodeWithPosition
+	_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * ___CreateCoordinateSystemForNodeWithPosition_2;
+	// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPositionAndOrientation Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl::CreateCoordinateSystemForNodeWithPositionAndOrientation
+	_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * ___CreateCoordinateSystemForNodeWithPositionAndOrientation_3;
+	// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateLocatorForNode Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl::CreateLocatorForNode
+	_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * ___CreateLocatorForNode_4;
+
+public:
+	inline static int32_t get_offset_of_IInspectableVftbl_0() { return static_cast<int32_t>(offsetof(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92, ___IInspectableVftbl_0)); }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  get_IInspectableVftbl_0() const { return ___IInspectableVftbl_0; }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C * get_address_of_IInspectableVftbl_0() { return &___IInspectableVftbl_0; }
+	inline void set_IInspectableVftbl_0(IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  value)
+	{
+		___IInspectableVftbl_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_CreateCoordinateSystemForNode_1() { return static_cast<int32_t>(offsetof(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92, ___CreateCoordinateSystemForNode_1)); }
+	inline _CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * get_CreateCoordinateSystemForNode_1() const { return ___CreateCoordinateSystemForNode_1; }
+	inline _CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 ** get_address_of_CreateCoordinateSystemForNode_1() { return &___CreateCoordinateSystemForNode_1; }
+	inline void set_CreateCoordinateSystemForNode_1(_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * value)
+	{
+		___CreateCoordinateSystemForNode_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___CreateCoordinateSystemForNode_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_CreateCoordinateSystemForNodeWithPosition_2() { return static_cast<int32_t>(offsetof(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92, ___CreateCoordinateSystemForNodeWithPosition_2)); }
+	inline _CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * get_CreateCoordinateSystemForNodeWithPosition_2() const { return ___CreateCoordinateSystemForNodeWithPosition_2; }
+	inline _CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 ** get_address_of_CreateCoordinateSystemForNodeWithPosition_2() { return &___CreateCoordinateSystemForNodeWithPosition_2; }
+	inline void set_CreateCoordinateSystemForNodeWithPosition_2(_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * value)
+	{
+		___CreateCoordinateSystemForNodeWithPosition_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___CreateCoordinateSystemForNodeWithPosition_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_CreateCoordinateSystemForNodeWithPositionAndOrientation_3() { return static_cast<int32_t>(offsetof(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92, ___CreateCoordinateSystemForNodeWithPositionAndOrientation_3)); }
+	inline _CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * get_CreateCoordinateSystemForNodeWithPositionAndOrientation_3() const { return ___CreateCoordinateSystemForNodeWithPositionAndOrientation_3; }
+	inline _CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 ** get_address_of_CreateCoordinateSystemForNodeWithPositionAndOrientation_3() { return &___CreateCoordinateSystemForNodeWithPositionAndOrientation_3; }
+	inline void set_CreateCoordinateSystemForNodeWithPositionAndOrientation_3(_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * value)
+	{
+		___CreateCoordinateSystemForNodeWithPositionAndOrientation_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___CreateCoordinateSystemForNodeWithPositionAndOrientation_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_CreateLocatorForNode_4() { return static_cast<int32_t>(offsetof(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92, ___CreateLocatorForNode_4)); }
+	inline _CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * get_CreateLocatorForNode_4() const { return ___CreateLocatorForNode_4; }
+	inline _CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 ** get_address_of_CreateLocatorForNode_4() { return &___CreateLocatorForNode_4; }
+	inline void set_CreateLocatorForNode_4(_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * value)
+	{
+		___CreateLocatorForNode_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___CreateLocatorForNode_4), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl
+struct Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_pinvoke
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___CreateCoordinateSystemForNode_1;
+	Il2CppMethodPointer ___CreateCoordinateSystemForNodeWithPosition_2;
+	Il2CppMethodPointer ___CreateCoordinateSystemForNodeWithPositionAndOrientation_3;
+	Il2CppMethodPointer ___CreateLocatorForNode_4;
+};
+// Native definition for COM marshalling of Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl
+struct Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_com
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___CreateCoordinateSystemForNode_1;
+	Il2CppMethodPointer ___CreateCoordinateSystemForNodeWithPosition_2;
+	Il2CppMethodPointer ___CreateCoordinateSystemForNodeWithPositionAndOrientation_3;
+	Il2CppMethodPointer ___CreateLocatorForNode_4;
+};
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl
+struct Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C 
+{
+public:
+	static const Il2CppGuid CLSID;
+
+public:
+	// WinRT.Interop.IInspectableVftbl Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl::IInspectableVftbl
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  ___IInspectableVftbl_0;
+	// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReference Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl::TryCreateFrameOfReference
+	_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * ___TryCreateFrameOfReference_1;
+	// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPosition Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl::TryCreateFrameOfReferenceWithPosition
+	_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * ___TryCreateFrameOfReferenceWithPosition_2;
+	// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPositionAndOrientation Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl::TryCreateFrameOfReferenceWithPositionAndOrientation
+	_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * ___TryCreateFrameOfReferenceWithPositionAndOrientation_3;
+
+public:
+	inline static int32_t get_offset_of_IInspectableVftbl_0() { return static_cast<int32_t>(offsetof(Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C, ___IInspectableVftbl_0)); }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  get_IInspectableVftbl_0() const { return ___IInspectableVftbl_0; }
+	inline IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C * get_address_of_IInspectableVftbl_0() { return &___IInspectableVftbl_0; }
+	inline void set_IInspectableVftbl_0(IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  value)
+	{
+		___IInspectableVftbl_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_TryCreateFrameOfReference_1() { return static_cast<int32_t>(offsetof(Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C, ___TryCreateFrameOfReference_1)); }
+	inline _TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * get_TryCreateFrameOfReference_1() const { return ___TryCreateFrameOfReference_1; }
+	inline _TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A ** get_address_of_TryCreateFrameOfReference_1() { return &___TryCreateFrameOfReference_1; }
+	inline void set_TryCreateFrameOfReference_1(_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * value)
+	{
+		___TryCreateFrameOfReference_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TryCreateFrameOfReference_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_TryCreateFrameOfReferenceWithPosition_2() { return static_cast<int32_t>(offsetof(Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C, ___TryCreateFrameOfReferenceWithPosition_2)); }
+	inline _TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * get_TryCreateFrameOfReferenceWithPosition_2() const { return ___TryCreateFrameOfReferenceWithPosition_2; }
+	inline _TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E ** get_address_of_TryCreateFrameOfReferenceWithPosition_2() { return &___TryCreateFrameOfReferenceWithPosition_2; }
+	inline void set_TryCreateFrameOfReferenceWithPosition_2(_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * value)
+	{
+		___TryCreateFrameOfReferenceWithPosition_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TryCreateFrameOfReferenceWithPosition_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_TryCreateFrameOfReferenceWithPositionAndOrientation_3() { return static_cast<int32_t>(offsetof(Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C, ___TryCreateFrameOfReferenceWithPositionAndOrientation_3)); }
+	inline _TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * get_TryCreateFrameOfReferenceWithPositionAndOrientation_3() const { return ___TryCreateFrameOfReferenceWithPositionAndOrientation_3; }
+	inline _TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 ** get_address_of_TryCreateFrameOfReferenceWithPositionAndOrientation_3() { return &___TryCreateFrameOfReferenceWithPositionAndOrientation_3; }
+	inline void set_TryCreateFrameOfReferenceWithPositionAndOrientation_3(_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * value)
+	{
+		___TryCreateFrameOfReferenceWithPositionAndOrientation_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TryCreateFrameOfReferenceWithPositionAndOrientation_3), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl
+struct Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_pinvoke
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___TryCreateFrameOfReference_1;
+	Il2CppMethodPointer ___TryCreateFrameOfReferenceWithPosition_2;
+	Il2CppMethodPointer ___TryCreateFrameOfReferenceWithPositionAndOrientation_3;
+};
+// Native definition for COM marshalling of Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl
+struct Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_com
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com ___IInspectableVftbl_0;
+	Il2CppMethodPointer ___TryCreateFrameOfReference_1;
+	Il2CppMethodPointer ___TryCreateFrameOfReferenceWithPosition_2;
+	Il2CppMethodPointer ___TryCreateFrameOfReferenceWithPositionAndOrientation_3;
+};
+
 // WinRT._VectorOfObjectBase`2/CreateT<Microsoft.Windows.Graphics.Holographic.HolographicCameraPose,WinRT.Interop.IVectorViewOfObject>
 struct CreateT_tDA9DD6973DF80490CB3DF4F1AFCB96C770591B36  : public MulticastDelegate_t
 {
@@ -4604,12 +5676,95 @@ public:
 };
 
 
+// System.Func`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2>
+struct Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // System.Func`2<System.Int32,Microsoft.Windows.Graphics.Holographic.HolographicDepthReprojectionMethod>
 struct Func_2_tEB1CEF9B1A473FFF678094D54FF82305BE83D885  : public MulticastDelegate_t
 {
 public:
 
 public:
+};
+
+
+// WinRT.ObjectReference`1<WinRT.Interop.IActivationFactoryVftbl>
+struct ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626  : public IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76
+{
+public:
+	// WinRT.Interop.IUnknownVftbl WinRT.ObjectReference`1::_vftblIUnknown
+	IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  ____vftblIUnknown_3;
+	// T WinRT.ObjectReference`1::Vftbl
+	IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64  ___Vftbl_4;
+	// System.Boolean WinRT.ObjectReference`1::_owned
+	bool ____owned_5;
+	// System.Boolean WinRT.ObjectReference`1::_isLive
+	bool ____isLive_6;
+
+public:
+	inline static int32_t get_offset_of__vftblIUnknown_3() { return static_cast<int32_t>(offsetof(ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626, ____vftblIUnknown_3)); }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  get__vftblIUnknown_3() const { return ____vftblIUnknown_3; }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542 * get_address_of__vftblIUnknown_3() { return &____vftblIUnknown_3; }
+	inline void set__vftblIUnknown_3(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  value)
+	{
+		____vftblIUnknown_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___Release_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_Vftbl_4() { return static_cast<int32_t>(offsetof(ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626, ___Vftbl_4)); }
+	inline IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64  get_Vftbl_4() const { return ___Vftbl_4; }
+	inline IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64 * get_address_of_Vftbl_4() { return &___Vftbl_4; }
+	inline void set_Vftbl_4(IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64  value)
+	{
+		___Vftbl_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___ActivateInstance_1), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of__owned_5() { return static_cast<int32_t>(offsetof(ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626, ____owned_5)); }
+	inline bool get__owned_5() const { return ____owned_5; }
+	inline bool* get_address_of__owned_5() { return &____owned_5; }
+	inline void set__owned_5(bool value)
+	{
+		____owned_5 = value;
+	}
+
+	inline static int32_t get_offset_of__isLive_6() { return static_cast<int32_t>(offsetof(ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626, ____isLive_6)); }
+	inline bool get__isLive_6() const { return ____isLive_6; }
+	inline bool* get_address_of__isLive_6() { return &____isLive_6; }
+	inline void set__isLive_6(bool value)
+	{
+		____isLive_6 = value;
+	}
 };
 
 
@@ -4675,6 +5830,80 @@ public:
 	}
 
 	inline static int32_t get_offset_of__isLive_6() { return static_cast<int32_t>(offsetof(ObjectReference_1_t2F073970332376AC7E81E0ED3BED09A8A621C373, ____isLive_6)); }
+	inline bool get__isLive_6() const { return ____isLive_6; }
+	inline bool* get_address_of__isLive_6() { return &____isLive_6; }
+	inline void set__isLive_6(bool value)
+	{
+		____isLive_6 = value;
+	}
+};
+
+
+// WinRT.ObjectReference`1<WinRT.Interop.IReference_Matrix4x4>
+struct ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828  : public IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76
+{
+public:
+	// WinRT.Interop.IUnknownVftbl WinRT.ObjectReference`1::_vftblIUnknown
+	IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  ____vftblIUnknown_3;
+	// T WinRT.ObjectReference`1::Vftbl
+	IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3  ___Vftbl_4;
+	// System.Boolean WinRT.ObjectReference`1::_owned
+	bool ____owned_5;
+	// System.Boolean WinRT.ObjectReference`1::_isLive
+	bool ____isLive_6;
+
+public:
+	inline static int32_t get_offset_of__vftblIUnknown_3() { return static_cast<int32_t>(offsetof(ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828, ____vftblIUnknown_3)); }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  get__vftblIUnknown_3() const { return ____vftblIUnknown_3; }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542 * get_address_of__vftblIUnknown_3() { return &____vftblIUnknown_3; }
+	inline void set__vftblIUnknown_3(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  value)
+	{
+		____vftblIUnknown_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___Release_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_Vftbl_4() { return static_cast<int32_t>(offsetof(ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828, ___Vftbl_4)); }
+	inline IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3  get_Vftbl_4() const { return ___Vftbl_4; }
+	inline IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3 * get_address_of_Vftbl_4() { return &___Vftbl_4; }
+	inline void set_Vftbl_4(IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3  value)
+	{
+		___Vftbl_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___get_Value_1), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of__owned_5() { return static_cast<int32_t>(offsetof(ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828, ____owned_5)); }
+	inline bool get__owned_5() const { return ____owned_5; }
+	inline bool* get_address_of__owned_5() { return &____owned_5; }
+	inline void set__owned_5(bool value)
+	{
+		____owned_5 = value;
+	}
+
+	inline static int32_t get_offset_of__isLive_6() { return static_cast<int32_t>(offsetof(ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828, ____isLive_6)); }
 	inline bool get__isLive_6() const { return ____isLive_6; }
 	inline bool* get_address_of__isLive_6() { return &____isLive_6; }
 	inline void set__isLive_6(bool value)
@@ -5534,6 +6763,243 @@ public:
 };
 
 
+// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>
+struct ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19  : public IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76
+{
+public:
+	// WinRT.Interop.IUnknownVftbl WinRT.ObjectReference`1::_vftblIUnknown
+	IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  ____vftblIUnknown_3;
+	// T WinRT.ObjectReference`1::Vftbl
+	Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631  ___Vftbl_4;
+	// System.Boolean WinRT.ObjectReference`1::_owned
+	bool ____owned_5;
+	// System.Boolean WinRT.ObjectReference`1::_isLive
+	bool ____isLive_6;
+
+public:
+	inline static int32_t get_offset_of__vftblIUnknown_3() { return static_cast<int32_t>(offsetof(ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19, ____vftblIUnknown_3)); }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  get__vftblIUnknown_3() const { return ____vftblIUnknown_3; }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542 * get_address_of__vftblIUnknown_3() { return &____vftblIUnknown_3; }
+	inline void set__vftblIUnknown_3(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  value)
+	{
+		____vftblIUnknown_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___Release_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_Vftbl_4() { return static_cast<int32_t>(offsetof(ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19, ___Vftbl_4)); }
+	inline Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631  get_Vftbl_4() const { return ___Vftbl_4; }
+	inline Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631 * get_address_of_Vftbl_4() { return &___Vftbl_4; }
+	inline void set_Vftbl_4(Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631  value)
+	{
+		___Vftbl_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___TryGetTransformTo_1), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of__owned_5() { return static_cast<int32_t>(offsetof(ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19, ____owned_5)); }
+	inline bool get__owned_5() const { return ____owned_5; }
+	inline bool* get_address_of__owned_5() { return &____owned_5; }
+	inline void set__owned_5(bool value)
+	{
+		____owned_5 = value;
+	}
+
+	inline static int32_t get_offset_of__isLive_6() { return static_cast<int32_t>(offsetof(ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19, ____isLive_6)); }
+	inline bool get__isLive_6() const { return ____isLive_6; }
+	inline bool* get_address_of__isLive_6() { return &____isLive_6; }
+	inline void set__isLive_6(bool value)
+	{
+		____isLive_6 = value;
+	}
+};
+
+
+// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl>
+struct ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE  : public IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76
+{
+public:
+	// WinRT.Interop.IUnknownVftbl WinRT.ObjectReference`1::_vftblIUnknown
+	IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  ____vftblIUnknown_3;
+	// T WinRT.ObjectReference`1::Vftbl
+	Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92  ___Vftbl_4;
+	// System.Boolean WinRT.ObjectReference`1::_owned
+	bool ____owned_5;
+	// System.Boolean WinRT.ObjectReference`1::_isLive
+	bool ____isLive_6;
+
+public:
+	inline static int32_t get_offset_of__vftblIUnknown_3() { return static_cast<int32_t>(offsetof(ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE, ____vftblIUnknown_3)); }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  get__vftblIUnknown_3() const { return ____vftblIUnknown_3; }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542 * get_address_of__vftblIUnknown_3() { return &____vftblIUnknown_3; }
+	inline void set__vftblIUnknown_3(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  value)
+	{
+		____vftblIUnknown_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___Release_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_Vftbl_4() { return static_cast<int32_t>(offsetof(ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE, ___Vftbl_4)); }
+	inline Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92  get_Vftbl_4() const { return ___Vftbl_4; }
+	inline Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92 * get_address_of_Vftbl_4() { return &___Vftbl_4; }
+	inline void set_Vftbl_4(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92  value)
+	{
+		___Vftbl_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___CreateCoordinateSystemForNode_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___CreateCoordinateSystemForNodeWithPosition_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___CreateCoordinateSystemForNodeWithPositionAndOrientation_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___CreateLocatorForNode_4), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of__owned_5() { return static_cast<int32_t>(offsetof(ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE, ____owned_5)); }
+	inline bool get__owned_5() const { return ____owned_5; }
+	inline bool* get_address_of__owned_5() { return &____owned_5; }
+	inline void set__owned_5(bool value)
+	{
+		____owned_5 = value;
+	}
+
+	inline static int32_t get_offset_of__isLive_6() { return static_cast<int32_t>(offsetof(ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE, ____isLive_6)); }
+	inline bool get__isLive_6() const { return ____isLive_6; }
+	inline bool* get_address_of__isLive_6() { return &____isLive_6; }
+	inline void set__isLive_6(bool value)
+	{
+		____isLive_6 = value;
+	}
+};
+
+
+// WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>
+struct ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E  : public IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76
+{
+public:
+	// WinRT.Interop.IUnknownVftbl WinRT.ObjectReference`1::_vftblIUnknown
+	IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  ____vftblIUnknown_3;
+	// T WinRT.ObjectReference`1::Vftbl
+	Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C  ___Vftbl_4;
+	// System.Boolean WinRT.ObjectReference`1::_owned
+	bool ____owned_5;
+	// System.Boolean WinRT.ObjectReference`1::_isLive
+	bool ____isLive_6;
+
+public:
+	inline static int32_t get_offset_of__vftblIUnknown_3() { return static_cast<int32_t>(offsetof(ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E, ____vftblIUnknown_3)); }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  get__vftblIUnknown_3() const { return ____vftblIUnknown_3; }
+	inline IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542 * get_address_of__vftblIUnknown_3() { return &____vftblIUnknown_3; }
+	inline void set__vftblIUnknown_3(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542  value)
+	{
+		____vftblIUnknown_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&____vftblIUnknown_3))->___Release_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_Vftbl_4() { return static_cast<int32_t>(offsetof(ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E, ___Vftbl_4)); }
+	inline Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C  get_Vftbl_4() const { return ___Vftbl_4; }
+	inline Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C * get_address_of_Vftbl_4() { return &___Vftbl_4; }
+	inline void set_Vftbl_4(Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C  value)
+	{
+		___Vftbl_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___QueryInterface_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___AddRef_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___IUnknownVftbl_0))->___Release_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetIids_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetRuntimeClassName_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((&(((&___Vftbl_4))->___IInspectableVftbl_0))->___GetTrustLevel_3), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___TryCreateFrameOfReference_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___TryCreateFrameOfReferenceWithPosition_2), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___Vftbl_4))->___TryCreateFrameOfReferenceWithPositionAndOrientation_3), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of__owned_5() { return static_cast<int32_t>(offsetof(ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E, ____owned_5)); }
+	inline bool get__owned_5() const { return ____owned_5; }
+	inline bool* get_address_of__owned_5() { return &____owned_5; }
+	inline void set__owned_5(bool value)
+	{
+		____owned_5 = value;
+	}
+
+	inline static int32_t get_offset_of__isLive_6() { return static_cast<int32_t>(offsetof(ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E, ____isLive_6)); }
+	inline bool get__isLive_6() const { return ____isLive_6; }
+	inline bool* get_address_of__isLive_6() { return &____isLive_6; }
+	inline void set__isLive_6(bool value)
+	{
+		____isLive_6 = value;
+	}
+};
+
+
 // System.AsyncCallback
 struct AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA  : public MulticastDelegate_t
 {
@@ -5554,6 +7020,15 @@ public:
 
 // System.NotImplementedException
 struct NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6  : public SystemException_tC551B4D6EE3772B5F32C71EE8C719F4B43ECCC62
+{
+public:
+
+public:
+};
+
+
+// System.Reflection.TypeInfo
+struct TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F  : public Type_t
 {
 public:
 
@@ -5639,6 +7114,15 @@ public:
 };
 
 
+// WinRT.Interop._get_PropertyAsMatrix4x4
+struct _get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // WinRT.Interop._get_PropertyAsObject
 struct _get_PropertyAsObject_t7C771A672C1D27AF590712AF8551A16CEF17383E  : public MulticastDelegate_t
 {
@@ -5668,6 +7152,24 @@ public:
 
 // WinRT.Interop._put_PropertyAsEnum
 struct _put_PropertyAsEnum_t3FCDD75B1462F39B75961D1ABB7FF2FEA65546AF  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// WinRT.DllModule/DllGetActivationFactory
+struct DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance
+struct _ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9  : public MulticastDelegate_t
 {
 public:
 
@@ -5828,6 +7330,78 @@ public:
 };
 
 
+// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo
+struct _TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode
+struct _CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPosition
+struct _CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPositionAndOrientation
+struct _CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateLocatorForNode
+struct _CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReference
+struct _TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPosition
+struct _TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPositionAndOrientation
+struct _TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // System.DllNotFoundException
 struct DllNotFoundException_tD2224C1993151B8CCF9938FD62649816CF977596  : public TypeLoadException_t57F05DC978AA8B70B0CE1AB2EF99D7F97FE428E7
 {
@@ -5949,21 +7523,33 @@ public:
 	}
 };
 
-IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_pinvoke(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_pinvoke& marshaled);
-IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_pinvoke_back(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_pinvoke& marshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled);
-IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_pinvoke_cleanup(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_pinvoke& marshaled);
-IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_com(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_com& marshaled);
-IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_com_back(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_com& marshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled);
-IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_com_cleanup(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_com& marshaled);
 IL2CPP_EXTERN_C void IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke(const IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C& unmarshaled, IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke& marshaled);
 IL2CPP_EXTERN_C void IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_back(const IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke& marshaled, IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C& unmarshaled);
 IL2CPP_EXTERN_C void IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_cleanup(IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_pinvoke& marshaled);
 IL2CPP_EXTERN_C void IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com(const IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C& unmarshaled, IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com& marshaled);
 IL2CPP_EXTERN_C void IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_back(const IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com& marshaled, IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C& unmarshaled);
 IL2CPP_EXTERN_C void IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_cleanup(IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_pinvoke(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_pinvoke_back(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_pinvoke& marshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled);
+IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_pinvoke_cleanup(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_com(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_com_back(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_com& marshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled);
+IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_com_cleanup(IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_com& marshaled);
 
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m2C8EE5C13636D67F6C451C4935049F534AEC658F_gshared (Dictionary_2_tBD1E3221EBD04CEBDA49B84779912E91F56B958D * __this, const RuntimeMethod* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::TryGetValue(!0,!1&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m048C13E0F44BDC16F7CF01D14E918A84EE72C62C_gshared (Dictionary_2_tBD1E3221EBD04CEBDA49B84779912E91F56B958D * __this, RuntimeObject * ___key0, RuntimeObject ** ___value1, const RuntimeMethod* method);
+// System.Boolean System.WeakReference`1<System.Object>::TryGetTarget(!0&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WeakReference_1_TryGetTarget_mA9F884507AABEFCC394D06FEEB7AD14ECEB5CD6B_gshared (WeakReference_1_t223E87F227F99044D112FF1E7FC7DA135365CB76 * __this, RuntimeObject ** ___target0, const RuntimeMethod* method);
+// T WinRT.Platform::TryGetProcAddress<System.Object>(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Platform_TryGetProcAddress_TisRuntimeObject_m8F931D407C7DCFBA960F8A6B770DAF3CA3C9CA30_gshared (intptr_t ___moduleHandle0, const RuntimeMethod* method);
+// System.Void System.WeakReference`1<System.Object>::.ctor(!0)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeakReference_1__ctor_m26CA3930ADE164EA48E474988EE6B82D26E5F9E9_gshared (WeakReference_1_t223E87F227F99044D112FF1E7FC7DA135365CB76 * __this, RuntimeObject * ___target0, const RuntimeMethod* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(!0,!1)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_mE6BF870B04922441F9F2760E782DEE6EE682615A_gshared (Dictionary_2_tBD1E3221EBD04CEBDA49B84779912E91F56B958D * __this, RuntimeObject * ___key0, RuntimeObject * ___value1, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.ObjectReference`1<WinRT.Interop.IActivationFactoryVftbl>::Attach(WinRT.ModuleReference,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626 * ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847_gshared (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ___module0, intptr_t* ___thisPtr1, const RuntimeMethod* method);
 // System.Void System.Func`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_m2A4FE889FB540EA198F7757D17DC2290461E5EE9_gshared (Func_1_t807CEE610086E24A0167BAA97A64062016E09D49 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void System.Lazy`1<System.Object>::.ctor(System.Func`1<!0>)
@@ -6002,10 +7588,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_t69B7FF47D0913C112063ECCA59
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mF34F635F235BA4C4F025AEA14AF093678000493D_gshared (Func_2_tA61B6366518522F75F91364B84D4580178751ED6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void WinRT.VectorViewOfEnum`1<System.Int32Enum>::.ctor(WinRT.ObjectReference`1<WinRT.Interop.IVectorViewOfEnum>,System.Guid,System.Func`2<System.Int32,T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VectorViewOfEnum_1__ctor_m5DB49367071DB12DE008CA8E65FFE920F3C3BD0E_gshared (VectorViewOfEnum_1_t4001437CD1A61D45194365E455CF4C51D8F9EF3F * __this, ObjectReference_1_t69B7FF47D0913C112063ECCA591E65CB1249EDA7 * ___obj0, Guid_t  ___iidIterable1, Func_2_tA61B6366518522F75F91364B84D4580178751ED6 * ___castToEnum2, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.ObjectReference`1<WinRT.Interop.IReference_Matrix4x4>::Attach(WinRT.ModuleReference,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828 * ObjectReference_1_Attach_mE357BCC940CDBA0A018A2A7E26669C6B8C91E8C7_gshared (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ___module0, intptr_t* ___thisPtr1, const RuntimeMethod* method);
+// System.Void System.Nullable`1<System.Numerics.Matrix4x4>::.ctor(!0)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m823FF883B6D04BE8AFA031ACA385DC45333166F2_gshared (Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8 * __this, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  ___value0, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>::Attach(WinRT.ModuleReference,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * ObjectReference_1_Attach_mFACD680A8C82E87CB60C51A0A89DB3A2C4D9A894_gshared (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ___module0, intptr_t* ___thisPtr1, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.IObjectReference::As<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * IObjectReference_As_TisVftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_m6FF4ECBEEB6F2CAE3668C8A0A1613408CEAB41E8_gshared (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * __this, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.IObjectReference::As<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * IObjectReference_As_TisVftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_mED3E66D16B8112B4FA78472C74E48CE15A014549_gshared (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * __this, const RuntimeMethod* method);
 // T WinRT.WeakLazy`1<System.Object>::get_Value()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * WeakLazy_1_get_Value_m3EABE183E634398B3E466D652D31AD1FBAED5877_gshared (WeakLazy_1_tFC73BDD1B2C65D7FBAD848AA2D7BD2DCCB7BDC95 * __this, const RuntimeMethod* method);
 // System.Void WinRT.WeakLazy`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeakLazy_1__ctor_m15D160574A3D08F35243DC46492F2521C479E9C7_gshared (WeakLazy_1_tFC73BDD1B2C65D7FBAD848AA2D7BD2DCCB7BDC95 * __this, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<!!0> WinRT.ActivationFactory`1<System.Object>::As<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * ActivationFactory_1_As_TisVftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_mF9C7D660746732EB959C105A5FFEAA8CFFA38108_gshared (const RuntimeMethod* method);
 
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.WeakReference`1<WinRT.DllModule>>::.ctor()
 inline void Dictionary_2__ctor_m49F9153483E7881B0F295D8149596F7CC575D3AB (Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * __this, const RuntimeMethod* method)
@@ -6022,8 +7620,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m9AFBB5335B441B94E8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* String_Split_m2C74DC2B85B322998094BEDE787C378822E1F28B (String_t* __this, CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34* ___separator0, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform::AddDllDirectory(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Platform_AddDllDirectory_m7DAFCD76DA5FB9209BCD4E035F9538852BCE16C8 (String_t* ___pathName0, const RuntimeMethod* method);
+// System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4 (RuntimeObject * ___obj0, bool* ___lockTaken1, const RuntimeMethod* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.WeakReference`1<WinRT.DllModule>>::TryGetValue(!0,!1&)
+inline bool Dictionary_2_TryGetValue_m9AD49A388A2A057476FDD06F85E2C361619B9D75 (Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * __this, String_t* ___key0, WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA ** ___value1, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 *, String_t*, WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA **, const RuntimeMethod*))Dictionary_2_TryGetValue_m048C13E0F44BDC16F7CF01D14E918A84EE72C62C_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.WeakReference`1<WinRT.DllModule>::TryGetTarget(!0&)
+inline bool WeakReference_1_TryGetTarget_m87C914306C9F0510BCDCB302E729A904E7F6F33B (WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA * __this, DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 ** ___target0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA *, DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 **, const RuntimeMethod*))WeakReference_1_TryGetTarget_mA9F884507AABEFCC394D06FEEB7AD14ECEB5CD6B_gshared)(__this, ___target0, method);
+}
+// System.IntPtr WinRT.Platform::TryLoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_TryLoadLibraryExW_m54E387CC465C853952D728CA2660F7972AF5BCA8 (String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method);
+// System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
+// T WinRT.Platform::TryGetProcAddress<WinRT.DllModule/DllGetActivationFactory>(System.IntPtr)
+inline DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * Platform_TryGetProcAddress_TisDllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137_m925516A36AED5EF16D811C650D0B5968922B412F (intptr_t ___moduleHandle0, const RuntimeMethod* method)
+{
+	return ((  DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * (*) (intptr_t, const RuntimeMethod*))Platform_TryGetProcAddress_TisRuntimeObject_m8F931D407C7DCFBA960F8A6B770DAF3CA3C9CA30_gshared)(___moduleHandle0, method);
+}
+// System.Void WinRT.DllModule::.ctor(System.String,System.IntPtr&,WinRT.DllModule/DllGetActivationFactory)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DllModule__ctor_m71D6959B12B8185F3FCD69DB3E2061B59D6DE8D2 (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * __this, String_t* ___fileName0, intptr_t* ___moduleHandle1, DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * ___getActivationFactory2, const RuntimeMethod* method);
+// System.Void System.WeakReference`1<WinRT.DllModule>::.ctor(!0)
+inline void WeakReference_1__ctor_m1B1AB1E9EFEA1E352DB50C8DC5510ACCDD68224F (WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA * __this, DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * ___target0, const RuntimeMethod* method)
+{
+	((  void (*) (WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA *, DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 *, const RuntimeMethod*))WeakReference_1__ctor_m26CA3930ADE164EA48E474988EE6B82D26E5F9E9_gshared)(__this, ___target0, method);
+}
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.WeakReference`1<WinRT.DllModule>>::set_Item(!0,!1)
+inline void Dictionary_2_set_Item_m2B4C8A563D52717D853AC06915C4FE43C5521093 (Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * __this, String_t* ___key0, WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA * ___value1, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 *, String_t*, WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA *, const RuntimeMethod*))Dictionary_2_set_Item_mE6BF870B04922441F9F2760E782DEE6EE682615A_gshared)(__this, ___key0, ___value1, method);
+}
+// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
+// System.Void WinRT.Platform::FreeLibrary(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_FreeLibrary_m0AC948DD9FD9F72AE575DB9B92C21EDE152E4759 (intptr_t ___moduleHandle0, const RuntimeMethod* method);
+// System.Void System.Threading.Monitor::Exit(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A (RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method);
+// WinRT.ModuleReference WinRT.ModuleReference::Allocate(System.Object,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ModuleReference_Allocate_m823ADD4854E2A858E0936F5B7CDC45D99975D8B0 (RuntimeObject * ___module0, intptr_t* ___nativeHandle1, const RuntimeMethod* method);
+// System.Int32 WinRT.DllModule/DllGetActivationFactory::Invoke(System.IntPtr,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DllGetActivationFactory_Invoke_mFA51E7C561DD3EB229B7EE0B32913548F9BFC060 (DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * __this, intptr_t ___activatableClassId0, intptr_t* ___activationFactory1, const RuntimeMethod* method);
+// System.Void System.Runtime.InteropServices.Marshal::ThrowExceptionForHR(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB (int32_t ___errorCode0, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.ObjectReference`1<WinRT.Interop.IActivationFactoryVftbl>::Attach(WinRT.ModuleReference,System.IntPtr&)
+inline ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626 * ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847 (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ___module0, intptr_t* ___thisPtr1, const RuntimeMethod* method)
+{
+	return ((  ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626 * (*) (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 , intptr_t*, const RuntimeMethod*))ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847_gshared)(___module0, ___thisPtr1, method);
+}
+// System.Void WinRT.ModuleReference::Release()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleReference_Release_mD02F81CFCBA7A22F28D034B1B15F2FB49670DAD4 (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 * __this, const RuntimeMethod* method);
+// System.Void System.Object::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A (RuntimeObject * __this, const RuntimeMethod* method);
+// System.Int32 System.String::get_Length()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline (String_t* __this, const RuntimeMethod* method);
+// System.IntPtr WinRT.Platform::WindowsCreateString(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_WindowsCreateString_mCA75D6CED0FC78F2BE03C23F010D1CE1F7DA8564 (String_t* ___sourceString0, int32_t ___length1, const RuntimeMethod* method);
+// System.Char* WinRT.Platform::WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* Platform_WindowsGetStringRawBuffer_m2EE5607FECC6032F1B8ACB36BC9347BF5F8D9FD2 (intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method);
+// System.String System.String::CreateString(System.Char*,System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_CreateString_m854F19B67F5E1B63737E096BF53CC56AB12AF777 (String_t* __this, Il2CppChar* ___value0, int32_t ___startIndex1, int32_t ___length2, const RuntimeMethod* method);
+// System.Void WinRT.Platform::WindowsDeleteString(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_WindowsDeleteString_mF1D7C64888FD8DD4DFF8626B4FE574A506FA6496 (intptr_t ___hstring0, const RuntimeMethod* method);
 // System.Void System.Func`1<Microsoft.Windows.Graphics.Holographic.IHolographicCamera6>::.ctor(System.Object,System.IntPtr)
 inline void Func_1__ctor_m845DF2404CE942976C18573874A1BA227CD7C990 (Func_1_tC7E4392C86577E380FCAA581632B1BEC403404B8 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -6119,8 +7781,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IHolographicViewConfiguration2_t55926039B23FE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IHolographicCamera__ctor_m480C728DB1E16AABAB7F15DBBEC9DDA9E4470206 (IHolographicCamera_tEE9BFAFE86F1BE1DF651E77B74018A9E32ADE26A * __this, ObjectReference_1_tACA184E80A1E3931D241FA15E3140D2F757B1C6A * ___obj0, const RuntimeMethod* method);
 // System.Int32 WinRT.Interop._get_PropertyAsUInt::Invoke(System.IntPtr,System.UInt32*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _get_PropertyAsUInt_Invoke_mBD83C88FADB098F0D0FE6724E8165DEAD3A1087E (_get_PropertyAsUInt_t961AEF15ECB2E1AD974355B17B469563350D5687 * __this, intptr_t ___thisPtr0, uint32_t* ___value1, const RuntimeMethod* method);
-// System.Void System.Runtime.InteropServices.Marshal::ThrowExceptionForHR(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB (int32_t ___errorCode0, const RuntimeMethod* method);
 // WinRT.ObjectReference`1<T> WinRT.IObjectReference::As<Microsoft.Windows.Graphics.Holographic.IHolographicCamera6/Vftbl>()
 inline ObjectReference_1_t6F8128753E9B580E2C009F6A71F91DFA95EDBA99 * IObjectReference_As_TisVftbl_t998C74EEC5DF116E76728D469B1A45C8B98467C2_m064F8122D55754D29F9729F9ADB2E5EA8D9C37E5 (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * __this, const RuntimeMethod* method)
 {
@@ -6233,10 +7893,44 @@ inline void VectorViewOfEnum_1__ctor_m96DAD23AC4375573998F2162864196A48085481A (
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_mF80313305B9CD2AD39B621E1CEC5C7DFDFFBDE66 (Guid_t * __this, String_t* ___g0, const RuntimeMethod* method);
 // WinRT.ModuleReference WinRT.ModuleReference::AddRef()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ModuleReference_AddRef_m31468715D7A9A7D5376D1F573482D6D0168BAA57 (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 * __this, const RuntimeMethod* method);
-// System.Void WinRT.ModuleReference::Release()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleReference_Release_mD02F81CFCBA7A22F28D034B1B15F2FB49670DAD4 (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 * __this, const RuntimeMethod* method);
-// System.Void System.Object::Finalize()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A (RuntimeObject * __this, const RuntimeMethod* method);
+// System.Void Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem::.ctor(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ISpatialCoordinateSystem__ctor_m0CDE6B0FFDA376689F64DAB82837C8CC58AF5E8D (ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * __this, ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * ___obj0, const RuntimeMethod* method);
+// System.Int32 Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo::Invoke(System.IntPtr,System.IntPtr,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryGetTransformTo_Invoke_m5F786A8E4AF8A307D342F06F71108E3C77F192D0 (_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * __this, intptr_t ___thisPtr0, intptr_t ___targetPtr1, intptr_t* ___value2, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.ObjectReference`1<WinRT.Interop.IReference_Matrix4x4>::Attach(WinRT.ModuleReference,System.IntPtr&)
+inline ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828 * ObjectReference_1_Attach_mE357BCC940CDBA0A018A2A7E26669C6B8C91E8C7 (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ___module0, intptr_t* ___thisPtr1, const RuntimeMethod* method)
+{
+	return ((  ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828 * (*) (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 , intptr_t*, const RuntimeMethod*))ObjectReference_1_Attach_mE357BCC940CDBA0A018A2A7E26669C6B8C91E8C7_gshared)(___module0, ___thisPtr1, method);
+}
+// System.Numerics.Matrix4x4 System.Numerics.Matrix4x4::get_Identity()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  Matrix4x4_get_Identity_mCB71019837846B0A040FE9A74F6DDD0DA2FE8E4D_inline (const RuntimeMethod* method);
+// System.Int32 WinRT.Interop._get_PropertyAsMatrix4x4::Invoke(System.IntPtr,System.Numerics.Matrix4x4*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _get_PropertyAsMatrix4x4_Invoke_m57B5A93A6FE4371363205650F85B8BAF55B103AE (_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * __this, intptr_t ___thisPtr0, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * ___value1, const RuntimeMethod* method);
+// System.Void System.Nullable`1<System.Numerics.Matrix4x4>::.ctor(!0)
+inline void Nullable_1__ctor_m823FF883B6D04BE8AFA031ACA385DC45333166F2 (Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8 * __this, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  ___value0, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8 *, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 , const RuntimeMethod*))Nullable_1__ctor_m823FF883B6D04BE8AFA031ACA385DC45333166F2_gshared)(__this, ___value0, method);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode::Invoke(System.IntPtr,System.Guid,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateCoordinateSystemForNode_Invoke_m6E136873341E382E129C5B5199837375F5D01CFB (_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, intptr_t* ___result2, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>::Attach(WinRT.ModuleReference,System.IntPtr&)
+inline ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * ObjectReference_1_Attach_mFACD680A8C82E87CB60C51A0A89DB3A2C4D9A894 (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ___module0, intptr_t* ___thisPtr1, const RuntimeMethod* method)
+{
+	return ((  ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * (*) (ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 , intptr_t*, const RuntimeMethod*))ObjectReference_1_Attach_mFACD680A8C82E87CB60C51A0A89DB3A2C4D9A894_gshared)(___module0, ___thisPtr1, method);
+}
+// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem::op_Implicit(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * ISpatialCoordinateSystem_op_Implicit_mAE55FBFB0EF5425D3B7804FE3AF952708A867F5A (ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * ___obj0, const RuntimeMethod* method);
+// System.Void Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem::.ctor(Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpatialCoordinateSystem__ctor_mEE6D69627932B9B85612AF7165A4B0BBF7C6AD83 (SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * __this, ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * ___interface0, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.IObjectReference::As<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>()
+inline ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * IObjectReference_As_TisVftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_m6FF4ECBEEB6F2CAE3668C8A0A1613408CEAB41E8 (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * __this, const RuntimeMethod* method)
+{
+	return ((  ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * (*) (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *, const RuntimeMethod*))IObjectReference_As_TisVftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_m6FF4ECBEEB6F2CAE3668C8A0A1613408CEAB41E8_gshared)(__this, method);
+}
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2::op_Implicit(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * ISpatialGraphInteropPreviewStatics2_op_Implicit_m03BD8DEB0ABCFA145B04BAFDA4EC8CF13139775E (ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * ___obj0, const RuntimeMethod* method);
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2::.ctor(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ISpatialGraphInteropPreviewStatics2__ctor_m41731FEDAC17719DAECD54836FF759D19491B522 (ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * __this, ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * ___obj0, const RuntimeMethod* method);
 // System.IntPtr System.Runtime.InteropServices.Marshal::AllocCoTaskMem(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Marshal_AllocCoTaskMem_mDD149E0F9D2CFCA6BF5ACD3558220591A8C97B7E (int32_t ___cb0, const RuntimeMethod* method);
 // System.Void* System.IntPtr::op_Explicit(System.IntPtr)
@@ -6249,10 +7943,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ModuleReference__ctor_mB7190947166224789
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Interlocked_Increment_mEF7FA106280D9E57DA8A97887389A961B65E47D8 (int32_t* ___location0, const RuntimeMethod* method);
 // System.Int32 System.Threading.Interlocked::Decrement(System.Int32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Interlocked_Decrement_mCECD68F2D8C95180BF77A1B90137BDE1F3A710FF (int32_t* ___location0, const RuntimeMethod* method);
-// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method);
-// System.Void WinRT.Platform::FreeLibrary(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_FreeLibrary_m0AC948DD9FD9F72AE575DB9B92C21EDE152E4759 (intptr_t ___moduleHandle0, const RuntimeMethod* method);
 // System.Void WinRT.Platform::CoDecrementMTAUsage(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_CoDecrementMTAUsage_m9BE2B337D022F359A40036EED7BFCD4401CDD41B (intptr_t ___cookie0, const RuntimeMethod* method);
 // System.Type System.Object::GetType()
@@ -6273,6 +7963,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DotNETLinkage__ctor_m0DFED97C182CE9363FD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IL2CPPLinkage__ctor_m663230512BC68A9D0313691D256D7319DF46FAEE (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform::GetHRForLastWin32Error()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Platform_GetHRForLastWin32Error_mB3E9D131EF563C6AE7CE5578E06347DDA04AEC19 (const RuntimeMethod* method);
+// WinRT.ObjectReference`1<T> WinRT.IObjectReference::As<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>()
+inline ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * IObjectReference_As_TisVftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_mED3E66D16B8112B4FA78472C74E48CE15A014549 (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * __this, const RuntimeMethod* method)
+{
+	return ((  ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * (*) (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *, const RuntimeMethod*))IObjectReference_As_TisVftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_mED3E66D16B8112B4FA78472C74E48CE15A014549_gshared)(__this, method);
+}
+// System.Nullable`1<System.Numerics.Matrix4x4> Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem::TryGetTransformTo(Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8  ISpatialCoordinateSystem_TryGetTransformTo_m452F9C03EE101008DEA1BCFBD679FA4CF8E34B1B (ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * __this, ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * ___other0, const RuntimeMethod* method);
+// T WinRT.WeakLazy`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics>::get_Value()
+inline Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80 * WeakLazy_1_get_Value_mDEF6DE08A17CF2BA995154926236A3A4E857347B (WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 * __this, const RuntimeMethod* method)
+{
+	return ((  Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80 * (*) (WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 *, const RuntimeMethod*))WeakLazy_1_get_Value_m3EABE183E634398B3E466D652D31AD1FBAED5877_gshared)(__this, method);
+}
+// Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics::CreateCoordinateSystemForNode(System.Guid)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * ISpatialGraphInteropPreviewStatics_CreateCoordinateSystemForNode_mDD9A0D35B7EC5A23C78B01CBE425D920793DC043 (ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8 * __this, Guid_t  ___nodeId0, const RuntimeMethod* method);
+// System.Void WinRT.WeakLazy`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics>::.ctor()
+inline void WeakLazy_1__ctor_m0F7B3BC9C64E6E2962F3A7AA719EA3C0E62C1F84 (WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 * __this, const RuntimeMethod* method)
+{
+	((  void (*) (WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 *, const RuntimeMethod*))WeakLazy_1__ctor_m15D160574A3D08F35243DC46492F2521C479E9C7_gshared)(__this, method);
+}
 // T WinRT.WeakLazy`1<WinRT.WinrtModule>::get_Value()
 inline WinrtModule_tAF6EE49994730C8AE82CF6C89969225C4795AA18 * WeakLazy_1_get_Value_m1D5A455FE43A85E0795FC4401BCCE0C9045DB59B (WeakLazy_1_t33C6F69309B8D36C41D403DE0EE6AE72E65DD888 * __this, const RuntimeMethod* method)
 {
@@ -6280,8 +7989,12 @@ inline WinrtModule_tAF6EE49994730C8AE82CF6C89969225C4795AA18 * WeakLazy_1_get_Va
 }
 // System.IntPtr WinRT.Platform::CoIncrementMTAUsage()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_CoIncrementMTAUsage_mFD33EC13356C6CF6703BFAC5574AC48695786008 (const RuntimeMethod* method);
-// WinRT.ModuleReference WinRT.ModuleReference::Allocate(System.Object,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  ModuleReference_Allocate_m823ADD4854E2A858E0936F5B7CDC45D99975D8B0 (RuntimeObject * ___module0, intptr_t* ___nativeHandle1, const RuntimeMethod* method);
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E (RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  ___handle0, const RuntimeMethod* method);
+// System.Reflection.TypeInfo System.Reflection.IntrospectionExtensions::GetTypeInfo(System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F * IntrospectionExtensions_GetTypeInfo_m77034F8576BE695819427C13103C591277C1B636 (Type_t * ___type0, const RuntimeMethod* method);
+// System.IntPtr WinRT.Platform::RoGetActivationFactory(System.IntPtr,System.Guid&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_RoGetActivationFactory_m12230F5A0AA04237DAFB5E78838AFBD387652DB4 (intptr_t ___runtimeClassId0, Guid_t * ___iid1, const RuntimeMethod* method);
 // System.Void WinRT.WeakLazy`1<WinRT.WinrtModule>::.ctor()
 inline void WeakLazy_1__ctor_mA34373257ED1CE1A0A4C569654CFB1265FCAD67C (WeakLazy_1_t33C6F69309B8D36C41D403DE0EE6AE72E65DD888 * __this, const RuntimeMethod* method)
 {
@@ -6297,39 +8010,98 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HolographicCameraPose__ctor_mC669309C40B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mECE966FB605558D86EBF611C4F14548EC184C258 (U3CU3Ec_t5F89FF8F269EFA0404698D56C3633D79EF15C0B4 * __this, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform/DotNETLinkage::AddDllDirectory(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_AddDllDirectory_mE66F48EFDD954961BE010A7E5E731210C3D06A9B (String_t* ___pathName0, const RuntimeMethod* method);
+// System.IntPtr WinRT.Platform/DotNETLinkage::LoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DotNETLinkage_LoadLibraryExW_mF2B32E0CFF6DBCDC76FE0551F1028F8DC447617A (String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method);
 // System.Boolean WinRT.Platform/DotNETLinkage::FreeLibrary(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DotNETLinkage_FreeLibrary_mE8C5C4D743E74166C019AB248497FFA9FC0B6570 (intptr_t ___moduleHandle0, const RuntimeMethod* method);
+// System.IntPtr WinRT.Platform/DotNETLinkage::GetProcAddress(System.IntPtr,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DotNETLinkage_GetProcAddress_mDC88FF50086E38A5B72EF0DD95B80493A0EA46C2 (intptr_t ___moduleHandle0, String_t* ___functionName1, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform/DotNETLinkage::CoIncrementMTAUsage(System.IntPtr*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_CoIncrementMTAUsage_m6D7291D25ED726801844B693E99B0807EFD53212 (intptr_t* ___cookie0, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform/DotNETLinkage::CoDecrementMTAUsage(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_CoDecrementMTAUsage_m8110AEE595D1A18223F248808F93B0DBE9F6E9BF (intptr_t ___cookie0, const RuntimeMethod* method);
+// System.Int32 WinRT.Platform/DotNETLinkage::RoGetActivationFactory(System.IntPtr,System.Guid&,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_RoGetActivationFactory_m83E0DC451F51051ED83B42042B7AD0F8B351DD9E (intptr_t ___runtimeClassId0, Guid_t * ___iid1, intptr_t* ___factory2, const RuntimeMethod* method);
+// System.Int32 WinRT.Platform/DotNETLinkage::WindowsCreateString(System.String,System.Int32,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_WindowsCreateString_m8F5C90D9DE60ED782B84E440BFEDD79B74C9CC14 (String_t* ___sourceString0, int32_t ___length1, intptr_t* ___hstring2, const RuntimeMethod* method);
+// System.Char* WinRT.Platform/DotNETLinkage::WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* DotNETLinkage_WindowsGetStringRawBuffer_m589374B27BD2E12B33A93DCB3CBC3813C2005349 (intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform/DotNETLinkage::WindowsDeleteString(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_WindowsDeleteString_mB6E94D83EFD431BEA045E988E944B17967C81153 (intptr_t ___hstring0, const RuntimeMethod* method);
 // System.Int32 System.Runtime.InteropServices.Marshal::GetHRForLastWin32Error()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Marshal_GetHRForLastWin32Error_mC4244CDFD16223106A9FDE60850A0C69607C2CAD (const RuntimeMethod* method);
+// System.IntPtr WinRT.Platform/IL2CPPLinkage::LoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IL2CPPLinkage_LoadLibraryExW_mF334071B2A48242CC3FBDDD912309A6C2ADDA667 (String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method);
 // System.Boolean WinRT.Platform/IL2CPPLinkage::FreeLibrary(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IL2CPPLinkage_FreeLibrary_m564BE7F1BDA65F5CD03D79E9D69C73C04CD01856 (intptr_t ___moduleHandle0, const RuntimeMethod* method);
+// System.IntPtr WinRT.Platform/IL2CPPLinkage::GetProcAddress(System.IntPtr,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IL2CPPLinkage_GetProcAddress_m2222DE83F79F2D95B6CF6337826F9DF96C091C82 (intptr_t ___moduleHandle0, String_t* ___functionName1, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform/IL2CPPLinkage::CoIncrementMTAUsage(System.IntPtr*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_CoIncrementMTAUsage_mAA95B50D81874C9EB7AC4ED53F57F0E3213E6ABC (intptr_t* ___cookie0, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform/IL2CPPLinkage::CoDecrementMTAUsage(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_CoDecrementMTAUsage_m258E77E0F1D70575CD1207C7D6A0DC123363D656 (intptr_t ___cookie0, const RuntimeMethod* method);
+// System.Int32 WinRT.Platform/IL2CPPLinkage::RoGetActivationFactory(System.IntPtr,System.Guid&,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_RoGetActivationFactory_m2B40B4F9BCCEC8F1DB5A53B90F5353ADB99D9444 (intptr_t ___runtimeClassId0, Guid_t * ___iid1, intptr_t* ___factory2, const RuntimeMethod* method);
+// System.Int32 WinRT.Platform/IL2CPPLinkage::WindowsCreateString(System.String,System.Int32,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_WindowsCreateString_mF8C372F4324117FB7E22FC783B32FE3A5A8F6B3D (String_t* ___sourceString0, int32_t ___length1, intptr_t* ___hstring2, const RuntimeMethod* method);
+// System.Char* WinRT.Platform/IL2CPPLinkage::WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* IL2CPPLinkage_WindowsGetStringRawBuffer_m457CE94434B5501B449D64C0F3A4B53BB38887FA (intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method);
 // System.Int32 WinRT.Platform/IL2CPPLinkage::WindowsDeleteString(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_WindowsDeleteString_m98BD084D27A169898F2B6C71CBD0B2C7ECD4EFFE (intptr_t ___hstring0, const RuntimeMethod* method);
+// WinRT.ObjectReference`1<!!0> WinRT.ActivationFactory`1<Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview>::As<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl>()
+inline ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * ActivationFactory_1_As_TisVftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_mB75038F8281B3BC6C44CDAE2C2D3513F78A933FD (const RuntimeMethod* method)
+{
+	return ((  ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * (*) (const RuntimeMethod*))ActivationFactory_1_As_TisVftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_mF9C7D660746732EB959C105A5FFEAA8CFFA38108_gshared)(method);
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics::.ctor(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ISpatialGraphInteropPreviewStatics__ctor_m2B9088F4C4EDAE87135A1C0A23F2E1260FF0E0D6 (ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8 * __this, ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * ___obj0, const RuntimeMethod* method);
+// System.Void System.Func`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2>::.ctor(System.Object,System.IntPtr)
+inline void Func_1__ctor_mBC25E9203E59B92104A41FF6D5171B832EECC093 (Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C *, RuntimeObject *, intptr_t, const RuntimeMethod*))Func_1__ctor_m2A4FE889FB540EA198F7757D17DC2290461E5EE9_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void System.Lazy`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2>::.ctor(System.Func`1<!0>)
+inline void Lazy_1__ctor_mAAB67BA0C93C4F4437EE5F8F6F4DB900D351C9D8 (Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 * __this, Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * ___valueFactory0, const RuntimeMethod* method)
+{
+	((  void (*) (Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 *, Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C *, const RuntimeMethod*))Lazy_1__ctor_m779E6079C2AD73539FA39CF6EF5955B40F90F8A3_gshared)(__this, ___valueFactory0, method);
+}
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2::op_Implicit(WinRT.IObjectReference)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * ISpatialGraphInteropPreviewStatics2_op_Implicit_m8E1C1535E211E9063E923764CAF3E5686BA5E64A (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * ___obj0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL LoadLibraryExW(Il2CppChar*, intptr_t, uint32_t);
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL FreeLibrary(intptr_t);
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GetProcAddress(intptr_t, char*);
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL CoIncrementMTAUsage(intptr_t*);
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL CoDecrementMTAUsage(intptr_t);
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL RoGetActivationFactory(intptr_t, Guid_t *, intptr_t*);
+IL2CPP_EXTERN_C int32_t STDCALL WindowsCreateString(Il2CppChar*, int32_t, intptr_t*);
+IL2CPP_EXTERN_C Il2CppChar* STDCALL WindowsGetStringRawBuffer(intptr_t, uint32_t*);
 IL2CPP_EXTERN_C int32_t STDCALL WindowsDeleteString(intptr_t);
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_kernel32_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL AddDllDirectory(Il2CppChar*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_kernel32_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL LoadLibraryExW(Il2CppChar*, intptr_t, uint32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_kernel32_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL FreeLibrary(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_kernel32_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GetProcAddress(intptr_t, char*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_com_l1_1_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL CoIncrementMTAUsage(intptr_t*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_com_l1_1_0_INTERNAL
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL CoDecrementMTAUsage(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_winrt_l1_1_0_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL RoGetActivationFactory(intptr_t, Guid_t *, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_winrt_string_l1_1_0_INTERNAL
+IL2CPP_EXTERN_C int32_t STDCALL WindowsCreateString(Il2CppChar*, int32_t, intptr_t*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_winrt_string_l1_1_0_INTERNAL
+IL2CPP_EXTERN_C Il2CppChar* STDCALL WindowsGetStringRawBuffer(intptr_t, uint32_t*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_winrt_string_l1_1_0_INTERNAL
 IL2CPP_EXTERN_C int32_t STDCALL WindowsDeleteString(intptr_t);
@@ -6368,7 +8140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DllModule__cctor_m442EA7F9BCAFEC5F554465
 	{
 		Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * L_0 = (Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 *)il2cpp_codegen_object_new(Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m49F9153483E7881B0F295D8149596F7CC575D3AB(L_0, /*hidden argument*/Dictionary_2__ctor_m49F9153483E7881B0F295D8149596F7CC575D3AB_RuntimeMethod_var);
-		((DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields*)il2cpp_codegen_static_fields_for(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var))->set__cache_0(L_0);
+		((DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields*)il2cpp_codegen_static_fields_for(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var))->set__cache_3(L_0);
 		AppDomain_tBEB6322D51DCB12C09A56A49886C2D09BA1C1A8A * L_1;
 		L_1 = AppDomain_get_CurrentDomain_mC2FE307811914289CBBDEFEFF6175FCE2E96A55E(/*hidden argument*/NULL);
 		NullCheck(L_1);
@@ -6424,6 +8196,389 @@ IL_004a:
 
 IL_0050:
 	{
+		return;
+	}
+}
+// WinRT.DllModule WinRT.DllModule::TryLoad(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * DllModule_TryLoad_m6389840FF140BE5B65C2E189C0C6FC8B25BAD22B (String_t* ___fileName0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m9AD49A388A2A057476FDD06F85E2C361619B9D75_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m2B4C8A563D52717D853AC06915C4FE43C5521093_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_TryGetProcAddress_TisDllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137_m925516A36AED5EF16D811C650D0B5968922B412F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakReference_1_TryGetTarget_m87C914306C9F0510BCDCB302E729A904E7F6F33B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakReference_1__ctor_m1B1AB1E9EFEA1E352DB50C8DC5510ACCDD68224F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * V_0 = NULL;
+	bool V_1 = false;
+	WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA * V_2 = NULL;
+	DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * V_3 = NULL;
+	intptr_t V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * V_5 = NULL;
+	DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * V_6 = NULL;
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 4> __leave_targets;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var);
+		Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * L_0 = ((DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields*)il2cpp_codegen_static_fields_for(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var))->get__cache_3();
+		V_0 = L_0;
+		V_1 = (bool)0;
+	}
+
+IL_0008:
+	try
+	{ // begin try (depth: 1)
+		{
+			Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * L_1 = V_0;
+			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_1, (bool*)(&V_1), /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var);
+			Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * L_2 = ((DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields*)il2cpp_codegen_static_fields_for(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var))->get__cache_3();
+			String_t* L_3 = ___fileName0;
+			NullCheck(L_2);
+			bool L_4;
+			L_4 = Dictionary_2_TryGetValue_m9AD49A388A2A057476FDD06F85E2C361619B9D75(L_2, L_3, (WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA **)(&V_2), /*hidden argument*/Dictionary_2_TryGetValue_m9AD49A388A2A057476FDD06F85E2C361619B9D75_RuntimeMethod_var);
+			if (!L_4)
+			{
+				goto IL_002c;
+			}
+		}
+
+IL_001f:
+		{
+			WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA * L_5 = V_2;
+			NullCheck(L_5);
+			bool L_6;
+			L_6 = WeakReference_1_TryGetTarget_m87C914306C9F0510BCDCB302E729A904E7F6F33B(L_5, (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 **)(&V_3), /*hidden argument*/WeakReference_1_TryGetTarget_m87C914306C9F0510BCDCB302E729A904E7F6F33B_RuntimeMethod_var);
+			if (L_6)
+			{
+				goto IL_00b4;
+			}
+		}
+
+IL_002c:
+		{
+			String_t* L_7 = ___fileName0;
+			IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+			intptr_t L_8;
+			L_8 = Platform_TryLoadLibraryExW_m54E387CC465C853952D728CA2660F7972AF5BCA8(L_7, (intptr_t)(0), 0, /*hidden argument*/NULL);
+			V_4 = (intptr_t)L_8;
+			intptr_t L_9 = V_4;
+			bool L_10;
+			L_10 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_9, (intptr_t)(0), /*hidden argument*/NULL);
+			if (!L_10)
+			{
+				goto IL_005a;
+			}
+		}
+
+IL_0048:
+		{
+			String_t* L_11 = ___fileName0;
+			IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+			intptr_t L_12;
+			L_12 = Platform_TryLoadLibraryExW_m54E387CC465C853952D728CA2660F7972AF5BCA8(L_11, (intptr_t)(0), ((int32_t)4096), /*hidden argument*/NULL);
+			V_4 = (intptr_t)L_12;
+		}
+
+IL_005a:
+		{
+		}
+
+IL_005b:
+		try
+		{ // begin try (depth: 2)
+			{
+				intptr_t L_13 = V_4;
+				bool L_14;
+				L_14 = IntPtr_op_Equality_mD94F3FE43A65684EFF984A7B95E70D2520C0AC73((intptr_t)L_13, (intptr_t)(0), /*hidden argument*/NULL);
+				if (!L_14)
+				{
+					goto IL_006e;
+				}
+			}
+
+IL_0069:
+			{
+				V_6 = (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 *)NULL;
+				IL2CPP_LEAVE(0xC3, FINALLY_009e);
+			}
+
+IL_006e:
+			{
+				intptr_t L_15 = V_4;
+				IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+				DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * L_16;
+				L_16 = Platform_TryGetProcAddress_TisDllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137_m925516A36AED5EF16D811C650D0B5968922B412F((intptr_t)L_15, /*hidden argument*/Platform_TryGetProcAddress_TisDllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137_m925516A36AED5EF16D811C650D0B5968922B412F_RuntimeMethod_var);
+				V_5 = L_16;
+				DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * L_17 = V_5;
+				if (L_17)
+				{
+					goto IL_0080;
+				}
+			}
+
+IL_007b:
+			{
+				V_6 = (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 *)NULL;
+				IL2CPP_LEAVE(0xC3, FINALLY_009e);
+			}
+
+IL_0080:
+			{
+				String_t* L_18 = ___fileName0;
+				DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * L_19 = V_5;
+				DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * L_20 = (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 *)il2cpp_codegen_object_new(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var);
+				DllModule__ctor_m71D6959B12B8185F3FCD69DB3E2061B59D6DE8D2(L_20, L_18, (intptr_t*)(&V_4), L_19, /*hidden argument*/NULL);
+				V_3 = L_20;
+				IL2CPP_RUNTIME_CLASS_INIT(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var);
+				Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * L_21 = ((DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_StaticFields*)il2cpp_codegen_static_fields_for(DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679_il2cpp_TypeInfo_var))->get__cache_3();
+				String_t* L_22 = ___fileName0;
+				DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * L_23 = V_3;
+				WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA * L_24 = (WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA *)il2cpp_codegen_object_new(WeakReference_1_t836D4DD0B880BA39E40C4F1C3B1A2FA0D0549BAA_il2cpp_TypeInfo_var);
+				WeakReference_1__ctor_m1B1AB1E9EFEA1E352DB50C8DC5510ACCDD68224F(L_24, L_23, /*hidden argument*/WeakReference_1__ctor_m1B1AB1E9EFEA1E352DB50C8DC5510ACCDD68224F_RuntimeMethod_var);
+				NullCheck(L_21);
+				Dictionary_2_set_Item_m2B4C8A563D52717D853AC06915C4FE43C5521093(L_21, L_22, L_24, /*hidden argument*/Dictionary_2_set_Item_m2B4C8A563D52717D853AC06915C4FE43C5521093_RuntimeMethod_var);
+				IL2CPP_LEAVE(0xB4, FINALLY_009e);
+			}
+		} // end try (depth: 2)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__last_unhandled_exception = (Exception_t *)e.ex;
+			goto FINALLY_009e;
+		}
+
+FINALLY_009e:
+		{ // begin finally (depth: 2)
+			{
+				intptr_t L_25 = V_4;
+				bool L_26;
+				L_26 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_25, (intptr_t)(0), /*hidden argument*/NULL);
+				if (!L_26)
+				{
+					goto IL_00b3;
+				}
+			}
+
+IL_00ac:
+			{
+				intptr_t L_27 = V_4;
+				IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+				Platform_FreeLibrary_m0AC948DD9FD9F72AE575DB9B92C21EDE152E4759((intptr_t)L_27, /*hidden argument*/NULL);
+			}
+
+IL_00b3:
+			{
+				IL2CPP_END_FINALLY(158)
+			}
+		} // end finally (depth: 2)
+		IL2CPP_CLEANUP(158)
+		{
+			IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+			IL2CPP_END_CLEANUP(0xC3, FINALLY_00b9);
+			IL2CPP_JUMP_TBL(0xB4, IL_00b4)
+		}
+
+IL_00b4:
+		{
+			DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * L_28 = V_3;
+			V_6 = L_28;
+			IL2CPP_LEAVE(0xC3, FINALLY_00b9);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_00b9;
+	}
+
+FINALLY_00b9:
+	{ // begin finally (depth: 1)
+		{
+			bool L_29 = V_1;
+			if (!L_29)
+			{
+				goto IL_00c2;
+			}
+		}
+
+IL_00bc:
+		{
+			Dictionary_2_tABD241D80412AB23968DA94CBA532A1B8F63A3E8 * L_30 = V_0;
+			Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A(L_30, /*hidden argument*/NULL);
+		}
+
+IL_00c2:
+		{
+			IL2CPP_END_FINALLY(185)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(185)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xC3, IL_00c3)
+	}
+
+IL_00c3:
+	{
+		DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * L_31 = V_6;
+		return L_31;
+	}
+}
+// System.Void WinRT.DllModule::.ctor(System.String,System.IntPtr&,WinRT.DllModule/DllGetActivationFactory)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DllModule__ctor_m71D6959B12B8185F3FCD69DB3E2061B59D6DE8D2 (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * __this, String_t* ___fileName0, intptr_t* ___moduleHandle1, DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * ___getActivationFactory2, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___fileName0;
+		__this->set__fileName_0(L_0);
+		intptr_t* L_1 = ___moduleHandle1;
+		ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  L_2;
+		L_2 = ModuleReference_Allocate_m823ADD4854E2A858E0936F5B7CDC45D99975D8B0(__this, (intptr_t*)L_1, /*hidden argument*/NULL);
+		__this->set__moduleHandle_1(L_2);
+		DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * L_3 = ___getActivationFactory2;
+		__this->set__GetActivationFactory_2(L_3);
+		return;
+	}
+}
+// WinRT.ObjectReference`1<WinRT.Interop.IActivationFactoryVftbl> WinRT.DllModule::GetActivationFactory(WinRT.HString)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626 * DllModule_GetActivationFactory_mF5EC9633E504CBA536B55CBEAFE5AD449797FD5F (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * __this, HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A * ___runtimeClassId0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * L_0 = __this->get__GetActivationFactory_2();
+		HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A * L_1 = ___runtimeClassId0;
+		NullCheck(L_1);
+		intptr_t L_2 = L_1->get_Handle_0();
+		NullCheck(L_0);
+		int32_t L_3;
+		L_3 = DllGetActivationFactory_Invoke_mFA51E7C561DD3EB229B7EE0B32913548F9BFC060(L_0, (intptr_t)L_2, (intptr_t*)(intptr_t*)((uintptr_t)(&V_0)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_3, /*hidden argument*/NULL);
+		ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  L_4 = __this->get__moduleHandle_1();
+		ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626 * L_5;
+		L_5 = ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847(L_4, (intptr_t*)(&V_0), /*hidden argument*/ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// System.Void WinRT.DllModule::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DllModule_Finalize_m07CB4AB4E04D351FD45FD5C9D78C870F1DFB0A1E (DllModule_t1FB3BA35D90E591ECFF58E592C475F862F53F679 * __this, const RuntimeMethod* method)
+{
+	ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  L_0 = __this->get__moduleHandle_1();
+		V_0 = L_0;
+		ModuleReference_Release_mD02F81CFCBA7A22F28D034B1B15F2FB49670DAD4((ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4 *)(&V_0), /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x17, FINALLY_0010);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0010;
+	}
+
+FINALLY_0010:
+	{ // begin finally (depth: 1)
+		Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A(__this, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(16)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(16)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x17, IL_0017)
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void WinRT.HString::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HString__ctor_m58FC003897D27D9280ED6CB2FBA64926D4C2204F (HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___value0;
+		String_t* L_1 = ___value0;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		intptr_t L_3;
+		L_3 = Platform_WindowsCreateString_mCA75D6CED0FC78F2BE03C23F010D1CE1F7DA8564(L_0, L_2, /*hidden argument*/NULL);
+		__this->set_Handle_0((intptr_t)L_3);
+		return;
+	}
+}
+// System.String WinRT.HString::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HString_ToString_m670C8CE5322B04E2451BF1346F5287DF5F859703 (HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		intptr_t L_0 = __this->get_Handle_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		Il2CppChar* L_1;
+		L_1 = Platform_WindowsGetStringRawBuffer_m2EE5607FECC6032F1B8ACB36BC9347BF5F8D9FD2((intptr_t)L_0, (uint32_t*)(uint32_t*)((uintptr_t)(&V_0)), /*hidden argument*/NULL);
+		uint32_t L_2 = V_0;
+		String_t* L_3;
+		L_3 = String_CreateString_m854F19B67F5E1B63737E096BF53CC56AB12AF777(NULL, (Il2CppChar*)(Il2CppChar*)L_1, 0, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void WinRT.HString::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HString_Dispose_mDA96C0D1CA0DF33F15399248EA92E103B54A9A60 (HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		intptr_t L_0 = __this->get_Handle_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		Platform_WindowsDeleteString_mF1D7C64888FD8DD4DFF8626B4FE574A506FA6496((intptr_t)L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -6797,6 +8952,68 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IHolographicViewConfiguration2_t55926039B23FE
 		L_2 = IHolographicViewConfiguration2_op_Implicit_m754B1A7708380B9F097EF9E6F9640DDBE003B812(L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+
+// Conversion methods for marshalling of: WinRT.Interop.IActivationFactoryVftbl
+IL2CPP_EXTERN_C void IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshal_pinvoke(const IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64& unmarshaled, IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___ActivateInstance_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ActivateInstance_1()));
+}
+IL2CPP_EXTERN_C void IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshal_pinvoke_back(const IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_pinvoke& marshaled, IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_ActivateInstance_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9>(marshaled.___ActivateInstance_1, _ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: WinRT.Interop.IActivationFactoryVftbl
+IL2CPP_EXTERN_C void IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshal_pinvoke_cleanup(IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_cleanup(marshaled.___IInspectableVftbl_0);
+}
+
+
+// Conversion methods for marshalling of: WinRT.Interop.IActivationFactoryVftbl
+IL2CPP_EXTERN_C void IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshal_com(const IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64& unmarshaled, IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___ActivateInstance_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ActivateInstance_1()));
+}
+IL2CPP_EXTERN_C void IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshal_com_back(const IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_com& marshaled, IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_ActivateInstance_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9>(marshaled.___ActivateInstance_1, _ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: WinRT.Interop.IActivationFactoryVftbl
+IL2CPP_EXTERN_C void IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshal_com_cleanup(IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_cleanup(marshaled.___IInspectableVftbl_0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -8002,6 +10219,298 @@ IL_0017:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+
+
+// Conversion methods for marshalling of: WinRT.Interop.IReference_Matrix4x4
+IL2CPP_EXTERN_C void IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshal_pinvoke(const IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3& unmarshaled, IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___get_Value_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_get_Value_1()));
+}
+IL2CPP_EXTERN_C void IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshal_pinvoke_back(const IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_pinvoke& marshaled, IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_get_Value_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E>(marshaled.___get_Value_1, _get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: WinRT.Interop.IReference_Matrix4x4
+IL2CPP_EXTERN_C void IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshal_pinvoke_cleanup(IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_cleanup(marshaled.___IInspectableVftbl_0);
+}
+
+
+// Conversion methods for marshalling of: WinRT.Interop.IReference_Matrix4x4
+IL2CPP_EXTERN_C void IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshal_com(const IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3& unmarshaled, IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___get_Value_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_get_Value_1()));
+}
+IL2CPP_EXTERN_C void IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshal_com_back(const IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_com& marshaled, IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_get_Value_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E>(marshaled.___get_Value_1, _get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: WinRT.Interop.IReference_Matrix4x4
+IL2CPP_EXTERN_C void IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshal_com_cleanup(IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_cleanup(marshaled.___IInspectableVftbl_0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem::op_Implicit(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * ISpatialCoordinateSystem_op_Implicit_mAE55FBFB0EF5425D3B7804FE3AF952708A867F5A (ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * ___obj0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_0 = ___obj0;
+		ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * L_1 = (ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE *)il2cpp_codegen_object_new(ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE_il2cpp_TypeInfo_var);
+		ISpatialCoordinateSystem__ctor_m0CDE6B0FFDA376689F64DAB82837C8CC58AF5E8D(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem::.ctor(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ISpatialCoordinateSystem__ctor_m0CDE6B0FFDA376689F64DAB82837C8CC58AF5E8D (ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * __this, ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * ___obj0, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_0 = ___obj0;
+		__this->set__obj_0(L_0);
+		return;
+	}
+}
+// System.Nullable`1<System.Numerics.Matrix4x4> Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem::TryGetTransformTo(Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8  ISpatialCoordinateSystem_TryGetTransformTo_m452F9C03EE101008DEA1BCFBD679FA4CF8E34B1B (ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * __this, ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * ___other0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m823FF883B6D04BE8AFA031ACA385DC45333166F2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectReference_1_Attach_mE357BCC940CDBA0A018A2A7E26669C6B8C91E8C7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828 * V_1 = NULL;
+	Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8  V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		V_0 = (intptr_t)(0);
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_0 = __this->get__obj_0();
+		NullCheck(L_0);
+		Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631 * L_1 = L_0->get_address_of_Vftbl_4();
+		_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * L_2 = L_1->get_TryGetTransformTo_1();
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_3 = __this->get__obj_0();
+		NullCheck(L_3);
+		intptr_t L_4 = ((IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *)L_3)->get_ThisPtr_0();
+		ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * L_5 = ___other0;
+		NullCheck(L_5);
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_6 = L_5->get__obj_0();
+		NullCheck(L_6);
+		intptr_t L_7 = ((IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *)L_6)->get_ThisPtr_0();
+		NullCheck(L_2);
+		int32_t L_8;
+		L_8 = _TryGetTransformTo_Invoke_m5F786A8E4AF8A307D342F06F71108E3C77F192D0(L_2, (intptr_t)L_4, (intptr_t)L_7, (intptr_t*)(intptr_t*)((uintptr_t)(&V_0)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_8, /*hidden argument*/NULL);
+		intptr_t L_9 = V_0;
+		bool L_10;
+		L_10 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_9, (intptr_t)(0), /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_11 = __this->get__obj_0();
+		NullCheck(L_11);
+		ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  L_12 = ((IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *)L_11)->get_Module_1();
+		ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828 * L_13;
+		L_13 = ObjectReference_1_Attach_mE357BCC940CDBA0A018A2A7E26669C6B8C91E8C7(L_12, (intptr_t*)(&V_0), /*hidden argument*/ObjectReference_1_Attach_mE357BCC940CDBA0A018A2A7E26669C6B8C91E8C7_RuntimeMethod_var);
+		V_1 = L_13;
+		IL2CPP_RUNTIME_CLASS_INIT(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_il2cpp_TypeInfo_var);
+		Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  L_14;
+		L_14 = Matrix4x4_get_Identity_mCB71019837846B0A040FE9A74F6DDD0DA2FE8E4D_inline(/*hidden argument*/NULL);
+		V_2 = L_14;
+		ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828 * L_15 = V_1;
+		NullCheck(L_15);
+		IReference_Matrix4x4_t7F57C890D04DBA63B7232141F5387A30FCFF1BB3 * L_16 = L_15->get_address_of_Vftbl_4();
+		_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * L_17 = L_16->get_get_Value_1();
+		ObjectReference_1_t135372B9466BBB92301734F44751DBBDAD87C828 * L_18 = V_1;
+		NullCheck(L_18);
+		intptr_t L_19 = ((IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *)L_18)->get_ThisPtr_0();
+		NullCheck(L_17);
+		int32_t L_20;
+		L_20 = _get_PropertyAsMatrix4x4_Invoke_m57B5A93A6FE4371363205650F85B8BAF55B103AE(L_17, (intptr_t)L_19, (Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 *)(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 *)((uintptr_t)(&V_2)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_20, /*hidden argument*/NULL);
+		Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  L_21 = V_2;
+		Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8  L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		Nullable_1__ctor_m823FF883B6D04BE8AFA031ACA385DC45333166F2((&L_22), L_21, /*hidden argument*/Nullable_1__ctor_m823FF883B6D04BE8AFA031ACA385DC45333166F2_RuntimeMethod_var);
+		return L_22;
+	}
+
+IL_0084:
+	{
+		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8 ));
+		Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8  L_23 = V_3;
+		return L_23;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics::.ctor(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ISpatialGraphInteropPreviewStatics__ctor_m2B9088F4C4EDAE87135A1C0A23F2E1260FF0E0D6 (ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8 * __this, ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * ___obj0, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * L_0 = ___obj0;
+		__this->set__obj_0(L_0);
+		return;
+	}
+}
+// Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics::CreateCoordinateSystemForNode(System.Guid)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * ISpatialGraphInteropPreviewStatics_CreateCoordinateSystemForNode_mDD9A0D35B7EC5A23C78B01CBE425D920793DC043 (ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8 * __this, Guid_t  ___nodeId0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectReference_1_Attach_mFACD680A8C82E87CB60C51A0A89DB3A2C4D9A894_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		V_0 = (intptr_t)(0);
+		ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * L_0 = __this->get__obj_0();
+		NullCheck(L_0);
+		Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92 * L_1 = L_0->get_address_of_Vftbl_4();
+		_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * L_2 = L_1->get_CreateCoordinateSystemForNode_1();
+		ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * L_3 = __this->get__obj_0();
+		NullCheck(L_3);
+		intptr_t L_4 = ((IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *)L_3)->get_ThisPtr_0();
+		Guid_t  L_5 = ___nodeId0;
+		NullCheck(L_2);
+		int32_t L_6;
+		L_6 = _CreateCoordinateSystemForNode_Invoke_m6E136873341E382E129C5B5199837375F5D01CFB(L_2, (intptr_t)L_4, L_5, (intptr_t*)(intptr_t*)((uintptr_t)(&V_0)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_6, /*hidden argument*/NULL);
+		ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * L_7 = __this->get__obj_0();
+		NullCheck(L_7);
+		ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  L_8 = ((IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 *)L_7)->get_Module_1();
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_9;
+		L_9 = ObjectReference_1_Attach_mFACD680A8C82E87CB60C51A0A89DB3A2C4D9A894(L_8, (intptr_t*)(&V_0), /*hidden argument*/ObjectReference_1_Attach_mFACD680A8C82E87CB60C51A0A89DB3A2C4D9A894_RuntimeMethod_var);
+		ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * L_10;
+		L_10 = ISpatialCoordinateSystem_op_Implicit_mAE55FBFB0EF5425D3B7804FE3AF952708A867F5A(L_9, /*hidden argument*/NULL);
+		SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * L_11 = (SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 *)il2cpp_codegen_object_new(SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18_il2cpp_TypeInfo_var);
+		SpatialCoordinateSystem__ctor_mEE6D69627932B9B85612AF7165A4B0BBF7C6AD83(L_11, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2::op_Implicit(WinRT.IObjectReference)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * ISpatialGraphInteropPreviewStatics2_op_Implicit_m8E1C1535E211E9063E923764CAF3E5686BA5E64A (IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * ___obj0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IObjectReference_As_TisVftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_m6FF4ECBEEB6F2CAE3668C8A0A1613408CEAB41E8_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IObjectReference_tAEDA3B5BA9FD183848E9F9A218F78ECAD304FD76 * L_0 = ___obj0;
+		NullCheck(L_0);
+		ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * L_1;
+		L_1 = IObjectReference_As_TisVftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_m6FF4ECBEEB6F2CAE3668C8A0A1613408CEAB41E8(L_0, /*hidden argument*/IObjectReference_As_TisVftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_m6FF4ECBEEB6F2CAE3668C8A0A1613408CEAB41E8_RuntimeMethod_var);
+		ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * L_2;
+		L_2 = ISpatialGraphInteropPreviewStatics2_op_Implicit_m03BD8DEB0ABCFA145B04BAFDA4EC8CF13139775E(L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2::op_Implicit(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * ISpatialGraphInteropPreviewStatics2_op_Implicit_m03BD8DEB0ABCFA145B04BAFDA4EC8CF13139775E (ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * ___obj0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * L_0 = ___obj0;
+		ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * L_1 = (ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 *)il2cpp_codegen_object_new(ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4_il2cpp_TypeInfo_var);
+		ISpatialGraphInteropPreviewStatics2__ctor_m41731FEDAC17719DAECD54836FF759D19491B522(L_1, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2::.ctor(WinRT.ObjectReference`1<Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ISpatialGraphInteropPreviewStatics2__ctor_m41731FEDAC17719DAECD54836FF759D19491B522 (ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * __this, ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * ___obj0, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		ObjectReference_1_tD25BA1B03BFBFEACF7EDA1156235C2624727B63E * L_0 = ___obj0;
+		__this->set__obj_0(L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // Conversion methods for marshalling of: WinRT.Interop.IUnknownVftbl
 IL2CPP_EXTERN_C void IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshal_pinvoke(const IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542& unmarshaled, IUnknownVftbl_t3B7A436D3468C1B929B67CFC6CCF262360933542_marshaled_pinvoke& marshaled)
 {
@@ -8606,7 +11115,7 @@ IL_000a:
 		RuntimeObject* L_1 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = InterfaceFuncInvoker1< int32_t, intptr_t >::Invoke(4 /* System.Int32 WinRT.Platform/IPlatformLinkage::_WindowsDeleteString(System.IntPtr) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_1, (intptr_t)(0));
+		L_2 = InterfaceFuncInvoker1< int32_t, intptr_t >::Invoke(9 /* System.Int32 WinRT.Platform/IPlatformLinkage::_WindowsDeleteString(System.IntPtr) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_1, (intptr_t)(0));
 		goto IL_0029;
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -8653,6 +11162,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Platform_AddDllDirectory_m7DAFCD76DA5
 		return L_2;
 	}
 }
+// System.IntPtr WinRT.Platform::TryLoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_TryLoadLibraryExW_m54E387CC465C853952D728CA2660F7972AF5BCA8 (String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		RuntimeObject* L_0 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
+		String_t* L_1 = ___fileName0;
+		intptr_t L_2 = ___fileHandle1;
+		uint32_t L_3 = ___flags2;
+		NullCheck(L_0);
+		intptr_t L_4;
+		L_4 = InterfaceFuncInvoker3< intptr_t, String_t*, intptr_t, uint32_t >::Invoke(1 /* System.IntPtr WinRT.Platform/IPlatformLinkage::_LoadLibraryExW(System.String,System.IntPtr,System.UInt32) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, L_1, (intptr_t)L_2, L_3);
+		return (intptr_t)L_4;
+	}
+}
 // System.Void WinRT.Platform::FreeLibrary(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_FreeLibrary_m0AC948DD9FD9F72AE575DB9B92C21EDE152E4759 (intptr_t ___moduleHandle0, const RuntimeMethod* method)
 {
@@ -8670,7 +11201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_FreeLibrary_m0AC948DD9FD9F72AE5
 		intptr_t L_1 = ___moduleHandle0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = InterfaceFuncInvoker1< bool, intptr_t >::Invoke(1 /* System.Boolean WinRT.Platform/IPlatformLinkage::_FreeLibrary(System.IntPtr) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t)L_1);
+		L_2 = InterfaceFuncInvoker1< bool, intptr_t >::Invoke(2 /* System.Boolean WinRT.Platform/IPlatformLinkage::_FreeLibrary(System.IntPtr) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t)L_1);
 		if (L_2)
 		{
 			goto IL_0017;
@@ -8707,7 +11238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_CoIncrementMTAUsage_mFD33EC
 		RuntimeObject* L_0 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = InterfaceFuncInvoker1< int32_t, intptr_t* >::Invoke(2 /* System.Int32 WinRT.Platform/IPlatformLinkage::_CoIncrementMTAUsage(System.IntPtr*) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t*)(intptr_t*)((uintptr_t)(&V_0)));
+		L_1 = InterfaceFuncInvoker1< int32_t, intptr_t* >::Invoke(4 /* System.Int32 WinRT.Platform/IPlatformLinkage::_CoIncrementMTAUsage(System.IntPtr*) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t*)(intptr_t*)((uintptr_t)(&V_0)));
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
 		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_1, /*hidden argument*/NULL);
 		intptr_t L_2 = V_0;
@@ -8731,7 +11262,105 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_CoDecrementMTAUsage_m9BE2B337D0
 		intptr_t L_1 = ___cookie0;
 		NullCheck(L_0);
 		int32_t L_2;
-		L_2 = InterfaceFuncInvoker1< int32_t, intptr_t >::Invoke(3 /* System.Int32 WinRT.Platform/IPlatformLinkage::_CoDecrementMTAUsage(System.IntPtr) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t)L_1);
+		L_2 = InterfaceFuncInvoker1< int32_t, intptr_t >::Invoke(5 /* System.Int32 WinRT.Platform/IPlatformLinkage::_CoDecrementMTAUsage(System.IntPtr) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t)L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.IntPtr WinRT.Platform::RoGetActivationFactory(System.IntPtr,System.Guid&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_RoGetActivationFactory_m12230F5A0AA04237DAFB5E78838AFBD387652DB4 (intptr_t ___runtimeClassId0, Guid_t * ___iid1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		RuntimeObject* L_0 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
+		intptr_t L_1 = ___runtimeClassId0;
+		Guid_t * L_2 = ___iid1;
+		NullCheck(L_0);
+		int32_t L_3;
+		L_3 = InterfaceFuncInvoker3< int32_t, intptr_t, Guid_t *, intptr_t* >::Invoke(6 /* System.Int32 WinRT.Platform/IPlatformLinkage::_RoGetActivationFactory(System.IntPtr,System.Guid&,System.IntPtr*) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t)L_1, (Guid_t *)L_2, (intptr_t*)(intptr_t*)((uintptr_t)(&V_0)));
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_3, /*hidden argument*/NULL);
+		intptr_t L_4 = V_0;
+		return (intptr_t)L_4;
+	}
+}
+// System.IntPtr WinRT.Platform::WindowsCreateString(System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Platform_WindowsCreateString_mCA75D6CED0FC78F2BE03C23F010D1CE1F7DA8564 (String_t* ___sourceString0, int32_t ___length1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		RuntimeObject* L_0 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
+		String_t* L_1 = ___sourceString0;
+		int32_t L_2 = ___length1;
+		NullCheck(L_0);
+		int32_t L_3;
+		L_3 = InterfaceFuncInvoker3< int32_t, String_t*, int32_t, intptr_t* >::Invoke(7 /* System.Int32 WinRT.Platform/IPlatformLinkage::_WindowsCreateString(System.String,System.Int32,System.IntPtr*) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, L_1, L_2, (intptr_t*)(intptr_t*)((uintptr_t)(&V_0)));
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_3, /*hidden argument*/NULL);
+		intptr_t L_4 = V_0;
+		return (intptr_t)L_4;
+	}
+}
+// System.Char* WinRT.Platform::WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* Platform_WindowsGetStringRawBuffer_m2EE5607FECC6032F1B8ACB36BC9347BF5F8D9FD2 (intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		RuntimeObject* L_0 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
+		intptr_t L_1 = ___hstring0;
+		uint32_t* L_2 = ___length1;
+		NullCheck(L_0);
+		Il2CppChar* L_3;
+		L_3 = InterfaceFuncInvoker2< Il2CppChar*, intptr_t, uint32_t* >::Invoke(8 /* System.Char* WinRT.Platform/IPlatformLinkage::_WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t)L_1, (uint32_t*)(uint32_t*)L_2);
+		return (Il2CppChar*)(L_3);
+	}
+}
+// System.Void WinRT.Platform::WindowsDeleteString(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Platform_WindowsDeleteString_mF1D7C64888FD8DD4DFF8626B4FE574A506FA6496 (intptr_t ___hstring0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		RuntimeObject* L_0 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
+		intptr_t L_1 = ___hstring0;
+		NullCheck(L_0);
+		int32_t L_2;
+		L_2 = InterfaceFuncInvoker1< int32_t, intptr_t >::Invoke(9 /* System.Int32 WinRT.Platform/IPlatformLinkage::_WindowsDeleteString(System.IntPtr) */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0, (intptr_t)L_1);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tEBAFAE20369FCB1B38C49C4E27A8D8C2C4B55058_il2cpp_TypeInfo_var);
 		Marshal_ThrowExceptionForHR_m65A384887B0A220FF292CA13F300E6CBEC5780EB(L_2, /*hidden argument*/NULL);
 		return;
@@ -8752,8 +11381,118 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Platform_GetHRForLastWin32Error_mB3E9
 		RuntimeObject* L_0 = ((Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_StaticFields*)il2cpp_codegen_static_fields_for(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var))->get__platformLinkage_0();
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 WinRT.Platform/IPlatformLinkage::_GetHRForLastWin32Error() */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0);
+		L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 WinRT.Platform/IPlatformLinkage::_GetHRForLastWin32Error() */, IPlatformLinkage_tB2BD2EE5F223B3EB20F6CB1CF02D4169B5398A90_il2cpp_TypeInfo_var, L_0);
 		return L_1;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem::.ctor(Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpatialCoordinateSystem__ctor_mEE6D69627932B9B85612AF7165A4B0BBF7C6AD83 (SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * __this, ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * ___interface0, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * L_0 = ___interface0;
+		__this->set__interface_0(L_0);
+		return;
+	}
+}
+// Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem::FromNativePtr(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * SpatialCoordinateSystem_FromNativePtr_m0A678DF7F1C107DCB675075283218C8FE3298483 (intptr_t ___thisPtr0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IObjectReference_As_TisVftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_mED3E66D16B8112B4FA78472C74E48CE15A014549_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectReference_1_FromNativePtr_m0F54B0C2440971F098ED703F993880BB09D1256D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WinrtModule_tAF6EE49994730C8AE82CF6C89969225C4795AA18_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WinrtModule_tAF6EE49994730C8AE82CF6C89969225C4795AA18_il2cpp_TypeInfo_var);
+		ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  L_0;
+		L_0 = WinrtModule_get_Instance_mE5238C758429D4BD1CB6CB9CFDB4D48ED1467EF3(/*hidden argument*/NULL);
+		intptr_t L_1 = ___thisPtr0;
+		ObjectReference_1_t2F073970332376AC7E81E0ED3BED09A8A621C373 * L_2;
+		L_2 = ObjectReference_1_FromNativePtr_m0F54B0C2440971F098ED703F993880BB09D1256D(L_0, (intptr_t)L_1, /*hidden argument*/ObjectReference_1_FromNativePtr_m0F54B0C2440971F098ED703F993880BB09D1256D_RuntimeMethod_var);
+		NullCheck(L_2);
+		ObjectReference_1_t7A8FC194286F3E5A33B2AAC52CE21F574EC2FB19 * L_3;
+		L_3 = IObjectReference_As_TisVftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_mED3E66D16B8112B4FA78472C74E48CE15A014549(L_2, /*hidden argument*/IObjectReference_As_TisVftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_mED3E66D16B8112B4FA78472C74E48CE15A014549_RuntimeMethod_var);
+		ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * L_4;
+		L_4 = ISpatialCoordinateSystem_op_Implicit_mAE55FBFB0EF5425D3B7804FE3AF952708A867F5A(L_3, /*hidden argument*/NULL);
+		SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * L_5 = (SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 *)il2cpp_codegen_object_new(SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18_il2cpp_TypeInfo_var);
+		SpatialCoordinateSystem__ctor_mEE6D69627932B9B85612AF7165A4B0BBF7C6AD83(L_5, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.Nullable`1<System.Numerics.Matrix4x4> Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem::TryGetTransformTo(Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8  SpatialCoordinateSystem_TryGetTransformTo_mC89E8D079760DF95FB11116B2F5B705804599670 (SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * __this, SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * ___other0, const RuntimeMethod* method)
+{
+	{
+		ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * L_0 = __this->get__interface_0();
+		SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * L_1 = ___other0;
+		NullCheck(L_1);
+		ISpatialCoordinateSystem_t3F118FCC76B0E49BC2E432EBA134F5ACB05868BE * L_2 = L_1->get__interface_0();
+		NullCheck(L_0);
+		Nullable_1_t9FF3BE791A3B4350B3DE3D72C440E11029540DD8  L_3;
+		L_3 = ISpatialCoordinateSystem_TryGetTransformTo_m452F9C03EE101008DEA1BCFBD679FA4CF8E34B1B(L_0, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Microsoft.Windows.Perception.Spatial.SpatialCoordinateSystem Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview::CreateCoordinateSystemForNode(System.Guid)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * SpatialGraphInteropPreview_CreateCoordinateSystemForNode_mD639759C857D23B6F04BBDDECA91AED556926FE5 (Guid_t  ___nodeId0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakLazy_1_get_Value_mDEF6DE08A17CF2BA995154926236A3A4E857347B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_il2cpp_TypeInfo_var);
+		WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 * L_0 = ((SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_StaticFields*)il2cpp_codegen_static_fields_for(SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_il2cpp_TypeInfo_var))->get__statics_0();
+		NullCheck(L_0);
+		Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80 * L_1;
+		L_1 = WeakLazy_1_get_Value_mDEF6DE08A17CF2BA995154926236A3A4E857347B(L_0, /*hidden argument*/WeakLazy_1_get_Value_mDEF6DE08A17CF2BA995154926236A3A4E857347B_RuntimeMethod_var);
+		Guid_t  L_2 = ___nodeId0;
+		NullCheck(L_1);
+		SpatialCoordinateSystem_t96FDB0FBA2FF29ED763705B8D3ADB08DC74A3B18 * L_3;
+		L_3 = ISpatialGraphInteropPreviewStatics_CreateCoordinateSystemForNode_mDD9A0D35B7EC5A23C78B01CBE425D920793DC043(L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpatialGraphInteropPreview__cctor_m02FE3A2AA2C67319823370F6574AD5E78908658F (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakLazy_1__ctor_m0F7B3BC9C64E6E2962F3A7AA719EA3C0E62C1F84_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 * L_0 = (WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486 *)il2cpp_codegen_object_new(WeakLazy_1_t566197185139F4D29A59C3D4184E74BC19C6F486_il2cpp_TypeInfo_var);
+		WeakLazy_1__ctor_m0F7B3BC9C64E6E2962F3A7AA719EA3C0E62C1F84(L_0, /*hidden argument*/WeakLazy_1__ctor_m0F7B3BC9C64E6E2962F3A7AA719EA3C0E62C1F84_RuntimeMethod_var);
+		((SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_StaticFields*)il2cpp_codegen_static_fields_for(SpatialGraphInteropPreview_t02FE0CA6B9EBF994B6916D7D2756A97135249853_il2cpp_TypeInfo_var))->set__statics_0(L_0);
+		return;
 	}
 }
 #ifdef __clang__
@@ -8822,6 +11561,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinrtModule__ctor_m89CEE3EBCB9C7D6C8287B
 		L_1 = ModuleReference_Allocate_m823ADD4854E2A858E0936F5B7CDC45D99975D8B0(__this, (intptr_t*)(&V_0), /*hidden argument*/NULL);
 		__this->set__module_0(L_1);
 		return;
+	}
+}
+// WinRT.ObjectReference`1<WinRT.Interop.IActivationFactoryVftbl> WinRT.WinrtModule::GetActivationFactory(WinRT.HString)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626 * WinrtModule_GetActivationFactory_mCEFBB3FA69CD7239A378C82C3FE265742ED87666 (HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A * ___runtimeClassId0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WinrtModule_tAF6EE49994730C8AE82CF6C89969225C4795AA18_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Guid_t  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	intptr_t V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_0 = { reinterpret_cast<intptr_t> (IActivationFactoryVftbl_t68CC98F6482B8148D262BFD554FC39F9744A4C64_0_0_0_var) };
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1;
+		L_1 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_0, /*hidden argument*/NULL);
+		TypeInfo_tFFBAC0D7187BFD2D25CC801679BC9645020EC04F * L_2;
+		L_2 = IntrospectionExtensions_GetTypeInfo_m77034F8576BE695819427C13103C591277C1B636(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Guid_t  L_3;
+		L_3 = VirtFuncInvoker0< Guid_t  >::Invoke(22 /* System.Guid System.Type::get_GUID() */, L_2);
+		V_0 = L_3;
+		HString_tA1F8E5317008814FAA3F4A2A358339A6FE8A616A * L_4 = ___runtimeClassId0;
+		NullCheck(L_4);
+		intptr_t L_5 = L_4->get_Handle_0();
+		IL2CPP_RUNTIME_CLASS_INIT(Platform_t5182C05757C0E260A460F6102C7C816FA13FC437_il2cpp_TypeInfo_var);
+		intptr_t L_6;
+		L_6 = Platform_RoGetActivationFactory_m12230F5A0AA04237DAFB5E78838AFBD387652DB4((intptr_t)L_5, (Guid_t *)(&V_0), /*hidden argument*/NULL);
+		V_1 = (intptr_t)L_6;
+		IL2CPP_RUNTIME_CLASS_INIT(WinrtModule_tAF6EE49994730C8AE82CF6C89969225C4795AA18_il2cpp_TypeInfo_var);
+		ModuleReference_t8329E3AC5CFCD69CA87D52D99DF37497F38495F4  L_7;
+		L_7 = WinrtModule_get_Instance_mE5238C758429D4BD1CB6CB9CFDB4D48ED1467EF3(/*hidden argument*/NULL);
+		ObjectReference_1_tB40D5B00248F0CF048B91BF02790BA28F788A626 * L_8;
+		L_8 = ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847(L_7, (intptr_t*)(&V_1), /*hidden argument*/ObjectReference_1_Attach_m5CDE39FA171C945586E8BB2C5C0934195D7A2847_RuntimeMethod_var);
+		return L_8;
 	}
 }
 // System.Void WinRT.WinrtModule::Finalize()
@@ -9250,6 +12032,125 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _get_PropertyAsEnum_BeginInvok
 }
 // System.Int32 WinRT.Interop._get_PropertyAsEnum::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _get_PropertyAsEnum_EndInvoke_m2DAF281930E1A43EEBF53429EB6B8700F3F84B27 (_get_PropertyAsEnum_tCE51ACBA5B43B55E59BF86A4B06DF14DC5CF48CC * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E (_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * __this, intptr_t ___thisPtr0, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * ___value1, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 *);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___value1);
+
+	return returnValue;
+}
+// System.Void WinRT.Interop._get_PropertyAsMatrix4x4::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _get_PropertyAsMatrix4x4__ctor_m58F7AF192C10E6F0F4D9F229EF33AF0FCB1D664F (_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 WinRT.Interop._get_PropertyAsMatrix4x4::Invoke(System.IntPtr,System.Numerics.Matrix4x4*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _get_PropertyAsMatrix4x4_Invoke_m57B5A93A6FE4371363205650F85B8BAF55B103AE (_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * __this, intptr_t ___thisPtr0, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * ___value1, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 *, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___value1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 *, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___value1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * >::Invoke(targetMethod, targetThis, ___thisPtr0, ___value1);
+					else
+						result = GenericVirtFuncInvoker2< int32_t, intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * >::Invoke(targetMethod, targetThis, ___thisPtr0, ___value1);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker2< int32_t, intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___value1);
+					else
+						result = VirtFuncInvoker2< int32_t, intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___value1);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 *, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___value1, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult WinRT.Interop._get_PropertyAsMatrix4x4::BeginInvoke(System.IntPtr,System.Numerics.Matrix4x4*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _get_PropertyAsMatrix4x4_BeginInvoke_mD8E77CB22E7AE861CF872D1C5141A8A32127670A (_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * __this, intptr_t ___thisPtr0, Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * ___value1, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = ___value1;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);;
+}
+// System.Int32 WinRT.Interop._get_PropertyAsMatrix4x4::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _get_PropertyAsMatrix4x4_EndInvoke_m2F1A94F0651A539E84E449E58ADEA70B372A410D (_get_PropertyAsMatrix4x4_t8CABAA993E102DA6C099C35B491D03725E47853E * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
@@ -9728,6 +12629,244 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _put_PropertyAsEnum_BeginInvok
 }
 // System.Int32 WinRT.Interop._put_PropertyAsEnum::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _put_PropertyAsEnum_EndInvoke_mB290BA0F6628BEBD56FF79180C8EF7E6EC703BA5 (_put_PropertyAsEnum_t3FCDD75B1462F39B75961D1ABB7FF2FEA65546AF * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 (DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * __this, intptr_t ___activatableClassId0, intptr_t* ___activationFactory1, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(intptr_t, intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___activatableClassId0, ___activationFactory1);
+
+	return returnValue;
+}
+// System.Void WinRT.DllModule/DllGetActivationFactory::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DllGetActivationFactory__ctor_mE2BBE1496E4B072AB3D3131CF58DE888B7C8F6C0 (DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 WinRT.DllModule/DllGetActivationFactory::Invoke(System.IntPtr,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DllGetActivationFactory_Invoke_mFA51E7C561DD3EB229B7EE0B32913548F9BFC060 (DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * __this, intptr_t ___activatableClassId0, intptr_t* ___activationFactory1, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___activatableClassId0, ___activationFactory1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___activatableClassId0, ___activationFactory1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___activatableClassId0, ___activationFactory1);
+					else
+						result = GenericVirtFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___activatableClassId0, ___activationFactory1);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___activatableClassId0, ___activationFactory1);
+					else
+						result = VirtFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___activatableClassId0, ___activationFactory1);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___activatableClassId0, ___activationFactory1, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult WinRT.DllModule/DllGetActivationFactory::BeginInvoke(System.IntPtr,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DllGetActivationFactory_BeginInvoke_m202F9CC700043A0F66DC0C382F1BA92ECD489FFF (DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * __this, intptr_t ___activatableClassId0, intptr_t* ___activationFactory1, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___activatableClassId0);
+	__d_args[1] = ___activationFactory1;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);;
+}
+// System.Int32 WinRT.DllModule/DllGetActivationFactory::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DllGetActivationFactory_EndInvoke_m999CAC77AB75F2625084CE1184DAAA56B35A10BB (DllGetActivationFactory_tAF1B4263A820500BD5FC229559806F07806BD137 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 (_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * __this, intptr_t ___pThis0, intptr_t* ___instance1, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___pThis0, ___instance1);
+
+	return returnValue;
+}
+// System.Void WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _ActivateInstance__ctor_m6834F93E8F8DEE766D78C3E9F8CCF6BD6A8E561E (_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance::Invoke(System.IntPtr,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _ActivateInstance_Invoke_m04508E9FDBBEC5754A8BE719967B8FFF4ABE33F9 (_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * __this, intptr_t ___pThis0, intptr_t* ___instance1, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___pThis0, ___instance1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pThis0, ___instance1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___pThis0, ___instance1);
+					else
+						result = GenericVirtFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___pThis0, ___instance1);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pThis0, ___instance1);
+					else
+						result = VirtFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pThis0, ___instance1);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pThis0, ___instance1, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance::BeginInvoke(System.IntPtr,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _ActivateInstance_BeginInvoke_m49EF63A08DACEB3BAE84B6B7FE18EAAEBA1BBEA3 (_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * __this, intptr_t ___pThis0, intptr_t* ___instance1, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pThis0);
+	__d_args[1] = ___instance1;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);;
+}
+// System.Int32 WinRT.Interop.IActivationFactoryVftbl/_ActivateInstance::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _ActivateInstance_EndInvoke_m409E18FDF492C5EE9A36EF2AD730C251647ECCE1 (_ActivateInstance_t47171634341ECCC9B62136B102AEBE2F4C882BE9 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
@@ -11402,6 +14541,222 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _MoveNext_EndInvoke_m056108C61C5EEB9F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+
+
+// Conversion methods for marshalling of: Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshal_pinvoke(const Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631& unmarshaled, Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___TryGetTransformTo_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryGetTransformTo_1()));
+}
+IL2CPP_EXTERN_C void Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshal_pinvoke_back(const Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_pinvoke& marshaled, Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_TryGetTransformTo_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C>(marshaled.___TryGetTransformTo_1, _TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshal_pinvoke_cleanup(Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_cleanup(marshaled.___IInspectableVftbl_0);
+}
+
+
+// Conversion methods for marshalling of: Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshal_com(const Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631& unmarshaled, Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___TryGetTransformTo_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryGetTransformTo_1()));
+}
+IL2CPP_EXTERN_C void Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshal_com_back(const Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_com& marshaled, Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_TryGetTransformTo_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C>(marshaled.___TryGetTransformTo_1, _TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshal_com_cleanup(Vftbl_t30A50FA94C1A6051849B48AACCF08FDF4CD99631_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_cleanup(marshaled.___IInspectableVftbl_0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+
+// Conversion methods for marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshal_pinvoke(const Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92& unmarshaled, Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___CreateCoordinateSystemForNode_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateCoordinateSystemForNode_1()));
+	marshaled.___CreateCoordinateSystemForNodeWithPosition_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateCoordinateSystemForNodeWithPosition_2()));
+	marshaled.___CreateCoordinateSystemForNodeWithPositionAndOrientation_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateCoordinateSystemForNodeWithPositionAndOrientation_3()));
+	marshaled.___CreateLocatorForNode_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateLocatorForNode_4()));
+}
+IL2CPP_EXTERN_C void Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshal_pinvoke_back(const Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_pinvoke& marshaled, Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_CreateCoordinateSystemForNode_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2>(marshaled.___CreateCoordinateSystemForNode_1, _CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2_il2cpp_TypeInfo_var));
+	unmarshaled.set_CreateCoordinateSystemForNodeWithPosition_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229>(marshaled.___CreateCoordinateSystemForNodeWithPosition_2, _CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229_il2cpp_TypeInfo_var));
+	unmarshaled.set_CreateCoordinateSystemForNodeWithPositionAndOrientation_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0>(marshaled.___CreateCoordinateSystemForNodeWithPositionAndOrientation_3, _CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0_il2cpp_TypeInfo_var));
+	unmarshaled.set_CreateLocatorForNode_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81>(marshaled.___CreateLocatorForNode_4, _CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshal_pinvoke_cleanup(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_cleanup(marshaled.___IInspectableVftbl_0);
+}
+
+
+// Conversion methods for marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshal_com(const Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92& unmarshaled, Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___CreateCoordinateSystemForNode_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateCoordinateSystemForNode_1()));
+	marshaled.___CreateCoordinateSystemForNodeWithPosition_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateCoordinateSystemForNodeWithPosition_2()));
+	marshaled.___CreateCoordinateSystemForNodeWithPositionAndOrientation_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateCoordinateSystemForNodeWithPositionAndOrientation_3()));
+	marshaled.___CreateLocatorForNode_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_CreateLocatorForNode_4()));
+}
+IL2CPP_EXTERN_C void Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshal_com_back(const Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_com& marshaled, Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_CreateCoordinateSystemForNode_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2>(marshaled.___CreateCoordinateSystemForNode_1, _CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2_il2cpp_TypeInfo_var));
+	unmarshaled.set_CreateCoordinateSystemForNodeWithPosition_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229>(marshaled.___CreateCoordinateSystemForNodeWithPosition_2, _CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229_il2cpp_TypeInfo_var));
+	unmarshaled.set_CreateCoordinateSystemForNodeWithPositionAndOrientation_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0>(marshaled.___CreateCoordinateSystemForNodeWithPositionAndOrientation_3, _CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0_il2cpp_TypeInfo_var));
+	unmarshaled.set_CreateLocatorForNode_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81>(marshaled.___CreateLocatorForNode_4, _CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshal_com_cleanup(Vftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_cleanup(marshaled.___IInspectableVftbl_0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+
+// Conversion methods for marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshal_pinvoke(const Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C& unmarshaled, Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___TryCreateFrameOfReference_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryCreateFrameOfReference_1()));
+	marshaled.___TryCreateFrameOfReferenceWithPosition_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryCreateFrameOfReferenceWithPosition_2()));
+	marshaled.___TryCreateFrameOfReferenceWithPositionAndOrientation_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryCreateFrameOfReferenceWithPositionAndOrientation_3()));
+}
+IL2CPP_EXTERN_C void Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshal_pinvoke_back(const Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_pinvoke& marshaled, Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_TryCreateFrameOfReference_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A>(marshaled.___TryCreateFrameOfReference_1, _TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A_il2cpp_TypeInfo_var));
+	unmarshaled.set_TryCreateFrameOfReferenceWithPosition_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E>(marshaled.___TryCreateFrameOfReferenceWithPosition_2, _TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E_il2cpp_TypeInfo_var));
+	unmarshaled.set_TryCreateFrameOfReferenceWithPositionAndOrientation_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617>(marshaled.___TryCreateFrameOfReferenceWithPositionAndOrientation_3, _TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshal_pinvoke_cleanup(Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_pinvoke& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_pinvoke_cleanup(marshaled.___IInspectableVftbl_0);
+}
+
+
+// Conversion methods for marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshal_com(const Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C& unmarshaled, Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com(unmarshaled.get_IInspectableVftbl_0(), marshaled.___IInspectableVftbl_0);
+	marshaled.___TryCreateFrameOfReference_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryCreateFrameOfReference_1()));
+	marshaled.___TryCreateFrameOfReferenceWithPosition_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryCreateFrameOfReferenceWithPosition_2()));
+	marshaled.___TryCreateFrameOfReferenceWithPositionAndOrientation_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TryCreateFrameOfReferenceWithPositionAndOrientation_3()));
+}
+IL2CPP_EXTERN_C void Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshal_com_back(const Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_com& marshaled, Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C  unmarshaled_IInspectableVftbl_temp_0;
+	memset((&unmarshaled_IInspectableVftbl_temp_0), 0, sizeof(unmarshaled_IInspectableVftbl_temp_0));
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_back(marshaled.___IInspectableVftbl_0, unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_IInspectableVftbl_0(unmarshaled_IInspectableVftbl_temp_0);
+	unmarshaled.set_TryCreateFrameOfReference_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A>(marshaled.___TryCreateFrameOfReference_1, _TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A_il2cpp_TypeInfo_var));
+	unmarshaled.set_TryCreateFrameOfReferenceWithPosition_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E>(marshaled.___TryCreateFrameOfReferenceWithPosition_2, _TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E_il2cpp_TypeInfo_var));
+	unmarshaled.set_TryCreateFrameOfReferenceWithPositionAndOrientation_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617>(marshaled.___TryCreateFrameOfReferenceWithPositionAndOrientation_3, _TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl
+IL2CPP_EXTERN_C void Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshal_com_cleanup(Vftbl_t900E73F6AAE3568BA364A959D92EA5BAA1A4E38C_marshaled_com& marshaled)
+{
+	IInspectableVftbl_t1155C49D26562BDBA6C6E8DCCB41324D7D553C3C_marshal_com_cleanup(marshaled.___IInspectableVftbl_0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C  uint32_t DelegatePInvokeWrapper__AddRef_tC0E15E1F58A4D4F881282EB5F68ECC6F5EC11450 (_AddRef_tC0E15E1F58A4D4F881282EB5F68ECC6F5EC11450 * __this, intptr_t ___pThis0, const RuntimeMethod* method)
 {
 	typedef uint32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t);
@@ -12499,6 +15854,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage__AddDllDirectory_m5B9C1
 		return L_1;
 	}
 }
+// System.IntPtr WinRT.Platform/DotNETLinkage::_LoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DotNETLinkage__LoadLibraryExW_m59B46477F7437E2EAAB119511E2E09167FE2F0CD (DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0C333C * __this, String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___fileName0;
+		intptr_t L_1 = ___fileHandle1;
+		uint32_t L_2 = ___flags2;
+		intptr_t L_3;
+		L_3 = DotNETLinkage_LoadLibraryExW_mF2B32E0CFF6DBCDC76FE0551F1028F8DC447617A(L_0, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
+		return (intptr_t)L_3;
+	}
+}
 // System.Boolean WinRT.Platform/DotNETLinkage::_FreeLibrary(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DotNETLinkage__FreeLibrary_m6AE54C6301BC18859C12BA73CF6530B2E010891B (DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0C333C * __this, intptr_t ___moduleHandle0, const RuntimeMethod* method)
 {
@@ -12507,6 +15874,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DotNETLinkage__FreeLibrary_m6AE54C6301BC
 		bool L_1;
 		L_1 = DotNETLinkage_FreeLibrary_mE8C5C4D743E74166C019AB248497FFA9FC0B6570((intptr_t)L_0, /*hidden argument*/NULL);
 		return L_1;
+	}
+}
+// System.IntPtr WinRT.Platform/DotNETLinkage::_GetProcAddress(System.IntPtr,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DotNETLinkage__GetProcAddress_mD38266944538A93035DFEB6691B9F388DA1A03FC (DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0C333C * __this, intptr_t ___moduleHandle0, String_t* ___functionName1, const RuntimeMethod* method)
+{
+	{
+		intptr_t L_0 = ___moduleHandle0;
+		String_t* L_1 = ___functionName1;
+		intptr_t L_2;
+		L_2 = DotNETLinkage_GetProcAddress_mDC88FF50086E38A5B72EF0DD95B80493A0EA46C2((intptr_t)L_0, L_1, /*hidden argument*/NULL);
+		return (intptr_t)L_2;
 	}
 }
 // System.Int32 WinRT.Platform/DotNETLinkage::_CoIncrementMTAUsage(System.IntPtr*)
@@ -12527,6 +15905,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage__CoDecrementMTAUsage_mB
 		int32_t L_1;
 		L_1 = DotNETLinkage_CoDecrementMTAUsage_m8110AEE595D1A18223F248808F93B0DBE9F6E9BF((intptr_t)L_0, /*hidden argument*/NULL);
 		return L_1;
+	}
+}
+// System.Int32 WinRT.Platform/DotNETLinkage::_RoGetActivationFactory(System.IntPtr,System.Guid&,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage__RoGetActivationFactory_mBAA0FDFF34C839B555B086482F48453FFE93E5F5 (DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0C333C * __this, intptr_t ___runtimeClassId0, Guid_t * ___iid1, intptr_t* ___factory2, const RuntimeMethod* method)
+{
+	{
+		intptr_t L_0 = ___runtimeClassId0;
+		Guid_t * L_1 = ___iid1;
+		intptr_t* L_2 = ___factory2;
+		int32_t L_3;
+		L_3 = DotNETLinkage_RoGetActivationFactory_m83E0DC451F51051ED83B42042B7AD0F8B351DD9E((intptr_t)L_0, (Guid_t *)L_1, (intptr_t*)(intptr_t*)L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Int32 WinRT.Platform/DotNETLinkage::_WindowsCreateString(System.String,System.Int32,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage__WindowsCreateString_m5D8ACE884C7C505B461D181EF81AA2429EA467DB (DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0C333C * __this, String_t* ___sourceString0, int32_t ___length1, intptr_t* ___hstring2, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___sourceString0;
+		int32_t L_1 = ___length1;
+		intptr_t* L_2 = ___hstring2;
+		int32_t L_3;
+		L_3 = DotNETLinkage_WindowsCreateString_m8F5C90D9DE60ED782B84E440BFEDD79B74C9CC14(L_0, L_1, (intptr_t*)(intptr_t*)L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Char* WinRT.Platform/DotNETLinkage::_WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* DotNETLinkage__WindowsGetStringRawBuffer_m5AAD99E4D78F9289FED8B660E723B7EABAFF4AEE (DotNETLinkage_tC27EF5D96A2E40A9319C537B53CE90D70A0C333C * __this, intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method)
+{
+	{
+		intptr_t L_0 = ___hstring0;
+		uint32_t* L_1 = ___length1;
+		Il2CppChar* L_2;
+		L_2 = DotNETLinkage_WindowsGetStringRawBuffer_m589374B27BD2E12B33A93DCB3CBC3813C2005349((intptr_t)L_0, (uint32_t*)(uint32_t*)L_1, /*hidden argument*/NULL);
+		return (Il2CppChar*)(L_2);
 	}
 }
 // System.Int32 WinRT.Platform/DotNETLinkage::_WindowsDeleteString(System.IntPtr)
@@ -12586,6 +15999,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_AddDllDirectory_mE66F48
 
 	return returnValue;
 }
+// System.IntPtr WinRT.Platform/DotNETLinkage::LoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DotNETLinkage_LoadLibraryExW_mF2B32E0CFF6DBCDC76FE0551F1028F8DC447617A (String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (Il2CppChar*, intptr_t, uint32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_kernel32_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Il2CppChar*) + sizeof(intptr_t) + sizeof(uint32_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("kernel32.dll"), "LoadLibraryExW", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___fileName0' to native representation
+	Il2CppChar* ____fileName0_marshaled = NULL;
+	if (___fileName0 != NULL)
+	{
+		____fileName0_marshaled = ___fileName0->get_address_of_m_firstChar_1();
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_kernel32_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(LoadLibraryExW)(____fileName0_marshaled, ___fileHandle1, ___flags2);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(____fileName0_marshaled, ___fileHandle1, ___flags2);
+	#endif
+	il2cpp_codegen_marshal_store_last_error();
+
+	return returnValue;
+}
 // System.Boolean WinRT.Platform/DotNETLinkage::FreeLibrary(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DotNETLinkage_FreeLibrary_mE8C5C4D743E74166C019AB248497FFA9FC0B6570 (intptr_t ___moduleHandle0, const RuntimeMethod* method)
 {
@@ -12609,6 +16053,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DotNETLinkage_FreeLibrary_mE8C5C4D743E74
 	il2cpp_codegen_marshal_store_last_error();
 
 	return static_cast<bool>(returnValue);
+}
+// System.IntPtr WinRT.Platform/DotNETLinkage::GetProcAddress(System.IntPtr,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DotNETLinkage_GetProcAddress_mDC88FF50086E38A5B72EF0DD95B80493A0EA46C2 (intptr_t ___moduleHandle0, String_t* ___functionName1, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_kernel32_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("kernel32.dll"), "GetProcAddress", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___functionName1' to native representation
+	char* ____functionName1_marshaled = NULL;
+	____functionName1_marshaled = il2cpp_codegen_marshal_string(___functionName1);
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_kernel32_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GetProcAddress)(___moduleHandle0, ____functionName1_marshaled);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___moduleHandle0, ____functionName1_marshaled);
+	#endif
+	il2cpp_codegen_marshal_store_last_error();
+
+	// Marshaling cleanup of parameter '___functionName1' native representation
+	il2cpp_codegen_marshal_free(____functionName1_marshaled);
+	____functionName1_marshaled = NULL;
+
+	return returnValue;
 }
 // System.Int32 WinRT.Platform/DotNETLinkage::CoIncrementMTAUsage(System.IntPtr*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_CoIncrementMTAUsage_m6D7291D25ED726801844B693E99B0807EFD53212 (intptr_t* ___cookie0, const RuntimeMethod* method)
@@ -12652,6 +16128,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_CoDecrementMTAUsage_m81
 	int32_t returnValue = reinterpret_cast<PInvokeFunc>(CoDecrementMTAUsage)(___cookie0);
 	#else
 	int32_t returnValue = il2cppPInvokeFunc(___cookie0);
+	#endif
+
+	return returnValue;
+}
+// System.Int32 WinRT.Platform/DotNETLinkage::RoGetActivationFactory(System.IntPtr,System.Guid&,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_RoGetActivationFactory_m83E0DC451F51051ED83B42042B7AD0F8B351DD9E (intptr_t ___runtimeClassId0, Guid_t * ___iid1, intptr_t* ___factory2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, Guid_t *, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_api_ms_win_core_winrt_l1_1_0_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(Guid_t *) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("api-ms-win-core-winrt-l1-1-0.dll"), "RoGetActivationFactory", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_winrt_l1_1_0_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(RoGetActivationFactory)(___runtimeClassId0, ___iid1, ___factory2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___runtimeClassId0, ___iid1, ___factory2);
+	#endif
+
+	return returnValue;
+}
+// System.Int32 WinRT.Platform/DotNETLinkage::WindowsCreateString(System.String,System.Int32,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DotNETLinkage_WindowsCreateString_m8F5C90D9DE60ED782B84E440BFEDD79B74C9CC14 (String_t* ___sourceString0, int32_t ___length1, intptr_t* ___hstring2, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc) (Il2CppChar*, int32_t, intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_api_ms_win_core_winrt_string_l1_1_0_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(Il2CppChar*) + sizeof(int32_t) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("api-ms-win-core-winrt-string-l1-1-0.dll"), "WindowsCreateString", IL2CPP_CALL_STDCALL, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Marshaling of parameter '___sourceString0' to native representation
+	Il2CppChar* ____sourceString0_marshaled = NULL;
+	if (___sourceString0 != NULL)
+	{
+		____sourceString0_marshaled = ___sourceString0->get_address_of_m_firstChar_1();
+	}
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_winrt_string_l1_1_0_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(WindowsCreateString)(____sourceString0_marshaled, ___length1, ___hstring2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____sourceString0_marshaled, ___length1, ___hstring2);
+	#endif
+
+	return returnValue;
+}
+// System.Char* WinRT.Platform/DotNETLinkage::WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* DotNETLinkage_WindowsGetStringRawBuffer_m589374B27BD2E12B33A93DCB3CBC3813C2005349 (intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method)
+{
+	typedef Il2CppChar* (STDCALL *PInvokeFunc) (intptr_t, uint32_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_api_ms_win_core_winrt_string_l1_1_0_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t) + sizeof(uint32_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("api-ms-win-core-winrt-string-l1-1-0.dll"), "WindowsGetStringRawBuffer", IL2CPP_CALL_STDCALL, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_api_ms_win_core_winrt_string_l1_1_0_INTERNAL
+	Il2CppChar* returnValue = reinterpret_cast<PInvokeFunc>(WindowsGetStringRawBuffer)(___hstring0, ___length1);
+	#else
+	Il2CppChar* returnValue = il2cppPInvokeFunc(___hstring0, ___length1);
 	#endif
 
 	return returnValue;
@@ -12704,6 +16256,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage__AddDllDirectory_mC6645
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IL2CPPLinkage__AddDllDirectory_mC6645F42E60CF07B2C454882870749F17D487728_RuntimeMethod_var)));
 	}
 }
+// System.IntPtr WinRT.Platform/IL2CPPLinkage::_LoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IL2CPPLinkage__LoadLibraryExW_m50B22DDCAE1BD0E9F25F1A75A2FE8DDF15735340 (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___fileName0;
+		intptr_t L_1 = ___fileHandle1;
+		uint32_t L_2 = ___flags2;
+		intptr_t L_3;
+		L_3 = IL2CPPLinkage_LoadLibraryExW_mF334071B2A48242CC3FBDDD912309A6C2ADDA667(L_0, (intptr_t)L_1, L_2, /*hidden argument*/NULL);
+		return (intptr_t)L_3;
+	}
+}
 // System.Boolean WinRT.Platform/IL2CPPLinkage::_FreeLibrary(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IL2CPPLinkage__FreeLibrary_m392F40EBD95464E01776CFBDF5CF9B79AB489AD8 (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, intptr_t ___moduleHandle0, const RuntimeMethod* method)
 {
@@ -12712,6 +16276,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IL2CPPLinkage__FreeLibrary_m392F40EBD954
 		bool L_1;
 		L_1 = IL2CPPLinkage_FreeLibrary_m564BE7F1BDA65F5CD03D79E9D69C73C04CD01856((intptr_t)L_0, /*hidden argument*/NULL);
 		return L_1;
+	}
+}
+// System.IntPtr WinRT.Platform/IL2CPPLinkage::_GetProcAddress(System.IntPtr,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IL2CPPLinkage__GetProcAddress_m662AD9C60E936F861985AB955A8A2CA82B55EFA3 (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, intptr_t ___moduleHandle0, String_t* ___functionName1, const RuntimeMethod* method)
+{
+	{
+		intptr_t L_0 = ___moduleHandle0;
+		String_t* L_1 = ___functionName1;
+		intptr_t L_2;
+		L_2 = IL2CPPLinkage_GetProcAddress_m2222DE83F79F2D95B6CF6337826F9DF96C091C82((intptr_t)L_0, L_1, /*hidden argument*/NULL);
+		return (intptr_t)L_2;
 	}
 }
 // System.Int32 WinRT.Platform/IL2CPPLinkage::_CoIncrementMTAUsage(System.IntPtr*)
@@ -12734,6 +16309,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage__CoDecrementMTAUsage_m9
 		return L_1;
 	}
 }
+// System.Int32 WinRT.Platform/IL2CPPLinkage::_RoGetActivationFactory(System.IntPtr,System.Guid&,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage__RoGetActivationFactory_m5EF6995918E2BEC312DCDC1C313C938404DFE462 (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, intptr_t ___runtimeClassId0, Guid_t * ___iid1, intptr_t* ___factory2, const RuntimeMethod* method)
+{
+	{
+		intptr_t L_0 = ___runtimeClassId0;
+		Guid_t * L_1 = ___iid1;
+		intptr_t* L_2 = ___factory2;
+		int32_t L_3;
+		L_3 = IL2CPPLinkage_RoGetActivationFactory_m2B40B4F9BCCEC8F1DB5A53B90F5353ADB99D9444((intptr_t)L_0, (Guid_t *)L_1, (intptr_t*)(intptr_t*)L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Int32 WinRT.Platform/IL2CPPLinkage::_WindowsCreateString(System.String,System.Int32,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage__WindowsCreateString_m47337CDB60826265F9E977D406F821D138A90C8B (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, String_t* ___sourceString0, int32_t ___length1, intptr_t* ___hstring2, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___sourceString0;
+		int32_t L_1 = ___length1;
+		intptr_t* L_2 = ___hstring2;
+		int32_t L_3;
+		L_3 = IL2CPPLinkage_WindowsCreateString_mF8C372F4324117FB7E22FC783B32FE3A5A8F6B3D(L_0, L_1, (intptr_t*)(intptr_t*)L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Char* WinRT.Platform/IL2CPPLinkage::_WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* IL2CPPLinkage__WindowsGetStringRawBuffer_m8EC77E2BC1035DB47B10167C990898B29321E304 (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method)
+{
+	{
+		intptr_t L_0 = ___hstring0;
+		uint32_t* L_1 = ___length1;
+		Il2CppChar* L_2;
+		L_2 = IL2CPPLinkage_WindowsGetStringRawBuffer_m457CE94434B5501B449D64C0F3A4B53BB38887FA((intptr_t)L_0, (uint32_t*)(uint32_t*)L_1, /*hidden argument*/NULL);
+		return (Il2CppChar*)(L_2);
+	}
+}
 // System.Int32 WinRT.Platform/IL2CPPLinkage::_WindowsDeleteString(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage__WindowsDeleteString_mFEFDAB04BA3BD338DD338EDE34C43503B6D3DE12 (IL2CPPLinkage_tC38C6B1B34FD1370D32D1F78696BEA5363A3F89E * __this, intptr_t ___hstring0, const RuntimeMethod* method)
 {
@@ -12751,6 +16361,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage__GetHRForLastWin32Error
 		return ((int32_t)-2147467259);
 	}
 }
+// System.IntPtr WinRT.Platform/IL2CPPLinkage::LoadLibraryExW(System.String,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IL2CPPLinkage_LoadLibraryExW_mF334071B2A48242CC3FBDDD912309A6C2ADDA667 (String_t* ___fileName0, intptr_t ___fileHandle1, uint32_t ___flags2, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (Il2CppChar*, intptr_t, uint32_t);
+
+	// Marshaling of parameter '___fileName0' to native representation
+	Il2CppChar* ____fileName0_marshaled = NULL;
+	if (___fileName0 != NULL)
+	{
+		____fileName0_marshaled = ___fileName0->get_address_of_m_firstChar_1();
+	}
+
+	// Native function invocation
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(LoadLibraryExW)(____fileName0_marshaled, ___fileHandle1, ___flags2);
+	il2cpp_codegen_marshal_store_last_error();
+
+	return returnValue;
+}
 // System.Boolean WinRT.Platform/IL2CPPLinkage::FreeLibrary(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IL2CPPLinkage_FreeLibrary_m564BE7F1BDA65F5CD03D79E9D69C73C04CD01856 (intptr_t ___moduleHandle0, const RuntimeMethod* method)
 {
@@ -12761,6 +16389,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IL2CPPLinkage_FreeLibrary_m564BE7F1BDA65
 	il2cpp_codegen_marshal_store_last_error();
 
 	return static_cast<bool>(returnValue);
+}
+// System.IntPtr WinRT.Platform/IL2CPPLinkage::GetProcAddress(System.IntPtr,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IL2CPPLinkage_GetProcAddress_m2222DE83F79F2D95B6CF6337826F9DF96C091C82 (intptr_t ___moduleHandle0, String_t* ___functionName1, const RuntimeMethod* method)
+{
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, char*);
+
+	// Marshaling of parameter '___functionName1' to native representation
+	char* ____functionName1_marshaled = NULL;
+	____functionName1_marshaled = il2cpp_codegen_marshal_string(___functionName1);
+
+	// Native function invocation
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GetProcAddress)(___moduleHandle0, ____functionName1_marshaled);
+	il2cpp_codegen_marshal_store_last_error();
+
+	// Marshaling cleanup of parameter '___functionName1' native representation
+	il2cpp_codegen_marshal_free(____functionName1_marshaled);
+	____functionName1_marshaled = NULL;
+
+	return returnValue;
 }
 // System.Int32 WinRT.Platform/IL2CPPLinkage::CoIncrementMTAUsage(System.IntPtr*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_CoIncrementMTAUsage_mAA95B50D81874C9EB7AC4ED53F57F0E3213E6ABC (intptr_t* ___cookie0, const RuntimeMethod* method)
@@ -12782,6 +16429,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_CoDecrementMTAUsage_m25
 
 	return returnValue;
 }
+// System.Int32 WinRT.Platform/IL2CPPLinkage::RoGetActivationFactory(System.IntPtr,System.Guid&,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_RoGetActivationFactory_m2B40B4F9BCCEC8F1DB5A53B90F5353ADB99D9444 (intptr_t ___runtimeClassId0, Guid_t * ___iid1, intptr_t* ___factory2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, Guid_t *, intptr_t*);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(RoGetActivationFactory)(___runtimeClassId0, ___iid1, ___factory2);
+
+	return returnValue;
+}
+// System.Int32 WinRT.Platform/IL2CPPLinkage::WindowsCreateString(System.String,System.Int32,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_WindowsCreateString_mF8C372F4324117FB7E22FC783B32FE3A5A8F6B3D (String_t* ___sourceString0, int32_t ___length1, intptr_t* ___hstring2, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc) (Il2CppChar*, int32_t, intptr_t*);
+
+	// Marshaling of parameter '___sourceString0' to native representation
+	Il2CppChar* ____sourceString0_marshaled = NULL;
+	if (___sourceString0 != NULL)
+	{
+		____sourceString0_marshaled = ___sourceString0->get_address_of_m_firstChar_1();
+	}
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(WindowsCreateString)(____sourceString0_marshaled, ___length1, ___hstring2);
+
+	return returnValue;
+}
+// System.Char* WinRT.Platform/IL2CPPLinkage::WindowsGetStringRawBuffer(System.IntPtr,System.UInt32*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* IL2CPPLinkage_WindowsGetStringRawBuffer_m457CE94434B5501B449D64C0F3A4B53BB38887FA (intptr_t ___hstring0, uint32_t* ___length1, const RuntimeMethod* method)
+{
+	typedef Il2CppChar* (STDCALL *PInvokeFunc) (intptr_t, uint32_t*);
+
+	// Native function invocation
+	Il2CppChar* returnValue = reinterpret_cast<PInvokeFunc>(WindowsGetStringRawBuffer)(___hstring0, ___length1);
+
+	return returnValue;
+}
 // System.Int32 WinRT.Platform/IL2CPPLinkage::WindowsDeleteString(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IL2CPPLinkage_WindowsDeleteString_m98BD084D27A169898F2B6C71CBD0B2C7ECD4EFFE (intptr_t ___hstring0, const RuntimeMethod* method)
 {
@@ -12798,6 +16482,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IL2CPPLinkage__ctor_m663230512BC68A9D031
 	{
 		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
 		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Statics__ctor_m91803B017619FC966CE80DE1213C07D4121A3B55 (Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActivationFactory_1_As_TisVftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_mB75038F8281B3BC6C44CDAE2C2D3513F78A933FD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActivationFactory_1_t25EF52493397407C71C0613FF68A2C45A809E004_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1__ctor_mBC25E9203E59B92104A41FF6D5171B832EECC093_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Lazy_1__ctor_mAAB67BA0C93C4F4437EE5F8F6F4DB900D351C9D8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Statics_U3C_ctorU3Eb__1_0_mA09F5882EF5FB3F89784960ECAE7E67CAC73628B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(ActivationFactory_1_t25EF52493397407C71C0613FF68A2C45A809E004_il2cpp_TypeInfo_var);
+		ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * L_0;
+		L_0 = ActivationFactory_1_As_TisVftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_mB75038F8281B3BC6C44CDAE2C2D3513F78A933FD(/*hidden argument*/ActivationFactory_1_As_TisVftbl_t097C0E2CEE3B28EBD68CD5BE56F18BF19A129C92_mB75038F8281B3BC6C44CDAE2C2D3513F78A933FD_RuntimeMethod_var);
+		ISpatialGraphInteropPreviewStatics__ctor_m2B9088F4C4EDAE87135A1C0A23F2E1260FF0E0D6(__this, L_0, /*hidden argument*/NULL);
+		Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C * L_1 = (Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C *)il2cpp_codegen_object_new(Func_1_tFB6D35392A88755027356A9351FA509610EA6B3C_il2cpp_TypeInfo_var);
+		Func_1__ctor_mBC25E9203E59B92104A41FF6D5171B832EECC093(L_1, __this, (intptr_t)((intptr_t)Statics_U3C_ctorU3Eb__1_0_mA09F5882EF5FB3F89784960ECAE7E67CAC73628B_RuntimeMethod_var), /*hidden argument*/Func_1__ctor_mBC25E9203E59B92104A41FF6D5171B832EECC093_RuntimeMethod_var);
+		Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 * L_2 = (Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8 *)il2cpp_codegen_object_new(Lazy_1_t690F859CDFB1F914D0FF1F3E518DB8A06516B5C8_il2cpp_TypeInfo_var);
+		Lazy_1__ctor_mAAB67BA0C93C4F4437EE5F8F6F4DB900D351C9D8(L_2, L_1, /*hidden argument*/Lazy_1__ctor_mAAB67BA0C93C4F4437EE5F8F6F4DB900D351C9D8_RuntimeMethod_var);
+		__this->set__interface2_1(L_2);
+		return;
+	}
+}
+// Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2 Microsoft.Windows.Perception.Spatial.Preview.SpatialGraphInteropPreview/Statics::<.ctor>b__1_0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * Statics_U3C_ctorU3Eb__1_0_mA09F5882EF5FB3F89784960ECAE7E67CAC73628B (Statics_tD5F5532404CB0A0C0FEBFE10034BE42368D3EE80 * __this, const RuntimeMethod* method)
+{
+	{
+		ObjectReference_1_t0C9B7CF7160343151971D175AA5DD319DB4587FE * L_0 = ((ISpatialGraphInteropPreviewStatics_t1E3519F081EDCB3B6032857A7C29A2707A576CB8 *)__this)->get__obj_0();
+		ISpatialGraphInteropPreviewStatics2_tFBDC9E786A6E29C38F9149A73AF2D58FDC50CCC4 * L_1;
+		L_1 = ISpatialGraphInteropPreviewStatics2_op_Implicit_m8E1C1535E211E9063E923764CAF3E5686BA5E64A(L_0, /*hidden argument*/NULL);
+		return L_1;
 	}
 }
 #ifdef __clang__
@@ -12923,3 +16653,1000 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetRenderingParameters_EndInvoke_mC7
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C (_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * __this, intptr_t ___thisPtr0, intptr_t ___targetPtr1, intptr_t* ___value2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, intptr_t, intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___targetPtr1, ___value2);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _TryGetTransformTo__ctor_m82CDC4E2FD3DF12C081E00F9E33B6756B5A8651A (_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo::Invoke(System.IntPtr,System.IntPtr,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryGetTransformTo_Invoke_m5F786A8E4AF8A307D342F06F71108E3C77F192D0 (_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * __this, intptr_t ___thisPtr0, intptr_t ___targetPtr1, intptr_t* ___value2, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___targetPtr1, ___value2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___targetPtr1, ___value2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___targetPtr1, ___value2);
+					else
+						result = GenericVirtFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___targetPtr1, ___value2);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___targetPtr1, ___value2);
+					else
+						result = VirtFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___targetPtr1, ___value2);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___targetPtr1, ___value2, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _TryGetTransformTo_BeginInvoke_m96CFC32AF78D88E028F50E49E7014C2B3918638F (_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * __this, intptr_t ___thisPtr0, intptr_t ___targetPtr1, intptr_t* ___value2, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___targetPtr1);
+	__d_args[2] = ___value2;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.ISpatialCoordinateSystem/Vftbl/_TryGetTransformTo::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryGetTransformTo_EndInvoke_m16D2679418713B42A1CA824776986E556790AD7D (_TryGetTransformTo_tCC302BE88FDD110744B4C4C136DB6334565F4F6C * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 (_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, Guid_t , intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___nodeId1, ___result2);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _CreateCoordinateSystemForNode__ctor_mA13B19BC32D3DA51628E16507493974D4B3DA76F (_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode::Invoke(System.IntPtr,System.Guid,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateCoordinateSystemForNode_Invoke_m6E136873341E382E129C5B5199837375F5D01CFB (_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, Guid_t , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___nodeId1, ___result2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___result2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___result2);
+					else
+						result = GenericVirtFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___result2);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___result2);
+					else
+						result = VirtFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___result2);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___result2, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode::BeginInvoke(System.IntPtr,System.Guid,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _CreateCoordinateSystemForNode_BeginInvoke_mFA6E9C601B5070CE08A483041200F7F819ACCBB1 (_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, intptr_t* ___result2, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Guid_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(Guid_t_il2cpp_TypeInfo_var, &___nodeId1);
+	__d_args[2] = ___result2;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNode::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateCoordinateSystemForNode_EndInvoke_m0BFB11FE27D899EA79E106A63E1D233934F52EA0 (_CreateCoordinateSystemForNode_tACB1A0F73554268BA8EEB7EBE3F5D21EF2BC01E2 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 (_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, intptr_t* ___result3, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___nodeId1, ___position2, ___result3);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPosition::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _CreateCoordinateSystemForNodeWithPosition__ctor_mAAA08AC69EB012EB00FF870603A7B8EC31EBE3A3 (_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPosition::Invoke(System.IntPtr,System.Guid,System.Numerics.Vector3,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateCoordinateSystemForNodeWithPosition_Invoke_m45C2C88BC49F47C32A42D835432FE3A00C15BCA3 (_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, intptr_t* ___result3, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 4)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___nodeId1, ___position2, ___result3, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___position2, ___result3, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker4< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___position2, ___result3);
+					else
+						result = GenericVirtFuncInvoker4< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___position2, ___result3);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker4< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___position2, ___result3);
+					else
+						result = VirtFuncInvoker4< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___position2, ___result3);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___position2, ___result3, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPosition::BeginInvoke(System.IntPtr,System.Guid,System.Numerics.Vector3,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _CreateCoordinateSystemForNodeWithPosition_BeginInvoke_m6675E5BA70B185CD17003C610A0001C28E8EF977 (_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, intptr_t* ___result3, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback4, RuntimeObject * ___object5, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Guid_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[5] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(Guid_t_il2cpp_TypeInfo_var, &___nodeId1);
+	__d_args[2] = Box(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var, &___position2);
+	__d_args[3] = ___result3;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback4, (RuntimeObject*)___object5);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPosition::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateCoordinateSystemForNodeWithPosition_EndInvoke_mE851883D81213301785762A60649D4C149263BB0 (_CreateCoordinateSystemForNodeWithPosition_t5DD87D89220775EF501CF5FBE9EBA795AB155229 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 (_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C  ___orientation3, intptr_t* ___result4, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPositionAndOrientation::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _CreateCoordinateSystemForNodeWithPositionAndOrientation__ctor_mA692FC7F3EC36BCE348679CE83E9D8716729D025 (_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPositionAndOrientation::Invoke(System.IntPtr,System.Guid,System.Numerics.Vector3,System.Numerics.Quaternion,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateCoordinateSystemForNodeWithPositionAndOrientation_Invoke_m128A58A5C64FBC660B3688082C9E82D4867F72F2 (_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C  ___orientation3, intptr_t* ___result4, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 5)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker5< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4);
+					else
+						result = GenericVirtFuncInvoker5< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker5< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4);
+					else
+						result = VirtFuncInvoker5< int32_t, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___position2, ___orientation3, ___result4, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPositionAndOrientation::BeginInvoke(System.IntPtr,System.Guid,System.Numerics.Vector3,System.Numerics.Quaternion,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _CreateCoordinateSystemForNodeWithPositionAndOrientation_BeginInvoke_m8E63DE85B75489EF85D01F938396EBB96E4B01D8 (_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C  ___orientation3, intptr_t* ___result4, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Guid_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[6] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(Guid_t_il2cpp_TypeInfo_var, &___nodeId1);
+	__d_args[2] = Box(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var, &___position2);
+	__d_args[3] = Box(Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C_il2cpp_TypeInfo_var, &___orientation3);
+	__d_args[4] = ___result4;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateCoordinateSystemForNodeWithPositionAndOrientation::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateCoordinateSystemForNodeWithPositionAndOrientation_EndInvoke_m7040D69CF138859C81DBE3ACB31A9F21ACA7013C (_CreateCoordinateSystemForNodeWithPositionAndOrientation_t6FC2B0191A10353D29862E52C6E4FD0EE25E65C0 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 (_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, Guid_t , intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___nodeId1, ___result2);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateLocatorForNode::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _CreateLocatorForNode__ctor_mC0BB616214F3EE1AEE8EFCA37423177BB27F41B3 (_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateLocatorForNode::Invoke(System.IntPtr,System.Guid,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateLocatorForNode_Invoke_mBFC380125CE1D93283DC8A244785606F2325305A (_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, Guid_t , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___nodeId1, ___result2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___result2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___result2);
+					else
+						result = GenericVirtFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___nodeId1, ___result2);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___result2);
+					else
+						result = VirtFuncInvoker3< int32_t, intptr_t, Guid_t , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___nodeId1, ___result2);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, Guid_t , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___nodeId1, ___result2, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateLocatorForNode::BeginInvoke(System.IntPtr,System.Guid,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _CreateLocatorForNode_BeginInvoke_m845D8BD0542FC167B24AAA076B901191C9BF3BFA (_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * __this, intptr_t ___thisPtr0, Guid_t  ___nodeId1, intptr_t* ___result2, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Guid_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(Guid_t_il2cpp_TypeInfo_var, &___nodeId1);
+	__d_args[2] = ___result2;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics/Vftbl/_CreateLocatorForNode::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _CreateLocatorForNode_EndInvoke_mF8042E9E1EB814A328E94613F2F82E3AE28CFACE (_CreateLocatorForNode_t90733EC955F91103CBA6C2986FC4F46FDA7EBC81 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A (_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, intptr_t, intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___coordinateSystemPtr1, ___result2);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReference::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _TryCreateFrameOfReference__ctor_m2C2726EF4B083DEF458C1DA5DCE16B75E1988376 (_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReference::Invoke(System.IntPtr,System.IntPtr,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryCreateFrameOfReference_Invoke_mF41EB04CC503C71182DFDD248BD4182CB2458F79 (_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___coordinateSystemPtr1, ___result2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___result2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___result2);
+					else
+						result = GenericVirtFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___result2);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___result2);
+					else
+						result = VirtFuncInvoker3< int32_t, intptr_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___result2);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___result2, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReference::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _TryCreateFrameOfReference_BeginInvoke_mC5DEB70CFFF9451FED013EF417E288695C97AC1D (_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, intptr_t* ___result2, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___coordinateSystemPtr1);
+	__d_args[2] = ___result2;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReference::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryCreateFrameOfReference_EndInvoke_m6712CA2B43F0F3A9AB0BD7EC661FD9B9A58272FA (_TryCreateFrameOfReference_t78536FB8F012690DC32DB8FBEFC6FF679EEA421A * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E (_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, intptr_t* ___result3, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPosition::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _TryCreateFrameOfReferenceWithPosition__ctor_mF61B59612EED432ED782424E34F01515D9154EB3 (_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPosition::Invoke(System.IntPtr,System.IntPtr,System.Numerics.Vector3,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryCreateFrameOfReferenceWithPosition_Invoke_mCEC5771BCFDA786B7D9C75C2AD92C8B9FD669834 (_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, intptr_t* ___result3, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 4)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker4< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3);
+					else
+						result = GenericVirtFuncInvoker4< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker4< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3);
+					else
+						result = VirtFuncInvoker4< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___result3, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPosition::BeginInvoke(System.IntPtr,System.IntPtr,System.Numerics.Vector3,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _TryCreateFrameOfReferenceWithPosition_BeginInvoke_mC899D8EE1C91AADC6372B7947FDB01864EF2B175 (_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, intptr_t* ___result3, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback4, RuntimeObject * ___object5, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[5] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___coordinateSystemPtr1);
+	__d_args[2] = Box(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var, &___position2);
+	__d_args[3] = ___result3;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback4, (RuntimeObject*)___object5);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPosition::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryCreateFrameOfReferenceWithPosition_EndInvoke_mFEA3FA7904575EBD2F350CCF467993DAF0B68D88 (_TryCreateFrameOfReferenceWithPosition_t8058ABFD5307CD5A093B809189349CF514BC0E2E * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 (_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C  ___orientation3, intptr_t* ___result4, const RuntimeMethod* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(((RuntimeDelegate*)__this)->method->nativeFunction);
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4);
+
+	return returnValue;
+}
+// System.Void Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPositionAndOrientation::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _TryCreateFrameOfReferenceWithPositionAndOrientation__ctor_mF942E81A1D005AB03B350E16658B15076C3C365B (_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPositionAndOrientation::Invoke(System.IntPtr,System.IntPtr,System.Numerics.Vector3,System.Numerics.Quaternion,System.IntPtr*)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryCreateFrameOfReferenceWithPositionAndOrientation_Invoke_mB76D9AFD64A15F3CE3A6F8990C15040BFD50F346 (_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C  ___orientation3, intptr_t* ___result4, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 5)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker5< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4);
+					else
+						result = GenericVirtFuncInvoker5< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(targetMethod, targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker5< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4);
+					else
+						result = VirtFuncInvoker5< int32_t, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4);
+				}
+			}
+			else
+			{
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 , Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C , intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___thisPtr0, ___coordinateSystemPtr1, ___position2, ___orientation3, ___result4, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPositionAndOrientation::BeginInvoke(System.IntPtr,System.IntPtr,System.Numerics.Vector3,System.Numerics.Quaternion,System.IntPtr*,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _TryCreateFrameOfReferenceWithPositionAndOrientation_BeginInvoke_m5D8D44F230958CFE937FAC33F3421A65CC553AB0 (_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * __this, intptr_t ___thisPtr0, intptr_t ___coordinateSystemPtr1, Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___position2, Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C  ___orientation3, intptr_t* ___result4, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[6] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___thisPtr0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___coordinateSystemPtr1);
+	__d_args[2] = Box(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4_il2cpp_TypeInfo_var, &___position2);
+	__d_args[3] = Box(Quaternion_tE38335092171ED778CFD631B55A5C81347A93E8C_il2cpp_TypeInfo_var, &___orientation3);
+	__d_args[4] = ___result4;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);;
+}
+// System.Int32 Microsoft.Windows.Perception.Spatial.Preview.ISpatialGraphInteropPreviewStatics2/Vftbl/_TryCreateFrameOfReferenceWithPositionAndOrientation::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _TryCreateFrameOfReferenceWithPositionAndOrientation_EndInvoke_mD083AC8D1902820737955F303DA8CB7D90AC3D91 (_TryCreateFrameOfReferenceWithPositionAndOrientation_tAF38860785E87E0174E5806E89422815BA04F617 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline (String_t* __this, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = __this->get_m_stringLength_0();
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  Matrix4x4_get_Identity_mCB71019837846B0A040FE9A74F6DDD0DA2FE8E4D_inline (const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_il2cpp_TypeInfo_var);
+		Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  L_0 = ((Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_StaticFields*)il2cpp_codegen_static_fields_for(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504_il2cpp_TypeInfo_var))->get__identity_16();
+		return L_0;
+	}
+}
