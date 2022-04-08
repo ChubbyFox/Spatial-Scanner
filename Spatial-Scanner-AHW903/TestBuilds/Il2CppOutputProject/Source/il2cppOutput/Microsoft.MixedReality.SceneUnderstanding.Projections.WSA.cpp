@@ -148,6 +148,8 @@ struct RandomNumberGenerator_t2CB5440F189986116A2FA9F907AE52644047AC50;
 struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
 // Microsoft.MixedReality.SceneUnderstanding.Scene
 struct Scene_t5EDBB07EFAA9CEA5996F43988839E7631982B57D;
+// Microsoft.MixedReality.SceneUnderstanding.SceneBounds
+struct SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC;
 // Microsoft.MixedReality.SceneUnderstanding.SceneBuffer
 struct SceneBuffer_tB6CC20C4884C27AB0D6A90513DB5590CFA1919E8;
 // Microsoft.MixedReality.SceneUnderstanding.SceneComponent
@@ -205,6 +207,7 @@ IL2CPP_EXTERN_C RuntimeClass* KeyNotFoundException_t0A3BE653F7FA27DEA1C91C2FB3DA
 IL2CPP_EXTERN_C RuntimeClass* NotImplementedException_t26260C4EE0444C5FA022994203060B3A42A3ADE6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectDisposedException_t29EF6F519F16BA477EC682F23E8344BB1E9A958A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* OutOfMemoryException_t2671AB315BD130A49A1592BAD0AEE9F2D37667AC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneBuffer_tB6CC20C4884C27AB0D6A90513DB5590CFA1919E8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneFragment_tD6FE1C97329D3AE375530AE41C05D82515D2F538_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneMesh_tF19B785EC11EB194861D02759A39BEEB53DD56EF_il2cpp_TypeInfo_var;
@@ -2052,6 +2055,24 @@ public:
 };
 
 
+// Microsoft.MixedReality.SceneUnderstanding.SceneBounds
+struct SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC  : public RuntimeObject
+{
+public:
+	// System.IntPtr Microsoft.MixedReality.SceneUnderstanding.SceneBounds::handle
+	intptr_t ___handle_0;
+
+public:
+	inline static int32_t get_offset_of_handle_0() { return static_cast<int32_t>(offsetof(SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC, ___handle_0)); }
+	inline intptr_t get_handle_0() const { return ___handle_0; }
+	inline intptr_t* get_address_of_handle_0() { return &___handle_0; }
+	inline void set_handle_0(intptr_t value)
+	{
+		___handle_0 = value;
+	}
+};
+
+
 // Microsoft.MixedReality.SceneUnderstanding.SceneBuffer
 struct SceneBuffer_tB6CC20C4884C27AB0D6A90513DB5590CFA1919E8  : public RuntimeObject
 {
@@ -2156,6 +2177,62 @@ public:
 	inline void set_value___2(int32_t value)
 	{
 		___value___2 = value;
+	}
+};
+
+
+// Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem
+struct SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8 
+{
+public:
+	// System.Guid Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem::NodeId
+	Guid_t  ___NodeId_0;
+	// System.Numerics.Matrix4x4 Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem::CoordinateSystemToNodeTransform
+	Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  ___CoordinateSystemToNodeTransform_1;
+
+public:
+	inline static int32_t get_offset_of_NodeId_0() { return static_cast<int32_t>(offsetof(SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8, ___NodeId_0)); }
+	inline Guid_t  get_NodeId_0() const { return ___NodeId_0; }
+	inline Guid_t * get_address_of_NodeId_0() { return &___NodeId_0; }
+	inline void set_NodeId_0(Guid_t  value)
+	{
+		___NodeId_0 = value;
+	}
+
+	inline static int32_t get_offset_of_CoordinateSystemToNodeTransform_1() { return static_cast<int32_t>(offsetof(SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8, ___CoordinateSystemToNodeTransform_1)); }
+	inline Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  get_CoordinateSystemToNodeTransform_1() const { return ___CoordinateSystemToNodeTransform_1; }
+	inline Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504 * get_address_of_CoordinateSystemToNodeTransform_1() { return &___CoordinateSystemToNodeTransform_1; }
+	inline void set_CoordinateSystemToNodeTransform_1(Matrix4x4_t5B627955C6D80AF8F1D97A6466CB337DCEEB3504  value)
+	{
+		___CoordinateSystemToNodeTransform_1 = value;
+	}
+};
+
+
+// Microsoft.MixedReality.SceneUnderstanding.SpatialSphere
+struct SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874 
+{
+public:
+	// System.Numerics.Vector3 Microsoft.MixedReality.SceneUnderstanding.SpatialSphere::Center
+	Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  ___Center_0;
+	// System.Single Microsoft.MixedReality.SceneUnderstanding.SpatialSphere::Radius
+	float ___Radius_1;
+
+public:
+	inline static int32_t get_offset_of_Center_0() { return static_cast<int32_t>(offsetof(SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874, ___Center_0)); }
+	inline Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  get_Center_0() const { return ___Center_0; }
+	inline Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4 * get_address_of_Center_0() { return &___Center_0; }
+	inline void set_Center_0(Vector3_t8DE19479CE3BD4C34B7AF76E89F5523A14FE37F4  value)
+	{
+		___Center_0 = value;
+	}
+
+	inline static int32_t get_offset_of_Radius_1() { return static_cast<int32_t>(offsetof(SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874, ___Radius_1)); }
+	inline float get_Radius_1() const { return ___Radius_1; }
+	inline float* get_address_of_Radius_1() { return &___Radius_1; }
+	inline void set_Radius_1(float value)
+	{
+		___Radius_1 = value;
 	}
 };
 
@@ -3786,6 +3863,14 @@ inline IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* Array_Empty_TisIn
 }
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_from_fragments_scene_fragments(System.IntPtr[],System.Int32,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_from_fragments_scene_fragments_mBEBFF5C61EA89FF791DCE5FF4F3F0915916CBF3C (IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6* ___scene_fragments0, int32_t ___scene_fragments_count1, intptr_t* ___result2, const RuntimeMethod* method);
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_addref(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_bounds_addref_mF941D0759C919242E01D7B1B29250914EB89780B (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_release(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_bounds_release_m1CE7C11889D6160AC462B5A69107CAB7B49C0A3D (intptr_t ___handle0, const RuntimeMethod* method);
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_from_sphere(Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem,Microsoft.MixedReality.SceneUnderstanding.SpatialSphere,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_bounds_from_sphere_m657C489ED1773D65CAEE01FF19186566E0D25566 (SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8  ___coordinate_system0, SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874  ___sphere1, intptr_t* ___result2, const RuntimeMethod* method);
+// System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBounds::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneBounds__ctor_m3D3B27ED18078EE4660120FE32663BA547BAAF63 (SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method);
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_buffer_addref(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_buffer_addref_m3B50BA2B669F776CA2B7315C829A9CB78D180D04 (intptr_t ___handle0, const RuntimeMethod* method);
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_buffer_release(System.IntPtr)
@@ -4218,6 +4303,15 @@ IL2CPP_EXTERN_C int32_t CDECL su_scene_buffer_dispose(intptr_t);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL su_scene_buffer_get_data(intptr_t, uint8_t*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_bounds_release(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_bounds_addref(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+IL2CPP_EXTERN_C int32_t CDECL su_scene_bounds_from_sphere(SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8 , SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874 , intptr_t*);
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL su_get_error_details_wide(intptr_t, Il2CppChar**, Il2CppChar**, Il2CppChar**);
@@ -5278,6 +5372,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_buffer_get_dat
 
 	return returnValue;
 }
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_release(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_bounds_release_m1CE7C11889D6160AC462B5A69107CAB7B49C0A3D (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_bounds_release", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_bounds_release)(___handle0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___handle0);
+	#endif
+
+	return returnValue;
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_addref(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_bounds_addref_mF941D0759C919242E01D7B1B29250914EB89780B (intptr_t ___handle0, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_bounds_addref", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_bounds_addref)(___handle0);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___handle0);
+	#endif
+
+	return returnValue;
+}
+// Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_from_sphere(Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem,Microsoft.MixedReality.SceneUnderstanding.SpatialSphere,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_scene_bounds_from_sphere_m657C489ED1773D65CAEE01FF19186566E0D25566 (SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8  ___coordinate_system0, SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874  ___sphere1, intptr_t* ___result2, const RuntimeMethod* method)
+{
+	typedef int32_t (CDECL *PInvokeFunc) (SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8 , SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874 , intptr_t*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8 ) + sizeof(SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874 ) + sizeof(intptr_t*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("Microsoft.MixedReality.SceneUnderstanding.dll"), "su_scene_bounds_from_sphere", IL2CPP_CALL_C, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	// Native function invocation
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_Microsoft_MixedReality_SceneUnderstanding_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(su_scene_bounds_from_sphere)(___coordinate_system0, ___sphere1, ___result2);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(___coordinate_system0, ___sphere1, ___result2);
+	#endif
+
+	return returnValue;
+}
 // Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_get_error_details(System.IntPtr,System.String&,System.String&,System.String&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibrary_su_get_error_details_m5FB49F8AB3FFCBF0A9F1ED76B9CE87B8EC4FC08A (intptr_t ___handle0, String_t** ___result_message1, String_t** ___result_requestCorrelationVector2, String_t** ___result_responseCorrelationVector3, const RuntimeMethod* method)
 {
@@ -6269,6 +6432,133 @@ IL_005d:
 		Scene__ctor_m0C72BC23B92CCBB187457DE33E8E0DFB05BC4EBB(L_17, (intptr_t)L_16, (bool)1, /*hidden argument*/NULL);
 		// return result_object;
 		return L_17;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBounds::.ctor(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneBounds__ctor_m3D3B27ED18078EE4660120FE32663BA547BAAF63 (SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC * __this, intptr_t ___ahandle0, bool ___transfer1, const RuntimeMethod* method)
+{
+	{
+		// internal SceneBounds(IntPtr ahandle, bool transfer)
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		// this.handle = ahandle;
+		intptr_t L_0 = ___ahandle0;
+		__this->set_handle_0((intptr_t)L_0);
+		// if (!transfer) Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_bounds_addref(ahandle);
+		bool L_1 = ___transfer1;
+		if (L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		// if (!transfer) Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_bounds_addref(ahandle);
+		intptr_t L_2 = ___ahandle0;
+		int32_t L_3;
+		L_3 = NativeLibrary_su_scene_bounds_addref_mF941D0759C919242E01D7B1B29250914EB89780B((intptr_t)L_2, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		// }
+		return;
+	}
+}
+// System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBounds::Finalize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneBounds_Finalize_mBEDEB62EBCAAB439E10F20291AEDC2D3B96BDD24 (SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+
+IL_0000:
+	try
+	{ // begin try (depth: 1)
+		// Microsoft.MixedReality.SceneUnderstanding.NativeLibraryHelpers.CheckStatus(this.handle, Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_bounds_release(this.handle));
+		intptr_t L_0 = __this->get_handle_0();
+		intptr_t L_1 = __this->get_handle_0();
+		int32_t L_2;
+		L_2 = NativeLibrary_su_scene_bounds_release_m1CE7C11889D6160AC462B5A69107CAB7B49C0A3D((intptr_t)L_1, /*hidden argument*/NULL);
+		NativeLibraryHelpers_CheckStatus_m83E1CCB9A897C461419CF6F583D878C052D6E4C1((intptr_t)L_0, L_2, /*hidden argument*/NULL);
+		// this.handle = IntPtr.Zero;
+		__this->set_handle_0((intptr_t)(0));
+		IL2CPP_LEAVE(0x2A, FINALLY_0023);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0023;
+	}
+
+FINALLY_0023:
+	{ // begin finally (depth: 1)
+		// }
+		Object_Finalize_mC59C83CF4F7707E425FFA6362931C25D4C36676A(__this, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(35)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(35)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x2A, IL_002a)
+	}
+
+IL_002a:
+	{
+		// }
+		return;
+	}
+}
+// Microsoft.MixedReality.SceneUnderstanding.SceneBounds Microsoft.MixedReality.SceneUnderstanding.SceneBounds::FromSphere(Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem,Microsoft.MixedReality.SceneUnderstanding.SpatialSphere)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC * SceneBounds_FromSphere_m3DC91021393B62020CC88365B677A5F3A6D4C970 (SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8  ___coordinateSystem0, SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874  ___sphere1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// Microsoft.MixedReality.SceneUnderstanding.NativeLibraryHelpers.CheckStatus(Microsoft.MixedReality.SceneUnderstanding.NativeLibrary.su_scene_bounds_from_sphere(coordinateSystem, sphere, out result_handle));
+		SpatialGraphCoordinateSystem_tDD943CA1DA0EA92E70D94C62527BCF00591E4CF8  L_0 = ___coordinateSystem0;
+		SpatialSphere_tDA46EDDEACF0068C2A16CEC4C1EDFC895982C874  L_1 = ___sphere1;
+		int32_t L_2;
+		L_2 = NativeLibrary_su_scene_bounds_from_sphere_m657C489ED1773D65CAEE01FF19186566E0D25566(L_0, L_1, (intptr_t*)(&V_0), /*hidden argument*/NULL);
+		NativeLibraryHelpers_CheckStatus_m7405CD95D3D1932573FE80C57C56C2EECE567B33(L_2, /*hidden argument*/NULL);
+		// result_object = (result_handle != IntPtr.Zero) ? new Microsoft.MixedReality.SceneUnderstanding.SceneBounds(result_handle, transfer:true) : null;
+		intptr_t L_3 = V_0;
+		bool L_4;
+		L_4 = IntPtr_op_Inequality_m212AF0E66AA81FEDC982B1C8A44ADDA24B995EB8((intptr_t)L_3, (intptr_t)(0), /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		return (SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC *)NULL;
+	}
+
+IL_001d:
+	{
+		intptr_t L_5 = V_0;
+		SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC * L_6 = (SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC *)il2cpp_codegen_object_new(SceneBounds_tE4967A5838430696D312ABDAB1368DFFF054E1BC_il2cpp_TypeInfo_var);
+		SceneBounds__ctor_m3D3B27ED18078EE4660120FE32663BA547BAAF63(L_6, (intptr_t)L_5, (bool)1, /*hidden argument*/NULL);
+		// return result_object;
+		return L_6;
 	}
 }
 #ifdef __clang__
@@ -7632,6 +7922,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SceneQuerySettingsAbi_tF063A846476DE743CD6BBF
 		return L_10;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

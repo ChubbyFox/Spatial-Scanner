@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32702 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8109 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,267 +11,127 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/andyw/Documents/GitHub/Spatial-Scanner/Spatial-Scanner-AHW903
+C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52059
-Successfully changed project path to: C:/Users/andyw/Documents/GitHub/Spatial-Scanner/Spatial-Scanner-AHW903
-C:/Users/andyw/Documents/GitHub/Spatial-Scanner/Spatial-Scanner-AHW903
+59862
+Successfully changed project path to: C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903
+C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.32 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.24 ms.
+Refreshing native plugins compatible for Editor in 141.94 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 4.92 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/andyw/Documents/GitHub/Spatial-Scanner/Spatial-Scanner-AHW903/Assets
+[Subsystems] Discovering subsystems at path C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Renderer: Intel(R) Iris(R) Plus Graphics 640 (ID=0x5926)
     Vendor:   
-    VRAM:     8010 MB
-    Driver:   30.0.15.1179
+    VRAM:     4054 MB
+    Driver:   27.20.100.8682
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002123 seconds.
+Registered in 0.009978 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.09 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 69.15 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.492 seconds
+- Completed reload, in  1.320 seconds
 Domain Reload Profiling:
-	ReloadAssembly (492ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (1320ms)
+		BeginReloadAssembly (421ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (380ms)
-			LoadAssemblies (51ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (418ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (153ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (250ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006665 seconds.
+Registered in 0.041482 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EE87385930 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3EF1B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C8CB020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B539C20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B25B240 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C645030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEA7010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B54C840 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B54C840 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B403730 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8ABA7420 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8740A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8740A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEE3230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B714A30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEE3230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B4FF430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8A7010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B4FF430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B403730 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3FD9D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B35A0B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE876C0A80 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C8CB020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEFC020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8C8230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B610820 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B61C040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8C8230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.SceneUnderstanding.Projections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B625C50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B625C50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8D0A50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8D0A50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8D0A50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BFCED20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE81B5E850 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B625C50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B10F020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B4FF430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86ADDEF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF5A620 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BA4D870 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8766FEA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8766FEA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8766FEA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8766FEA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C116430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B625C50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C645030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86950CA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE876760B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C116430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C2E5020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.Windows.MixedReality.DotNetWinRT.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B35A0B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE876760B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C2EAFB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86ADDEF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7C0A40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C391440 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B28BED0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE874D2C40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C597040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B358B10 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B152470 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B35A0B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B625C50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B152470 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE87266860 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3C6730 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8EB470 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C391440 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.53 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Added DLL directory C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\PackageCache\com.microsoft.windows.mixedreality.dotnetwinrt@3ce5181a9606-1646979986168\Plugins\x64 to the user search path.
+Refreshing native plugins compatible for Editor in 265.06 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Added DLL directory C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\Library\PackageCache\com.microsoft.windows.mixedreality.dotnetwinrt@b55709ac28ad-1648416503944\Plugins\x64 to the user search path.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-Microsoft.Windows.MixedReality.DotNetWinRT.Init:.cctor ()
+Microsoft.Windows.MixedReality.DotNetWinRT.Init:.cctor () (at Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@b55709ac28ad-1648416503944/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs:46)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
+(Filename: Library/PackageCache/com.microsoft.windows.mixedreality.dotnetwinrt@b55709ac28ad-1648416503944/Editor/Microsoft.Windows.MixedReality.DotNetWinRT.Init.cs Line: 46)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.729 seconds
+- Completed reload, in  3.911 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1730ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (3912ms)
+		BeginReloadAssembly (252ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1555ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (3585ms)
+			LoadAssemblies (288ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (477ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1052ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (2439ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (608ms)
-				ProcessInitializeOnLoadMethodAttributes (307ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (266ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (1271ms)
+				ProcessInitializeOnLoadMethodAttributes (710ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 141.2 MB.
-System memory in use after: 141.3 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.24 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.9 MB.
+System memory in use after: 141.7 MB.
 
-Unloading 515 unused Assets to reduce memory usage. Loaded Objects now: 3497.
-Total: 3.439800 ms (FindLiveObjects: 0.255400 ms CreateObjectMapping: 0.162000 ms MarkObjects: 2.695300 ms  DeleteObjects: 0.326200 ms)
+Unloading 516 unused Assets to reduce memory usage. Loaded Objects now: 3498.
+Total: 14.896800 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.186700 ms MarkObjects: 11.796700 ms  DeleteObjects: 2.485500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -280,6 +140,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -287,1346 +148,67 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scripts/meshScript.cs
   artifactKey: Guid(1d453695ea9c75a44bdd176abf73face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/meshScript.cs using Guid(1d453695ea9c75a44bdd176abf73face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483d0a5cb2713e40f7ceea01b78ccd21') in 0.021638 seconds 
+Start importing Assets/Scripts/meshScript.cs using Guid(1d453695ea9c75a44bdd176abf73face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74adacf9ec4f5b5732e17cf507c5b26') in 0.138454 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006541 seconds.
+Registered in 0.029281 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001EE90072020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91176C70 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B8ED880 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8744DC60 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEE6710 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CCC1030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CBAE010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C2E2010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91C22160 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AB87C20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF66A00 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE3A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90ADB020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90442A90 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CBAE010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE869E2CE0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9E6060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE869E2CE0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91CB0BA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE872CDC30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CCCF040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE87320830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F0F0080 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3AE0D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F07A020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F07A020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B400FF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B400FF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.SceneUnderstanding.Projections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FB0FFC0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FB0FFC0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F368020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F368020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7D3020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B148430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE917A3420 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FB0FFC0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B21E010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B094C40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F0F0080 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86C20040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE9097EF70 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B148430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B007020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B148430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9E6060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90097020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE875275E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEE6710 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86954920 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AECAC30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B21E010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90898A20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.Windows.MixedReality.DotNetWinRT.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CCCF040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B019A30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E3C4230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F0F0080 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91A2CBF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C391440 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F962070 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B21E010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E794010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90DE6560 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E2ABBA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CCCF040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8741C690 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90DE41F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8717C020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90D42460 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C23CC30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C391440 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@51c594a856ac-1647678514876/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@51c594a856ac-1647678514876/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
 System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
 System.Reflection.MethodBase:Invoke (object,object[])
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
+(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@51c594a856ac-1647678514876/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.346 seconds
+- Completed reload, in  2.172 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1347ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (2174ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1188ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1910ms)
+			LoadAssemblies (154ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
+			SetupTypeCache (418ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (700ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1142ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (471ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.69 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3009 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.0 MB.
-System memory in use after: 132.2 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3500.
-Total: 2.807800 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.142900 ms MarkObjects: 2.340600 ms  DeleteObjects: 0.073300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.24 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.0 MB.
-System memory in use after: 72.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3500.
-Total: 3.902100 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.188500 ms MarkObjects: 3.451900 ms  DeleteObjects: 0.023700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006609 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EE8C92E010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91179EB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AEC0020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B400FF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ECBE1A9A90 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9D3E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F07A020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F07A020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90AE0D10 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE926E44F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F368020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EE96030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C92E010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B714A30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7B7070 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE9184E680 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9E6060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90E79780 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB3213F30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AB878C0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ECBE1A9A90 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE924275B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE81C18E50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B204260 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F07A020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7B7070 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B400FF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B400FF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.SceneUnderstanding.Projections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B204260 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B204260 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B75B060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B75B060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BA38030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9DDA40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB38152F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B204260 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FD44020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BFEBAA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EC1C010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3580A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E27F860 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9DDA40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D25010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEE0420 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D25010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90097020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B204260 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B204260 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE869540E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3580A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EE96030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90D42780 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.Windows.MixedReality.DotNetWinRT.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ECBE1A9A90 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FAFC050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B204260 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EC1C010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB301D7A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C650DB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E0E3170 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B4BE010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F98B020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE9242D5E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E2A8970 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE876CBDB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90751CC0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE9242D5E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB359DC00 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE926E1A50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C23CC30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB38FA570 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.358 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1358ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1200ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (709ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (479ms)
-				ProcessInitializeOnLoadMethodAttributes (151ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.74 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.2 MB.
-System memory in use after: 132.4 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3504.
-Total: 2.896600 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.150800 ms MarkObjects: 2.425600 ms  DeleteObjects: 0.076900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006894 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE9117D0F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B1FA050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3580A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE926E3020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9D3E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE876C1410 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE876C1410 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C9876F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BA134F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F368020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B21E010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8ADFF830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B714A30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EF89C20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB402C310 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB4684030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90E7B8B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB4417610 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BFC8360 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE926E3020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB3FD65B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB3BAD830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86DC6D30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FD7D430 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EF89C20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3580A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3580A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.SceneUnderstanding.Projections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86DC6D30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86DC6D30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FAF3F80 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F52F030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B1D2020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB44237F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86DC6D30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B839020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BFEA580 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EAE5030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FAFD590 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E27F860 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F52F030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8ADFF830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F52F030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE90097020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86DC6D30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86DC6D30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8694F960 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FAFD590 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EE96030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E0DE550 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.Windows.MixedReality.DotNetWinRT.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE926E3020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF7C020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9E1E40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39EF5B0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B1E50F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB445B780 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB42EC5D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE87084C20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91E03030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB3FD6FD0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E2A8050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE926E3020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86DCC060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB3FD3820 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB4347EC0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB34E4A50 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB35451F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB445E570 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1342ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1184ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (697ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (467ms)
-				ProcessInitializeOnLoadMethodAttributes (152ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.70 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.2 MB.
-System memory in use after: 132.4 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3507.
-Total: 2.674700 ms (FindLiveObjects: 0.208600 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.284200 ms  DeleteObjects: 0.066200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.68 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3507.
-Total: 3.321400 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.966000 ms  DeleteObjects: 0.015400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.37 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3507.
-Total: 3.582700 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.137300 ms MarkObjects: 3.204600 ms  DeleteObjects: 0.019500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.50 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3507.
-Total: 3.587800 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.114500 ms MarkObjects: 3.226700 ms  DeleteObjects: 0.016600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4286.362719 seconds.
-  path: Assets/Scripts/meshScript.cs
-  artifactKey: Guid(1d453695ea9c75a44bdd176abf73face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/meshScript.cs using Guid(1d453695ea9c75a44bdd176abf73face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe364e078d3aa7cb0083e25332d31e8') in 0.006860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.220316 seconds.
-  path: Assets/Scripts/SceneUnderstandingProperties.cs
-  artifactKey: Guid(4152788240444674f96e785c983418cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SceneUnderstandingProperties.cs using Guid(4152788240444674f96e785c983418cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a61a1aa61900b881a9402a2144165bb') in 0.005661 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006530 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91178590 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B1FA050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F43E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91EB8030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F43E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F43E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C62C640 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001ECBE1AB480 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F368020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B10F020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91DFC020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B714A30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7B7070 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB4037080 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B47C020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6E42F20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6002670 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6CD7020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB65FB9F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6645CF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F43E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7B7070 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F538840 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B400DD0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.SceneUnderstanding.Projections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6B45D30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C63FC40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9D3E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9D3E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B1D2020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F984010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6498D90 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C63FC40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BEA7010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F005450 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BE94020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B616020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E27F860 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F984010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9D3E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FE1DA00 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B9D3E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B21E010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BE94020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE86954EA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B616020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B839020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E0D6B30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.Windows.MixedReality.DotNetWinRT.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AC2B020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B4F5E90 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB65EE320 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6E09AA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6F9C1D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BE10080 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BE94020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB65FB9F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E2A9290 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8EDC2070 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5812580 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB65FB9F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB67E2E60 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6A67520 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6E06CB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.303 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1304ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (679ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (453ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.70 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.2 MB.
-System memory in use after: 132.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3510.
-Total: 2.726600 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.115900 ms MarkObjects: 2.336500 ms  DeleteObjects: 0.067500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006973 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE9117B7D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB7C29020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B206FD0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F6830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FFCE020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B206FD0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B206FD0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8C6298F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6A681F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F368020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B10F020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F984010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B714A30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE3A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FFD1A40 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8767F020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6E44540 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB7B08EA0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE900BA1A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F6830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE40660 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB664B450 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F6830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE3A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE3A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE3A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE3A010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.SceneUnderstanding.Projections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91B8F050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF80230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F52F030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE870D8020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B1D2020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB7B54590 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF80230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB3A54020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CB74810 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B398050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B616020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E27F860 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7D3020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F984010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE870D8020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B839020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BE94020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F6830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB71CD2A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB46C2E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B839020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E0D6E70 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.Windows.MixedReality.DotNetWinRT.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F6830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FDEC040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F6830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB762CE80 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB79EDF00 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB7A625A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6F8FFD0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB3A54020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B398050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE46180 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E2A4E20 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AF37800 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB58184D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE41080 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BE28900 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB67D3120 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F6830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB7A625A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1412ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1253ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (740ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (489ms)
-				ProcessInitializeOnLoadMethodAttributes (171ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.70 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.2 MB.
-System memory in use after: 132.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3513.
-Total: 2.805400 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.149300 ms MarkObjects: 2.378500 ms  DeleteObjects: 0.066800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006565 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001EE8B88D020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91179EB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B033020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB39F43E0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D76060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE87665BF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FDEC040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FDEC040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B29F1A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB89EE060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F368020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B10F020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91DFC020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B714A30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF7C020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB7F0B880 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8767F020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB88CA2D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB81DBD70 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB4742E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.InteractionSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D76060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE41FB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB8918EF0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D76060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FDEC040 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF7C020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3580A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B3580A0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.SceneUnderstanding.Projections.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91E95080 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91B8F050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CDD0030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FD66010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8F6DB860 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB89F1030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6492FD0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91B8F050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AAEB010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8CB6C950 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB4742E30 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B34C050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.WindowsMixedReality.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E27F860 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB89F1030 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B7D3020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8ADFF830 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8FD66010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB8A7E020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D33DC0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D76060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB71CDAE0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B34C050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B839020 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E0D9230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.Windows.MixedReality.DotNetWinRT.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D76060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8B34C050 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE91D76060 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB7638340 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB79F5EE0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB89479D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB8670AC0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AAEB010 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8BF80230 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE41FB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8E2A9290 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB81648F0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB8500FB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EE8AE41FB0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB8356970 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB6E3A070 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB5C57090 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001EEB89479D0 doesn't match image C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.306 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1306ms)
-		BeginReloadAssembly (95ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (668ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (447ms)
-				ProcessInitializeOnLoadMethodAttributes (146ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (764ms)
+				ProcessInitializeOnLoadMethodAttributes (240ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.69 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Unloading 3010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.3 MB.
-System memory in use after: 132.5 MB.
+System memory in use before: 132.7 MB.
+System memory in use after: 132.6 MB.
 
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3516.
-Total: 2.775200 ms (FindLiveObjects: 0.235600 ms CreateObjectMapping: 0.151200 ms MarkObjects: 2.320200 ms  DeleteObjects: 0.067300 ms)
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 3501.
+Total: 4.752000 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.163800 ms MarkObjects: 4.144800 ms  DeleteObjects: 0.127700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1635,13 +217,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 506.855304 seconds.
-  path: Assets/Scripts/sceneObjects.cs
-  artifactKey: Guid(65139b4fc045eb644a5af9bf3f9872b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/sceneObjects.cs using Guid(65139b4fc045eb644a5af9bf3f9872b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ead69a2b5bee49f3837ea298730b7e') in 0.009373 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.45 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.3 MB.
+System memory in use after: 72.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3501.
+Total: 6.234900 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.212700 ms MarkObjects: 5.556400 ms  DeleteObjects: 0.026400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

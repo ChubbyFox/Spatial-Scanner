@@ -42,7 +42,6 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
         public IntPtr IHolographicCameraPtr; // // Windows::Graphics::Holographic::IHolographicCamera
     }
 
-
     public class meshScript : MonoBehaviour
     {
         #region Public Variables
@@ -412,6 +411,18 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
 
                 // Make sure the scene query has completed swap with latestSUSceneData under lock to ensure the application is always pointing to a valid scene.
                 SceneBuffer serializedScene = SceneUnderstanding.SceneObserver.ComputeSerializedAsync(querySettings, boundingSphereRadiusInMeters).GetAwaiter().GetResult();
+              
+                SpatialSphere sphere;
+                sphere.Radius = 1f;
+                System.Numerics.Vector3 center = new System.Numerics.Vector3();
+                sphere.Center = center;
+                SpatialGraphCoordinateSystem coords = new SpatialGraphCoordinateSystem();
+
+                SceneBounds[] bounds = new SceneBounds[1];
+                bounds[0] = SceneUnderstanding.SceneBounds.FromSphere(coords, sphere); 
+                
+                //SceneBuffer serializedScene = SceneUnderstanding.SceneObserver.ComputeWithBoundsSerializedAsync(querySettings, bounds).GetAwaiter().GetResult();
+                
                 lock (SUDataLock)
                 {
                     // The latest data queried from the device is stored in these variables
@@ -1794,7 +1805,7 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
         public void resumeMesh()
         {
             // Resume Mesh Observation from all Observers
-            CoreServices.SpatialAwarenessSystem.ResumeObservers();
+            //CoreServices.SpatialAwarenessSystem.ResumeObservers();
             Debug.Log("Resming Mesh Observers.");
         }
 

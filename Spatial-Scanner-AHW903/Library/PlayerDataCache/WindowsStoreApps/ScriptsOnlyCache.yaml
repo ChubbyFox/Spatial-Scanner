@@ -155,161 +155,161 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1676}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 1692}
+      Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 1728}
+      Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1812}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 1920}
+      Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 2056}
+      Script: {instanceID: 1960}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 2156}
     - Class: 114
-      Script: {instanceID: 2266}
+      Script: {instanceID: 2170}
     - Class: 114
-      Script: {instanceID: 2442}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2446}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 2508}
+      Script: {instanceID: 2412}
     - Class: 114
-      Script: {instanceID: 2546}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2628}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2660}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2690}
     - Class: 114
-      Script: {instanceID: 2898}
+      Script: {instanceID: 2802}
     - Class: 114
-      Script: {instanceID: 2980}
+      Script: {instanceID: 2884}
     - Class: 114
-      Script: {instanceID: 3014}
+      Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 3054}
+      Script: {instanceID: 2958}
     - Class: 114
-      Script: {instanceID: 3156}
+      Script: {instanceID: 3060}
     - Class: 114
-      Script: {instanceID: 3270}
+      Script: {instanceID: 3174}
     - Class: 114
-      Script: {instanceID: 3300}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3428}
+      Script: {instanceID: 3332}
     - Class: 114
-      Script: {instanceID: 3528}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 3572}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3596}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3502}
     - Class: 114
-      Script: {instanceID: 3724}
+      Script: {instanceID: 3628}
     - Class: 114
-      Script: {instanceID: 3936}
+      Script: {instanceID: 3840}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 3968}
+      Script: {instanceID: 3872}
     - Class: 114
-      Script: {instanceID: 4070}
+      Script: {instanceID: 3974}
     - Class: 114
-      Script: {instanceID: 4110}
+      Script: {instanceID: 4014}
     - Class: 114
-      Script: {instanceID: 4124}
+      Script: {instanceID: 4028}
+    - Class: 114
+      Script: {instanceID: 4066}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4082}
     - Class: 114
       Script: {instanceID: 4162}
     - Class: 114
-      Script: {instanceID: 4168}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 4178}
+      Script: {instanceID: 4246}
     - Class: 114
-      Script: {instanceID: 4258}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4338}
+      Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4648}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 4544}
+      Script: {instanceID: 4832}
     - Class: 114
-      Script: {instanceID: 4744}
+      Script: {instanceID: 4916}
     - Class: 114
-      Script: {instanceID: 4838}
+      Script: {instanceID: 4926}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 5074}
     - Class: 114
-      Script: {instanceID: 5012}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 5022}
+      Script: {instanceID: 5152}
     - Class: 114
-      Script: {instanceID: 5170}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 5186}
+      Script: {instanceID: 5298}
     - Class: 114
-      Script: {instanceID: 5248}
+      Script: {instanceID: 5472}
     - Class: 114
-      Script: {instanceID: 5350}
+      Script: {instanceID: 5488}
     - Class: 114
-      Script: {instanceID: 5394}
+      Script: {instanceID: 5602}
     - Class: 114
-      Script: {instanceID: 5568}
+      Script: {instanceID: 5724}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5794}
     - Class: 114
-      Script: {instanceID: 5698}
+      Script: {instanceID: 5932}
     - Class: 114
-      Script: {instanceID: 5820}
+      Script: {instanceID: 6122}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 6126}
     - Class: 114
-      Script: {instanceID: 6028}
+      Script: {instanceID: 6252}
     - Class: 114
-      Script: {instanceID: 6218}
+      Script: {instanceID: 6304}
     - Class: 114
-      Script: {instanceID: 6222}
+      Script: {instanceID: 6332}
     - Class: 114
-      Script: {instanceID: 6348}
+      Script: {instanceID: 6436}
     - Class: 114
-      Script: {instanceID: 6400}
+      Script: {instanceID: 6542}
     - Class: 114
-      Script: {instanceID: 6428}
+      Script: {instanceID: 6672}
     - Class: 114
-      Script: {instanceID: 6532}
+      Script: {instanceID: 6686}
     - Class: 114
-      Script: {instanceID: 6638}
+      Script: {instanceID: 6798}
     - Class: 114
-      Script: {instanceID: 6766}
+      Script: {instanceID: 7006}
     - Class: 114
-      Script: {instanceID: 6780}
+      Script: {instanceID: 7042}
     - Class: 114
-      Script: {instanceID: 6892}
+      Script: {instanceID: 7184}
     - Class: 114
-      Script: {instanceID: 7100}
+      Script: {instanceID: 7308}
     - Class: 114
-      Script: {instanceID: 7136}
+      Script: {instanceID: 7394}
     - Class: 114
-      Script: {instanceID: 7278}
+      Script: {instanceID: 7410}
     - Class: 114
-      Script: {instanceID: 7402}
+      Script: {instanceID: 7434}
     - Class: 114
-      Script: {instanceID: 7488}
-    - Class: 114
-      Script: {instanceID: 7504}
-    - Class: 114
-      Script: {instanceID: 7528}
-    - Class: 114
-      Script: {instanceID: 7558}
+      Script: {instanceID: 7464}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2141,16 +2141,22 @@ ScriptsOnlyBuild:
     className: NonNativeKeyboardTouchAssistant
   - hash:
       serializedVersion: 2
-      Hash: e570052b21f077fcf1509590022416b4
-    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
-    namespaceName: Microsoft.MixedReality.Toolkit.UI
-    className: ButtonSize
+      Hash: a0dc8f871625c61300434ec19d9fafa8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
+    className: SceneUnderstandingProperties
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e570052b21f077fcf1509590022416b4
+    assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
+    namespaceName: Microsoft.MixedReality.Toolkit.UI
+    className: ButtonSize
   - hash:
       serializedVersion: 2
       Hash: bdc72480e1a1977ac48bf87475165df0
@@ -2439,13 +2445,7 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Utilities
     className: ClippingPlane
-  - hash:
-      serializedVersion: 2
-      Hash: a0dc8f871625c61300434ec19d9fafa8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
-    className: SceneUnderstandingProperties
   platform: 21
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/andyw/Documents/GitHub/Spatial-Scanner/Spatial-Scanner-AHW903/TestBuilds
+  playerPath: C:/Users/andyw/Documents/Projects/Spatial-Scanner/Spatial-Scanner-AHW903/TestBuilds

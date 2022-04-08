@@ -90,145 +90,157 @@ extern void NativeLibrary_su_scene_buffer_get_size_mC856AF4E0F91C430A68C0782E55E
 extern void NativeLibrary_su_scene_buffer_dispose_mFE448A9DB46CE0F0289B6EE2D694183F7DB2ABF3 (void);
 // 0x00000027 Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_buffer_get_data(System.IntPtr,System.Byte[],System.Int32)
 extern void NativeLibrary_su_scene_buffer_get_data_m2661B7A6CD5E2A940FEDA6882F7F71CFEFA4C0B5 (void);
-// 0x00000028 Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_get_error_details(System.IntPtr,System.String&,System.String&,System.String&)
+// 0x00000028 Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_release(System.IntPtr)
+extern void NativeLibrary_su_scene_bounds_release_m1CE7C11889D6160AC462B5A69107CAB7B49C0A3D (void);
+// 0x00000029 Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_addref(System.IntPtr)
+extern void NativeLibrary_su_scene_bounds_addref_mF941D0759C919242E01D7B1B29250914EB89780B (void);
+// 0x0000002A Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_scene_bounds_from_sphere(Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem,Microsoft.MixedReality.SceneUnderstanding.SpatialSphere,System.IntPtr&)
+extern void NativeLibrary_su_scene_bounds_from_sphere_m657C489ED1773D65CAEE01FF19186566E0D25566 (void);
+// 0x0000002B Microsoft.MixedReality.SceneUnderstanding.status Microsoft.MixedReality.SceneUnderstanding.NativeLibrary::su_get_error_details(System.IntPtr,System.String&,System.String&,System.String&)
 extern void NativeLibrary_su_get_error_details_m5FB49F8AB3FFCBF0A9F1ED76B9CE87B8EC4FC08A (void);
-// 0x00000029 Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettingsAbi Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings::Convert()
+// 0x0000002C Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettingsAbi Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings::Convert()
 extern void SceneQuerySettings_Convert_m909EBEB1D25671DC9460906D78A3F8CA09F551DB (void);
-// 0x0000002A Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettingsAbi Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings::Convert(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings)
+// 0x0000002D Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettingsAbi Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings::Convert(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings)
 extern void SceneQuerySettings_Convert_mF5C4C383DE0772937FEBA7EA5BF11AB5AB343D91 (void);
-// 0x0000002B System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::.ctor(System.IntPtr,System.Boolean)
+// 0x0000002E System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBounds::.ctor(System.IntPtr,System.Boolean)
+extern void SceneBounds__ctor_m3D3B27ED18078EE4660120FE32663BA547BAAF63 (void);
+// 0x0000002F System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBounds::Finalize()
+extern void SceneBounds_Finalize_mBEDEB62EBCAAB439E10F20291AEDC2D3B96BDD24 (void);
+// 0x00000030 Microsoft.MixedReality.SceneUnderstanding.SceneBounds Microsoft.MixedReality.SceneUnderstanding.SceneBounds::FromSphere(Microsoft.MixedReality.SceneUnderstanding.SpatialGraphCoordinateSystem,Microsoft.MixedReality.SceneUnderstanding.SpatialSphere)
+extern void SceneBounds_FromSphere_m3DC91021393B62020CC88365B677A5F3A6D4C970 (void);
+// 0x00000031 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::.ctor(System.IntPtr,System.Boolean)
 extern void SceneBuffer__ctor_m8573A01EB500775FA7605269ABD3AAF404742636 (void);
-// 0x0000002C System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::Finalize()
+// 0x00000032 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::Finalize()
 extern void SceneBuffer_Finalize_mCCC20C12488C44BEE2E5D42394481A4F4C647261 (void);
-// 0x0000002D System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::Dispose()
+// 0x00000033 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::Dispose()
 extern void SceneBuffer_Dispose_m0512DCE78548762D3F5E4C580C3336C80C961B69 (void);
-// 0x0000002E System.UInt32 Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::get_Size()
+// 0x00000034 System.UInt32 Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::get_Size()
 extern void SceneBuffer_get_Size_m77C5D8A4D3C900B280BB5CE1C0EE06F7AE5B9D2D (void);
-// 0x0000002F System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::GetData(System.Byte[])
+// 0x00000035 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneBuffer::GetData(System.Byte[])
 extern void SceneBuffer_GetData_m5B123AA56C50AB5753DCE54976FBF6D9120BB1F6 (void);
-// 0x00000030 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneComponent::.ctor(System.IntPtr,System.Boolean)
+// 0x00000036 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneComponent::.ctor(System.IntPtr,System.Boolean)
 extern void SceneComponent__ctor_m0EBFC08B4D3850BC3FBB26ABA50E0069D7DB6A15 (void);
-// 0x00000031 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneComponent::Finalize()
+// 0x00000037 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneComponent::Finalize()
 extern void SceneComponent_Finalize_m858189F29F5CEA9ABE256D6F4532CB906A05BF31 (void);
-// 0x00000032 System.Guid Microsoft.MixedReality.SceneUnderstanding.SceneComponent::get_Id()
+// 0x00000038 System.Guid Microsoft.MixedReality.SceneUnderstanding.SceneComponent::get_Id()
 extern void SceneComponent_get_Id_mDCAD1C842657B4C12D7E88719CAF0F73736DC70A (void);
-// 0x00000033 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::.ctor(System.IntPtr,System.Boolean)
+// 0x00000039 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::.ctor(System.IntPtr,System.Boolean)
 extern void SceneFragment__ctor_mCB9A3A774F8F4F0E86611E72CF6E82E6EB54AAA8 (void);
-// 0x00000034 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Finalize()
+// 0x0000003A System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Finalize()
 extern void SceneFragment_Finalize_mA16CDF9F914AB6619DC8429684098A4AFBC1E83E (void);
-// 0x00000035 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Dispose()
+// 0x0000003B System.Void Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Dispose()
 extern void SceneFragment_Dispose_mBE55BC7DEC0C8FD4B3483AC441688263DAC267E7 (void);
-// 0x00000036 Microsoft.MixedReality.SceneUnderstanding.SceneFragment Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Deserialize(System.Byte[])
+// 0x0000003C Microsoft.MixedReality.SceneUnderstanding.SceneFragment Microsoft.MixedReality.SceneUnderstanding.SceneFragment::Deserialize(System.Byte[])
 extern void SceneFragment_Deserialize_m31FC02F1B5882ED8D63A1A4F3CCE6B33F50D9777 (void);
-// 0x00000037 System.Void Microsoft.MixedReality.SceneUnderstanding.Scene::.ctor(System.IntPtr,System.Boolean)
+// 0x0000003D System.Void Microsoft.MixedReality.SceneUnderstanding.Scene::.ctor(System.IntPtr,System.Boolean)
 extern void Scene__ctor_m0C72BC23B92CCBB187457DE33E8E0DFB05BC4EBB (void);
-// 0x00000038 System.Void Microsoft.MixedReality.SceneUnderstanding.Scene::Finalize()
+// 0x0000003E System.Void Microsoft.MixedReality.SceneUnderstanding.Scene::Finalize()
 extern void Scene_Finalize_m75B5D29695DE835D8B930FE4CF00C963905AFBBC (void);
-// 0x00000039 System.Void Microsoft.MixedReality.SceneUnderstanding.Scene::Dispose()
+// 0x0000003F System.Void Microsoft.MixedReality.SceneUnderstanding.Scene::Dispose()
 extern void Scene_Dispose_mE4BC1EA971A72E2EB4EE9815634E3B82AE442542 (void);
-// 0x0000003A System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneObject> Microsoft.MixedReality.SceneUnderstanding.Scene::get_SceneObjects()
+// 0x00000040 System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneObject> Microsoft.MixedReality.SceneUnderstanding.Scene::get_SceneObjects()
 extern void Scene_get_SceneObjects_mB784FAB9903AD8AD46D3ADFF5BF4CF389AAE77F6 (void);
-// 0x0000003B System.Guid Microsoft.MixedReality.SceneUnderstanding.Scene::get_OriginSpatialGraphNodeId()
+// 0x00000041 System.Guid Microsoft.MixedReality.SceneUnderstanding.Scene::get_OriginSpatialGraphNodeId()
 extern void Scene_get_OriginSpatialGraphNodeId_m2417BD02387F07AD24D9D0157C91A695328AF1B5 (void);
-// 0x0000003C Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Scene::Deserialize(System.Byte[])
+// 0x00000042 Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Scene::Deserialize(System.Byte[])
 extern void Scene_Deserialize_m3F5CF0D4BF5C3ED7E709E1147B8F027574DCB4BB (void);
-// 0x0000003D Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Scene::Deserialize(System.Byte[],Microsoft.MixedReality.SceneUnderstanding.Scene)
+// 0x00000043 Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Scene::Deserialize(System.Byte[],Microsoft.MixedReality.SceneUnderstanding.Scene)
 extern void Scene_Deserialize_m32E20490A28CBD6A473A595DEB4A29227F1563E0 (void);
-// 0x0000003E Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Scene::FromFragments(Microsoft.MixedReality.SceneUnderstanding.SceneFragment[])
+// 0x00000044 Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.Scene::FromFragments(Microsoft.MixedReality.SceneUnderstanding.SceneFragment[])
 extern void Scene_FromFragments_m0E7D5E013FED54A4B4D448F83EA965E591541DC1 (void);
-// 0x0000003F System.Void Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::.cctor()
+// 0x00000045 System.Void Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::.cctor()
 extern void U3CU3Ec__cctor_mDADFA41C0C018E44183D903F6B8F06DE40552176 (void);
-// 0x00000040 System.Void Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::.ctor()
+// 0x00000046 System.Void Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::.ctor()
 extern void U3CU3Ec__ctor_m4907A2F3D1267D974985A50F1A4EF8F1F02CC540 (void);
-// 0x00000041 Microsoft.MixedReality.SceneUnderstanding.SceneObject Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::<get_SceneObjects>b__6_0(System.IntPtr)
+// 0x00000047 Microsoft.MixedReality.SceneUnderstanding.SceneObject Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::<get_SceneObjects>b__6_0(System.IntPtr)
 extern void U3CU3Ec_U3Cget_SceneObjectsU3Eb__6_0_m5FE46455B131D327BA17665469E226AFAF8B470F (void);
-// 0x00000042 System.IntPtr Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::<FromFragments>b__13_0(Microsoft.MixedReality.SceneUnderstanding.SceneFragment)
+// 0x00000048 System.IntPtr Microsoft.MixedReality.SceneUnderstanding.Scene/<>c::<FromFragments>b__13_0(Microsoft.MixedReality.SceneUnderstanding.SceneFragment)
 extern void U3CU3Ec_U3CFromFragmentsU3Eb__13_0_mF341DB1F415059EA2C767CB60843649A27A1391E (void);
-// 0x00000043 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneMesh::.ctor(System.IntPtr,System.Boolean)
+// 0x00000049 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneMesh::.ctor(System.IntPtr,System.Boolean)
 extern void SceneMesh__ctor_mB5730CE0B0D4EAF5B896AE324579152604D7B88A (void);
-// 0x00000044 System.UInt32 Microsoft.MixedReality.SceneUnderstanding.SceneMesh::get_TriangleIndexCount()
+// 0x0000004A System.UInt32 Microsoft.MixedReality.SceneUnderstanding.SceneMesh::get_TriangleIndexCount()
 extern void SceneMesh_get_TriangleIndexCount_mA78ADFC88A6047CBBC0DA8548AC47056F583B33D (void);
-// 0x00000045 System.UInt32 Microsoft.MixedReality.SceneUnderstanding.SceneMesh::get_VertexCount()
+// 0x0000004B System.UInt32 Microsoft.MixedReality.SceneUnderstanding.SceneMesh::get_VertexCount()
 extern void SceneMesh_get_VertexCount_m6CB8A4D7A83F6EEE07BA8E4227348011BFB2164B (void);
-// 0x00000046 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneMesh::GetTriangleIndices(System.UInt32[])
+// 0x0000004C System.Void Microsoft.MixedReality.SceneUnderstanding.SceneMesh::GetTriangleIndices(System.UInt32[])
 extern void SceneMesh_GetTriangleIndices_mA4BCAAA8B407849212887461E099754234833ABB (void);
-// 0x00000047 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneMesh::GetVertexPositions(System.Numerics.Vector3[])
+// 0x0000004D System.Void Microsoft.MixedReality.SceneUnderstanding.SceneMesh::GetVertexPositions(System.Numerics.Vector3[])
 extern void SceneMesh_GetVertexPositions_m463700B4680F213A2BB70E740E6098736220BB61 (void);
-// 0x00000048 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObject::.ctor(System.IntPtr,System.Boolean)
+// 0x0000004E System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObject::.ctor(System.IntPtr,System.Boolean)
 extern void SceneObject__ctor_m1AA7DF0094E66607CC2E2B1FE7CB84A46FB69B1B (void);
-// 0x00000049 Microsoft.MixedReality.SceneUnderstanding.SceneObjectKind Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_Kind()
+// 0x0000004F Microsoft.MixedReality.SceneUnderstanding.SceneObjectKind Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_Kind()
 extern void SceneObject_get_Kind_m2DC82991CD3E3BFCE41A0CEA0098BC42A9D7207D (void);
-// 0x0000004A System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneQuad> Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_Quads()
+// 0x00000050 System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneQuad> Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_Quads()
 extern void SceneObject_get_Quads_mB6F693B47DC008677EFE06F8E217F96F91877C40 (void);
-// 0x0000004B System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneMesh> Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_Meshes()
+// 0x00000051 System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneMesh> Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_Meshes()
 extern void SceneObject_get_Meshes_m2F2D9315B53C56638C56B5BDF920BBE9AAC30ADE (void);
-// 0x0000004C System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneMesh> Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_ColliderMeshes()
+// 0x00000052 System.Collections.Generic.IReadOnlyList`1<Microsoft.MixedReality.SceneUnderstanding.SceneMesh> Microsoft.MixedReality.SceneUnderstanding.SceneObject::get_ColliderMeshes()
 extern void SceneObject_get_ColliderMeshes_mF1CC2DE970EFAFFD327A0D7789E471A69249216B (void);
-// 0x0000004D System.Numerics.Matrix4x4 Microsoft.MixedReality.SceneUnderstanding.SceneObject::GetLocationAsMatrix()
+// 0x00000053 System.Numerics.Matrix4x4 Microsoft.MixedReality.SceneUnderstanding.SceneObject::GetLocationAsMatrix()
 extern void SceneObject_GetLocationAsMatrix_m38CD7C84956CA8B05E599354CA205C56D038FE7E (void);
-// 0x0000004E System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::.cctor()
+// 0x00000054 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::.cctor()
 extern void U3CU3Ec__cctor_m7450D92F0E831FB59431BFCAA3AF724296BE09EF (void);
-// 0x0000004F System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::.ctor()
+// 0x00000055 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::.ctor()
 extern void U3CU3Ec__ctor_m930E536C8B8144F38A1B2F92BB67E7499EB5B759 (void);
-// 0x00000050 Microsoft.MixedReality.SceneUnderstanding.SceneQuad Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::<get_Quads>b__4_0(System.IntPtr)
+// 0x00000056 Microsoft.MixedReality.SceneUnderstanding.SceneQuad Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::<get_Quads>b__4_0(System.IntPtr)
 extern void U3CU3Ec_U3Cget_QuadsU3Eb__4_0_mEDC63D86250BD3B174BB023E7CC1A9EC13B7F76A (void);
-// 0x00000051 Microsoft.MixedReality.SceneUnderstanding.SceneMesh Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::<get_Meshes>b__6_0(System.IntPtr)
+// 0x00000057 Microsoft.MixedReality.SceneUnderstanding.SceneMesh Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::<get_Meshes>b__6_0(System.IntPtr)
 extern void U3CU3Ec_U3Cget_MeshesU3Eb__6_0_m2B6083A4D46D5E2EF1FFDDBC6335A0010A706D0A (void);
-// 0x00000052 Microsoft.MixedReality.SceneUnderstanding.SceneMesh Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::<get_ColliderMeshes>b__8_0(System.IntPtr)
+// 0x00000058 Microsoft.MixedReality.SceneUnderstanding.SceneMesh Microsoft.MixedReality.SceneUnderstanding.SceneObject/<>c::<get_ColliderMeshes>b__8_0(System.IntPtr)
 extern void U3CU3Ec_U3Cget_ColliderMeshesU3Eb__8_0_mE6BCB0C65AE14822B2FBC51239DF401DC78ACF1A (void);
-// 0x00000053 System.Boolean Microsoft.MixedReality.SceneUnderstanding.SceneObserver::IsSupported()
+// 0x00000059 System.Boolean Microsoft.MixedReality.SceneUnderstanding.SceneObserver::IsSupported()
 extern void SceneObserver_IsSupported_mCC1E6FC61E9E39EF4EB5771059FAB06B6CCBE63E (void);
-// 0x00000054 System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.SceneObserverAccessStatus> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::RequestAccessAsync()
+// 0x0000005A System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.SceneObserverAccessStatus> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::RequestAccessAsync()
 extern void SceneObserver_RequestAccessAsync_m810859CDC57FB1F08D944138CA26F39541102BB9 (void);
-// 0x00000055 System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.Scene> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::ComputeAsync(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings,System.Single)
+// 0x0000005B System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.Scene> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::ComputeAsync(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings,System.Single)
 extern void SceneObserver_ComputeAsync_mB3143F8B7E6292F6B89A75F66DD76706280B6F10 (void);
-// 0x00000056 System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.Scene> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::ComputeAsync(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings,System.Single,Microsoft.MixedReality.SceneUnderstanding.Scene)
+// 0x0000005C System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.Scene> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::ComputeAsync(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings,System.Single,Microsoft.MixedReality.SceneUnderstanding.Scene)
 extern void SceneObserver_ComputeAsync_mF452D7C451518D47F60043F72559F2D56CC493CF (void);
-// 0x00000057 System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.SceneBuffer> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::ComputeSerializedAsync(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings,System.Single)
+// 0x0000005D System.Threading.Tasks.Task`1<Microsoft.MixedReality.SceneUnderstanding.SceneBuffer> Microsoft.MixedReality.SceneUnderstanding.SceneObserver::ComputeSerializedAsync(Microsoft.MixedReality.SceneUnderstanding.SceneQuerySettings,System.Single)
 extern void SceneObserver_ComputeSerializedAsync_mBB7D9E6158BA8B481F7A0A5945AD5CDCC9C8BCF0 (void);
-// 0x00000058 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c::.cctor()
+// 0x0000005E System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c::.cctor()
 extern void U3CU3Ec__cctor_mB29DFC4027FE12361C4A787F8F8909FEFEB41DB1 (void);
-// 0x00000059 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c::.ctor()
+// 0x0000005F System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c::.ctor()
 extern void U3CU3Ec__ctor_mF9459594E8134D89AAEBF09F502DAE8803149F7E (void);
-// 0x0000005A Microsoft.MixedReality.SceneUnderstanding.SceneObserverAccessStatus Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c::<RequestAccessAsync>b__4_0()
+// 0x00000060 Microsoft.MixedReality.SceneUnderstanding.SceneObserverAccessStatus Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c::<RequestAccessAsync>b__4_0()
 extern void U3CU3Ec_U3CRequestAccessAsyncU3Eb__4_0_m361F169342D508E7061796DB80A126BFC7435E17 (void);
-// 0x0000005B System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<RequestAccessAsync>d__4::MoveNext()
+// 0x00000061 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<RequestAccessAsync>d__4::MoveNext()
 extern void U3CRequestAccessAsyncU3Ed__4_MoveNext_m00E0AE391FF5F88F6B5B81F65AED66F932B5F317 (void);
-// 0x0000005C System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<RequestAccessAsync>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000062 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<RequestAccessAsync>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CRequestAccessAsyncU3Ed__4_SetStateMachine_m7941824E9293D8F5A084BBE6B01C076439A77153 (void);
-// 0x0000005D System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass5_0::.ctor()
+// 0x00000063 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_m912554D1D3F5043A6E301F897FD11AAC66AEB353 (void);
-// 0x0000005E Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass5_0::<ComputeAsync>b__0()
+// 0x00000064 Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass5_0::<ComputeAsync>b__0()
 extern void U3CU3Ec__DisplayClass5_0_U3CComputeAsyncU3Eb__0_mD9D8CA73AB3B5257473B18BC91A261EE15DD4EB4 (void);
-// 0x0000005F System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__5::MoveNext()
+// 0x00000065 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__5::MoveNext()
 extern void U3CComputeAsyncU3Ed__5_MoveNext_mD8CEEBCB51262BE6D2438495F639F9F6D810DCBE (void);
-// 0x00000060 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000066 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__5::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CComputeAsyncU3Ed__5_SetStateMachine_m7D1C01F464C57C3B88CAF11C87A7E5E59D6CA820 (void);
-// 0x00000061 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass6_0::.ctor()
+// 0x00000067 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_m696FBED27D7E4687446B4E5D5A6B0CAD4FEDD940 (void);
-// 0x00000062 Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass6_0::<ComputeAsync>b__0()
+// 0x00000068 Microsoft.MixedReality.SceneUnderstanding.Scene Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass6_0::<ComputeAsync>b__0()
 extern void U3CU3Ec__DisplayClass6_0_U3CComputeAsyncU3Eb__0_mA8107A6C4759EA8153DBB7B273E25E93037CB1FF (void);
-// 0x00000063 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__6::MoveNext()
+// 0x00000069 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__6::MoveNext()
 extern void U3CComputeAsyncU3Ed__6_MoveNext_m6F447BAC8907E619ECF5FA199E8659801E07F6E2 (void);
-// 0x00000064 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000006A System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeAsync>d__6::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CComputeAsyncU3Ed__6_SetStateMachine_m1781F7D26C81164690727AFB9DA394F67E66156E (void);
-// 0x00000065 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass7_0::.ctor()
+// 0x0000006B System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass7_0::.ctor()
 extern void U3CU3Ec__DisplayClass7_0__ctor_mEB88029BC0BE8859BE8047141167D8A583A06579 (void);
-// 0x00000066 Microsoft.MixedReality.SceneUnderstanding.SceneBuffer Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass7_0::<ComputeSerializedAsync>b__0()
+// 0x0000006C Microsoft.MixedReality.SceneUnderstanding.SceneBuffer Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<>c__DisplayClass7_0::<ComputeSerializedAsync>b__0()
 extern void U3CU3Ec__DisplayClass7_0_U3CComputeSerializedAsyncU3Eb__0_mCEA20524A06D6CBF9D2097E9590A29BB238EB55B (void);
-// 0x00000067 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeSerializedAsync>d__7::MoveNext()
+// 0x0000006D System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeSerializedAsync>d__7::MoveNext()
 extern void U3CComputeSerializedAsyncU3Ed__7_MoveNext_m3353080BF9706AA2C91698F465CC0E13292E3E3D (void);
-// 0x00000068 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeSerializedAsync>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000006E System.Void Microsoft.MixedReality.SceneUnderstanding.SceneObserver/<ComputeSerializedAsync>d__7::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CComputeSerializedAsyncU3Ed__7_SetStateMachine_mEB7D9DBFC1279C90B08DD618EC34D23230D096D6 (void);
-// 0x00000069 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneQuad::.ctor(System.IntPtr,System.Boolean)
+// 0x0000006F System.Void Microsoft.MixedReality.SceneUnderstanding.SceneQuad::.ctor(System.IntPtr,System.Boolean)
 extern void SceneQuad__ctor_mEFD8545B8010BE1B9806BFB318951037A8BFB63E (void);
-// 0x0000006A System.Numerics.Vector2 Microsoft.MixedReality.SceneUnderstanding.SceneQuad::get_Extents()
+// 0x00000070 System.Numerics.Vector2 Microsoft.MixedReality.SceneUnderstanding.SceneQuad::get_Extents()
 extern void SceneQuad_get_Extents_mBDE37EC04365294FE0E33FE0D4761CB5912C5E59 (void);
-// 0x0000006B System.Void Microsoft.MixedReality.SceneUnderstanding.SceneQuad::GetSurfaceMask(System.UInt16,System.UInt16,System.Byte[])
+// 0x00000071 System.Void Microsoft.MixedReality.SceneUnderstanding.SceneQuad::GetSurfaceMask(System.UInt16,System.UInt16,System.Byte[])
 extern void SceneQuad_GetSurfaceMask_mD0D9C8BBEDA626247B7E7E4D7F6FBEB088E09C25 (void);
-// 0x0000006C System.Boolean Microsoft.MixedReality.SceneUnderstanding.SceneQuad::FindCentermostPlacement(System.Numerics.Vector2,System.Numerics.Vector2&)
+// 0x00000072 System.Boolean Microsoft.MixedReality.SceneUnderstanding.SceneQuad::FindCentermostPlacement(System.Numerics.Vector2,System.Numerics.Vector2&)
 extern void SceneQuad_FindCentermostPlacement_mA60B013660E338E1CB5AF239171AD5D27A0C0D9E (void);
-static Il2CppMethodPointer s_methodPointers[108] = 
+static Il2CppMethodPointer s_methodPointers[114] = 
 {
 	NativeLibraryHelpers_CheckStatus_m7405CD95D3D1932573FE80C57C56C2EECE567B33,
 	NativeLibraryHelpers_CheckStatus_m83E1CCB9A897C461419CF6F583D878C052D6E4C1,
@@ -269,9 +281,15 @@ static Il2CppMethodPointer s_methodPointers[108] =
 	NativeLibrary_su_scene_buffer_get_size_mC856AF4E0F91C430A68C0782E55EEAE778BC7692,
 	NativeLibrary_su_scene_buffer_dispose_mFE448A9DB46CE0F0289B6EE2D694183F7DB2ABF3,
 	NativeLibrary_su_scene_buffer_get_data_m2661B7A6CD5E2A940FEDA6882F7F71CFEFA4C0B5,
+	NativeLibrary_su_scene_bounds_release_m1CE7C11889D6160AC462B5A69107CAB7B49C0A3D,
+	NativeLibrary_su_scene_bounds_addref_mF941D0759C919242E01D7B1B29250914EB89780B,
+	NativeLibrary_su_scene_bounds_from_sphere_m657C489ED1773D65CAEE01FF19186566E0D25566,
 	NativeLibrary_su_get_error_details_m5FB49F8AB3FFCBF0A9F1ED76B9CE87B8EC4FC08A,
 	SceneQuerySettings_Convert_m909EBEB1D25671DC9460906D78A3F8CA09F551DB,
 	SceneQuerySettings_Convert_mF5C4C383DE0772937FEBA7EA5BF11AB5AB343D91,
+	SceneBounds__ctor_m3D3B27ED18078EE4660120FE32663BA547BAAF63,
+	SceneBounds_Finalize_mBEDEB62EBCAAB439E10F20291AEDC2D3B96BDD24,
+	SceneBounds_FromSphere_m3DC91021393B62020CC88365B677A5F3A6D4C970,
 	SceneBuffer__ctor_m8573A01EB500775FA7605269ABD3AAF404742636,
 	SceneBuffer_Finalize_mCCC20C12488C44BEE2E5D42394481A4F4C647261,
 	SceneBuffer_Dispose_m0512DCE78548762D3F5E4C580C3336C80C961B69,
@@ -350,60 +368,66 @@ extern void U3CComputeSerializedAsyncU3Ed__7_MoveNext_m3353080BF9706AA2C91698F46
 extern void U3CComputeSerializedAsyncU3Ed__7_SetStateMachine_mEB7D9DBFC1279C90B08DD618EC34D23230D096D6_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[9] = 
 {
-	{ 0x06000029, SceneQuerySettings_Convert_m909EBEB1D25671DC9460906D78A3F8CA09F551DB_AdjustorThunk },
-	{ 0x0600005B, U3CRequestAccessAsyncU3Ed__4_MoveNext_m00E0AE391FF5F88F6B5B81F65AED66F932B5F317_AdjustorThunk },
-	{ 0x0600005C, U3CRequestAccessAsyncU3Ed__4_SetStateMachine_m7941824E9293D8F5A084BBE6B01C076439A77153_AdjustorThunk },
-	{ 0x0600005F, U3CComputeAsyncU3Ed__5_MoveNext_mD8CEEBCB51262BE6D2438495F639F9F6D810DCBE_AdjustorThunk },
-	{ 0x06000060, U3CComputeAsyncU3Ed__5_SetStateMachine_m7D1C01F464C57C3B88CAF11C87A7E5E59D6CA820_AdjustorThunk },
-	{ 0x06000063, U3CComputeAsyncU3Ed__6_MoveNext_m6F447BAC8907E619ECF5FA199E8659801E07F6E2_AdjustorThunk },
-	{ 0x06000064, U3CComputeAsyncU3Ed__6_SetStateMachine_m1781F7D26C81164690727AFB9DA394F67E66156E_AdjustorThunk },
-	{ 0x06000067, U3CComputeSerializedAsyncU3Ed__7_MoveNext_m3353080BF9706AA2C91698F465CC0E13292E3E3D_AdjustorThunk },
-	{ 0x06000068, U3CComputeSerializedAsyncU3Ed__7_SetStateMachine_mEB7D9DBFC1279C90B08DD618EC34D23230D096D6_AdjustorThunk },
+	{ 0x0600002C, SceneQuerySettings_Convert_m909EBEB1D25671DC9460906D78A3F8CA09F551DB_AdjustorThunk },
+	{ 0x06000061, U3CRequestAccessAsyncU3Ed__4_MoveNext_m00E0AE391FF5F88F6B5B81F65AED66F932B5F317_AdjustorThunk },
+	{ 0x06000062, U3CRequestAccessAsyncU3Ed__4_SetStateMachine_m7941824E9293D8F5A084BBE6B01C076439A77153_AdjustorThunk },
+	{ 0x06000065, U3CComputeAsyncU3Ed__5_MoveNext_mD8CEEBCB51262BE6D2438495F639F9F6D810DCBE_AdjustorThunk },
+	{ 0x06000066, U3CComputeAsyncU3Ed__5_SetStateMachine_m7D1C01F464C57C3B88CAF11C87A7E5E59D6CA820_AdjustorThunk },
+	{ 0x06000069, U3CComputeAsyncU3Ed__6_MoveNext_m6F447BAC8907E619ECF5FA199E8659801E07F6E2_AdjustorThunk },
+	{ 0x0600006A, U3CComputeAsyncU3Ed__6_SetStateMachine_m1781F7D26C81164690727AFB9DA394F67E66156E_AdjustorThunk },
+	{ 0x0600006D, U3CComputeSerializedAsyncU3Ed__7_MoveNext_m3353080BF9706AA2C91698F465CC0E13292E3E3D_AdjustorThunk },
+	{ 0x0600006E, U3CComputeSerializedAsyncU3Ed__7_SetStateMachine_mEB7D9DBFC1279C90B08DD618EC34D23230D096D6_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[108] = 
+static const int32_t s_InvokerIndices[114] = 
 {
-	5193,
-	4879,
-	4623,
+	5195,
+	4881,
+	4624,
 	3882,
 	4080,
-	5008,
-	5008,
+	5010,
+	5010,
 	4349,
-	5018,
-	5018,
+	5020,
+	5020,
 	4336,
 	4099,
 	4336,
-	5018,
-	5018,
+	5020,
+	5020,
 	4336,
-	5018,
+	5020,
 	4332,
-	4623,
+	4624,
 	4332,
 	4332,
-	4623,
+	4624,
 	4334,
-	4623,
+	4624,
 	4334,
 	4332,
-	4623,
-	5018,
-	5018,
-	4623,
-	5018,
-	4623,
+	4624,
+	5020,
+	5020,
+	4624,
+	5020,
+	4624,
 	4140,
 	4349,
-	5018,
-	5018,
-	4623,
-	5018,
+	5020,
+	5020,
+	4624,
+	5020,
 	4334,
+	5020,
+	5020,
+	4351,
 	4079,
 	3630,
-	5151,
+	5153,
+	1781,
+	3671,
+	4695,
 	1781,
 	3671,
 	3671,
@@ -415,16 +439,16 @@ static const int32_t s_InvokerIndices[108] =
 	1781,
 	3671,
 	3671,
-	5095,
+	5097,
 	1781,
 	3671,
 	3671,
 	3594,
 	3548,
-	5095,
-	4682,
-	5095,
-	5291,
+	5097,
+	4683,
+	5097,
+	5293,
 	3671,
 	2373,
 	2325,
@@ -439,17 +463,17 @@ static const int32_t s_InvokerIndices[108] =
 	3594,
 	3594,
 	3576,
-	5291,
+	5293,
 	3671,
 	2373,
 	2373,
 	2373,
-	5279,
-	5268,
-	4693,
-	4407,
-	4693,
-	5291,
+	5281,
+	5270,
+	4694,
+	4408,
+	4694,
+	5293,
 	3671,
 	3564,
 	3671,
@@ -476,7 +500,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_MixedReality_SceneUndersta
 const Il2CppCodeGenModule g_Microsoft_MixedReality_SceneUnderstanding_Projections_WSA_CodeGenModule = 
 {
 	"Microsoft.MixedReality.SceneUnderstanding.Projections.WSA.dll",
-	108,
+	114,
 	s_methodPointers,
 	9,
 	s_adjustorThunks,
