@@ -3635,7 +3635,7 @@ struct NOVTABLE IApplicationDataStatics2_t084AB246C259F961800F59917C501AB1589A21
 struct NOVTABLE IAsyncAction_tA69CE29E39880E68BF0456395F3B1462DC29BA06 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IAsyncAction_put_Completed_m153FFA20288B2A12135D5E31F5E321CB7C7C32A4(IAsyncActionCompletedHandler_t8671E86B99AED1FD2C6DDBF3351570231D8CC9B1_ComCallableWrapper* ___handler0) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncAction_put_Completed_mE1223109A7CBD5DA29413156BA2C75157F169C87(IAsyncActionCompletedHandler_t8671E86B99AED1FD2C6DDBF3351570231D8CC9B1_ComCallableWrapper* ___handler0) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncAction_get_Completed_mEEA8DB3EB0D4FE9F33A54B6A16D65902B70DCB39(IAsyncActionCompletedHandler_t8671E86B99AED1FD2C6DDBF3351570231D8CC9B1_ComCallableWrapper** comReturnValue) = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncAction_GetResults_mD06D8F02D7793FED272208F851EF8A2D9B25FE38() = 0;
 };
@@ -3649,9 +3649,9 @@ struct NOVTABLE IBindableIterable_tF6BD0C070562CD9C91E3C1B1A5F4667E9C3C74A8 : Il
 struct NOVTABLE IBindableIterator_tD7550F1144CFBE58090050457A2BE92B1CAEABBB : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IBindableIterator_get_Current_m925423E867873FA1E4ED0804031A06C0852D7A54(Il2CppIInspectable** comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IBindableIterator_get_HasCurrent_m4DAEC47CD0F9FD8C8102793367E1977C7F759FFA(bool* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IBindableIterator_MoveNext_m4FB28C3D3863BB69F92027EE724CA8BE91833706(bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IBindableIterator_get_Current_m53A4B6F2DECC874908CA9335785007A39D6FC93E(Il2CppIInspectable** comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IBindableIterator_get_HasCurrent_m4FD33F7F3A504A8F4A4C7DE3965342B19EA3A974(bool* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IBindableIterator_MoveNext_mA70DABC057BE3ED9199D4E0E6FEBDF6ED3570A75(bool* comReturnValue) = 0;
 };
 // Windows.UI.Xaml.Interop.IBindableVector
 struct NOVTABLE IBindableVector_tC070A96258CD93818901E9B7808E1A8EFB64B7EC : Il2CppIInspectable
@@ -3688,7 +3688,7 @@ struct NOVTABLE IBuffer_t33ECA22EB7DDA1EF333215FF8109DC736AF11FBC : Il2CppIInspe
 struct NOVTABLE IClosable_t30CA7D2BE598B3BD6AA57CE9DF977DB51540B953 : Il2CppIInspectable
 {
 	static const Il2CppGuid IID;
-	virtual il2cpp_hresult_t STDCALL IClosable_Close_m39D5256F4888029EB959CFA74DD76EB47B570871() = 0;
+	virtual il2cpp_hresult_t STDCALL IClosable_Close_m7DE2119A960C4E3898E6E5D03245D047BF113999() = 0;
 };
 // Windows.Storage.Streams.IContentTypeProvider
 struct NOVTABLE IContentTypeProvider_t3F61CA557BE1A863D42C782E1C7336DB48B431B3 : Il2CppIInspectable
@@ -6960,9 +6960,9 @@ struct NOVTABLE IAsyncInfo_tF2AAFC1727C480C2FB5E3E8FA00BF9CB3646F2E4 : Il2CppIIn
 {
 	static const Il2CppGuid IID;
 	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Id_m3863CB02C1CDBA1050DAAE7311DF9F3E8BCD9D74(uint32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m7E8AA78C1877123B35EAFA58FEF0FA86D8A97583(int32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m37ACAD97746ABA13006C88EDF582C3B73B68D806(int32_t* comReturnValue) = 0;
-	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m53FE58D39AE61799A01EE7ECB9429CB3EE01EEFE() = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_Status_m9393658D0FD28BE7960FBB531A31A1E1CB106F80(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_get_ErrorCode_m0C4F0079B788C88A5A572A827AAACA0B3BB233C5(int32_t* comReturnValue) = 0;
+	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Cancel_m55A00D21BF943DA94D606044A66295FEF77139EE() = 0;
 	virtual il2cpp_hresult_t STDCALL IAsyncInfo_Close_mD8F3D2C7103B340A9FF16F58333E33643F552635() = 0;
 };
 // Windows.Storage.IDownloadsFolderStatics
@@ -20365,8 +20365,8 @@ IL2CPP_EXTERN_C void Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_marshal_pin
 IL2CPP_EXTERN_C void Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 IL2CPP_EXTERN_C void Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_marshal_pinvoke_cleanup(void* marshaledStructure);
 IL2CPP_EXTERN_C_CONST RuntimeType Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_0_0_0;
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_U3CDisplayDataRoutineU3Ed__84_tC1CE06E67AEC9EC5704C2BABA1E53F2C03446340(RuntimeObject* obj);
-IL2CPP_EXTERN_C_CONST RuntimeType U3CDisplayDataRoutineU3Ed__84_tC1CE06E67AEC9EC5704C2BABA1E53F2C03446340_0_0_0;
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_U3CDisplayDataRoutineU3Ed__85_t2FC124412D45995F7A36A555A52CA6115658783D(RuntimeObject* obj);
+IL2CPP_EXTERN_C_CONST RuntimeType U3CDisplayDataRoutineU3Ed__85_t2FC124412D45995F7A36A555A52CA6115658783D_0_0_0;
 IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_U3CReturnVoidU3Ed__0_t3AC7407844ECE4EF5294EB2331BE38A72C74ED4F(RuntimeObject* obj);
 IL2CPP_EXTERN_C_CONST RuntimeType U3CReturnVoidU3Ed__0_t3AC7407844ECE4EF5294EB2331BE38A72C74ED4F_0_0_0;
 IL2CPP_EXTERN_C void DelegatePInvokeWrapper_WindowsCancelHandler_tFD0F0B721F93ACA04D9CD9340DA39075A8FF2ACF();
@@ -26106,7 +26106,7 @@ Il2CppInteropData g_Il2CppInteropData[5719] =
 	{ NULL, BuildEvent_t91DF130C6ECDD6C929257705DB0AFE481F5BFE17_marshal_pinvoke, BuildEvent_t91DF130C6ECDD6C929257705DB0AFE481F5BFE17_marshal_pinvoke_back, BuildEvent_t91DF130C6ECDD6C929257705DB0AFE481F5BFE17_marshal_pinvoke_cleanup, NULL, NULL, &BuildEvent_t91DF130C6ECDD6C929257705DB0AFE481F5BFE17_0_0_0 } /* UnityEngine.XR.Management.XRManagementAnalytics/BuildEvent */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CInitializeLoaderU3Ed__24_tBE52372328AAFF3147B0E3361196652E33780D08, NULL, &U3CInitializeLoaderU3Ed__24_tBE52372328AAFF3147B0E3361196652E33780D08_0_0_0 } /* UnityEngine.XR.Management.XRManagerSettings/<InitializeLoader>d__24 */,
 	{ NULL, Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_marshal_pinvoke, Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_marshal_pinvoke_back, Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_marshal_pinvoke_cleanup, NULL, NULL, &Cinfo_t2842A97DA95F40ECADDCA24A291B6114A3A5F71A_0_0_0 } /* UnityEngine.XR.ARSubsystems.XRSessionSubsystemDescriptor/Cinfo */,
-	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CDisplayDataRoutineU3Ed__84_tC1CE06E67AEC9EC5704C2BABA1E53F2C03446340, NULL, &U3CDisplayDataRoutineU3Ed__84_tC1CE06E67AEC9EC5704C2BABA1E53F2C03446340_0_0_0 } /* Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__84 */,
+	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CDisplayDataRoutineU3Ed__85_t2FC124412D45995F7A36A555A52CA6115658783D, NULL, &U3CDisplayDataRoutineU3Ed__85_t2FC124412D45995F7A36A555A52CA6115658783D_0_0_0 } /* Microsoft.MixedReality.SceneUnderstanding.Samples.Unity.meshScript/<DisplayDataRoutine>d__85 */,
 	{ NULL, NULL, NULL, NULL, CreateComCallableWrapperFor_U3CReturnVoidU3Ed__0_t3AC7407844ECE4EF5294EB2331BE38A72C74ED4F, NULL, &U3CReturnVoidU3Ed__0_t3AC7407844ECE4EF5294EB2331BE38A72C74ED4F_0_0_0 } /* Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/InstructionWrappers/<ReturnVoid>d__0 */,
 	{ DelegatePInvokeWrapper_WindowsCancelHandler_tFD0F0B721F93ACA04D9CD9340DA39075A8FF2ACF, NULL, NULL, NULL, NULL, NULL, &WindowsCancelHandler_tFD0F0B721F93ACA04D9CD9340DA39075A8FF2ACF_0_0_0 } /* System.Console/WindowsConsole/WindowsCancelHandler */,
 	{ DelegatePInvokeWrapper__GetRenderingParameters_t92BCCAE8D039F16284B3C6F7E8BD5FBBAA143A2E, NULL, NULL, NULL, NULL, NULL, &_GetRenderingParameters_t92BCCAE8D039F16284B3C6F7E8BD5FBBAA143A2E_0_0_0 } /* Microsoft.Windows.Graphics.Holographic.IHolographicFrame/Vftbl/_GetRenderingParameters */,

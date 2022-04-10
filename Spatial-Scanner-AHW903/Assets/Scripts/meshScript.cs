@@ -16,6 +16,7 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
     //Unity
     using UnityEngine;
     using UnityEngine.Events;
+    using UnityEngine.UI;
 
 #if WINDOWS_UWP
     using WindowsStorage = global::Windows.Storage;
@@ -200,6 +201,8 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
         [Tooltip("User function that get called when a Scene Understanding event happens")]
         public UnityEvent OnLoadFinished;
 
+        public Text debugText;
+
         #endregion
 
         #region Private Variables
@@ -226,6 +229,8 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
         private async void Start()
         {
             SceneRoot = SceneRoot == null ? new GameObject("Scene Root") : SceneRoot;
+
+            //debugText = GetComponent<Text>();
 
             // Considering that device is currently not supported in the editor means that
             // if the application is running in the editor it is for sure running on PC and
@@ -309,6 +314,8 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
                     Debug.LogError($"Error in {nameof(meshScript)} DisplayFromDisk: {ex.Message}");
                 }
             }
+            debugText.text = string.Format("{0}", MeshQuality);
+                                                   
         }
 
         #endregion
@@ -1660,8 +1667,8 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
                     }
                 }
 
-                string fileName = string.Format("AHW903_{0}_{1}-{2}-{3}_{4}-{5}-{6}.obj",
-                                                soKind.ToString(), year, month, day, hour, min, sec);
+                string fileName = string.Format("AHW903_{0}_{1}-{2}-{3}_{4}_{5}-{6}-{7}.obj",
+                                                soKind.ToString(), MeshQuality ,year, month, day, hour, min, sec);
 
                 if (allObjectsOfAKind.Count > 0)
                 {
@@ -1833,6 +1840,8 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
             Debug.Log("Mesh detail set to Fine.");
             MeshQuality = SceneUnderstanding.SceneMeshLevelOfDetail.Fine;
         }
+
+ 
 
     }
     #endregion

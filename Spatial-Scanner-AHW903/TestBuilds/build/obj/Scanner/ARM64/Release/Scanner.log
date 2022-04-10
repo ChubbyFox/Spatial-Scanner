@@ -1,7 +1,7 @@
 ﻿  App.cpp
   UnityGenerated.cpp
-C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
-C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\Scanner\App.cpp(26,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
   Generating code
   Finished generating code
-  Scanner.vcxproj -> C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\Scanner.exe
+  Scanner.vcxproj -> C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release\Scanner.exe

@@ -4,8 +4,59 @@
   	Msvc Linker Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\ARM64\link.exe
   	Msvc Compiler Path: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\bin\HostX64\ARM64\cl.exe
   
-  	Output directory: C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release
-  	Cache directory: C:\Users\andyw\Documents\Projects\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release
-  ObjectFiles: 602 of which compiled: 0
-  Total compilation time: 7639 milliseconds.
-  Cleaned up 1 object files.
+  	Output directory: C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\bin\ARM64\Release
+  	Cache directory: C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release
+  Il2CppInteropDataTable.cpp
+  Il2CppGenericMethodPointerTable.cpp
+  Il2CppTypeDefinitions.c
+  Il2CppMetadataUsage.c
+  mscorlib_CodeGen.c
+  Il2CppGenericInstDefinitions.c
+  GenericMethods6.cpp
+  Microsoft.MixedReality.Toolkit.SDK_CodeGen.c
+  Il2CppCCalculateTypeValues1.cpp
+  Il2CppGenericAdjustorThunkTable.cpp
+  Microsoft.MixedReality.Toolkit_CodeGen.c
+  Il2CppGenericMethodTable.c
+  GenericMethods.cpp
+  UnityEngine.CoreModule_CodeGen.c
+  Il2CppCCTypeValuesTable.cpp
+  Il2CppGenericMethodDefinitions.c
+  UnityEngine.UI_CodeGen.c
+  GenericMethods7.cpp
+  Unity.TextMeshPro_CodeGen.c
+  System_CodeGen.c
+  Il2CppCCFieldValuesTable.cpp
+  Assembly-CSharp.cpp
+  Il2CppCCalculateFieldValues1.cpp
+  Microsoft.MixedReality.Toolkit.Services.InputSystem_CodeGen.c
+  Microsoft.Windows.MixedReality.DotNetWinRT_CodeGen.c
+  Unity.XR.WindowsMixedReality_CodeGen.c
+  UnityEngine.AndroidJNIModule_CodeGen.c
+  Assembly-CSharp_Attr.cpp
+  System.Core_CodeGen.c
+  Unity.XR.ARSubsystems_CodeGen.c
+  UnityEngine.SubsystemsModule_CodeGen.c
+  System.Runtime.WindowsRuntime_CodeGen.c
+  Assembly-CSharp_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Async_CodeGen.c
+  Unity.XR.Management_CodeGen.c
+  Microsoft.MixedReality.Toolkit.Providers.XRSDK_CodeGen.c
+  Il2CppCCWs83.cpp
+  Il2CppMetadataRegistration.c
+  Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem_CodeGen.c
+  ObjectFiles: 602 of which compiled: 39
+  	Time Compile: 2937 milliseconds Il2CppCCalculateFieldValues1.cpp
+  	Time Compile: 2767 milliseconds GenericMethods7.cpp
+  	Time Compile: 2250 milliseconds GenericMethods.cpp
+  	Time Compile: 1498 milliseconds GenericMethods6.cpp
+  	Time Compile: 1208 milliseconds Assembly-CSharp.cpp
+  	Time Compile: 1036 milliseconds Il2CppCCWs83.cpp
+  	Time Compile: 995 milliseconds Il2CppCCalculateTypeValues1.cpp
+  	Time Compile: 950 milliseconds Il2CppMetadataUsage.c
+  	Time Compile: 944 milliseconds Il2CppTypeDefinitions.c
+  	Time Compile: 756 milliseconds Microsoft.MixedReality.Toolkit.SDK_CodeGen.c
+  Total compilation time: 4417 milliseconds.
+  Creating library C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release\linkresult_A24E442E6FB6F0BACE61301C5188C3C2\GameAssembly.lib and object C:\Users\andyw\Documents\GitHub\Spatial-Scanner\Spatial-Scanner-AHW903\TestBuilds\build\obj\il2cppOutputProject\ARM64\Release\linkresult_A24E442E6FB6F0BACE61301C5188C3C2\GameAssembly.exp
+  Total link time: 5141 milliseconds.
+  Cleaned up 40 object files.
