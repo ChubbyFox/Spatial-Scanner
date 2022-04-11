@@ -65,7 +65,7 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
         public bool AutoRefresh = true;
         [Tooltip("Interval to use for auto refresh, in seconds.")]
         [Range(1f, 60f)]
-        public float AutoRefreshIntervalInSeconds = 10.0f;
+        public float AutoRefreshIntervalInSeconds = 5.0f;
 
         [Header("Request Settings")]
         [Tooltip("Type of visualization to use for scene objects.")]
@@ -1828,20 +1828,26 @@ namespace Microsoft.MixedReality.SceneUnderstanding.Samples.Unity
         public void meshCoarse()
         {
             Debug.Log("Mesh detail set to Coarse.");
-            MeshQuality = SceneUnderstanding.SceneMeshLevelOfDetail.Coarse;
+            MeshQuality = SceneMeshLevelOfDetail.Coarse;
         }
         public void meshMedium()
         {
             Debug.Log("Mesh detail set to Medium.");
-            MeshQuality = SceneUnderstanding.SceneMeshLevelOfDetail.Medium;
+            MeshQuality = SceneMeshLevelOfDetail.Medium;
         }
         public void meshFine()
         {
             Debug.Log("Mesh detail set to Fine.");
-            MeshQuality = SceneUnderstanding.SceneMeshLevelOfDetail.Fine;
+            MeshQuality = SceneMeshLevelOfDetail.Fine;
+        }
+        public void meshUnlimited()
+        {
+            Debug.Log("Mesh detail set to Unlimited.");
+            MeshQuality = SceneMeshLevelOfDetail.Unlimited;
         }
 
- 
+
+
 
     }
     #endregion
